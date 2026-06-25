@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+
+# logy a cache
+npm-debug.log*
+.vite/
+
+# data pipeline (Python)
+data/__pycache__/
+data/.venv/
+*.pyc

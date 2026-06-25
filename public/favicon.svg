@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Chládek">
+  <defs>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5FE0CF"/>
+      <stop offset="1" stop-color="#19B8CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#16405E"/>
+  <!-- kapka / teploměr -->
+  <path
+    d="M32 12 C32 12, 46 30, 46 41 A14 14 0 1 1 18 41 C18 30, 32 12, 32 12 Z"
+    fill="url(#drop)"/>
+  <circle cx="32" cy="42" r="6.5" fill="#FFFFFF" opacity="0.92"/>
+</svg>

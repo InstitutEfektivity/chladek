@@ -1,0 +1,630 @@
+/* Chládek – design tokeny IE (od chladek-design). Nevymýšlíme vlastní paletu. */
+:root {
+  --color-primary: #16405e;
+  --color-primary-light: #2a4a73;
+  --color-primary-dark: #0f2d43;
+  --color-accent: #19b8ce;
+  --color-accent-light: #5fe0cf;
+  --color-heat: #f4794e;
+  --color-heat-strong: #d64545;
+  --color-bg: #f2f8fa;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #e8f1f4;
+  --color-text: #13212b;
+  --color-text-muted: #5b6b75;
+  --color-border: #d6e3e8;
+  --gradient-temp: linear-gradient(
+    90deg,
+    #19b8ce 0%,
+    #5fe0cf 25%,
+    #ffd27f 70%,
+    #f4794e 100%
+  );
+  --gradient-brand: linear-gradient(135deg, #16405e 0%, #19b8ce 100%);
+  --font-heading: "Space Grotesk", "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --line-body: 1.6;
+  --tracking-heading: -0.01em;
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+  --shadow-card: 0 4px 24px rgba(22, 64, 94, 0.1);
+  --shadow-hover: 0 8px 32px rgba(22, 64, 94, 0.14);
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-blur: 16px;
+  --dot-grid: radial-gradient(
+    circle at 2px 2px,
+    rgba(25, 184, 206, 0.07) 1px,
+    transparent 0
+  );
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-6: 48px;
+  --space-8: 80px;
+
+  /* Barvy bodů podle typu ochlazení */
+  --cool-ac: #19b8ce;
+  --cool-water: #2a86c9;
+  --cool-natural: #16405e;
+  --cool-shade: #6fbf73;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  line-height: var(--line-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#app {
+  height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  letter-spacing: var(--tracking-heading);
+  line-height: 1.15;
+  color: var(--color-primary-dark);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+/* Přístupnost – focus stavy a skip link */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--color-primary);
+  color: #fff;
+  padding: var(--space-2) var(--space-3);
+  border-radius: 0 0 var(--radius) 0;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Layout shell ---------- */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
+  z-index: 20;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.brand img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+.brand .tagline {
+  display: none;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+@media (min-width: 760px) {
+  .brand .tagline {
+    display: inline;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: var(--space-1);
+  background: var(--color-surface-subtle);
+  padding: 4px;
+  border-radius: var(--radius-pill);
+}
+.nav a {
+  text-decoration: none;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  transition: background 0.15s, color 0.15s;
+}
+.nav a[aria-current="page"] {
+  background: var(--color-surface);
+  color: var(--color-primary);
+  box-shadow: var(--shadow-card);
+}
+
+.site-main {
+  flex: 1 1 auto;
+  min-height: 0;
+  position: relative;
+}
+
+/* ---------- Mapa ---------- */
+.map-view {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+}
+.map-container {
+  flex: 1 1 auto;
+  min-height: 0;
+  position: relative;
+}
+#map {
+  position: absolute;
+  inset: 0;
+}
+
+/* Horní pruh nad mapou: teplota + výstraha */
+.map-topbar {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  right: var(--space-3);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  pointer-events: none;
+}
+.map-topbar > * {
+  pointer-events: auto;
+}
+
+.temp-badge {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: var(--space-1) var(--space-3) var(--space-1) var(--space-1);
+  box-shadow: var(--shadow-card);
+  font-size: 0.9rem;
+  max-width: 100%;
+}
+.temp-badge .temp-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--gradient-temp);
+  flex: 0 0 auto;
+}
+.temp-badge .temp-label {
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+.temp-badge .temp-value {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-primary-dark);
+}
+.temp-badge .temp-feels {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+}
+
+.heat-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  background: var(--color-heat);
+  color: #3a1305;
+  border-radius: var(--radius);
+  padding: var(--space-2) var(--space-3);
+  font-size: 0.88rem;
+  font-weight: 500;
+  box-shadow: var(--shadow-card);
+  max-width: 560px;
+}
+.heat-warning strong {
+  color: #2a0e03;
+}
+.heat-warning .heat-icon {
+  flex: 0 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+/* Spodní ovládací panel: filtry + geolokace */
+.map-controls {
+  z-index: 10;
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-2) var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.filters legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-radius: var(--radius-pill);
+  padding: 7px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s,
+    color 0.15s;
+}
+.chip:hover {
+  border-color: var(--color-accent);
+}
+.chip .chip-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+.chip[aria-pressed="true"] {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  box-shadow: var(--shadow-card);
+}
+.chip[aria-pressed="true"] .chip-dot {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  border: 0;
+  border-radius: var(--radius-pill);
+  padding: 9px 18px;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: filter 0.15s, transform 0.05s, box-shadow 0.15s;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-primary {
+  background: var(--gradient-brand);
+  color: #fff;
+  box-shadow: var(--shadow-card);
+}
+.btn-primary:hover {
+  box-shadow: var(--shadow-hover);
+  filter: saturate(1.1);
+}
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+.btn .btn-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.locate-wrap {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.locate-status {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+.locate-status.error {
+  color: var(--color-heat-strong);
+}
+
+/* Atribuce */
+.map-attribution {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  flex-basis: 100%;
+  order: 99;
+}
+
+/* ---------- Popup (MapLibre) ---------- */
+.maplibregl-popup-content {
+  border-radius: var(--radius-lg);
+  padding: var(--space-3);
+  box-shadow: var(--shadow-hover);
+  font-family: var(--font-body);
+  border: 1px solid var(--color-border);
+  max-width: 280px;
+}
+.maplibregl-popup-close-button {
+  font-size: 1.3rem;
+  color: var(--color-text-muted);
+  padding: 0 6px;
+}
+.popup h3 {
+  margin: 0 0 var(--space-2);
+  font-size: 1.05rem;
+}
+.popup .popup-cooling {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background: var(--color-surface-subtle);
+  border-radius: var(--radius-pill);
+  padding: 3px 10px;
+  margin-bottom: var(--space-2);
+}
+.popup .popup-cooling .chip-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.popup dl {
+  margin: 0 0 var(--space-2);
+  font-size: 0.85rem;
+}
+.popup dt {
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+.popup dd {
+  margin: 0 0 var(--space-1);
+  color: var(--color-text);
+}
+.popup .popup-free {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  margin-bottom: var(--space-2);
+}
+.popup .popup-free.yes {
+  background: rgba(111, 191, 115, 0.18);
+  color: #2f6b33;
+}
+.popup .popup-free.no {
+  background: rgba(244, 121, 78, 0.16);
+  color: #9c4321;
+}
+.popup .btn-navigate {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+  background: var(--gradient-brand);
+  color: #fff;
+  border-radius: var(--radius-pill);
+  padding: 9px 14px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  box-shadow: var(--shadow-card);
+}
+
+/* Zvýraznění nejbližších míst */
+.maplibregl-marker.near-marker {
+  font-size: 1.4rem;
+  filter: drop-shadow(0 2px 4px rgba(22, 64, 94, 0.4));
+}
+
+/* ---------- Stránka O projektu ---------- */
+.about-view {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.about-hero {
+  background: var(--gradient-brand);
+  color: #fff;
+  padding: var(--space-8) var(--space-4) var(--space-6);
+  text-align: center;
+}
+.about-hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.about-hero h1 {
+  color: #fff;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  margin: 0 0 var(--space-3);
+}
+.about-hero p {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.about-body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4) var(--space-8);
+  background-image: var(--dot-grid);
+  background-size: 24px 24px;
+}
+.about-section {
+  margin-bottom: var(--space-6);
+}
+.about-section h2 {
+  font-size: clamp(1.3rem, 3.5vw, 1.7rem);
+  margin: 0 0 var(--space-3);
+  position: relative;
+  padding-left: var(--space-3);
+}
+.about-section h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 5px;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-temp);
+}
+.about-section p {
+  font-size: 1.02rem;
+  color: var(--color-text);
+  margin: 0 0 var(--space-3);
+}
+.about-cta {
+  display: inline-flex;
+  margin-top: var(--space-2);
+}
+
+/* ---------- Patička ---------- */
+.site-footer {
+  background: var(--color-primary-dark);
+  color: rgba(255, 255, 255, 0.82);
+  padding: var(--space-4);
+}
+.footer-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+}
+.footer-byline {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 600;
+  color: #fff;
+}
+.footer-byline img {
+  width: 34px;
+  height: 34px;
+  background: #fff;
+  border-radius: var(--radius-sm);
+  padding: 3px;
+  display: block;
+}
+.footer-note {
+  flex-basis: 100%;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  order: 3;
+}
+.footer-links {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+.footer-links a {
+  color: var(--color-accent-light);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer varianta uvnitř mapy (kompaktní, jen na about) */
+.map-view .site-footer {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

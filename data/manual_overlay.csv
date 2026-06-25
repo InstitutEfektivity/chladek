@@ -1,0 +1,27 @@
+name,category,cooling,lat,lon,address,free_entry,opening_hours,typical_c,note
+Westfield Chodov,mall,ac,50.0312,14.4905,"Roztylská 2321/19, Praha 4",true,"Mo-Su 09:00-21:00",23,Velké klimatizované obchodní centrum
+Centrum Chodov vstupní hala,mall,ac,50.0316,14.4912,"Roztylská 2321/19, Praha 4",true,"Mo-Su 09:00-21:00",23,
+Palladium,mall,ac,50.0894,14.4287,"Náměstí Republiky 1078/1, Praha 1",true,"Mo-Su 09:00-21:00",23,Klimatizované obchodní centrum v centru
+OC Nový Smíchov,mall,ac,50.0716,14.4031,"Plzeňská 233/8, Praha 5",true,"Mo-Su 09:00-21:00",23,
+Centrum Černý Most,mall,ac,50.1085,14.5708,"Chlumecká 765/6, Praha 9",true,"Mo-Su 09:00-21:00",23,
+Arkády Pankrác,mall,ac,50.0411,14.4490,"Na Pankráci 1727/86, Praha 4",true,"Mo-Su 09:00-21:00",23,
+Quadrio,mall,ac,50.0828,14.4205,"Spálená 2121/22, Praha 1",true,"Mo-Su 09:00-21:00",23,Obchodní centrum nad metrem Národní třída
+Galerie Harfa,mall,ac,50.1057,14.4937,"Českomoravská 2420/15, Praha 9",true,"Mo-Su 09:00-21:00",23,
+Metropole Zličín,mall,ac,50.0578,14.2882,"Řevnická 1/121, Praha 5",true,"Mo-Su 09:00-21:00",23,
+OC Letňany,mall,ac,50.1335,14.5078,"Veselská 663, Praha 9",true,"Mo-Su 09:00-21:00",23,
+Atrium Flora,mall,ac,50.0779,14.4663,"Vinohradská 2828/151, Praha 3",true,"Mo-Su 09:00-21:00",23,
+DOX Centrum současného umění,museum,ac,50.1018,14.4490,"Poupětova 1, Praha 7",false,"We-Mo 11:00-19:00",23,Klimatizované výstavní sály
+Národní muzeum - Historická budova,museum,ac,50.0786,14.4309,"Václavské náměstí 68, Praha 1",false,"Mo-Su 10:00-18:00",22,Klimatizované expozice
+Národní galerie - Veletržní palác,museum,ac,50.1011,14.4339,"Dukelských hrdinů 530/47, Praha 7",false,"Tu-Su 10:00-18:00",22,Klimatizované galerijní prostory
+Národní technické muzeum,museum,ac,50.0967,14.4290,"Kostelní 1320/42, Praha 7",false,"Tu-Su 09:00-18:00",22,
+Uměleckoprůmyslové museum,museum,ac,50.0894,14.4170,"17. listopadu 2, Praha 1",false,"Tu-Su 10:00-18:00",22,
+Národní galerie - Šternberský palác,museum,ac,50.0897,14.3990,"Hradčanské náměstí 15, Praha 1",false,"Tu-Su 10:00-18:00",22,
+Plavecký stadion Podolí,pool,water,50.0490,14.4173,"Podolská 74, Praha 4",false,"Mo-Su 06:00-21:30",null,Krytý i venkovní bazén
+Bazén Šutka,pool,water,50.1308,14.4528,"Nad Šutkou 41, Praha 8",false,"Mo-Su 06:00-22:00",null,Krytý plavecký areál
+Aquapalace Praha Čestlice,pool,water,49.9967,14.5747,"Pražská 138, Čestlice",false,"Mo-Su 10:00-22:00",null,Velký aquapark u Prahy
+Aquacentrum Šutka,pool,water,50.1310,14.4530,"Nad Šutkou 41, Praha 8",false,"Mo-Su 06:00-22:00",null,
+Plavecký areál Hloubětín,pool,water,50.1107,14.5274,"Hloubětínská 80, Praha 9",false,"Mo-Su 06:00-21:00",null,
+Městská knihovna v Praze - ústřední,library,ac,50.0871,14.4185,"Mariánské náměstí 1/98, Praha 1",true,"Tu-Su 09:00-20:00",23,Ústřední pobočka MKP
+Národní knihovna - Klementinum,library,ac,50.0866,14.4159,"Mariánské náměstí 190/5, Praha 1",false,"Mo-Sa 09:00-19:00",23,Studovny Klementina
+Národní technická knihovna,library,ac,50.1037,14.3896,"Technická 2710/6, Praha 6",true,"Mo-Su 08:00-22:00",23,Klimatizovaná studovna NTK
+Knihovna AV ČR,library,ac,50.0894,14.4192,"Národní 1009/3, Praha 1",true,"Mo-Fr 09:00-18:00",23,
