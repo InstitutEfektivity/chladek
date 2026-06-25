@@ -1,0 +1,46 @@
+name: refresh-data
+
+# Týdně přegeneruje public/data/venues.geojson z OpenStreetMap (Overpass) a
+# ruční kurátorské vrstvy. Pokud se data změní, commitne je zpět do repa.
+# Pozn.: živé nasazení dat na server (ie-prod-1) je zatím MANUÁLNÍ re-deploy
+# (scp dist -> /opt/stack/ie-chladek/site) – web servíruje statický build.
+# Auto-deploy na server přes Actions zatím NEděláme (SSH klíč nedáváme do public repa). Viz TODO v README.
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # každé pondělí 04:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Rebuild venues.geojson
+        run: python data/build_venues.py
+
+      - name: Commit changed data (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain public/data/venues.geojson)" ]; then
+            git add public/data/venues.geojson
+            git commit -m "chore(data): týdenní refresh venues.geojson [skip ci]"
+            git push
+            echo "Data aktualizována a pushnuta."
+          else
+            echo "Beze změny – nic ke commitu."
+          fi

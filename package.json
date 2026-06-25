@@ -1,0 +1,19 @@
+{
+  "name": "chladek",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chládek – mapa klimatizovaných a přirozeně chladných veřejných míst v Praze",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
