@@ -1,10 +1,10 @@
 import type { StyleSpecification } from "maplibre-gl";
 
 // Basemap bez API klíče: raster CARTO Positron (light).
-// glyphs nutné pro textové popisky clusterů.
+// Bez externích glyphů – nepoužíváme symbol/textové vrstvy (glyph fetch ve workeru
+// selhával a označoval geojson tiles jako errored, takže se nevykreslily ani kruhy).
 export const baseStyle: StyleSpecification = {
   version: 8,
-  glyphs: "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   sources: {
     carto: {
       type: "raster",

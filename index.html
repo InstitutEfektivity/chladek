@@ -26,6 +26,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- maplibre-gl self-hosted (UMD) – spolehlivý web worker; bundlovaný worker
+         přes Vite/esbuild se nenačítal a style nikdy nedoběhl do _loaded. -->
+    <link rel="stylesheet" href="/vendor/maplibre-gl.css" />
+    <script src="/vendor/maplibre-gl.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Přeskočit na obsah</a>

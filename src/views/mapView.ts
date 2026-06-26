@@ -1,12 +1,16 @@
-import maplibregl, {
+import type {
   Map as MlMap,
   GeoJSONSource,
   Popup,
   Marker,
-  type MapGeoJSONFeature,
-  type ExpressionSpecification,
+  MapGeoJSONFeature,
+  ExpressionSpecification,
 } from "maplibre-gl";
-import "maplibre-gl/dist/maplibre-gl.css";
+
+// maplibre-gl je servírovaný jako self-hosted UMD (viz index.html) – kvůli
+// spolehlivému web workeru. Bundlovaný worker přes Vite/esbuild se nenačítal
+// a style nikdy nedoběhl do _loaded (bílá mapa). Typy bereme jen pro kontrolu.
+declare const maplibregl: typeof import("maplibre-gl");
 
 import { ui } from "../content/site.ts";
 import { baseStyle, coolingColors } from "../lib/mapStyle.ts";
@@ -86,29 +90,60 @@ export function renderMapView(root: HTMLElement): () => void {
     data: null,
   };
 
-  const map = new maplibregl.Map({
-    container: "map",
-    style: baseStyle,
-    center: [14.43, 50.08],
-    zoom: 11.5,
-    attributionControl: false,
-  });
-  map.addControl(
-    new maplibregl.AttributionControl({ compact: true }),
-    "bottom-right"
-  );
-  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
-  map.addControl(
-    new maplibregl.GeolocateControl({
-      positionOptions: { enableHighAccuracy: true },
-      trackUserLocation: false,
-    }),
-    "top-right"
-  );
+  // MapLibre se vykreslí správně jen tehdy, když má kontejner v okamžiku vzniku
+  // reálnou velikost. Když ho vytvoříme dřív (než flex layout dopočítá výšku),
+  // basemap i geojson vrstvy se natilují pro nulový viewport a zůstanou bílé.
+  // Proto mapu vytvoříme až ve chvíli, kdy #map má nenulovou výšku.
+  const mapEl = document.getElementById("map");
+  let map: MlMap | null = null;
+  let started = false;
+  const resizeObserver = new ResizeObserver(() => map?.resize());
+  let gate: ResizeObserver | null = null;
 
-  map.on("load", () => {
-    void initData(map, state);
-  });
+  function startMap(): void {
+    if (started || !mapEl) return;
+    started = true;
+    map = new maplibregl.Map({
+      container: mapEl,
+      style: baseStyle,
+      center: [14.43, 50.08],
+      zoom: 11.5,
+      attributionControl: false,
+    });
+    map.addControl(
+      new maplibregl.AttributionControl({ compact: true }),
+      "bottom-right"
+    );
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    map.addControl(
+      new maplibregl.GeolocateControl({
+        positionOptions: { enableHighAccuracy: true },
+        trackUserLocation: false,
+      }),
+      "top-right"
+    );
+    resizeObserver.observe(mapEl);
+    map.on("error", (e) => {
+      const msg = (e as { error?: { message?: string } }).error?.message;
+      if (msg) console.warn("Chládek – mapa:", msg);
+    });
+    map.on("load", () => {
+      if (map) void initData(map, state);
+    });
+  }
+
+  if (mapEl && mapEl.clientHeight > 0) {
+    startMap();
+  } else if (mapEl) {
+    gate = new ResizeObserver(() => {
+      if (mapEl.clientHeight > 0) {
+        gate?.disconnect();
+        gate = null;
+        startMap();
+      }
+    });
+    gate.observe(mapEl);
+  }
 
   // Filtry
   const chips = Array.from(
@@ -124,7 +159,7 @@ export function renderMapView(root: HTMLElement): () => void {
         state.active.add(cooling);
         chip.setAttribute("aria-pressed", "true");
       }
-      applyFilter(map, state);
+      if (map) applyFilter(map, state);
     });
   }
 
@@ -132,7 +167,7 @@ export function renderMapView(root: HTMLElement): () => void {
   const locateBtn = root.querySelector<HTMLButtonElement>("#locate-btn");
   const locateStatus = root.querySelector<HTMLElement>("#locate-status");
   locateBtn?.addEventListener("click", () => {
-    handleLocate(map, state, locateBtn, locateStatus);
+    if (map) handleLocate(map, state, locateBtn, locateStatus);
   });
 
   // Živá teplota + výstraha
@@ -140,8 +175,10 @@ export function renderMapView(root: HTMLElement): () => void {
 
   // Cleanup při změně view.
   return () => {
+    gate?.disconnect();
+    resizeObserver.disconnect();
     clearNearMarkers(state);
-    map.remove();
+    map?.remove();
   };
 }
 
@@ -188,26 +225,10 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
       "circle-stroke-color": "rgba(255,255,255,0.85)",
     },
   });
-  map.addLayer({
-    id: "cluster-count",
-    type: "symbol",
-    source: SOURCE_ID,
-    filter: ["has", "point_count"],
-    layout: {
-      "text-field": ["get", "point_count_abbreviated"],
-      "text-font": ["Noto Sans Regular"],
-      "text-size": 13,
-    },
-    paint: {
-      "text-color": [
-        "step",
-        ["get", "point_count"],
-        "#0F2D43",
-        100,
-        "#FFFFFF",
-      ],
-    },
-  });
+  // (Počet v clusteru jako text byl symbol vrstva závislá na externích glyphech;
+  //  selhání glyphů označovalo celou geojson tile jako errored → nic se nevykreslilo.
+  //  Velikost clusteru komunikuje poloměr kruhu. Text se přidá zpět přes self-hosted
+  //  glyphy v další iteraci, pokud bude potřeba.)
 
   // Jednotlivé body obarvené podle cooling.
   map.addLayer({
@@ -345,7 +366,7 @@ function openPopup(map: MlMap, feature: MapGeoJSONFeature): void {
     </div>
   `;
 
-  new Popup({ closeButton: true, maxWidth: "280px", focusAfterOpen: true })
+  new maplibregl.Popup({ closeButton: true, maxWidth: "280px", focusAfterOpen: true })
     .setLngLat([lon, lat])
     .setHTML(html)
     .addTo(map);
@@ -424,7 +445,7 @@ function showNearest(
   userEl.style.fontSize = "1.4rem";
   userEl.setAttribute("aria-label", "Vaše poloha");
   state.nearMarkers.push(
-    new Marker({ element: userEl }).setLngLat([lon, lat]).addTo(map)
+    new maplibregl.Marker({ element: userEl }).setLngLat([lon, lat]).addTo(map)
   );
 
   const bounds = new maplibregl.LngLatBounds([lon, lat], [lon, lat]);
@@ -434,7 +455,7 @@ function showNearest(
     el.className = "near-marker";
     el.textContent = "❄️";
     const [flon, flat] = f.geometry.coordinates;
-    const marker = new Marker({ element: el })
+    const marker = new maplibregl.Marker({ element: el })
       .setLngLat([flon, flat])
       .setPopup(buildNearPopup(f))
       .addTo(map);
@@ -465,7 +486,7 @@ function buildNearPopup(f: VenueFeature): Popup {
         🧭 ${escapeHtml(ui.popup.navigate)}
       </a>
     </div>`;
-  return new Popup({ closeButton: true, maxWidth: "280px" }).setHTML(html);
+  return new maplibregl.Popup({ closeButton: true, maxWidth: "280px" }).setHTML(html);
 }
 
 // ---------- Počasí ----------
