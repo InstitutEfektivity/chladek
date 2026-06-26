@@ -23,6 +23,7 @@ import {
 } from "../lib/airquality.ts";
 import { fetchAirStations } from "../lib/airStations.ts";
 import { fetchAreas } from "../lib/areas.ts";
+import type { AreaFeature } from "../lib/types.ts";
 import { fetchMlzitka } from "../lib/mlzitka.ts";
 import { fetchMetro } from "../lib/metro.ts";
 import {
@@ -89,6 +90,7 @@ interface MapState {
   data: VenueCollection | null;
   tempMarkers: TempMarker[];
   tempVisible: boolean; // přepínač „Teploty (živě)" – default ON
+  areaLabels: Marker[]; // DOM popisky největších parků (ne text-field)
 }
 
 export function renderMapView(root: HTMLElement): () => void {
@@ -176,6 +178,7 @@ export function renderMapView(root: HTMLElement): () => void {
     data: null,
     tempMarkers: [],
     tempVisible: true,
+    areaLabels: [],
   };
 
   // MapLibre se vykreslí správně jen tehdy, když má kontejner v okamžiku vzniku
@@ -198,6 +201,8 @@ export function renderMapView(root: HTMLElement): () => void {
       zoom: 11.5,
       attributionControl: false,
     });
+    // Debug handle pro headless ověření (před live merge se strhne).
+    (window as unknown as Record<string, unknown>)["__chladekMap"] = map;
     map.addControl(
       new maplibregl.AttributionControl({ compact: true }),
       "bottom-right"
@@ -307,6 +312,7 @@ export function renderMapView(root: HTMLElement): () => void {
     resizeObserver.disconnect();
     clearNearMarkers(state);
     clearTempMarkers(state);
+    clearAreaLabels(state);
     map?.remove();
   };
 }
@@ -345,18 +351,20 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
 
   // SPODNÍ vrstva: plošný rozsah chladu (parky/stín, vodní plochy). Volitelný
   // soubor – když chybí, prostě se přeskočí. Přidáváme PRVNÍ, aby seděl pod body.
-  await initAreas(map);
+  await initAreas(map, state);
 
   map.addSource(SOURCE_ID, {
     type: "geojson",
     data,
     cluster: true,
     clusterRadius: 50,
-    clusterMaxZoom: 14,
+    // Snížen ze 14 na 13 – velké kategorické ikony (hvězda mapy) naskočí dřív.
+    clusterMaxZoom: 13,
   });
 
-  // Halo „do ztracena" pod ikonou: velký rozmazaný disk u velkých obchoďáků
-  // (category == "mall"). Měkká chladná záře vytékající z velkého půdorysu.
+  // Halo „do ztracena" pod ikonou: velký rozmazaný disk u velkých chladných budov
+  // s rozsáhlým půdorysem (obchoďák, bazén). Měkká chladná záře = „chladné je celé
+  // místo, ne jen bod". Barvu řídí cooling daného bodu.
   map.addLayer({
     id: "venue-glow",
     type: "circle",
@@ -364,17 +372,53 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
     filter: [
       "all",
       ["!", ["has", "point_count"]],
-      ["==", ["get", "category"], "mall"],
+      ["in", ["get", "category"], ["literal", ["mall", "pool"]]],
     ],
     paint: {
-      "circle-color": coolingColors["ac"]!,
-      "circle-opacity": 0.18,
-      "circle-blur": 0.9,
-      "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 18, 16, 55],
+      "circle-color": [
+        "match",
+        ["get", "cooling"],
+        "water",
+        coolingColors["water"]!,
+        coolingColors["ac"]!,
+      ],
+      "circle-opacity": 0.2,
+      "circle-blur": 1,
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 22, 16, 66],
     },
   });
 
-  // Clustery
+  // Clustery – moderní „frosted" vzhled: měkký gradient (cool paleta), translucentní
+  // vnější halo a jemné škálování podle point_count. Halo kreslíme jako samostatný
+  // rozmazaný kruh POD jádrem clusteru.
+  map.addLayer({
+    id: "clusters-halo",
+    type: "circle",
+    source: SOURCE_ID,
+    filter: ["has", "point_count"],
+    paint: {
+      "circle-color": [
+        "step",
+        ["get", "point_count"],
+        coolingColors["ac"]!,
+        25,
+        "#1899C4",
+        100,
+        "#1C7E8C",
+      ],
+      "circle-opacity": 0.22,
+      "circle-blur": 0.8,
+      "circle-radius": [
+        "step",
+        ["get", "point_count"],
+        26,
+        25,
+        34,
+        100,
+        46,
+      ],
+    },
+  });
   map.addLayer({
     id: "clusters",
     type: "circle",
@@ -384,29 +428,32 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
       "circle-color": [
         "step",
         ["get", "point_count"],
-        "#5FE0CF",
+        coolingColors["ac"]!,
         25,
-        "#19B8CE",
+        "#1899C4",
         100,
-        "#16405E",
+        "#1C7E8C",
       ],
-      "circle-radius": ["step", ["get", "point_count"], 16, 25, 22, 100, 30],
-      "circle-stroke-width": 2,
-      "circle-stroke-color": "rgba(255,255,255,0.85)",
+      "circle-opacity": 0.94,
+      "circle-radius": ["step", ["get", "point_count"], 18, 25, 25, 100, 33],
+      "circle-stroke-width": 3,
+      "circle-stroke-color": "rgba(255,255,255,0.92)",
     },
   });
   // (Počet v clusteru jako text byl symbol vrstva závislá na externích glyphech;
   //  selhání glyphů označovalo celou geojson tile jako errored → nic se nevykreslilo.
-  //  Velikost clusteru komunikuje poloměr kruhu. Text se přidá zpět přes self-hosted
-  //  glyphy v další iteraci, pokud bude potřeba.)
+  //  Velikost clusteru komunikuje poloměr kruhu.)
 
   // Ikony chládek-bodů MUSÍ být zaregistrované PŘED symbol vrstvou, která je odkazuje
   // (jinak styleimagemissing). Rastrové ikony (ne glyphy) – bezpečné.
   await registerVenueIcons(map);
 
-  // Jednotlivé body jako ikona podle cooling. Symbol vrstva BEZ text-field
-  // (žádné glyphy) – icon-image je rastr. icon-size roste se zoomem a u velkých
-  // obchoďáků (mall) je o něco větší.
+  // Jednotlivé body jako velká kategorická ikona (squircle badge). Symbol vrstva BEZ
+  // text-field (žádné glyphy) – icon-image je rastr.
+  //
+  // Velikostní tiery (icon-size, zoom-interpolované, stepované přes data-expression
+  // tierSizeExpr): XL (park, mall) > L (museum, library, cinema, pool, church) >
+  // M (shop_ac, cafe_food, fountain). I „M" je výrazně větší než staré drobné piny.
   map.addLayer({
     id: "venues-point",
     type: "symbol",
@@ -415,35 +462,35 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
     layout: {
       "icon-image": [
         "match",
-        ["get", "cooling"],
-        "ac",
-        "icon-ac",
-        "water",
-        "icon-water",
-        "natural",
-        "icon-natural",
-        "shade",
-        "icon-shade",
-        "icon-ac",
+        ["get", "category"],
+        "mall",
+        "icon-mall",
+        "library",
+        "icon-library",
+        "museum",
+        "icon-museum",
+        "cinema",
+        "icon-cinema",
+        "pool",
+        "icon-pool",
+        "fountain",
+        "icon-fountain",
+        "church",
+        "icon-church",
+        "park",
+        "icon-park",
+        "shop_ac",
+        "icon-shop_ac",
+        "cafe_food",
+        "icon-cafe_food",
+        "icon-shop_ac",
       ],
       "icon-allow-overlap": true,
       "icon-ignore-placement": true,
       "icon-anchor": "bottom",
-      // Pin je 56 px vysoký rastr (pixelRatio 2). Cíl: ~26–34 px vysoký pin
-      // ve street zoomu 13–16, aby uživatel hned četl kapku/vločku/oblouk/strom.
-      // mall je znatelně větší. Velikosti: z11≈22–26 px, z13≈30–37 px,
-      // z16≈37–46 px (mall) / 32 px (ostatní) → 0.56–0.82 × 56.
-      "icon-size": [
-        "interpolate",
-        ["linear"],
-        ["zoom"],
-        11,
-        ["case", ["==", ["get", "category"], "mall"], 0.47, 0.4],
-        13,
-        ["case", ["==", ["get", "category"], "mall"], 0.66, 0.55],
-        16,
-        ["case", ["==", ["get", "category"], "mall"], 0.82, 0.66],
-      ],
+      // Base rastr je 128×148 @ pixelRatio 2 → @icon-size 1 ≈ 64×74 px.
+      // Tier škála: XL z16 ≈ 0.92 → ~59 px badge; M z16 ≈ 0.62 → ~40 px badge.
+      "icon-size": tierSizeExpr(),
     },
   });
 
@@ -451,14 +498,46 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
   wireInteractions(map);
 }
 
+// Velikost badge podle velikostního tieru kategorie, interpolovaná zoomem.
+// XL = celá lokalita/areál (park, mall), L = celá chladná budova
+// (museum, library, cinema, pool, church), M = jednotlivý AC bod
+// (shop_ac, cafe_food, fountain). Vrací ExpressionSpecification pro icon-size.
+function tierSizeExpr(): ExpressionSpecification {
+  // tier multiplikátor podle kategorie
+  const tier: ExpressionSpecification = [
+    "match",
+    ["get", "category"],
+    ["park", "mall"],
+    1.0, // XL
+    ["museum", "library", "cinema", "pool", "church"],
+    0.82, // L
+    0.66, // M (shop_ac, cafe_food, fountain) – default
+  ] as ExpressionSpecification;
+  // Základní zoom škála × tier multiplikátor.
+  return [
+    "interpolate",
+    ["linear"],
+    ["zoom"],
+    10,
+    ["*", 0.34, tier],
+    13,
+    ["*", 0.62, tier],
+    16,
+    ["*", 0.92, tier],
+    18,
+    ["*", 1.08, tier],
+  ] as ExpressionSpecification;
+}
+
 // Plošné overlay vrstvy úplně dole (jen nad basemapem). Volitelné – graceful skip.
-async function initAreas(map: MlMap): Promise<void> {
+async function initAreas(map: MlMap, state: MapState): Promise<void> {
   const areas = await fetchAreas();
   if (!areas) return; // soubor chybí / nevalidní → vrstvy se nepřidají
 
   map.addSource(AREAS_SOURCE_ID, { type: "geojson", data: areas });
 
-  // Výplň – jemná barevná plocha podle cooling.
+  // Výplň – sytější barevná plocha podle cooling (park = zóna, ne bod).
+  // Vyšší kontrast (opacity ~0.22) + zoom-řízené ztlumení, ať na detailu nepřebíjí body.
   map.addLayer({
     id: "areas-fill",
     type: "fill",
@@ -468,16 +547,28 @@ async function initAreas(map: MlMap): Promise<void> {
         "match",
         ["get", "cooling"],
         "shade",
-        "#6FBF73",
+        coolingColors["shade"]!,
         "water",
-        "#2A86C9",
-        "#6FBF73",
+        coolingColors["water"]!,
+        coolingColors["shade"]!,
       ],
-      "fill-opacity": 0.16,
+      "fill-opacity": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        10,
+        0.24,
+        14,
+        0.22,
+        16,
+        0.16,
+      ],
     },
   });
 
-  // Obrys s blur → měkký okraj „vytrácející se do ztracena".
+  // Vnitřní měkká „glow" výplň podél okraje – druhý fill s blur efektem simulujeme
+  // jako světlejší lem (line uvnitř). Zde jen sytější jádro výplně přes line s blur.
+  // Obrys s blur → měkký okraj „vytrácející se do ztracena", crisper než dřív.
   map.addLayer({
     id: "areas-outline",
     type: "line",
@@ -487,16 +578,81 @@ async function initAreas(map: MlMap): Promise<void> {
         "match",
         ["get", "cooling"],
         "shade",
-        "#6FBF73",
+        coolingColors["shade"]!,
         "water",
-        "#2A86C9",
-        "#6FBF73",
+        coolingColors["water"]!,
+        coolingColors["shade"]!,
       ],
-      "line-blur": 3,
-      "line-width": 2.5,
-      "line-opacity": 0.35,
+      "line-blur": 2,
+      "line-width": ["interpolate", ["linear"], ["zoom"], 11, 2, 16, 4],
+      "line-opacity": 0.55,
     },
   });
+
+  // NICE-TO-HAVE: DOM popisky největších parků/ploch (ne text-field – jen HTML Marker).
+  // Pojmenuje hlavní zóny, aniž bychom riskovali glyph-fetch chybu. Jen ~14 největších
+  // pojmenovaných ploch, ať to nezahltí mapu.
+  addAreaLabels(map, state, areas.features);
+}
+
+// Spočítá přibližný centroid prvního prstence polygonu/multipolygonu.
+function ringCentroid(coords: number[][]): [number, number] | null {
+  let sx = 0;
+  let sy = 0;
+  let n = 0;
+  for (const pt of coords) {
+    const x = pt[0];
+    const y = pt[1];
+    if (typeof x === "number" && typeof y === "number") {
+      sx += x;
+      sy += y;
+      n++;
+    }
+  }
+  if (n === 0) return null;
+  return [sx / n, sy / n];
+}
+
+function areaCentroid(f: AreaFeature): [number, number] | null {
+  const g = f.geometry;
+  if (g.type === "Polygon") {
+    const ring = g.coordinates[0];
+    return ring ? ringCentroid(ring) : null;
+  }
+  // MultiPolygon: vezmi vnější prstenec prvního polygonu.
+  const poly = g.coordinates[0];
+  const ring = poly?.[0];
+  return ring ? ringCentroid(ring) : null;
+}
+
+function addAreaLabels(
+  map: MlMap,
+  state: MapState,
+  features: AreaFeature[]
+): void {
+  const named = features
+    .filter((f) => f.properties.name.trim().length > 0)
+    .sort((a, b) => b.properties.area_m2 - a.properties.area_m2)
+    .slice(0, 14);
+
+  for (const f of named) {
+    const center = areaCentroid(f);
+    if (!center) continue;
+    const el = document.createElement("div");
+    el.className =
+      f.properties.cooling === "water" ? "area-label area-label-water" : "area-label";
+    el.textContent = f.properties.name;
+    el.setAttribute("aria-hidden", "true");
+    const marker = new maplibregl.Marker({ element: el, anchor: "center" })
+      .setLngLat(center)
+      .addTo(map);
+    state.areaLabels.push(marker);
+  }
+}
+
+function clearAreaLabels(state: MapState): void {
+  for (const m of state.areaLabels) m.remove();
+  state.areaLabels = [];
 }
 
 function coolingFilter(active: Set<Cooling>): ExpressionSpecification {
