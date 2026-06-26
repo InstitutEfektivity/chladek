@@ -46,7 +46,7 @@ export const ui = {
     },
   },
   heatWarning:
-    "Dnes platí výstraha ČHMÚ před vysokými teplotami. Hlídejte pitný režim a vyhledejte chládek.",
+    "V Praze je teď horko (pocitově přes 31 °C). Hlídejte pitný režim a vyhledejte chládek.",
 };
 
 export interface AboutSection {
