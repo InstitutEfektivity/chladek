@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-06-26T20:48:28.963869+00:00",
+ "generatedAt": "2026-06-26T22:16:53.882993+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -22,14 +22,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 12.7
+      "value": 17
      },
      {
       "type": "PM10",
-      "value": 26.9
+      "value": 29.1
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -45,24 +45,24 @@
     "id": "AHOLA",
     "name": "Praha 7-Holešovice",
     "district": "praha-7",
-    "aqIndex": 3,
-    "aqLabel": "přijatelná",
-    "aqColor": "#9BD17A",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 33.9
+      "value": 42.4
      },
      {
       "type": "PM10",
-      "value": 38
+      "value": 30.5
      },
      {
       "type": "PM2_5",
-      "value": 26.6
+      "value": 25.7
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -84,14 +84,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 4.9
+      "value": 10.5
      },
      {
       "type": "PM10",
-      "value": 27
+      "value": 40.7
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -107,20 +107,20 @@
     "id": "AKALA",
     "name": "Praha 8-Karlín",
     "district": "praha-8",
-    "aqIndex": 3,
-    "aqLabel": "přijatelná",
-    "aqColor": "#9BD17A",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 20.9
+      "value": 23.4
      },
      {
       "type": "PM10",
-      "value": 38.4
+      "value": 40.8
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -142,18 +142,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 6.6
+      "value": 11.3
      },
      {
       "type": "O3",
-      "value": 150.1
+      "value": 131.6
      },
      {
       "type": "PM10",
-      "value": 32
+      "value": 35
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -169,24 +169,24 @@
     "id": "ALEGA",
     "name": "Praha 2-Legerova (hot spot)",
     "district": "praha-2",
-    "aqIndex": 3,
-    "aqLabel": "přijatelná",
-    "aqColor": "#9BD17A",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 102
+      "value": 83.7
      },
      {
       "type": "PM10",
-      "value": 38.9
+      "value": 40.8
      },
      {
       "type": "PM2_5",
-      "value": 22.7
+      "value": 24.6
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -202,28 +202,28 @@
     "id": "ALERA",
     "name": "Letiště Praha",
     "district": "praha-6",
-    "aqIndex": 3,
-    "aqLabel": "přijatelná",
-    "aqColor": "#9BD17A",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 14.5
+      "value": 21.5
      },
      {
       "type": "O3",
-      "value": 153.1
+      "value": 122.1
      },
      {
       "type": "PM10",
-      "value": 42.1
+      "value": 44.4
      },
      {
       "type": "PM2_5",
-      "value": 16.4
+      "value": 18.8
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -245,26 +245,26 @@
     "components": [
      {
       "type": "NO2",
-      "value": 12
+      "value": 23.5
      },
      {
       "type": "O3",
-      "value": 155.2
+      "value": 113.5
      },
      {
       "type": "PM10",
-      "value": 24.4
+      "value": 37.8
      },
      {
       "type": "PM2_5",
-      "value": 22.1
+      "value": 30.3
      },
      {
       "type": "SO2",
       "value": 1.8
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -286,14 +286,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 5
+      "value": 8.7
      },
      {
       "type": "PM10",
-      "value": 31.8
+      "value": 40.1
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -309,20 +309,20 @@
     "id": "AREPA",
     "name": "Praha 1-n. Republiky",
     "district": "praha-1",
-    "aqIndex": 3,
-    "aqLabel": "přijatelná",
-    "aqColor": "#9BD17A",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 19.9
+      "value": 25.6
      },
      {
       "type": "PM10",
-      "value": 39.4
+      "value": 40.6
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -344,18 +344,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 5.8
+      "value": 31.4
      },
      {
       "type": "PM10",
-      "value": 29.6
+      "value": 32.4
      },
      {
       "type": "PM2_5",
-      "value": 15.6
+      "value": 17.2
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -377,26 +377,26 @@
     "components": [
      {
       "type": "NO2",
-      "value": 8.6
+      "value": 15
      },
      {
       "type": "O3",
-      "value": 149.7
+      "value": 124.5
      },
      {
       "type": "PM10",
-      "value": 24.8
+      "value": 39
      },
      {
       "type": "PM2_5",
-      "value": 32.4
+      "value": 33.5
      },
      {
       "type": "SO2",
-      "value": 4.7
+      "value": 4.3
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -418,18 +418,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 2.9
+      "value": 5.9
      },
      {
       "type": "PM10",
-      "value": 23.8
+      "value": 26.6
      },
      {
       "type": "PM2_5",
-      "value": 13.1
+      "value": 14.5
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -445,24 +445,24 @@
     "id": "ASTOA",
     "name": "Praha 5-Stodůlky",
     "district": "praha-13",
-    "aqIndex": 3,
-    "aqLabel": "přijatelná",
-    "aqColor": "#9BD17A",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "O3",
-      "value": 160.7
+      "value": 115.1
      },
      {
       "type": "PM10",
-      "value": 40.9
+      "value": 46.6
      },
      {
       "type": "PM2_5",
       "value": 6.8
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -484,14 +484,14 @@
     "components": [
      {
       "type": "O3",
-      "value": 153.6
+      "value": 130
      },
      {
       "type": "PM10",
-      "value": 30.9
+      "value": 46
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -513,14 +513,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 12.5
+      "value": 18.2
      },
      {
       "type": "PM10",
-      "value": 29.9
+      "value": 41.8
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   },
   {
@@ -536,24 +536,24 @@
     "id": "AVYNA",
     "name": "Praha 9-Vysočany",
     "district": "praha-9",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 3,
+    "aqLabel": "přijatelná",
+    "aqColor": "#9BD17A",
     "components": [
      {
       "type": "NO2",
-      "value": 20.1
+      "value": 24.9
      },
      {
       "type": "O3",
-      "value": 129.3
+      "value": 106.8
      },
      {
       "type": "PM10",
-      "value": 32.8
+      "value": 45.2
      }
     ],
-    "updatedAt": "2026-06-26T20:15:00.315Z"
+    "updatedAt": "2026-06-26T21:45:00.508Z"
    }
   }
  ]
