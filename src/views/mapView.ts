@@ -27,6 +27,13 @@ import type { AreaFeature } from "../lib/types.ts";
 import { fetchMlzitka } from "../lib/mlzitka.ts";
 import { fetchMetro } from "../lib/metro.ts";
 import {
+  fetchAcCulture,
+  fetchAcShops,
+  fetchLibraries,
+  fetchAcAreas,
+} from "../lib/acData.ts";
+import { computeOpenNow } from "../lib/library.ts";
+import {
   fetchTempStations,
   fetchTempSensors,
   tempColor,
@@ -34,23 +41,46 @@ import {
 import {
   registerVenueIcons,
   registerOverlayIcons,
+  registerAcAreaIcons,
   chipIconSvg,
 } from "../lib/icons.ts";
 import { haversine, escapeHtml } from "../lib/geo.ts";
 import type {
   Cooling,
+  Category,
   VenueCollection,
   VenueFeature,
+  VenueProperties,
   CurrentWeather,
   HeatWarning,
   TempStationFeature,
   TempSensorFeature,
+  AcCultureFeature,
+  AcShopFeature,
+  LibraryFeature,
+  AcAreaCollection,
 } from "../lib/types.ts";
 
 const COOLINGS: Cooling[] = ["ac", "natural", "water", "shade"];
 const HEAT_THRESHOLD = 31; // apparent_temperature [°C]
 const SOURCE_ID = "venues";
 const AREAS_SOURCE_ID = "areas";
+
+// AC budovy jako celé plochy (ac-areas) – samostatný polygonový source + 3 vrstvy
+// (fill, outline, icon). Viditelnost řízená „Klimatizace" (ac) chipem.
+const AC_AREAS_SOURCE_ID = "ac-areas";
+const AC_AREAS_FILL_ID = "ac-areas-fill";
+const AC_AREAS_OUTLINE_ID = "ac-areas-outline";
+const AC_AREAS_ICON_ID = "ac-areas-icon";
+
+// Popisky AC-budov potřebují kind → label. (Bezpečný malý lookup, ne text-field.)
+const AC_AREA_KIND_LABEL: Record<string, string> = {
+  mall: "Obchodní centrum",
+  hypermarket: "Hypermarket",
+  department_store: "Obchodní dům",
+  diy: "Hobby / DIY market",
+  ikea: "IKEA",
+};
 
 // Samostatná datová vrstva: stanice kvality ovzduší (Golemio). Vlastní source,
 // BEZ clusteru – nesmí se míchat do chládek-bodů ani do geolokačního „3 nejbližší".
@@ -91,6 +121,7 @@ interface MapState {
   tempMarkers: TempMarker[];
   tempVisible: boolean; // přepínač „Teploty (živě)" – default ON
   areaLabels: Marker[]; // DOM popisky největších parků (ne text-field)
+  acCount: number; // počet klimatizovaných veřejných míst (USP headline)
 }
 
 export function renderMapView(root: HTMLElement): () => void {
@@ -99,6 +130,10 @@ export function renderMapView(root: HTMLElement): () => void {
       <div class="map-container">
         <div id="map" role="application" aria-label="Interaktivní mapa Prahy s chladnými místy"></div>
         <div class="map-topbar">
+          <div class="usp-banner" id="usp-banner" role="status" aria-live="polite" hidden>
+            <span class="usp-headline" id="usp-headline"></span>
+            <span class="usp-subtitle">${escapeHtml(ui.usp.subtitle)}</span>
+          </div>
           <div class="topbar-badges">
             <div class="temp-badge" id="temp-badge" role="status" aria-live="polite">
               <span class="temp-dot" aria-hidden="true"></span>
@@ -179,6 +214,7 @@ export function renderMapView(root: HTMLElement): () => void {
     tempMarkers: [],
     tempVisible: true,
     areaLabels: [],
+    acCount: 0,
   };
 
   // MapLibre se vykreslí správně jen tehdy, když má kontejner v okamžiku vzniku
@@ -338,20 +374,62 @@ function wireLayerToggle(
 // ---------- Data + vrstvy ----------
 
 async function initData(map: MlMap, state: MapState): Promise<void> {
-  let data: VenueCollection;
+  let baseData: VenueCollection;
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}data/venues.geojson`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    data = (await res.json()) as VenueCollection;
-    state.data = data;
+    baseData = (await res.json()) as VenueCollection;
   } catch (err) {
     console.error("Nepodařilo se načíst data míst:", err);
     return;
   }
 
+  // Paralelně dotáhni nově sloučené AC bodové datasety (graceful – null když chybí).
+  const [acCulture, acShops, libraries, acAreas] = await Promise.all([
+    fetchAcCulture(),
+    fetchAcShops(),
+    fetchLibraries(),
+    fetchAcAreas(),
+  ]);
+
+  // Normalizuj AC body do jednotného venue shape (jeden ikonový systém + clustering).
+  const mergedFeatures: VenueFeature[] = [...baseData.features];
+  if (acCulture) {
+    for (const f of acCulture.features) mergedFeatures.push(normalizeCulture(f));
+  }
+  if (acShops) {
+    for (const f of acShops.features) mergedFeatures.push(normalizeShop(f));
+  }
+  if (libraries) {
+    for (const f of libraries.features) mergedFeatures.push(normalizeLibrary(f));
+  }
+
+  const data: VenueCollection = {
+    type: "FeatureCollection",
+    features: mergedFeatures,
+  };
+  state.data = data;
+
+  // USP headline: počet klimatizovaných veřejných míst napříč zdroji.
+  state.acCount = computeAcCount({
+    acAreas,
+    cultureTierA: acCulture
+      ? acCulture.features.filter((f) => f.properties.tier === "A").length
+      : 0,
+    shops: acShops ? acShops.features.length : 0,
+    libraries: libraries ? libraries.features.length : 0,
+    venuesShopAc: baseData.features.filter(
+      (f) => f.properties.category === "shop_ac"
+    ).length,
+  });
+  renderUspBanner(state.acCount);
+
   // SPODNÍ vrstva: plošný rozsah chladu (parky/stín, vodní plochy). Volitelný
   // soubor – když chybí, prostě se přeskočí. Přidáváme PRVNÍ, aby seděl pod body.
   await initAreas(map, state);
+
+  // AC budovy jako celé plochy – NAD zelenými areas, POD clustery/body. Volitelné.
+  await initAcAreas(map, state, acAreas);
 
   map.addSource(SOURCE_ID, {
     type: "geojson",
@@ -387,6 +465,10 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
       "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 22, 16, 66],
     },
   });
+
+  // AC-budova ikona NAD venue-glow, POD clustery (z-order). Polygonový source +
+  // ikony už připravil initAcAreas. (Když dataset chyběl, funkce je no-op.)
+  addAcAreasIconLayer(map, state);
 
   // Clustery – moderní „frosted" vzhled: měkký gradient (cool paleta), translucentní
   // vnější halo a jemné škálování podle point_count. Halo kreslíme jako samostatný
@@ -483,6 +565,14 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
         "icon-shop_ac",
         "cafe_food",
         "icon-cafe_food",
+        "theatre",
+        "icon-theatre",
+        "concert",
+        "icon-concert",
+        "gallery",
+        "icon-gallery",
+        "store",
+        "icon-store",
         "icon-shop_ac",
       ],
       "icon-allow-overlap": true,
@@ -503,15 +593,19 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
 // (museum, library, cinema, pool, church), M = jednotlivý AC bod
 // (shop_ac, cafe_food, fountain). Vrací ExpressionSpecification pro icon-size.
 function tierSizeExpr(): ExpressionSpecification {
-  // tier multiplikátor podle kategorie
+  // tier multiplikátor podle kategorie. Pravidlo majitele: AC body menší (drobné
+  // klikatelné pointy), lokalita širší.
+  //  XL = park, mall (celá lokalita/areál)
+  //  L  = museum, gallery, theatre, cinema, concert, library, pool (celá budova)
+  //  M  = store, shop_ac, cafe_food, fountain, church (jednotlivý AC bod) – default
   const tier: ExpressionSpecification = [
     "match",
     ["get", "category"],
     ["park", "mall"],
     1.0, // XL
-    ["museum", "library", "cinema", "pool", "church"],
+    ["museum", "gallery", "theatre", "cinema", "concert", "library", "pool"],
     0.82, // L
-    0.66, // M (shop_ac, cafe_food, fountain) – default
+    0.6, // M (store, shop_ac, cafe_food, fountain, church) – default, AC body menší
   ] as ExpressionSpecification;
   // Základní zoom škála × tier multiplikátor.
   return [
@@ -527,6 +621,294 @@ function tierSizeExpr(): ExpressionSpecification {
     18,
     ["*", 1.08, tier],
   ] as ExpressionSpecification;
+}
+
+// ---------- Normalizace nově sloučených AC bodů do venue shape ----------
+
+// Mapování ac-culture subtype → jednotná kategorie (a tím ikona).
+function cultureCategory(subtype: string): Category {
+  switch (subtype) {
+    case "muzeum":
+      return "museum";
+    case "galerie":
+      return "gallery";
+    case "divadlo":
+      return "theatre";
+    case "kino":
+      return "cinema";
+    case "koncertní sál":
+    case "multifunkční sál":
+      return "concert";
+    case "kulturní institut":
+    case "kulturní dům":
+      return "museum"; // „culture" → reuse museum glyph
+    case "literární kavárna":
+      return "cafe_food";
+    case "aréna":
+      return "mall"; // velký areál → reuse mall/venue ikona
+    default:
+      return "museum";
+  }
+}
+
+function normalizeCulture(f: AcCultureFeature): VenueFeature {
+  const p = f.properties;
+  const props: VenueProperties = {
+    id: p.id,
+    name: p.name,
+    category: cultureCategory(p.subtype),
+    cooling: "ac",
+    typical_c: null,
+    free_entry: null,
+    opening_hours: null,
+    address: p.address ?? null,
+    source: p.source,
+    note: null,
+    tier: p.tier,
+    subtype: p.subtype,
+    web: p.web ?? null,
+    bezbar: p.bezbar,
+  };
+  return {
+    type: "Feature",
+    geometry: { type: "Point", coordinates: f.geometry.coordinates },
+    properties: props,
+  };
+}
+
+function normalizeShop(f: AcShopFeature): VenueFeature {
+  const p = f.properties;
+  const props: VenueProperties = {
+    id: p.id,
+    name: p.name,
+    category: "store", // drogerie i electronics → ikona „store"
+    cooling: "ac",
+    typical_c: null,
+    free_entry: null,
+    opening_hours: null,
+    address: null,
+    source: p.source,
+    note: null,
+    tier: p.tier,
+    brand: p.brand ?? null,
+    subtype: p.kind,
+  };
+  return {
+    type: "Feature",
+    geometry: { type: "Point", coordinates: f.geometry.coordinates },
+    properties: props,
+  };
+}
+
+function normalizeLibrary(f: LibraryFeature): VenueFeature {
+  const p = f.properties;
+  const open = computeOpenNow(p.opening_hours);
+  const props: VenueProperties = {
+    id: p.id,
+    name: p.name,
+    category: "library",
+    cooling: "ac",
+    typical_c: null,
+    free_entry: null,
+    opening_hours: null,
+    address: p.address ?? null,
+    source: p.source,
+    note: null,
+    tier: p.tier,
+    openLabel: open.label,
+    openState: open.state,
+  };
+  return {
+    type: "Feature",
+    geometry: { type: "Point", coordinates: f.geometry.coordinates },
+    properties: props,
+  };
+}
+
+// ---------- USP headline (počet AC míst) ----------
+
+function computeAcCount(o: {
+  acAreas: AcAreaCollection | null;
+  cultureTierA: number;
+  shops: number;
+  libraries: number;
+  venuesShopAc: number;
+}): number {
+  const areas = o.acAreas ? o.acAreas.features.length : 0;
+  return areas + o.cultureTierA + o.shops + o.libraries + o.venuesShopAc;
+}
+
+// České číslo s mezerou jako oddělovačem tisíců (1 286 → „1 286").
+function formatCountCs(n: number): string {
+  return n.toLocaleString("cs-CZ");
+}
+
+function renderUspBanner(count: number): void {
+  const banner = document.getElementById("usp-banner");
+  const headline = document.getElementById("usp-headline");
+  if (!banner || !headline || count <= 0) return;
+  headline.textContent = `❄ ${formatCountCs(count)} ${ui.usp.headlineSuffix}`;
+  banner.hidden = false;
+}
+
+// ---------- AC budovy jako celé plochy (ac-areas) ----------
+
+// Přidá ac-areas source + fill/outline/icon vrstvy. NAD zelenými areas, POD clustery.
+// Volitelné – když dataset chybí (null), nepřidá se nic. Ikony se registrují PŘED
+// icon vrstvou (jinak styleimagemissing).
+async function initAcAreas(
+  map: MlMap,
+  state: MapState,
+  acAreas: AcAreaCollection | null
+): Promise<void> {
+  if (!acAreas) return;
+
+  map.addSource(AC_AREAS_SOURCE_ID, { type: "geojson", data: acAreas });
+
+  const acColor = coolingColors["ac"]!;
+
+  // Výplň – chladná AC plocha, zoom-tapered opacity (na detailu nepřebíjí body).
+  map.addLayer({
+    id: AC_AREAS_FILL_ID,
+    type: "fill",
+    source: AC_AREAS_SOURCE_ID,
+    paint: {
+      "fill-color": acColor,
+      "fill-opacity": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        11,
+        0.22,
+        14,
+        0.2,
+        16,
+        0.14,
+      ],
+    },
+  });
+
+  // Obrys s blur → měkký okraj „do ztracena".
+  map.addLayer({
+    id: AC_AREAS_OUTLINE_ID,
+    type: "line",
+    source: AC_AREAS_SOURCE_ID,
+    paint: {
+      "line-color": acColor,
+      "line-blur": 3,
+      "line-width": ["interpolate", ["linear"], ["zoom"], 11, 2.5, 16, 4],
+      "line-opacity": 0.45,
+    },
+  });
+
+  // Velkou kategorickou ikonu v centroidu přidáme AŽ později (addAcAreasIconLayer),
+  // aby v z-orderu seděla NAD venue-glow, ale POD clustery. Ikony zaregistrujeme teď.
+  await registerAcAreaIcons(map);
+
+  // Klik na výplň → popup AC budovy. (Klik na ikonu se naváže v addAcAreasIconLayer.)
+  const onClick = (e: { features?: MapGeoJSONFeature[]; lngLat: { lng: number; lat: number } }): void => {
+    const f = e.features?.[0];
+    if (f) openAcAreaPopup(map, f, e.lngLat.lng, e.lngLat.lat);
+  };
+  map.on("click", AC_AREAS_ICON_ID, onClick);
+  map.on("click", AC_AREAS_FILL_ID, onClick);
+  for (const layer of [AC_AREAS_ICON_ID, AC_AREAS_FILL_ID]) {
+    map.on("mouseenter", layer, () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
+    map.on("mouseleave", layer, () => {
+      map.getCanvas().style.cursor = "";
+    });
+  }
+
+  // Počáteční viditelnost (fill/outline) dle „Klimatizace" chipu.
+  applyAcAreasVisibility(map, state);
+}
+
+// Přidá symbol vrstvu s velkou ikonou AC budovy. Voláno AŽ po venue-glow a PŘED
+// clusters-halo → sekvenčním append-em sedí ikona NAD venue-glow, ale POD clustery
+// (přesně dle požadovaného z-orderu). Předpoklad: initAcAreas už proběhl (source
+// existuje, ikony zaregistrované).
+function addAcAreasIconLayer(map: MlMap, state: MapState): void {
+  if (!map.getSource(AC_AREAS_SOURCE_ID)) return; // dataset chyběl → nic
+  if (map.getLayer(AC_AREAS_ICON_ID)) return;
+  map.addLayer({
+    id: AC_AREAS_ICON_ID,
+    type: "symbol",
+    source: AC_AREAS_SOURCE_ID,
+    layout: {
+      "icon-image": [
+        "match",
+        ["get", "kind"],
+        "mall",
+        "icon-acarea-mall",
+        "hypermarket",
+        "icon-acarea-hypermarket",
+        "department_store",
+        "icon-acarea-department_store",
+        "diy",
+        "icon-acarea-diy",
+        "ikea",
+        "icon-acarea-ikea",
+        "icon-acarea-mall",
+      ],
+      "icon-allow-overlap": true,
+      "icon-ignore-placement": true,
+      "icon-anchor": "center",
+      // XL – větší než běžné body (celá budova = velký areál).
+      "icon-size": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        11,
+        0.4,
+        14,
+        0.7,
+        16,
+        1.0,
+        18,
+        1.15,
+      ],
+    },
+  });
+  // Po přidání srovnej viditelnost dle aktivního chipu.
+  applyAcAreasVisibility(map, state);
+}
+
+// AC budovy se zobrazují, jen když je aktivní „ac" chip.
+function applyAcAreasVisibility(map: MlMap, state: MapState): void {
+  const visible = state.active.has("ac") ? "visible" : "none";
+  for (const id of [AC_AREAS_FILL_ID, AC_AREAS_OUTLINE_ID, AC_AREAS_ICON_ID]) {
+    if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visible);
+  }
+}
+
+function openAcAreaPopup(
+  map: MlMap,
+  feature: MapGeoJSONFeature,
+  lng: number,
+  lat: number
+): void {
+  const p = feature.properties as Record<string, unknown>;
+  const name = String(p["name"] ?? "");
+  const kind = String(p["kind"] ?? "");
+  const kindLabel = AC_AREA_KIND_LABEL[kind] ?? kind;
+  const source = String(p["source"] ?? "");
+  const acColor = coolingColors["ac"]!;
+
+  const html = `
+    <div class="popup popup-acarea">
+      <span class="ac-badge ac-badge-a" style="--ac-color:${acColor}">${escapeHtml(ui.popup.acTierA)}</span>
+      <h3>${escapeHtml(name)}</h3>
+      <p class="acarea-note">${escapeHtml(ui.popup.acAreaNote)}</p>
+      <dl><dt>${escapeHtml(ui.popup.kindLabel)}</dt><dd>${escapeHtml(kindLabel)}</dd></dl>
+      <p class="overlay-source">${escapeHtml(ui.popup.sourceLabel)}: ${escapeHtml(source)}</p>
+    </div>`;
+
+  new maplibregl.Popup({ closeButton: true, maxWidth: "280px", focusAfterOpen: true })
+    .setLngLat([lng, lat])
+    .setHTML(html)
+    .addTo(map);
 }
 
 // Plošné overlay vrstvy úplně dole (jen nad basemapem). Volitelné – graceful skip.
@@ -667,6 +1049,8 @@ function coolingFilter(active: Set<Cooling>): ExpressionSpecification {
 }
 
 function applyFilter(map: MlMap, state: MapState): void {
+  // AC budovy (ac-areas) řídí „ac" chip – přepínáme i když venues-point ještě není.
+  applyAcAreasVisibility(map, state);
   if (!map.getLayer("venues-point")) return;
   map.setFilter("venues-point", [
     "all",
@@ -754,18 +1138,84 @@ function openPopup(map: MlMap, feature: MapGeoJSONFeature): void {
       ? chipIconSvg(cooling)
       : "";
 
+  const acColor = coolingColors["ac"]!;
+
+  // AC tier badge: A = autoritativně klimatizováno, B = vnitřní útočiště.
+  const tier = p["tier"];
+  let tierHtml = "";
+  if (tier === "A") {
+    tierHtml = `<span class="ac-badge ac-badge-a" style="--ac-color:${acColor}">${escapeHtml(ui.popup.acTierA)}</span>`;
+  } else if (tier === "B") {
+    tierHtml = `<span class="ac-badge ac-badge-b">${escapeHtml(ui.popup.acTierB)}</span>`;
+  }
+
+  // Knihovny: „Otevřeno teď · do HH:MM" (zeleně) / „Zavřeno · …" (ztlumeně).
+  let openNowHtml = "";
+  const openLabel = p["openLabel"];
+  const openState = p["openState"];
+  if (typeof openLabel === "string" && openLabel) {
+    const cls = openState === "open" ? "open" : "closed";
+    openNowHtml = `<p class="open-now ${cls}">${escapeHtml(openLabel)}</p>`;
+  }
+
+  // Kultura: subtype + bezbariérovost (♿).
+  let subtypeHtml = "";
+  const subtype = p["subtype"];
+  if (typeof subtype === "string" && subtype && p["category"] !== "store") {
+    subtypeHtml = `<span class="popup-subtype">${escapeHtml(subtype)}</span>`;
+  }
+  let bezbarHtml = "";
+  if (p["bezbar"] === true) {
+    bezbarHtml = `<span class="popup-bezbar" title="${escapeHtml(ui.popup.bezbar)}">♿ ${escapeHtml(ui.popup.bezbar)}</span>`;
+  }
+
+  // Prodejny: značka.
+  let brandHtml = "";
+  const brand = p["brand"];
+  if (typeof brand === "string" && brand) {
+    brandHtml = `<dl><dt>${escapeHtml(ui.popup.brandLabel)}</dt><dd>${escapeHtml(brand)}</dd></dl>`;
+  }
+
+  // Adresa (kultura/knihovny) + web (kultura).
+  let addressHtml = "";
+  const address = p["address"];
+  if (typeof address === "string" && address) {
+    addressHtml = `<p class="popup-address">${escapeHtml(address)}</p>`;
+  }
+  let webHtml = "";
+  const web = p["web"];
+  if (typeof web === "string" && web) {
+    const href = web.startsWith("http") ? web : `https://${web}`;
+    webHtml = `<a class="popup-web" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(web)}</a>`;
+  }
+
+  // Zdroj (jen u sloučených AC bodů, kde nese smysl – tier present).
+  let sourceHtml = "";
+  const source = p["source"];
+  if (tier && typeof source === "string" && source) {
+    sourceHtml = `<p class="overlay-source">${escapeHtml(ui.popup.sourceLabel)}: ${escapeHtml(source)}</p>`;
+  }
+
   const html = `
     <div class="popup">
       <h3>${escapeHtml(name)}</h3>
+      ${subtypeHtml}
+      ${tierHtml}
       <span class="popup-cooling" style="--chip-accent:${dotColor}">
         <span class="popup-cooling-icon" style="color:${dotColor}" aria-hidden="true">${coolingIcon}</span>
         ${escapeHtml(ui.popup.coolingLabel)}: ${escapeHtml(coolingLabel)}
       </span>
+      ${openNowHtml}
+      ${bezbarHtml}
       ${openingHtml}
       ${freeHtml}
+      ${brandHtml}
+      ${addressHtml}
+      ${webHtml}
       <a class="btn-navigate" href="${navUrl}" target="_blank" rel="noopener noreferrer">
         🧭 ${escapeHtml(ui.popup.navigate)}
       </a>
+      ${sourceHtml}
     </div>
   `;
 

@@ -50,6 +50,12 @@ export const categoryColor: Record<string, string> = {
   cinema: "#2D7FB8",
   shop_ac: "#0FB5CE",
   cafe_food: "#2BA6BE",
+  // Nově sloučené AC kategorie (kultura + prodejny) – stejná tyrkysová rodina,
+  // drobně laděné odstíny pro vizuální pestrost.
+  theatre: "#2487C0",
+  concert: "#1C9BBE",
+  gallery: "#159FC8",
+  store: "#12AEC9",
   // Voda (modré odstíny)
   pool: "#2C7DE0",
   fountain: "#2C9BE0",
@@ -57,4 +63,13 @@ export const categoryColor: Record<string, string> = {
   church: "#1C7E8C",
   // Stín a parky
   park: "#3FA85C",
+};
+
+// Barvy AC-budov (ac-areas) podle kind – tyrkysová klimatizační rodina.
+export const acAreaColor: Record<string, string> = {
+  mall: "#0FB5CE",
+  hypermarket: "#15A8C6",
+  department_store: "#1C9BBE",
+  diy: "#2487C0",
+  ikea: "#0F9FC0",
 };
