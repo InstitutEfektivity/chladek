@@ -15,3 +15,7 @@ data/.venv/
 # lokalni verifikacni artefakty
 _*.png
 _*.cjs
+
+# secrets
+.env
+.env.*

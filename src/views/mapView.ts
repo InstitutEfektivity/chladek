@@ -21,6 +21,7 @@ import {
   uvCategory,
   aqiCategory,
 } from "../lib/airquality.ts";
+import { fetchAirStations } from "../lib/airStations.ts";
 import { haversine, escapeHtml } from "../lib/geo.ts";
 import type {
   Cooling,
@@ -33,6 +34,11 @@ import type {
 const COOLINGS: Cooling[] = ["ac", "natural", "water", "shade"];
 const HEAT_THRESHOLD = 31; // apparent_temperature [°C]
 const SOURCE_ID = "venues";
+
+// Samostatná datová vrstva: stanice kvality ovzduší (Golemio). Vlastní source,
+// BEZ clusteru – nesmí se míchat do chládek-bodů ani do geolokačního „3 nejbližší".
+const AIR_SOURCE_ID = "air-stations";
+const AIR_LAYER_ID = "air-stations-point";
 
 const coolingLabels: Record<Cooling, string> = {
   ac: ui.filters.ac,
@@ -89,6 +95,12 @@ export function renderMapView(root: HTMLElement): () => void {
             </button>`
           ).join("")}
         </fieldset>
+        <div class="overlay-toggles" role="group" aria-label="Datové vrstvy">
+          <button type="button" class="chip chip-overlay" id="air-stations-toggle" aria-pressed="false">
+            <span class="chip-dot chip-dot-air" aria-hidden="true"></span>
+            ${escapeHtml(ui.airStations.toggle)}
+          </button>
+        </div>
         <div class="locate-wrap">
           <button type="button" class="btn btn-primary" id="locate-btn">
             <span class="btn-icon" aria-hidden="true">📍</span>
@@ -146,6 +158,7 @@ export function renderMapView(root: HTMLElement): () => void {
     });
     map.on("load", () => {
       if (map) void initData(map, state);
+      if (map) void initAirStations(map);
     });
   }
 
@@ -179,6 +192,20 @@ export function renderMapView(root: HTMLElement): () => void {
       if (map) applyFilter(map, state);
     });
   }
+
+  // Přepínač overlay vrstvy „Ovzduší (stanice)" – přepíná visibility air vrstvy.
+  const airToggle = root.querySelector<HTMLButtonElement>("#air-stations-toggle");
+  airToggle?.addEventListener("click", () => {
+    if (!map || !map.getLayer(AIR_LAYER_ID)) return;
+    const visible =
+      map.getLayoutProperty(AIR_LAYER_ID, "visibility") === "visible";
+    const next = visible ? "none" : "visible";
+    map.setLayoutProperty(AIR_LAYER_ID, "visibility", next);
+    if (map.getLayer(`${AIR_LAYER_ID}-halo`)) {
+      map.setLayoutProperty(`${AIR_LAYER_ID}-halo`, "visibility", next);
+    }
+    airToggle.setAttribute("aria-pressed", visible ? "false" : "true");
+  });
 
   // Geolokace „3 nejbližší chládky"
   const locateBtn = root.querySelector<HTMLButtonElement>("#locate-btn");
@@ -382,6 +409,135 @@ function openPopup(map: MlMap, feature: MapGeoJSONFeature): void {
       <a class="btn-navigate" href="${navUrl}" target="_blank" rel="noopener noreferrer">
         🧭 ${escapeHtml(ui.popup.navigate)}
       </a>
+    </div>
+  `;
+
+  new maplibregl.Popup({ closeButton: true, maxWidth: "280px", focusAfterOpen: true })
+    .setLngLat([lon, lat])
+    .setHTML(html)
+    .addTo(map);
+}
+
+// ---------- Stanice kvality ovzduší (Golemio) – samostatná overlay vrstva ----------
+
+async function initAirStations(map: MlMap): Promise<void> {
+  // Živě z raw GitHub (cron, hodinově) → fallback lokální snapshot.
+  const data = await fetchAirStations();
+  if (!data) {
+    console.warn("Stanice ovzduší nedostupné – vrstva se nepřidá.");
+    return;
+  }
+
+  map.addSource(AIR_SOURCE_ID, {
+    type: "geojson",
+    data,
+    // Žádný cluster – stanice jsou samostatná datová vrstva.
+  });
+
+  // Výrazně odlišný styl od chládek-bodů: barva dle aqColor, silný bílý obrys
+  // + halo (druhý stroke přes blur), defaultně skryté.
+  map.addLayer({
+    id: `${AIR_LAYER_ID}-halo`,
+    type: "circle",
+    source: AIR_SOURCE_ID,
+    layout: { visibility: "none" },
+    paint: {
+      "circle-color": "rgba(22,64,94,0.18)",
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 11, 16, 15],
+      "circle-blur": 0.6,
+    },
+  });
+  map.addLayer({
+    id: AIR_LAYER_ID,
+    type: "circle",
+    source: AIR_SOURCE_ID,
+    layout: { visibility: "none" },
+    paint: {
+      "circle-color": ["get", "aqColor"],
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 7, 16, 9],
+      "circle-stroke-width": 2.75,
+      "circle-stroke-color": "#FFFFFF",
+    },
+  });
+
+  // Klik na stanici → popup.
+  map.on("click", AIR_LAYER_ID, (e) => {
+    const feature = e.features?.[0];
+    if (!feature) return;
+    openStationPopup(map, feature);
+  });
+  map.on("mouseenter", AIR_LAYER_ID, () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+  map.on("mouseleave", AIR_LAYER_ID, () => {
+    map.getCanvas().style.cursor = "";
+  });
+}
+
+function formatUpdatedAt(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mm = String(d.getMinutes()).padStart(2, "0");
+  return `${hh}:${mm}`;
+}
+
+function openStationPopup(map: MlMap, feature: MapGeoJSONFeature): void {
+  if (feature.geometry.type !== "Point") return;
+  const [lon, lat] = feature.geometry.coordinates as [number, number];
+  const p = feature.properties as Record<string, unknown>;
+
+  const name = String(p["name"] ?? "");
+  const aqLabel = String(p["aqLabel"] ?? "");
+  const aqColor = String(p["aqColor"] ?? "#888");
+
+  // components může přijít jako string (geojson properties se serializují).
+  let components: { type: string; value: number }[] = [];
+  const rawComp = p["components"];
+  if (typeof rawComp === "string") {
+    try {
+      components = JSON.parse(rawComp) as { type: string; value: number }[];
+    } catch {
+      components = [];
+    }
+  } else if (Array.isArray(rawComp)) {
+    components = rawComp as { type: string; value: number }[];
+  }
+
+  const componentLabels: Record<string, string> = {
+    NO2: "NO₂",
+    PM10: "PM10",
+    PM2_5: "PM2,5",
+    O3: "O₃",
+    SO2: "SO₂",
+    CO: "CO",
+  };
+
+  const compHtml = components.length
+    ? `<dl class="air-components">${components
+        .map((c) => {
+          const label = componentLabels[c.type] ?? escapeHtml(c.type);
+          const val = Number(c.value);
+          const valStr = Number.isFinite(val)
+            ? `${Math.round(val * 10) / 10} µg/m³`
+            : "–";
+          return `<div><dt>${label}</dt><dd>${escapeHtml(valStr)}</dd></div>`;
+        })
+        .join("")}</dl>`
+    : "";
+
+  const updated = formatUpdatedAt(String(p["updatedAt"] ?? ""));
+  const updatedHtml = updated
+    ? `<p class="air-updated">${escapeHtml(ui.airStations.updatedAt)} ${escapeHtml(updated)}</p>`
+    : "";
+
+  const html = `
+    <div class="popup popup-air">
+      <span class="air-kicker">${escapeHtml(ui.airStations.popupTitle)}</span>
+      <h3>${escapeHtml(name)}</h3>
+      <span class="air-label" style="background:${escapeHtml(aqColor)}">${escapeHtml(aqLabel)}</span>
+      ${compHtml}
+      ${updatedHtml}
     </div>
   `;
 

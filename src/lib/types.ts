@@ -62,3 +62,33 @@ export interface AirQuality {
   ozone: number;
   pm25: number;
 }
+
+// Měřená složka ovzduší na stanici (Golemio).
+export interface AirComponent {
+  type: string; // "NO2" | "PM10" | "PM2_5" | "O3" | "SO2" | …
+  value: number;
+}
+
+// Stanice kvality ovzduší – schéma public/data/air-quality-stations.geojson
+// (Golemio / Pražská datová platforma, hodinová aktualizace přes cron).
+export interface AirStationProperties {
+  id: string;
+  name: string;
+  district: string;
+  aqIndex: number | null;
+  aqLabel: string;
+  aqColor: string;
+  components: AirComponent[];
+  updatedAt: string;
+}
+
+export interface AirStationFeature {
+  type: "Feature";
+  geometry: { type: "Point"; coordinates: [number, number] };
+  properties: AirStationProperties;
+}
+
+export interface AirStationCollection {
+  type: "FeatureCollection";
+  features: AirStationFeature[];
+}
