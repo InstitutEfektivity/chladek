@@ -412,6 +412,35 @@ a {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
+/* Filtrační chip ochlazení: ikona místo barevné tečky. Barevný accent (--chip-accent)
+   je barva daného typu ochlazení. Inaktivní = barevná ikona na světlém chipu,
+   aktivní = bílá ikona na primary chipu s barevným levým proužkem. */
+.chip-cooling {
+  position: relative;
+  overflow: hidden;
+}
+.chip .chip-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 1.05rem;
+  height: 1.05rem;
+}
+.chip .chip-icon .chip-glyph {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.chip-cooling[aria-pressed="true"] {
+  /* Barevný accent zůstane čitelný i v aktivním stavu – tenký levý proužek. */
+  box-shadow: var(--shadow-card), inset 4px 0 0 var(--chip-accent, var(--color-accent));
+}
+.chip-cooling[aria-pressed="true"] .chip-icon {
+  /* Bílá ikona na tmavém aktivním chipu (currentColor přebije inline color). */
+  color: #fff !important;
+}
+
 /* Overlay přepínač datové vrstvy – vizuálně oddělený od filtrů ochlazení.
    Filtry vlevo filtrují chládek-body, tohle zapíná jinou datovou vrstvu. */
 .overlay-toggles {
@@ -530,6 +559,19 @@ a {
   width: 9px;
   height: 9px;
   border-radius: 50%;
+}
+.popup .popup-cooling .popup-cooling-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.95rem;
+  height: 0.95rem;
+  flex: 0 0 auto;
+}
+.popup .popup-cooling .popup-cooling-icon .chip-glyph {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 .popup dl {
   margin: 0 0 var(--space-2);

@@ -1,0 +1,919 @@
+{
+ "type": "FeatureCollection",
+ "generatedAt": "2026-06-26T12:05:05Z",
+ "source": "PID / ROPID – otevrena data (data.pid.cz)",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403325,
+     50.07125
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1040",
+    "name": "Anděl",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.364062,
+     50.09857
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-157",
+    "name": "Bořislavka",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448261,
+     50.044884
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-50",
+    "name": "Budějovická",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.49133,
+     50.031216
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-52",
+    "name": "Chodov",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.39318,
+     50.100925
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-321",
+    "name": "Dejvická",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.516775,
+     50.07663
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1071",
+    "name": "Depo Hostivař",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.438757,
+     50.09069
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-689",
+    "name": "Florenc",
+    "lines": "B, C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434802,
+     50.08367
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-142",
+    "name": "Hlavní nádraží",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.537131,
+     50.106262
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-135",
+    "name": "Hloubětín",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404309,
+     50.097504
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-163",
+    "name": "Hradčanská",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.526843,
+     50.0305
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-286",
+    "name": "Háje",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.341648,
+     50.049637
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1154",
+    "name": "Hůrka",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430216,
+     50.074825
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-190",
+    "name": "I. P. Pavlova",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.463955,
+     50.09726
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-655",
+    "name": "Invalidovna",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.370647,
+     50.054466
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-685",
+    "name": "Jinonice",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.44971,
+     50.077526
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-209",
+    "name": "Jiřího z Poděbrad",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418516,
+     50.07529
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-237",
+    "name": "Karlovo náměstí",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460325,
+     50.041855
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-228",
+    "name": "Kačerov",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.45447,
+     50.124302
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-675",
+    "name": "Kobylisy",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.516142,
+     50.110497
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-75",
+    "name": "Kolbenova",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.451389,
+     50.09329
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-758",
+    "name": "Křižíkova",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.51615,
+     50.125614
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1000",
+    "name": "Letňany",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.321302,
+     50.045437
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1007",
+    "name": "Luka",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.330442,
+     50.044495
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-258",
+    "name": "Lužiny",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.469755,
+     50.126427
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-78",
+    "name": "Ládví",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.41006,
+     50.091072
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-360",
+    "name": "Malostranská",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432169,
+     50.079643
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-400",
+    "name": "Muzeum",
+    "lines": "A, C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.423973,
+     50.08347
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1072",
+    "name": "Můstek",
+    "lines": "A, B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.340787,
+     50.074974
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-306",
+    "name": "Nemocnice Motol",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.352276,
+     50.050976
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-602",
+    "name": "Nové Butovice",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.439463,
+     50.10899
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-115",
+    "name": "Nádraží Holešovice",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.34701,
+     50.095757
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-462",
+    "name": "Nádraží Veleslavín",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.438079,
+     50.07506
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-476",
+    "name": "Náměstí Míru",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429947,
+     50.088703
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-480",
+    "name": "Náměstí Republiky",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.41992,
+     50.080585
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-539",
+    "name": "Národní třída",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.508345,
+     50.027786
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-106",
+    "name": "Opatov",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.474836,
+     50.103676
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-529",
+    "name": "Palmovka",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.439524,
+     50.05092
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-385",
+    "name": "Pankrác",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.344923,
+     50.087517
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-507",
+    "name": "Petřiny",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434179,
+     50.056084
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-597",
+    "name": "Pražského povstání",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.498221,
+     50.119286
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-603",
+    "name": "Prosek",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.388811,
+     50.058514
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-957",
+    "name": "Radlická",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.559867,
+     50.106567
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-818",
+    "name": "Rajská zahrada",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.477663,
+     50.037663
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-601",
+    "name": "Roztyly",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507793,
+     50.068222
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-953",
+    "name": "Skalka",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.40922,
+     50.060818
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-458",
+    "name": "Smíchovské nádraží",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.416452,
+     50.08864
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-703",
+    "name": "Staroměstská",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.307148,
+     50.046642
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1140",
+    "name": "Stodůlky",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.491074,
+     50.072693
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-713",
+    "name": "Strašnická",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.489244,
+     50.126347
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-332",
+    "name": "Střížkov",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.438374,
+     50.098885
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-100",
+    "name": "Vltavská",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.502042,
+     50.110653
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-474",
+    "name": "Vysočanská",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.431242,
+     50.060806
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-527",
+    "name": "Vyšehrad",
+    "lines": "C",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.290154,
+     50.054676
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-1141",
+    "name": "Zličín",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.577422,
+     50.108975
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-897",
+    "name": "Černý Most",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.492237,
+     50.105965
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-510",
+    "name": "Českomoravská",
+    "lines": "B",
+    "source": "PID / ROPID"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.473983,
+     50.078507
+    ]
+   },
+   "properties": {
+    "id": "pid-metro-921",
+    "name": "Želivského",
+    "lines": "A",
+    "source": "PID / ROPID"
+   }
+  }
+ ]
+}
