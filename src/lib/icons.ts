@@ -1,6 +1,6 @@
 import type { Map as MlMap } from "maplibre-gl";
 import type { Cooling, Category } from "./types.ts";
-import { coolingColors, categoryColor } from "./mapStyle.ts";
+import { coolingColors, categoryColor, acAreaColor } from "./mapStyle.ts";
 
 // Ikonografie chládek-bodů. Dependency-free: každý marker je inline SVG vykreslený
 // jako rastr (HTMLImageElement) přes map.addImage().
@@ -120,7 +120,88 @@ const CATEGORY_GLYPHS: Record<Category, Glyph> = {
       "M8.6 3.6 7.8 5.6M11.6 3.6l-.8 2M14.6 3.6l-.8 2",
     ],
   },
+  // Divadlo → divadelní masky / opona (zde: masky komedie/tragédie zjednodušeně
+  // jako oblouk opony se dvěma „oponami"). Čteme jako jeviště s oponou.
+  theatre: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M4 5h16",
+      "M6 5c0 6 .5 9-2 12 3 .5 5-1 5-4V5",
+      "M18 5c0 6-.5 9 2 12-3 .5-5-1-5-4V5",
+    ],
+  },
+  // Koncertní / multifunkční sál → hudební nota.
+  concert: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M9 18V5l10-2v13",
+      "M9 8l10-2",
+    ],
+  },
+  // Galerie → obraz v rámu (rám + horský motiv + slunce).
+  gallery: {
+    filled: false,
+    strokeWidth: 1.8,
+    paths: [
+      "M4 5h16v14H4z",
+      "M4 16l4.5-5 3.5 3.5L15.5 10 20 15",
+      "M8.7 9.3a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z",
+    ],
+  },
+  // Klimatizovaná prodejna → výloha / pult s markýzou.
+  store: {
+    filled: false,
+    strokeWidth: 1.8,
+    paths: [
+      "M4 9.5 5.2 5h13.6L20 9.5",
+      "M4 9.5h16a2.4 2.4 0 0 1-4.8 0 2.4 2.4 0 0 1-4.8 0 2.4 2.4 0 0 1-4.8 0A2.4 2.4 0 0 1 4 9.5z",
+      "M5.5 11.5V20h13v-8.5",
+      "M9.5 20v-4.5h5V20",
+    ],
+  },
 };
+
+// ---------- Glyphy AC-budov (ac-areas symbol vrstva) ----------
+// Velké XL ikony do centroidu polygonu. Sdílejí squircle badge renderer.
+const AC_AREA_GLYPHS: Record<string, Glyph> = {
+  // Obchoďák → nákupní taška (reuse mall glyph).
+  mall: CATEGORY_GLYPHS.mall,
+  // Obchodní dům → reuse taška.
+  department_store: CATEGORY_GLYPHS.mall,
+  // Hypermarket → nákupní vozík.
+  hypermarket: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M3 4h2l2.2 11.2a1.5 1.5 0 0 0 1.5 1.2h7.6a1.5 1.5 0 0 0 1.5-1.2L20.5 7H6",
+    ],
+  },
+  // DIY / hobby market → klíč + šroubovák (nářadí).
+  diy: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M14.5 6.5a3.5 3.5 0 0 0-4.6 4.3L3.5 17.2 6.3 20l6.4-6.4a3.5 3.5 0 0 0 4.3-4.6l-2.2 2.2-1.9-.5-.5-1.9z",
+      "M5 17.5 8 20",
+    ],
+  },
+  // IKEA → reuse taška (obchoďák/nábytek).
+  ikea: CATEGORY_GLYPHS.mall,
+};
+
+const AC_AREA_KINDS = [
+  "mall",
+  "hypermarket",
+  "department_store",
+  "diy",
+  "ikea",
+] as const;
+
+function acAreaIconId(kind: string): string {
+  return `icon-acarea-${kind}`;
+}
 
 // ---------- Cooling glyphy (chipy + popupy) ----------
 // Pro filtrační chipy a popupy potřebujeme glyph podle COOLINGU (4 typy), ne kategorie.
@@ -149,6 +230,10 @@ const CATEGORIES: Category[] = [
   "park",
   "shop_ac",
   "cafe_food",
+  "theatre",
+  "concert",
+  "gallery",
+  "store",
 ];
 
 function venueIconId(category: Category): string {
@@ -254,6 +339,25 @@ export async function registerVenueIcons(map: MlMap): Promise<void> {
       // Druhá kontrola: mezi awaitem mohl obrázek doplnit jiný běh.
       if (!map.hasImage(id)) {
         // pixelRatio 2 → base 128 px se vykreslí jako ~64 px @ icon-size 1.
+        map.addImage(id, img, { pixelRatio: 2 });
+      }
+    })
+  );
+}
+
+// Zaregistruje ikony AC-budov (icon-acarea-<kind>) pro symbol vrstvu nad ac-areas
+// polygony. Stejný squircle badge renderer, barvy z acAreaColor. MUSÍ proběhnout
+// PŘED přidáním ac-areas-icon vrstvy (jinak styleimagemissing).
+export async function registerAcAreaIcons(map: MlMap): Promise<void> {
+  await Promise.all(
+    AC_AREA_KINDS.map(async (kind) => {
+      const id = acAreaIconId(kind);
+      if (map.hasImage(id)) return;
+      const color = acAreaColor[kind] ?? coolingColors["ac"]!;
+      const glyph = AC_AREA_GLYPHS[kind];
+      if (!glyph) return;
+      const img = await loadSvgImage(badgeSvg(color, glyph, `acarea-${kind}`));
+      if (!map.hasImage(id)) {
         map.addImage(id, img, { pixelRatio: 2 });
       }
     })

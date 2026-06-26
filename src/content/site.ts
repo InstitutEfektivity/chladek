@@ -66,9 +66,24 @@ export const ui = {
     freeNo: "Vstupné",
     navigate: "Navigovat",
     sourceLabel: "Zdroj",
+    // AC tier badge (autorita klimatizace).
+    acTierA: "Klimatizováno",
+    acTierB: "Vnitřní útočiště",
+    // AC budovy (ac-areas).
+    acAreaNote: "Klimatizovaná budova – volně přístupná v otevírací době",
+    kindLabel: "Typ",
+    // Prodejny.
+    brandLabel: "Značka",
+    // Bezbariérovost (kultura).
+    bezbar: "Bezbariérový přístup",
+  },
+  // USP headline (viral hook) – počet se dopočítá z dat za běhu.
+  usp: {
+    headlineSuffix: "klimatizovaných veřejných míst v Praze",
+    subtitle: "Jediná mapa, která ti ukáže, kam zdarma do klimatizace.",
   },
   attribution:
-    "Data: © OpenStreetMap přispěvatelé (ODbL) · IPR Praha „Oázy chladu“ – pítka i mlžítka (CC BY) · Open-Meteo · ČHMÚ – výstrahy i naměřené teploty · Golemio (Operátor ICT) – stanice ovzduší i pouliční teplotní čidla · PID / ROPID – stanice metra · podklad © CARTO",
+    "Data: © OpenStreetMap přispěvatelé (ODbL) · IPR Praha „Oázy chladu“ – pítka i mlžítka (CC BY) · IPR Praha – kulturní zařízení (ÚAP) · Městská knihovna v Praze / Golemio · Open-Meteo · ČHMÚ – výstrahy i naměřené teploty · Golemio (Operátor ICT) – stanice ovzduší i pouliční teplotní čidla · PID / ROPID – stanice metra · podklad © CARTO",
   footer: {
     byline: "Projekt Institutu efektivity",
     note: "Ukázka toho, co umí otevřená data, když je někdo poskládá do užitečné služby.",

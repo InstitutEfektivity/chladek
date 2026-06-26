@@ -1,0 +1,3431 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "title": "Chladek - znackove klimatizovane prodejny jako body (drogerie, elektro)",
+  "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
+  "generated": "2026-06-26T21:33:44Z",
+  "count": 180
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.509482,
+     50.068133
+    ]
+   },
+   "properties": {
+    "id": "osm-node-299755183",
+    "name": "H&H",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.3968,
+     50.100018
+    ]
+   },
+   "properties": {
+    "id": "osm-node-303427496",
+    "name": "Dejvická drogerie",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.528711,
+     50.031356
+    ]
+   },
+   "properties": {
+    "id": "osm-node-305307828",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418999,
+     50.076546
+    ]
+   },
+   "properties": {
+    "id": "osm-node-305805889",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.538087,
+     50.105427
+    ]
+   },
+   "properties": {
+    "id": "osm-node-309103001",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.529801,
+     50.031086
+    ]
+   },
+   "properties": {
+    "id": "osm-node-312716742",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.43421,
+     50.099035
+    ]
+   },
+   "properties": {
+    "id": "osm-node-317919206",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449416,
+     50.077042
+    ]
+   },
+   "properties": {
+    "id": "osm-node-322990359",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.457064,
+     50.082197
+    ]
+   },
+   "properties": {
+    "id": "osm-node-331450985",
+    "name": "PeMi drogerie",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.452613,
+     50.084032
+    ]
+   },
+   "properties": {
+    "id": "osm-node-332311844",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403833,
+     50.071594
+    ]
+   },
+   "properties": {
+    "id": "osm-node-338836219",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433669,
+     50.075301
+    ]
+   },
+   "properties": {
+    "id": "osm-node-353721698",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.402877,
+     50.097963
+    ]
+   },
+   "properties": {
+    "id": "osm-node-354984788",
+    "name": "Top Drogerie",
+    "brand": "Top drogerie",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.391607,
+     50.099953
+    ]
+   },
+   "properties": {
+    "id": "osm-node-355300858",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449745,
+     50.102023
+    ]
+   },
+   "properties": {
+    "id": "osm-node-357552813",
+    "name": "Čistírna",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.363803,
+     50.083555
+    ]
+   },
+   "properties": {
+    "id": "osm-node-360639081",
+    "name": "TOP Drogerie",
+    "brand": "TOP Drogerie",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.363992,
+     50.083914
+    ]
+   },
+   "properties": {
+    "id": "osm-node-360639087",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.427242,
+     50.083365
+    ]
+   },
+   "properties": {
+    "id": "osm-node-361241024",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.420193,
+     50.082456
+    ]
+   },
+   "properties": {
+    "id": "osm-node-366279299",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.571245,
+     50.109498
+    ]
+   },
+   "properties": {
+    "id": "osm-node-382680459",
+    "name": "Electro World, Chlumecká, Praha",
+    "brand": null,
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424452,
+     50.080744
+    ]
+   },
+   "properties": {
+    "id": "osm-node-457719602",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.489664,
+     50.075973
+    ]
+   },
+   "properties": {
+    "id": "osm-node-539123276",
+    "name": "Top Drogerie",
+    "brand": "Top drogerie",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.49049,
+     50.074682
+    ]
+   },
+   "properties": {
+    "id": "osm-node-539147343",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425217,
+     50.064851
+    ]
+   },
+   "properties": {
+    "id": "osm-node-539781245",
+    "name": "drogerie",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.494079,
+     50.125336
+    ]
+   },
+   "properties": {
+    "id": "osm-node-575682703",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.47,
+     50.126724
+    ]
+   },
+   "properties": {
+    "id": "osm-node-662716891",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.422124,
+     50.09972
+    ]
+   },
+   "properties": {
+    "id": "osm-node-669212049",
+    "name": "Letenská drogerie",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424919,
+     50.100123
+    ]
+   },
+   "properties": {
+    "id": "osm-node-669212053",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434044,
+     50.08947
+    ]
+   },
+   "properties": {
+    "id": "osm-node-871303202",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.5028,
+     50.135747
+    ]
+   },
+   "properties": {
+    "id": "osm-node-895788135",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.492598,
+     50.025667
+    ]
+   },
+   "properties": {
+    "id": "osm-node-941479685",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404296,
+     50.076019
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1070547848",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.473227,
+     50.104832
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1134868232",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418454,
+     50.075552
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1254092422",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.331634,
+     50.044159
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1433645900",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.392774,
+     49.975846
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1437639434",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.423534,
+     50.085544
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1542359330",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403618,
+     50.071815
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1719868325",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440582,
+     50.073292
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1753956485",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445266,
+     50.062246
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1806444432",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.468812,
+     50.1273
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2125021798",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.477996,
+     50.070407
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2203073697",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.455638,
+     50.068871
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2213334780",
+    "name": "Tante",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.439853,
+     50.092126
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2228717936",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.456714,
+     50.06897
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2260242078",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417328,
+     50.005936
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2322847255",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425016,
+     50.100122
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2358393437",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.452919,
+     50.078657
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2409213412",
+    "name": "label.m",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441612,
+     50.072902
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2411559569",
+    "name": "Květova drogerie",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.285261,
+     50.052604
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2508160882",
+    "name": "Electro World",
+    "brand": null,
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448602,
+     50.04468
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2537573836",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.439904,
+     50.064818
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2601149576",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445446,
+     50.099648
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2691013563",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.423659,
+     50.088108
+    ]
+   },
+   "properties": {
+    "id": "osm-node-2989896328",
+    "name": "Botanicus",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.414696,
+     50.035301
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3155474100",
+    "name": "U Noháčů",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.533961,
+     50.031396
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3218890845",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435432,
+     50.088894
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3268506756",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424476,
+     50.08113
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3268515401",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.3929,
+     50.11239
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3269624081",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432046,
+     50.074515
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3298049948",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.349338,
+     50.088955
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3329544898",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.444803,
+     50.09267
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3364070144",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.405917,
+     50.097269
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3413954375",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429061,
+     50.080713
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3553381793",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450173,
+     50.105338
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3578094312",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.6078,
+     50.122854
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3604575864",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419819,
+     50.081356
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3618398189",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.45665,
+     50.087099
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3623039746",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415819,
+     50.068777
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3625372998",
+    "name": "Drogerie",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.583763,
+     50.10779
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3766045668",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.574283,
+     50.105435
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3775290000",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419178,
+     50.127712
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3800950841",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.354072,
+     50.047117
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3861055731",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.44937,
+     50.043719
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3936809279",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.390966,
+     50.100057
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3995893497",
+    "name": "Rosmann",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415791,
+     50.086012
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4117465089",
+    "name": "Thai paradise",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.436518,
+     50.040194
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4176637290",
+    "name": "Salon Beauty",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.285124,
+     50.052767
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4244815540",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450178,
+     50.102742
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4338249467",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.499023,
+     50.120148
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4368535236",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.49871,
+     50.120024
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4368535243",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441702,
+     50.072948
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4466446688",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.517276,
+     50.053348
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4553035693",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374873,
+     50.056526
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4634881661",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.455879,
+     50.123391
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4666185419",
+    "name": "TOP Drogerie",
+    "brand": "TOP Drogerie",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.35036,
+     50.050948
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4679976259",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.347195,
+     50.095574
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4706879239",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.431476,
+     50.085039
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4770228427",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433164,
+     50.072745
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4807008912",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449773,
+     50.093807
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5084692941",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.377253,
+     50.034907
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5156124632",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.568621,
+     50.043315
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5188011005",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432581,
+     50.075139
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5290596945",
+    "name": "ékarna",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449808,
+     50.043815
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5364247596",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.490257,
+     50.104381
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5611992643",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.490549,
+     50.103972
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5612300917",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.491515,
+     50.104461
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5612300947",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.518067,
+     50.05315
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5863161613",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418819,
+     50.127519
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6178497186",
+    "name": "Drogerie",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.548513,
+     50.067457
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6266582466",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.558284,
+     50.105877
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6332568167",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449616,
+     50.106836
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6466553893",
+    "name": "Drogerie Barvy Laky",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.468246,
+     50.089196
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6575455853",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.473735,
+     50.102445
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6575464792",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.510301,
+     50.070412
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6708477189",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.49085,
+     50.030794
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6812920287",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.491428,
+     50.031691
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6812920385",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.590178,
+     50.152484
+    ]
+   },
+   "properties": {
+    "id": "osm-node-7141079464",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418862,
+     50.12764
+    ]
+   },
+   "properties": {
+    "id": "osm-node-7191307080",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.459944,
+     50.119886
+    ]
+   },
+   "properties": {
+    "id": "osm-node-7576676577",
+    "name": "Mini Market",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.499056,
+     50.110481
+    ]
+   },
+   "properties": {
+    "id": "osm-node-7632537978",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.308435,
+     50.064791
+    ]
+   },
+   "properties": {
+    "id": "osm-node-7817832008",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.302161,
+     50.066004
+    ]
+   },
+   "properties": {
+    "id": "osm-node-7817875885",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.44902,
+     50.098988
+    ]
+   },
+   "properties": {
+    "id": "osm-node-7834855786",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.517705,
+     50.025286
+    ]
+   },
+   "properties": {
+    "id": "osm-node-8730539705",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.409518,
+     50.061311
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9160614843",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.454255,
+     50.077611
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9173356545",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.469971,
+     50.127651
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9327889572",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501591,
+     50.136907
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9376200714",
+    "name": "drogerie dm",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.457444,
+     50.087896
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9407917031",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417216,
+     50.006277
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9585886416",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.484958,
+     50.160313
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9726041198",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.355568,
+     50.047769
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9823382349",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448467,
+     50.044443
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9929172826",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.500247,
+     50.08057
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9931303617",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.500071,
+     50.081249
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9931303620",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417606,
+     50.013905
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10001463962",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450013,
+     50.079453
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10217064571",
+    "name": "Droggi Shop",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440157,
+     50.085094
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10221190492",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.458651,
+     50.077847
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10244629840",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449152,
+     50.043695
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10617501945",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.405445,
+     50.005227
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10651467568",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.452879,
+     50.077456
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10729352106",
+    "name": "Go Fresh",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433462,
+     50.099212
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10732956645",
+    "name": "Textil-Obuv",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501365,
+     50.110256
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10968619937",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507004,
+     50.151349
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11110475573",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.296343,
+     50.049368
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11248393781",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.297537,
+     50.049227
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11248393783",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.456157,
+     50.122725
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11310888840",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.468752,
+     50.068182
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11343568844",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.437829,
+     50.052848
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11383690634",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.363138,
+     49.96422
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11406963598",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.454325,
+     50.10345
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11411654588",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.309434,
+     50.090026
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11433124062",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.461432,
+     50.096698
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11755704680",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403892,
+     50.006776
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11917349069",
+    "name": "RÁJ DROGERIE",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.579104,
+     50.085241
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12051581275",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.518662,
+     50.032558
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12168166225",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403552,
+     50.074194
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12299229494",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.521714,
+     50.025867
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12444173166",
+    "name": "TOP Drogerie",
+    "brand": "TOP Drogerie",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.354235,
+     50.024757
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12631690558",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.647832,
+     50.077576
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12668815447",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.322733,
+     50.045559
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12762441934",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.29055,
+     50.092751
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12830932952",
+    "name": "Datart",
+    "brand": "Datart",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445521,
+     50.084714
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13009230860",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.503037,
+     50.135453
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13036923738",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435147,
+     50.024539
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13040847586",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.359927,
+     49.984385
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13045385661",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.321579,
+     50.04483
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13058794282",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.338345,
+     50.038074
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13058795986",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.487369,
+     50.046568
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13058807077",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.517997,
+     50.102742
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13058815779",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.559163,
+     50.040399
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13058835172",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.617732,
+     50.112023
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13059329592",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.30903,
+     50.046354
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13167767381",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.437613,
+     50.065169
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13168273554",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.35511,
+     50.046796
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13566822776",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.512108,
+     50.130903
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13790654001",
+    "name": "Prusa Polymers",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42949,
+     50.059424
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13894013477",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448375,
+     50.100121
+    ]
+   },
+   "properties": {
+    "id": "osm-way-24399963",
+    "name": "Alza",
+    "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.437826,
+     50.040241
+    ]
+   },
+   "properties": {
+    "id": "osm-way-62046401",
+    "name": "düfa color Praha s.r.o.",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434943,
+     50.083662
+    ]
+   },
+   "properties": {
+    "id": "osm-way-431094957",
+    "name": "Teta",
+    "brand": "Teta",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.461477,
+     50.078357
+    ]
+   },
+   "properties": {
+    "id": "osm-way-486469563",
+    "name": "dm",
+    "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430229,
+     50.079504
+    ]
+   },
+   "properties": {
+    "id": "osm-way-487450083",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.402809,
+     50.07321
+    ]
+   },
+   "properties": {
+    "id": "osm-way-651217563",
+    "name": "Profimed",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.402607,
+     50.073399
+    ]
+   },
+   "properties": {
+    "id": "osm-way-651718363",
+    "name": "Yankee Candle",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.497301,
+     50.056791
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1318774113",
+    "name": "Rossman",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507726,
+     50.056775
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1319980104",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.359207,
+     50.097446
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1385381697",
+    "name": "ROSSMAN",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507726,
+     50.056775
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1434149135",
+    "name": "Rossmann",
+    "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  }
+ ]
+}
