@@ -271,6 +271,9 @@ a {
   font-size: 0.8rem;
 }
 
+.heat-warning[hidden] {
+  display: none;
+}
 .heat-warning {
   display: flex;
   align-items: flex-start;
