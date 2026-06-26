@@ -1,0 +1,33 @@
+name: IPR mlzitka refresh
+
+# Stáhne mlžítka „Oázy chladu" z IPR Praha a commitne snapshot GeoJSON.
+# Bez API klíče (otevřená data Geoportál Praha). Statická vrstva – refresh týdně.
+on:
+  schedule:
+    - cron: "30 6 * * 1" # pondělí 06:30 UTC (týdně)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch IPR mlzitka
+        run: python data/fetch_mlzitka.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/data/mlzitka.geojson; then
+            git add public/data/mlzitka.geojson
+            git commit -m "chore(data): tydenni refresh IPR mlzitka [skip ci]"
+            git push
+          else
+            echo "Beze zmeny."
+          fi

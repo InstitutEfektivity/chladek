@@ -1,0 +1,711 @@
+{
+ "type": "FeatureCollection",
+ "generatedAt": "2026-06-26T12:06:15Z",
+ "source": "IPR Praha – Oazy chladu (Geoportal Praha, CC BY)",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417687,
+     50.08688
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-1",
+    "name": "Mariánské náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404631,
+     50.083237
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-2",
+    "name": "Újezd",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.422594,
+     50.083024
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-3",
+    "name": "Jungmannovo náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.428707,
+     50.087977
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-4",
+    "name": "náměstí Republiky",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429129,
+     50.088512
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-5",
+    "name": "náměstí Republiky",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.420305,
+     50.083984
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-6",
+    "name": "Uhelný trh",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419998,
+     50.087608
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-7",
+    "name": "Staroměstské náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42454,
+     50.086538
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-8",
+    "name": "Ovocný trh",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424518,
+     50.085177
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-9",
+    "name": "ul Havířská",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.482117,
+     50.031738
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-10",
+    "name": "Pošepného náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.492638,
+     50.02444
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-11",
+    "name": "Jírovcovo náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.518497,
+     50.034799
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-12",
+    "name": "Chalupkova",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.504853,
+     50.032761
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-13",
+    "name": "Valentova 1744",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.530163,
+     50.031728
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-14",
+    "name": "nám. Kosmonautů",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.516205,
+     50.045196
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-15",
+    "name": "Chudenická / Berlínská",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.560628,
+     50.047082
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-16",
+    "name": "ZŠ Křimická",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.304889,
+     50.068408
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-17",
+    "name": "Španielova",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.3047,
+     50.06421
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-18",
+    "name": "Peřinova",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.313392,
+     50.066682
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-19",
+    "name": "Laudova",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415169,
+     50.073179
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-20",
+    "name": "Palackého náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432044,
+     50.075068
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-21",
+    "name": "Tylovo náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424082,
+     50.0655
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-22",
+    "name": "Ostrčilovo náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415084,
+     50.068097
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-23",
+    "name": "Rašínovo nábřeží",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403473,
+     50.072091
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-24",
+    "name": "Plzeňská",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.405307,
+     50.096424
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-25",
+    "name": "Na valech",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.396449,
+     50.10118
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-26",
+    "name": "Vítězné náměstí",
+    "note": "mlžící sprcha",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.497497,
+     50.035722
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-27",
+    "name": "Park u Chodovské tvrze",
+    "note": "mlžící brána",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434169,
+     50.098901
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-28",
+    "name": "Strossmayerovo náměstí",
+    "note": "ostatní mlžící prvek",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.447882,
+     50.088187
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-29",
+    "name": "park Vítkov",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.514,
+     50.02996
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-30",
+    "name": "Mikulova",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.599474,
+     50.031699
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-31",
+    "name": "Nové náměstí",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.351918,
+     50.071537
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-32",
+    "name": "Hamsíkova",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.376935,
+     50.034257
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-33",
+    "name": "Tilleho náměstí",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.375441,
+     50.033013
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-34",
+    "name": "Tilleho náměstí",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404892,
+     50.097579
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-35",
+    "name": "Hradčanská u přechodu přes trať",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.389418,
+     50.103706
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-36",
+    "name": "Technická/Thákurova",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.308367,
+     50.090875
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-37",
+    "name": "Dědina",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.395849,
+     50.105985
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-38",
+    "name": "náměstí Interbrigády",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.376754,
+     50.106721
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-39",
+    "name": "Hanspaulka",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374993,
+     50.098605
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-40",
+    "name": "Park Hadovka",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.387882,
+     50.087735
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-41",
+    "name": "roh Parléřova a Pohořelec, přesunuto z Petřin 21.7.",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448659,
+     50.091227
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-42",
+    "name": "Karlínské náměstí - ideálně v blízkosti kostela",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.469757,
+     50.127123
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-43",
+    "name": "Ládví náměstí (u kulturního domu)",
+    "note": "mlžítko",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.409289,
+     50.077878
+    ]
+   },
+   "properties": {
+    "id": "ipr-mlzitka-44",
+    "name": "Mlžící sprcha",
+    "note": "mlžící sprcha; provozovatel: MČ Praha 5",
+    "source": "IPR Praha – Oázy chladu"
+   }
+  }
+ ]
+}

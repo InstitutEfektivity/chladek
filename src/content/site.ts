@@ -21,6 +21,7 @@ export const ui = {
   liveTemp: {
     label: "Teplota v Praze",
     outsideNow: "Venku teď",
+    measuredNow: "Naměřeno teď",
     loading: "Načítám teplotu…",
     failed: "Teplota nedostupná",
   },
@@ -33,6 +34,27 @@ export const ui = {
     updatedAt: "Aktualizováno",
     popupTitle: "Kvalita ovzduší",
   },
+  // Živá naměřená teplota – DOM Markery (ČHMÚ stanice + pouliční čidla).
+  temps: {
+    toggle: "Teploty (živě)",
+    stationTitle: "Naměřená teplota – ČHMÚ",
+    sensorTitle: "Naměřená teplota – pouliční čidlo",
+    measuredAtLabel: "Naměřeno v",
+    sensorNote:
+      "Pouliční čidlo – na přímém slunci může ukazovat víc než skutečná teplota vzduchu.",
+  },
+  // Overlay mlžítka (IPR Praha – Oázy chladu).
+  mlzitka: {
+    toggle: "Mlžítka",
+    popupTitle: "Mlžítko",
+  },
+  // Overlay metro (PID / ROPID) – chládek pod zemí.
+  metro: {
+    toggle: "Metro (chládek pod zemí)",
+    popupTitle: "Stanice metra",
+    lineLabel: "Linka",
+    refugeNote: "Pod zemí bývá v parnu chladněji.",
+  },
   locate: {
     button: "Najdi 3 nejbližší chládky",
     denied: "Polohu se nepodařilo zjistit",
@@ -43,9 +65,10 @@ export const ui = {
     freeYes: "Vstup zdarma",
     freeNo: "Vstupné",
     navigate: "Navigovat",
+    sourceLabel: "Zdroj",
   },
   attribution:
-    "Data: © OpenStreetMap přispěvatelé (ODbL) · IPR Praha „Oázy chladu“ (CC BY) · Open-Meteo · ČHMÚ · Golemio (Operátor ICT) · podklad © CARTO",
+    "Data: © OpenStreetMap přispěvatelé (ODbL) · IPR Praha „Oázy chladu“ – pítka i mlžítka (CC BY) · Open-Meteo · ČHMÚ – výstrahy i naměřené teploty · Golemio (Operátor ICT) – stanice ovzduší i pouliční teplotní čidla · PID / ROPID – stanice metra · podklad © CARTO",
   footer: {
     byline: "Projekt Institutu efektivity",
     note: "Ukázka toho, co umí otevřená data, když je někdo poskládá do užitečné služby.",
