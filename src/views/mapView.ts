@@ -15,12 +15,19 @@ declare const maplibregl: typeof import("maplibre-gl");
 import { ui } from "../content/site.ts";
 import { baseStyle, coolingColors } from "../lib/mapStyle.ts";
 import { fetchCurrentWeather } from "../lib/weather.ts";
+import { fetchHeatWarning } from "../lib/heatWarning.ts";
+import {
+  fetchAirQuality,
+  uvCategory,
+  aqiCategory,
+} from "../lib/airquality.ts";
 import { haversine, escapeHtml } from "../lib/geo.ts";
 import type {
   Cooling,
   VenueCollection,
   VenueFeature,
   CurrentWeather,
+  HeatWarning,
 } from "../lib/types.ts";
 
 const COOLINGS: Cooling[] = ["ac", "natural", "water", "shade"];
@@ -47,17 +54,27 @@ export function renderMapView(root: HTMLElement): () => void {
       <div class="map-container">
         <div id="map" role="application" aria-label="Interaktivní mapa Prahy s chladnými místy"></div>
         <div class="map-topbar">
-          <div class="temp-badge" id="temp-badge" role="status" aria-live="polite">
-            <span class="temp-dot" aria-hidden="true"></span>
-            <span>
-              <span class="temp-label">${escapeHtml(ui.liveTemp.outsideNow)}</span>
-              <span class="temp-value" id="temp-value">${escapeHtml(ui.liveTemp.loading)}</span>
-              <span class="temp-feels" id="temp-feels"></span>
-            </span>
+          <div class="topbar-badges">
+            <div class="temp-badge" id="temp-badge" role="status" aria-live="polite">
+              <span class="temp-dot" aria-hidden="true"></span>
+              <span>
+                <span class="temp-label">${escapeHtml(ui.liveTemp.outsideNow)}</span>
+                <span class="temp-value" id="temp-value">${escapeHtml(ui.liveTemp.loading)}</span>
+                <span class="temp-feels" id="temp-feels"></span>
+              </span>
+            </div>
+            <div class="env-badge" id="uv-badge" role="status" aria-live="polite" hidden>
+              <span class="env-label">${escapeHtml(ui.airQuality.uvLabel)}</span>
+              <span class="env-value" id="uv-value"></span>
+            </div>
+            <div class="env-badge" id="aqi-badge" role="status" aria-live="polite" hidden>
+              <span class="env-label">${escapeHtml(ui.airQuality.aqiLabel)}</span>
+              <span class="env-value" id="aqi-value"></span>
+            </div>
           </div>
           <div class="heat-warning" id="heat-warning" role="alert" hidden>
             <span class="heat-icon" aria-hidden="true">⚠️</span>
-            <span>${escapeHtml(ui.heatWarning)}</span>
+            <span class="heat-text" id="heat-text">${escapeHtml(ui.heatWarning)}</span>
           </div>
         </div>
       </div>
@@ -170,8 +187,10 @@ export function renderMapView(root: HTMLElement): () => void {
     if (map) handleLocate(map, state, locateBtn, locateStatus);
   });
 
-  // Živá teplota + výstraha
+  // Živá teplota + výstraha ČHMÚ + kvalita ovzduší / UV
   void initWeather(root);
+  void initHeatWarning(root);
+  void initAirQuality(root);
 
   // Cleanup při změně view.
   return () => {
@@ -494,7 +513,6 @@ function buildNearPopup(f: VenueFeature): Popup {
 async function initWeather(root: HTMLElement): Promise<void> {
   const valueEl = root.querySelector<HTMLElement>("#temp-value");
   const feelsEl = root.querySelector<HTMLElement>("#temp-feels");
-  const warning = root.querySelector<HTMLElement>("#heat-warning");
 
   try {
     const w: CurrentWeather = await fetchCurrentWeather();
@@ -502,12 +520,83 @@ async function initWeather(root: HTMLElement): Promise<void> {
     if (feelsEl) {
       feelsEl.textContent = `pocitově ${Math.round(w.apparent)} °C`;
     }
-    if (warning && w.apparent >= HEAT_THRESHOLD) {
-      warning.hidden = false;
-    }
   } catch (err) {
     console.warn("Teplota nedostupná:", err);
     if (valueEl) valueEl.textContent = ui.liveTemp.failed;
     if (feelsEl) feelsEl.textContent = "";
+  }
+}
+
+// ---------- Výstraha ČHMÚ (živá) ----------
+
+async function initHeatWarning(root: HTMLElement): Promise<void> {
+  const warning = root.querySelector<HTMLElement>("#heat-warning");
+  const textEl = root.querySelector<HTMLElement>("#heat-text");
+  if (!warning || !textEl) return;
+
+  // Primárně + fallback 1: živá / build-snapshot ČHMÚ výstraha.
+  const hw: HeatWarning | null = await fetchHeatWarning();
+  if (hw) {
+    if (hw.active) {
+      showHeatBanner(warning, textEl, hw);
+    } else {
+      warning.hidden = true; // výstraha reálně neplatí – nic si nepřivlastňujeme
+    }
+    return;
+  }
+
+  // Fallback 2: odvození z teploty (oba JSON zdroje selhaly).
+  try {
+    const w = await fetchCurrentWeather();
+    if (w.apparent >= HEAT_THRESHOLD) {
+      textEl.textContent = ui.heatWarning;
+      warning.classList.remove("level-severe");
+      warning.hidden = false;
+    }
+  } catch {
+    // bez dat výstrahu nezobrazujeme
+  }
+}
+
+function showHeatBanner(
+  warning: HTMLElement,
+  textEl: HTMLElement,
+  hw: HeatWarning
+): void {
+  const headline = hw.headline.trim();
+  textEl.textContent = `${ui.heatWarningPrefix} ${headline} ${ui.heatWarningSource}`;
+  // Moderate = oranžová (--color-heat), Severe/Extreme = silnější (--color-heat-strong)
+  const strong = hw.level === "Severe" || hw.level === "Extreme";
+  warning.classList.toggle("level-severe", strong);
+  warning.hidden = false;
+}
+
+// ---------- Kvalita ovzduší + UV index ----------
+
+async function initAirQuality(root: HTMLElement): Promise<void> {
+  const uvBadge = root.querySelector<HTMLElement>("#uv-badge");
+  const uvValue = root.querySelector<HTMLElement>("#uv-value");
+  const aqiBadge = root.querySelector<HTMLElement>("#aqi-badge");
+  const aqiValue = root.querySelector<HTMLElement>("#aqi-value");
+
+  try {
+    const aq = await fetchAirQuality();
+
+    if (uvBadge && uvValue && Number.isFinite(aq.uvIndex)) {
+      const uv = uvCategory(aq.uvIndex);
+      uvValue.textContent = `${Math.round(aq.uvIndex)} · ${uv.label}`;
+      uvBadge.style.setProperty("--env-color", uv.color);
+      uvBadge.hidden = false;
+    }
+
+    if (aqiBadge && aqiValue && Number.isFinite(aq.aqi)) {
+      const cat = aqiCategory(aq.aqi);
+      aqiValue.textContent = cat.label;
+      aqiBadge.style.setProperty("--env-color", cat.color);
+      aqiBadge.hidden = false;
+    }
+  } catch (err) {
+    // Graceful: při chybě fetiche badge zůstanou skryté.
+    console.warn("Kvalita ovzduší / UV nedostupná:", err);
   }
 }

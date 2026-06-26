@@ -42,3 +42,23 @@ export interface CurrentWeather {
   temperature: number;
   apparent: number;
 }
+
+// Živá výstraha ČHMÚ (SIVS) – schéma souboru public/data/heat-warning.json.
+export interface HeatWarning {
+  active: boolean;
+  level: "Moderate" | "Severe" | "Extreme";
+  headline: string;
+  event: string;
+  validFrom: string;
+  validTo: string;
+  updatedAt: string;
+  source: string;
+}
+
+// Živá kvalita ovzduší + UV index (Open-Meteo Air Quality API).
+export interface AirQuality {
+  aqi: number;
+  uvIndex: number;
+  ozone: number;
+  pm25: number;
+}

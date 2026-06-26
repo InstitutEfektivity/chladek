@@ -87,7 +87,35 @@ Parky by jinak dataset zahltily. Pravidla:
 Filtr ladíme zde, pokud by parky převažovaly. Stejně tak pítka (`fountain`):
 pokud by jejich počet narůstal nad únosnou mez, zúžíme je na ověřená/významná.
 
-### 2. Ruční kurátorská vrstva – `manual_overlay.csv`
+### 2. IPR Praha „Oázy chladu" (Geoportál Praha, open data)
+
+Tři bodové vrstvy z [Geoportálu Praha](https://opendata.geoportalpraha.cz)
+(open data, bez API klíče, GeoJSON ve WGS84/CRS84 – souřadnice `[lon, lat]`,
+žádná transformace CRS není potřeba). Stahuje `features_from_ipr()`. Každý
+dataset má primární `opendata.geoportalpraha.cz` endpoint + ArcGIS FeatureServer
+fallback (`mp.iprpraha.cz/.../FeatureServer/0/query?...&f=geojson`).
+
+| Dataset | počet (raw) | category | cooling | poznámka |
+|---|---|---|---|---|
+| Pítka | 115 | `fountain` | `water` | zrušená pítka (`provoz_spec=ZRUŠENO`) se vyřazují |
+| Kašny / fontány | 423 | `fountain` | `water` | `typ` 1=fontána, 2=kašna, 3=ostatní → do `note` |
+| Koupání | 52 | `pool` | `water` | `web` → pole `address`; `provoz_spec` (letní/celotýdenní/mimo provoz) → `note` |
+
+Mapování polí: `name` z `nazev` (chybí → výchozí „Pítko" / „Kašna / fontána" /
+„Koupání"), `note` se skládá ze `spravce` / `provozovatel` / `provoz_spec` /
+`pristupnost` / `typ` (vynechávají se neinformativní hodnoty jako „neznámo",
+„nezadáno", „není v provozování PVK a.s."). `id` má tvar `ipr-<dataset>-<n>`.
+
+Sanity check: každý bod musí padnout do hrubého bounding boxu Prahy
+(`12<lon<15`, `49.5<lat<50.5`), jinak se zahodí.
+
+**Dedup IPR vs OSM:** IPR pítka/fontány se překrývají s OSM `drinking_water` /
+`fountain`. OSM vodní bod, který leží **do 30 m** od IPR vodního bodu, se
+odstraní (priorita **IPR > OSM**, IPR je kurátorštější). IPR pítka nemají
+`name`, takže tento krok je čistě na blízkost (ne na jméno). Provádí ho
+`dedup_ipr_vs_osm()` před jmennou deduplikací.
+
+### 3. Ruční kurátorská vrstva – `manual_overlay.csv`
 
 ~25 ručně ověřených míst s jistou klimatizací, která OSM tag postrádá (velké
 obchoďáky, velká muzea, plavecké haly, klimatizované knihovny). Sloupce:
@@ -99,11 +127,31 @@ name,category,cooling,lat,lon,address,free_entry,opening_hours,typical_c,note
 Souřadnice jsou reálné pražské GPS. **Manual přepisuje OSM** při shodě názvu a
 blízkosti (do ~150 m) – viz deduplikace.
 
-### 3. Golemio (Pražská datová platforma) – TODO / volitelné
+### 5. Živá výstraha ČHMÚ před horkem – `fetch_heat_warning.py`
+
+Samostatný skript `data/fetch_heat_warning.py` stahuje CAP XML feed ČHMÚ (SIVS,
+`https://vystrahy-cr.chmi.cz/data2/XOCZ50_OKPR.xml`, bez klíče) a vydává malý
+`public/data/heat-warning.json`. Není součástí `venues.geojson` – jde o živou
+vrstvu, kterou frontend čte přímo z raw.githubusercontent.com.
+
+- Filtruje výstrahy typu **vysoké teploty** (parametr `awareness_type` =
+  `high-temperature`, fallback na text `<event>`) pokrývající **Prahu**
+  (`areaDesc` „Praha" nebo `geocode CISORP` 1100–1110), bere jen CS verzi.
+- Vybírá nejrelevantnější: **aktivní** (onset ≤ teď < expires) s nejvyšší
+  závažností; jinak nejbližší **budoucí**. Expirované ignoruje.
+- Výstup (aktivní): `{ active, level (Moderate｜Severe｜Extreme), headline,
+  event, validFrom, validTo, updatedAt, source }`; bez výstrahy:
+  `{ active:false, updatedAt, source }`.
+- Robustně: timeout + fallback. Při selhání fetch/parse **nepřepisuje** existující
+  soubor (ponechá poslední stav); jen když soubor chybí, zapíše `active:false`
+  s chybovou poznámkou.
+- Cron: GitHub Action `.github/workflows/heat-warning.yml` každých 30 min.
+
+### 6. Golemio (Pražská datová platforma) – TODO / volitelné
 
 Golemio (Operátor ICT) nabízí doplňkové městské datasety (knihovny, parky,
-mikroklima). **V1 je postavena na OSM + manual**, protože API klíč zatím není
-nasazený. Až bude:
+mikroklima). **Vyžaduje API klíč** (`X-Access-Token`) – zatím neregistrován,
+proto zatím nenapojeno. Až bude:
 
 - Přidat extraktor `golemio` (REST, hlavička `X-Access-Token`).
 - Zdroj features označit `source: "golemio"`.
@@ -112,8 +160,15 @@ nasazený. Až bude:
 
 ## Deduplikace
 
-Položky se **stejným (normalizovaným) názvem do 150 m** se slučují do jedné.
-Priorita: **manual > osm**. Při běhu v1: 1082 → 1067 (15 duplikátů odstraněno).
+Dvoufázová deduplikace:
+
+1. **IPR vs OSM (na blízkost, 30 m)** – `dedup_ipr_vs_osm()` odstraní OSM vodní
+   body překryté IPR (priorita IPR > OSM, IPR pítka nemají jméno).
+2. **Jmenná dedup (150 m)** – položky se stejným normalizovaným názvem do 150 m
+   se slučují do jedné. Priorita: **manual > ipr > osm**.
+
+Při běhu v2 (2026-06-26): IPR vs OSM odstranilo 32 OSM bodů, jmenná dedup
+1616 → 1586 (30 duplikátů).
 
 ## Výstupní schéma (`venues.geojson`)
 
@@ -130,32 +185,47 @@ Každá `properties`:
 | `free_entry` | bool｜null | volný vstup (z OSM `fee` nebo manual) |
 | `opening_hours` | string｜null | otevírací doba |
 | `address` | string｜null | složeno z `addr:street` + `addr:housenumber` (+ město) |
-| `source` | string | `osm｜manual｜golemio` |
+| `source` | string | `osm｜manual｜ipr｜golemio` |
 | `note` | string｜null | poznámka |
+
+Pozn.: `id` má tvar `osm-node-123` / `osm-way-…` / `manual-1` / `ipr-pitka-7`
+podle zdroje. U IPR koupání nese `address` web provozovatele (z pole `web`).
 
 Navíc top-level `metadata` (title, attribution, generated, count) – informativní,
 frontend ji nepotřebuje.
 
-## Aktuální rozpad (v1, 2026-06-25)
+## Aktuální rozpad (v2, 2026-06-26)
 
-Features celkem: **1067**
+Features celkem: **1586**
 
-- Podle kategorie: church 263, park 178, museum 140, cafe_food 120, library 97,
-  shop_ac 91, fountain 81, mall 39, cinema 31, pool 27.
-- Podle chlazení: ac 518, natural 263, shade 178, water 108.
-- Podle zdroje: osm 1041, manual 26.
+- Podle kategorie: fountain 552, church 263, park 178, museum 140, cafe_food 120,
+  library 97, shop_ac 91, pool 75, mall 39, cinema 31.
+- Podle chlazení: water 627, ac 518, natural 263, shade 178.
+- Podle zdroje: osm 1007, ipr 553, manual 26.
+
+Skok ve `water` / `fountain` oproti v1 (108 → 627) je daný napojením IPR vrstev
+(pítka + kašny/fontány + koupání), po deduplikaci proti OSM.
 
 ## Licence a atribuce
 
 Data i web musí uvádět:
 
 - **© OpenStreetMap přispěvatelé** – licence **ODbL** (geo-vrstva z Overpassu).
-- **Golemio / Operátor ICT** – Pražská datová platforma (až bude napojeno).
+- **IPR Praha „Oázy chladu"** – licence **CC BY**, © IPR Praha (pítka,
+  kašny/fontány, koupání z Geoportálu Praha).
+- **ČHMÚ (SIVS)** – Systém integrované výstražné služby, výstrahy před vysokými
+  teplotami (`heat-warning.json`, živě).
 - **Open-Meteo** (CC-BY) – živá venkovní teplota, fetchováno client-side.
-- **ČHMÚ** – výstrahy před vysokými teplotami, fetchováno client-side.
+- **Golemio / Operátor ICT** – Pražská datová platforma (TODO, vyžaduje API klíč –
+  zatím neregistrován).
 
 ## Provoz / refresh
 
-`venues.geojson` se obnovuje přes GitHub Actions cron (viz `chladek-devops`).
-Běh je idempotentní – stačí spustit `python data/build_venues.py` a commitnout
-změněný výstup.
+Dva GitHub Actions crony:
+
+- **`venues.geojson`** – `.github/workflows/refresh-data.yml`, týdně (po 04:00 UTC).
+  Idempotentní: `python data/build_venues.py`, commitne změněný výstup. Zahrnuje
+  OSM (Overpass) + IPR „Oázy chladu" + ruční vrstvu.
+- **`heat-warning.json`** – `.github/workflows/heat-warning.yml`, každých 30 min.
+  `python data/fetch_heat_warning.py`, commitne změněný výstup. Frontend banner
+  čte JSON živě z raw.githubusercontent.com (cron aktualizuje bez redeploye).

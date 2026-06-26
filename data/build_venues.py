@@ -13,6 +13,7 @@ Schéma každé feature (frontend na něj spoléhá):
 
 Zdroje a atribuce: viz data/README.md.
   © OpenStreetMap přispěvatelé (ODbL) – přes Overpass API.
+  © IPR Praha „Oázy chladu" (CC BY) – pítka, kašny/fontány, koupání (Geoportál Praha).
 
 Spuštění:  python data/build_venues.py
 Závislosti: standardní knihovna; volitelně `requests` (jinak fallback na urllib).
@@ -26,13 +27,15 @@ import sys
 import time
 
 # --- HTTP klient: requests pokud je, jinak urllib (stdlib) ---------------------
+# urllib je potřeba vždy (IPR GET stahování, i když requests existuje).
+import urllib.request
+import urllib.parse
+
 try:
     import requests  # type: ignore
     _HAVE_REQUESTS = True
 except ImportError:  # pragma: no cover
     _HAVE_REQUESTS = False
-    import urllib.request
-    import urllib.parse
 
 # --- Konfigurace ---------------------------------------------------------------
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -61,6 +64,47 @@ PARK_MIN_AREA_M2 = 10000.0  # ~1 ha
 
 # Indikativní vnitřní teplota – jen u klimatizace (ac). Jinde null.
 AC_TYPICAL_C = 23
+
+# --- IPR Praha „Oázy chladu" (statické vodní vrstvy) --------------------------
+# Open data Geoportál Praha (CC BY, © IPR Praha), bez API klíče. Pro každý
+# dataset primární opendata endpoint + ArcGIS FeatureServer fallback (oba vrací
+# GeoJSON ve WGS84/CRS84, souřadnice [lon, lat]).
+IPR_DATASETS = {
+    "pitka": {
+        "category": "fountain",
+        "cooling": "water",
+        "default_name": "Pítko",
+        "urls": [
+            "https://opendata.geoportalpraha.cz/api/download/v1/items/ae0ef46774394e09a91850fb9b826788/geojson?layers=0",
+            "https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_PITKA_B/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
+        ],
+    },
+    "fontany": {
+        "category": "fountain",
+        "cooling": "water",
+        "default_name": "Kašna / fontána",
+        "urls": [
+            "https://opendata.geoportalpraha.cz/api/download/v1/items/3d3add84fb784ed297725c566f149a51/geojson?layers=0",
+            "https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_FONTANY_B/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
+        ],
+    },
+    "koupani": {
+        "category": "pool",
+        "cooling": "water",
+        "default_name": "Koupání",
+        "urls": [
+            "https://opendata.geoportalpraha.cz/api/download/v1/items/8d435d33cd5d431cbaeda5837b3d3a77/geojson?layers=0",
+            "https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_KOUPANI_B/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
+        ],
+    },
+}
+
+# Práh deduplikace IPR vs OSM vodních bodů (pítka/fontány se překrývají).
+# IPR je kurátorštější → má prioritu, OSM duplikát v tomto poloměru zahodíme.
+IPR_OSM_DEDUP_M = 30.0
+
+# Hranice Prahy (hrubý bounding box) pro sanity check IPR bodů.
+PRAHA_BBOX = (12.0, 49.5, 15.0, 50.5)  # (min_lon, min_lat, max_lon, max_lat)
 
 
 # --- Overpass dotaz ------------------------------------------------------------
@@ -389,6 +433,193 @@ def features_from_manual():
     return feats
 
 
+# --- IPR Praha „Oázy chladu" ---------------------------------------------------
+def _http_get_json(url, timeout=HTTP_TIMEOUT):
+    """GET libovolného JSON/GeoJSON endpointu. Vrací parsed dict."""
+    ua = {"User-Agent": "chladek-data-pipeline/1.0 (Institut Efektivity)"}
+    if _HAVE_REQUESTS:
+        resp = requests.get(url, timeout=timeout, headers=ua, allow_redirects=True)
+        resp.raise_for_status()
+        return resp.json()
+    req = urllib.request.Request(url, headers=ua)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        raw = r.read().decode("utf-8")
+    return json.loads(raw)
+
+
+def fetch_ipr_dataset(key, cfg):
+    """
+    Stáhne jeden IPR GeoJSON dataset. Zkusí primární opendata endpoint, při chybě
+    ArcGIS fallback. Vrací list raw GeoJSON features (nebo [] když oba selžou).
+    """
+    last_err = None
+    for url in cfg["urls"]:
+        try:
+            print("[ipr:%s] stahuji %s ..." % (key, url.split("?")[0]), file=sys.stderr)
+            data = _http_get_json(url)
+            feats = data.get("features", []) or []
+            print("[ipr:%s] hotovo, %d raw features" % (key, len(feats)), file=sys.stderr)
+            if feats:
+                return feats
+            # prázdná odpověď → zkus fallback
+            print("[ipr:%s] prázdná odpověď, zkouším fallback" % key, file=sys.stderr)
+        except Exception as e:
+            last_err = e
+            print("[ipr:%s] zdroj selhal: %s" % (key, e), file=sys.stderr)
+    if last_err:
+        print("[ipr:%s] VAROVÁNÍ: žádný zdroj nedostupný (%s) – vrstva přeskočena"
+              % (key, last_err), file=sys.stderr)
+    return []
+
+
+def _ipr_point_coords(feat):
+    """Z IPR feature vytáhne (lon, lat) z geometry, případně z polí x/y. None když nejde."""
+    geom = feat.get("geometry") or {}
+    coords = geom.get("coordinates")
+    if geom.get("type") == "Point" and isinstance(coords, (list, tuple)) and len(coords) >= 2:
+        try:
+            return float(coords[0]), float(coords[1])
+        except (TypeError, ValueError):
+            pass
+    props = feat.get("properties") or {}
+    x, y = props.get("x"), props.get("y")
+    if x is not None and y is not None:
+        try:
+            return float(x), float(y)
+        except (TypeError, ValueError):
+            pass
+    return None
+
+
+def _in_prague(lon, lat):
+    min_lon, min_lat, max_lon, max_lat = PRAHA_BBOX
+    return (min_lon <= lon <= max_lon) and (min_lat <= lat <= max_lat)
+
+
+def _ipr_note(key, props):
+    """Sestaví lidsky čitelnou poznámku ze správce / provozu / přístupnosti / typu."""
+    bits = []
+    spravce = (props.get("spravce") or "").strip()
+    provozovatel = (props.get("provozovatel") or "").strip()
+    provoz_spec = (props.get("provoz_spec") or "").strip()
+    pristupnost = props.get("pristupnost")
+    typ = props.get("typ")
+
+    if key in ("pitka", "fontany"):
+        # typ fontán: 1 = fontána, 2 = kašna, 3 = ostatní vodní prvek
+        if key == "fontany" and typ in (1, "1"):
+            bits.append("fontána")
+        elif key == "fontany" and typ in (2, "2"):
+            bits.append("kašna")
+
+    if provoz_spec and provoz_spec.upper() == "ZRUŠENO":
+        bits.append("zrušeno")
+    elif provoz_spec:
+        bits.append(provoz_spec)
+
+    # správce/provozovatel jen pokud nejde o „neznámo"/„nezadáno"
+    def _useful(s):
+        s = (s or "").strip().lower()
+        return s and s not in ("neznámo", "nezadáno", "není v provozování pvk a.s.")
+
+    if _useful(spravce):
+        bits.append("správce: %s" % spravce)
+    elif _useful(provozovatel):
+        bits.append("provozovatel: %s" % provozovatel)
+
+    if key == "pitka" and pristupnost in (2, "2"):
+        bits.append("omezená přístupnost")
+
+    return "; ".join(bits) if bits else None
+
+
+def features_from_ipr():
+    """Stáhne a zmapuje IPR „Oázy chladu" (pítka, fontány/kašny, koupání)."""
+    feats = []
+    for key, cfg in IPR_DATASETS.items():
+        raw = fetch_ipr_dataset(key, cfg)
+        n_ok = 0
+        n_skip_zrus = 0
+        n_skip_geo = 0
+        for i, rf in enumerate(raw, start=1):
+            props = rf.get("properties") or {}
+            provoz_spec = (props.get("provoz_spec") or "").strip().upper()
+            # zrušená pítka nemají na mapě chladných míst smysl
+            if key == "pitka" and provoz_spec == "ZRUŠENO":
+                n_skip_zrus += 1
+                continue
+            # koupaliště „mimo provoz" si necháme (info je v note), jen zrušená pítka filtrujeme
+
+            coords = _ipr_point_coords(rf)
+            if coords is None:
+                n_skip_geo += 1
+                continue
+            lon, lat = coords
+            if not _in_prague(lon, lat):
+                n_skip_geo += 1
+                continue
+
+            name = (props.get("nazev") or "").strip() or cfg["default_name"]
+            web = (props.get("web") or "").strip() or None
+
+            props_out = {
+                "id": "ipr-%s-%d" % (key, i),
+                "name": name,
+                "category": cfg["category"],
+                "cooling": cfg["cooling"],
+                "typical_c": None,
+                "free_entry": None,
+                "opening_hours": None,
+                "address": web,  # u koupání bývá web; jinde None
+                "source": "ipr",
+                "note": _ipr_note(key, props),
+            }
+            feats.append({
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [round(lon, 6), round(lat, 6)]},
+                "properties": props_out,
+                "_lat": lat,
+                "_lon": lon,
+            })
+            n_ok += 1
+        print("[ipr:%s] použito %d (vyřazeno: zrušená %d, mimo Prahu/bez geometrie %d)"
+              % (key, n_ok, n_skip_zrus, n_skip_geo), file=sys.stderr)
+    print("[ipr] sestaveno %d features celkem" % len(feats), file=sys.stderr)
+    return feats
+
+
+def dedup_ipr_vs_osm(features):
+    """
+    Odstraní OSM vodní body, které leží do IPR_OSM_DEDUP_M od IPR vodního bodu.
+    Priorita IPR > OSM (IPR je kurátorštější). Dedup se dělá jen mezi vodními
+    body (cooling == "water"), na blízkost (ne na jméno – IPR pítka mají name=None).
+    Vrací odfiltrovaný seznam features.
+    """
+    ipr_water = [f for f in features
+                 if f["properties"]["source"] == "ipr" and f["properties"]["cooling"] == "water"]
+    if not ipr_water:
+        return features
+
+    removed = 0
+    kept = []
+    for f in features:
+        p = f["properties"]
+        if p["source"] == "osm" and p["cooling"] == "water":
+            lat, lon = f["_lat"], f["_lon"]
+            is_dup = False
+            for ipr in ipr_water:
+                if haversine_m(lat, lon, ipr["_lat"], ipr["_lon"]) <= IPR_OSM_DEDUP_M:
+                    is_dup = True
+                    break
+            if is_dup:
+                removed += 1
+                continue
+        kept.append(f)
+    print("[dedup-ipr] odstraněno %d OSM vodních bodů překrytých IPR (do %.0f m)"
+          % (removed, IPR_OSM_DEDUP_M), file=sys.stderr)
+    return kept
+
+
 # --- Deduplikace ---------------------------------------------------------------
 def _norm_name(s):
     return " ".join((s or "").lower().split())
@@ -397,10 +628,11 @@ def _norm_name(s):
 def dedup(features):
     """
     Sloučí položky se stejným (normalizovaným) jménem do DEDUP_RADIUS_M.
-    Priorita: manual > osm. Manuální položka přepíše OSM duplikát.
+    Priorita: manual > ipr > osm. Kurátorská položka přepíše OSM duplikát.
     """
-    # manuální nejdřív, aby měly přednost při výběru "keepera"
-    features_sorted = sorted(features, key=lambda f: 0 if f["properties"]["source"] == "manual" else 1)
+    _prio = {"manual": 0, "ipr": 1, "osm": 2}
+    # kurátorské zdroje nejdřív, aby měly přednost při výběru "keepera"
+    features_sorted = sorted(features, key=lambda f: _prio.get(f["properties"]["source"], 9))
 
     kept = []
     for f in features_sorted:
@@ -426,8 +658,14 @@ def main():
     print("[osm] sestaveno %d features" % len(osm_feats), file=sys.stderr)
 
     manual_feats = features_from_manual()
+    ipr_feats = features_from_ipr()
 
-    all_feats = manual_feats + osm_feats
+    # 1) IPR vs OSM dedup na blízkost (IPR pítka/fontány nemají name) – priorita IPR
+    pre_ipr = osm_feats + ipr_feats
+    pre_ipr = dedup_ipr_vs_osm(pre_ipr)
+
+    # 2) jmenná dedup přes všechny zdroje (manual > ipr > osm)
+    all_feats = manual_feats + pre_ipr
     before = len(all_feats)
     deduped = dedup(all_feats)
     print("[dedup] %d -> %d (odstraněno %d duplikátů)" % (before, len(deduped), before - len(deduped)),
