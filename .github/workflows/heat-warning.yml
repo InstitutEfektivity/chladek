@@ -1,0 +1,52 @@
+name: heat-warning
+
+# Každých 30 minut stáhne živou výstrahu ČHMÚ (SIVS) před vysokými teplotami pro
+# Prahu a přegeneruje public/data/heat-warning.json. Pokud se soubor změnil,
+# commitne ho zpět do repa. Frontend ho čte živě z raw.githubusercontent.com,
+# takže cron aktualizuje banner výstrahy bez nutnosti redeploye webu.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # každých 30 minut
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Zabraň souběhu (krátký job, ale jistota proti race při commitu).
+concurrency:
+  group: heat-warning
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch heat warning
+        run: python data/fetch_heat_warning.py
+
+      - name: Commit changed warning (if any)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain public/data/heat-warning.json)" ]; then
+            git add public/data/heat-warning.json
+            git commit -m "chore(data): refresh heat-warning.json [skip ci]"
+            git push
+            echo "Výstraha aktualizována a pushnuta."
+          else
+            echo "Beze změny – nic ke commitu."
+          fi
