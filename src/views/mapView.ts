@@ -12,7 +12,7 @@ import type {
 // a style nikdy nedoběhl do _loaded (bílá mapa). Typy bereme jen pro kontrolu.
 declare const maplibregl: typeof import("maplibre-gl");
 
-import { ui } from "../content/site.ts";
+import { ui, heatGuide } from "../content/site.ts";
 import { baseStyle, coolingColors } from "../lib/mapStyle.ts";
 import { fetchCurrentWeather } from "../lib/weather.ts";
 import { fetchHeatWarning } from "../lib/heatWarning.ts";
@@ -135,6 +135,10 @@ export function renderMapView(root: HTMLElement): () => void {
             <span class="usp-subtitle">${escapeHtml(ui.usp.subtitle)}</span>
           </div>
           <div class="topbar-badges">
+            <button type="button" class="heat-guide-btn" id="heat-guide-btn" aria-haspopup="dialog" aria-label="${escapeHtml(ui.heatGuide.open)}">
+              <span class="heat-guide-btn-icon" aria-hidden="true">☀</span>
+              <span>${escapeHtml(ui.heatGuide.button)}</span>
+            </button>
             <div class="temp-badge" id="temp-badge" role="status" aria-live="polite">
               <span class="temp-dot" aria-hidden="true"></span>
               <span>
@@ -337,6 +341,9 @@ export function renderMapView(root: HTMLElement): () => void {
     if (map) handleLocate(map, state, locateBtn, locateStatus);
   });
 
+  // Edukační panel „Co dělat v horku" – modal spouštěný tlačítkem v chrome mapy.
+  const heatGuidePanel = setupHeatGuide(root);
+
   // Živá teplota + výstraha ČHMÚ + kvalita ovzduší / UV
   void initWeather(root);
   void initHeatWarning(root);
@@ -349,8 +356,167 @@ export function renderMapView(root: HTMLElement): () => void {
     clearNearMarkers(state);
     clearTempMarkers(state);
     clearAreaLabels(state);
+    heatGuidePanel.destroy();
     map?.remove();
   };
+}
+
+// ---------- Edukační panel „Co dělat v horku" (modal, accessible, focus-trap) ----------
+
+// Postaví modal s radami do horka, zapojí spouštěč v chrome mapy a vrátí destroy().
+// Modal: mobile-first frosted panel, zavíratelný (Esc + tlačítko + klik na pozadí),
+// focus-trapped, vrací focus na spouštěč. Žádná závislost na mapě – čistě DOM.
+function setupHeatGuide(root: HTMLElement): { destroy: () => void } {
+  const trigger = root.querySelector<HTMLButtonElement>("#heat-guide-btn");
+  if (!trigger) return { destroy: () => {} };
+
+  const overlay = document.createElement("div");
+  overlay.className = "heat-guide-overlay";
+  overlay.hidden = true;
+  overlay.innerHTML = buildHeatGuideHtml();
+  root.appendChild(overlay);
+
+  const dialog = overlay.querySelector<HTMLElement>(".heat-guide-modal")!;
+  const closeBtns = Array.from(
+    overlay.querySelectorAll<HTMLButtonElement>("[data-hg-close]")
+  );
+
+  let lastFocused: HTMLElement | null = null;
+  let open = false;
+
+  const focusable = (): HTMLElement[] =>
+    Array.from(
+      dialog.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      )
+    ).filter((el) => el.offsetParent !== null || el === dialog);
+
+  function onKeydown(e: KeyboardEvent): void {
+    if (!open) return;
+    if (e.key === "Escape") {
+      e.preventDefault();
+      closePanel();
+      return;
+    }
+    if (e.key === "Tab") {
+      const items = focusable();
+      if (items.length === 0) return;
+      const first = items[0]!;
+      const last = items[items.length - 1]!;
+      const activeEl = document.activeElement as HTMLElement | null;
+      if (e.shiftKey && activeEl === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && activeEl === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+  }
+
+  function openPanel(): void {
+    if (open) return;
+    open = true;
+    lastFocused = document.activeElement as HTMLElement | null;
+    overlay.hidden = false;
+    // Vynutíme reflow, ať CSS přechod naskočí.
+    void overlay.offsetWidth;
+    overlay.classList.add("is-open");
+    trigger!.setAttribute("aria-expanded", "true");
+    document.addEventListener("keydown", onKeydown, true);
+    const items = focusable();
+    (items[0] ?? dialog).focus();
+  }
+
+  function closePanel(): void {
+    if (!open) return;
+    open = false;
+    overlay.classList.remove("is-open");
+    trigger!.setAttribute("aria-expanded", "false");
+    document.removeEventListener("keydown", onKeydown, true);
+    // Po doběhnutí přechodu skryj (a vrať focus na spouštěč).
+    window.setTimeout(() => {
+      if (!open) overlay.hidden = true;
+    }, 200);
+    lastFocused?.focus();
+  }
+
+  trigger.setAttribute("aria-expanded", "false");
+  trigger.addEventListener("click", openPanel);
+  for (const b of closeBtns) b.addEventListener("click", closePanel);
+  // Klik na pozadí (mimo modal) zavírá.
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closePanel();
+  });
+
+  return {
+    destroy: () => {
+      document.removeEventListener("keydown", onKeydown, true);
+      overlay.remove();
+    },
+  };
+}
+
+// Sestaví HTML obsahu panelu z heatGuide (skupiny rad + blok první pomoci).
+function buildHeatGuideHtml(): string {
+  const groupsHtml = heatGuide.groups
+    .map(
+      (g) => `
+      <section class="hg-group">
+        <h3 class="hg-group-heading">
+          <span class="hg-group-icon" aria-hidden="true">${escapeHtml(g.icon)}</span>
+          ${escapeHtml(g.heading)}
+        </h3>
+        <ul class="hg-tips">
+          ${g.tips.map((t) => `<li>${escapeHtml(t)}</li>`).join("\n")}
+        </ul>
+      </section>`
+    )
+    .join("\n");
+
+  const em = heatGuide.emergency;
+  const emergencyHtml = `
+    <section class="hg-group hg-emergency" aria-label="${escapeHtml(em.heading)}">
+      <h3 class="hg-group-heading">
+        <span class="hg-group-icon" aria-hidden="true">🚑</span>
+        ${escapeHtml(em.heading)}
+      </h3>
+      <p class="hg-emergency-intro">${escapeHtml(em.intro)}</p>
+      <div class="hg-emergency-cols">
+        <div>
+          <h4 class="hg-sub">Příznaky</h4>
+          <ul class="hg-tips">${em.symptoms.map((s) => `<li>${escapeHtml(s)}</li>`).join("\n")}</ul>
+        </div>
+        <div>
+          <h4 class="hg-sub">První pomoc</h4>
+          <ul class="hg-tips">${em.firstAid.map((s) => `<li>${escapeHtml(s)}</li>`).join("\n")}</ul>
+        </div>
+      </div>
+      <p class="hg-call">${escapeHtml(em.callLine)}</p>
+    </section>`;
+
+  return `
+    <div class="heat-guide-modal" role="dialog" aria-modal="true" aria-labelledby="hg-title" tabindex="-1">
+      <header class="hg-header">
+        <div>
+          <span class="hg-kicker" aria-hidden="true">☀ Rady do horka</span>
+          <h2 id="hg-title">${escapeHtml(ui.heatGuide.title)}</h2>
+        </div>
+        <button type="button" class="hg-close" data-hg-close aria-label="${escapeHtml(ui.heatGuide.closeAria)}">×</button>
+      </header>
+      <div class="hg-body">
+        <p class="hg-intro">${escapeHtml(ui.heatGuide.intro)}</p>
+        <div class="hg-groups">
+          ${groupsHtml}
+          ${emergencyHtml}
+        </div>
+        <p class="hg-source">${escapeHtml(ui.heatGuide.sourceNote)}</p>
+      </div>
+      <footer class="hg-footer">
+        <a class="btn hg-map-cta" href="#/" data-hg-close>${escapeHtml(ui.heatGuide.mapCta)}</a>
+        <button type="button" class="btn hg-close-btn" data-hg-close>${escapeHtml(ui.heatGuide.close)}</button>
+      </footer>
+    </div>`;
 }
 
 // Obecný přepínač visibility symbol vrstvy (mlžítka, metro). Vrstva nemusí

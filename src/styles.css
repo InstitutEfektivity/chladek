@@ -248,6 +248,39 @@ a {
   gap: var(--space-2);
 }
 
+/* Spouštěč edukačního panelu „Co dělat v horku" – výrazné, ale ne křiklavé
+   tlačítko v chrome mapy. Sytý teplý gradient (kontrast k chladné paletě mapy),
+   frosted okraj, drobný stín. */
+.heat-guide-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: linear-gradient(135deg, #f4794e 0%, #f6a14d 100%);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: -0.01em;
+  border-radius: var(--radius-pill);
+  padding: 9px 16px 9px 13px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(214, 91, 49, 0.32), 0 1px 3px rgba(214, 91, 49, 0.3);
+  transition: transform 0.12s, box-shadow 0.18s, filter 0.15s;
+}
+.heat-guide-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(214, 91, 49, 0.42), 0 2px 6px rgba(214, 91, 49, 0.32);
+  filter: saturate(1.06) brightness(1.02);
+}
+.heat-guide-btn:active {
+  transform: translateY(0);
+}
+.heat-guide-btn-icon {
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
 .temp-badge,
 .measured-badge {
   align-self: flex-start;
@@ -1092,6 +1125,271 @@ a {
 /* Footer varianta uvnitř mapy (kompaktní, jen na about) */
 .map-view .site-footer {
   display: none;
+}
+
+/* ---------- Edukační panel „Co dělat v horku" (modal) ---------- */
+.heat-guide-overlay[hidden] {
+  display: none;
+}
+.heat-guide-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: rgba(10, 32, 47, 0.42);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.heat-guide-overlay.is-open {
+  opacity: 1;
+}
+.heat-guide-modal {
+  width: 100%;
+  max-width: 620px;
+  max-height: min(88vh, 880px);
+  display: flex;
+  flex-direction: column;
+  background: var(--glass-bg-strong);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.4);
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.4);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(12px) scale(0.98);
+  transition: transform 0.2s ease;
+}
+.heat-guide-overlay.is-open .heat-guide-modal {
+  transform: translateY(0) scale(1);
+}
+
+.hg-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-4) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+.hg-kicker {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-heat);
+  margin-bottom: 4px;
+}
+.hg-header h2 {
+  margin: 0;
+  font-size: clamp(1.3rem, 4vw, 1.6rem);
+}
+.hg-close {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.hg-close:hover {
+  background: var(--color-surface-subtle);
+  color: var(--color-text);
+  border-color: var(--color-accent);
+}
+
+.hg-body {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: var(--space-3) var(--space-4) var(--space-4);
+}
+.hg-intro {
+  margin: 0 0 var(--space-4);
+  font-size: 1rem;
+  color: var(--color-text);
+  line-height: 1.55;
+}
+.hg-groups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3) var(--space-4);
+}
+.hg-group {
+  min-width: 0;
+}
+.hg-group-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 var(--space-2);
+  font-size: 1.02rem;
+  color: var(--color-primary-dark);
+}
+.hg-group-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+.hg-tips {
+  margin: 0;
+  padding-left: 1.15em;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hg-tips li {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+.hg-sub {
+  margin: 0 0 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* Blok první pomoci – přes celou šířku, výrazný teplý rámeček. */
+.hg-emergency {
+  grid-column: 1 / -1;
+  margin-top: var(--space-2);
+  padding: var(--space-3);
+  background: rgba(244, 121, 78, 0.08);
+  border: 1px solid rgba(244, 121, 78, 0.32);
+  border-radius: var(--radius);
+}
+.hg-emergency-intro {
+  margin: 0 0 var(--space-3);
+  font-size: 0.92rem;
+  color: var(--color-text);
+}
+.hg-emergency-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3) var(--space-4);
+}
+.hg-call {
+  margin: var(--space-3) 0 0;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-heat-strong);
+}
+
+.hg-source {
+  margin: var(--space-4) 0 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.hg-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+.hg-map-cta {
+  background: var(--gradient-cta);
+  color: #fff;
+  box-shadow: var(--shadow-cta);
+  text-decoration: none;
+  flex: 1 1 auto;
+}
+.hg-map-cta:hover {
+  filter: saturate(1.1) brightness(1.03);
+}
+.hg-close-btn {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+.hg-close-btn:hover {
+  background: var(--color-surface-subtle);
+}
+
+@media (max-width: 560px) {
+  .heat-guide-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .heat-guide-modal {
+    max-width: 100%;
+    max-height: 92vh;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    transform: translateY(100%);
+  }
+  .heat-guide-overlay.is-open .heat-guide-modal {
+    transform: translateY(0);
+  }
+  .hg-groups,
+  .hg-emergency-cols {
+    grid-template-columns: 1fr;
+  }
+  .hg-header,
+  .hg-body,
+  .hg-footer {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+  }
+  .hg-footer {
+    padding-bottom: calc(var(--space-3) + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* ---------- O projektu: lead věta + pull-quote + hero CTA ---------- */
+.about-hero-cta {
+  display: inline-flex;
+  margin-top: var(--space-4);
+  background: var(--color-surface);
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  box-shadow: var(--shadow-card);
+}
+.about-hero-cta:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+
+.about-lead {
+  font-size: clamp(1.08rem, 2.6vw, 1.22rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-primary-dark);
+  margin: 0 0 var(--space-3);
+}
+.about-quote {
+  margin: var(--space-4) 0 0;
+  padding: var(--space-3) var(--space-4);
+  border-left: 5px solid var(--color-accent);
+  background: linear-gradient(
+    100deg,
+    rgba(15, 181, 206, 0.1),
+    rgba(15, 181, 206, 0.02)
+  );
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.about-quote p {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.12rem, 2.8vw, 1.32rem);
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: var(--tracking-heading);
+  color: var(--color-primary-dark);
 }
 
 @media (prefers-reduced-motion: reduce) {
