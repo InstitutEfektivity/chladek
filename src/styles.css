@@ -3,11 +3,11 @@
   --color-primary: #16405e;
   --color-primary-light: #2a4a73;
   --color-primary-dark: #0f2d43;
-  --color-accent: #19b8ce;
+  --color-accent: #0fb5ce;
   --color-accent-light: #5fe0cf;
   --color-heat: #f4794e;
   --color-heat-strong: #d64545;
-  --color-bg: #f2f8fa;
+  --color-bg: #eef6f9;
   --color-surface: #ffffff;
   --color-surface-subtle: #e8f1f4;
   --color-text: #13212b;
@@ -15,12 +15,14 @@
   --color-border: #d6e3e8;
   --gradient-temp: linear-gradient(
     90deg,
-    #19b8ce 0%,
+    #0fb5ce 0%,
     #5fe0cf 25%,
     #ffd27f 70%,
     #f4794e 100%
   );
-  --gradient-brand: linear-gradient(135deg, #16405e 0%, #19b8ce 100%);
+  --gradient-brand: linear-gradient(135deg, #16405e 0%, #0fb5ce 100%);
+  /* Sytý CTA gradient – chladná, ale energická výzva k akci. */
+  --gradient-cta: linear-gradient(135deg, #0f7f9e 0%, #0fb5ce 48%, #34d6c4 100%);
   --font-heading: "Space Grotesk", "Inter", "Segoe UI", system-ui, sans-serif;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --line-body: 1.6;
@@ -29,13 +31,17 @@
   --radius: 14px;
   --radius-lg: 20px;
   --radius-pill: 9999px;
-  --shadow-card: 0 4px 24px rgba(22, 64, 94, 0.1);
-  --shadow-hover: 0 8px 32px rgba(22, 64, 94, 0.14);
-  --glass-bg: rgba(255, 255, 255, 0.72);
-  --glass-blur: 16px;
+  /* Vrstvené stíny – jemný + hloubkový pro „nadnášený" frosted vzhled. */
+  --shadow-card: 0 1px 2px rgba(13, 44, 66, 0.06), 0 6px 20px rgba(13, 44, 66, 0.1);
+  --shadow-hover: 0 2px 6px rgba(13, 44, 66, 0.1), 0 12px 32px rgba(13, 44, 66, 0.16);
+  --shadow-cta: 0 4px 14px rgba(15, 127, 158, 0.34), 0 10px 30px rgba(15, 181, 206, 0.28);
+  --glass-bg: rgba(255, 255, 255, 0.74);
+  --glass-bg-strong: rgba(255, 255, 255, 0.86);
+  --glass-blur: 18px;
+  --glass-border: rgba(255, 255, 255, 0.6);
   --dot-grid: radial-gradient(
     circle at 2px 2px,
-    rgba(25, 184, 206, 0.07) 1px,
+    rgba(15, 181, 206, 0.07) 1px,
     transparent 0
   );
   --space-1: 4px;
@@ -46,10 +52,10 @@
   --space-8: 80px;
 
   /* Barvy bodů podle typu ochlazení */
-  --cool-ac: #19b8ce;
-  --cool-water: #2a86c9;
-  --cool-natural: #16405e;
-  --cool-shade: #6fbf73;
+  --cool-ac: #0fb5ce;
+  --cool-water: #2c7de0;
+  --cool-natural: #1c7e8c;
+  --cool-shade: #3fa85c;
 }
 
 * {
@@ -242,20 +248,24 @@ a {
   gap: var(--space-2);
 }
 
-.temp-badge {
+.temp-badge,
+.measured-badge {
   align-self: flex-start;
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
-  background: var(--glass-bg);
-  -webkit-backdrop-filter: blur(var(--glass-blur));
-  backdrop-filter: blur(var(--glass-blur));
-  border: 1px solid var(--color-border);
+  background: var(--glass-bg-strong);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.4);
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.4);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-pill);
-  padding: var(--space-1) var(--space-3) var(--space-1) var(--space-1);
+  padding: 6px 16px 6px 6px;
   box-shadow: var(--shadow-card);
   font-size: 0.9rem;
   max-width: 100%;
+}
+.measured-badge[hidden] {
+  display: none;
 }
 
 /* Drobné badge UV / kvalita ovzduší – barva přes --env-color z JS. */
@@ -266,12 +276,12 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--glass-bg);
-  -webkit-backdrop-filter: blur(var(--glass-blur));
-  backdrop-filter: blur(var(--glass-blur));
-  border: 1px solid var(--color-border);
+  background: var(--glass-bg-strong);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.4);
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.4);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-pill);
-  padding: 4px 12px 4px 10px;
+  padding: 5px 14px 5px 12px;
   box-shadow: var(--shadow-card);
   font-size: 0.8rem;
   line-height: 1.2;
@@ -314,26 +324,53 @@ a {
   font-size: 0.8rem;
 }
 
+/* Naměřená teplota (ČHMÚ) – frosted karta vedle „Venku teď". */
+.measured-badge .measured-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  flex: 0 0 auto;
+  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.6);
+}
+.measured-badge .measured-label {
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+.measured-badge .measured-value {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-primary-dark);
+}
+.measured-badge .measured-meta {
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+}
+
 .heat-warning[hidden] {
   display: none;
 }
 .heat-warning {
   display: flex;
-  align-items: flex-start;
-  gap: var(--space-2);
-  background: var(--color-heat);
+  align-items: center;
+  gap: var(--space-3);
+  background: linear-gradient(135deg, #f4794e 0%, #f0975f 100%);
   color: #3a1305;
   border-radius: var(--radius);
-  padding: var(--space-2) var(--space-3);
-  font-size: 0.88rem;
-  font-weight: 500;
-  box-shadow: var(--shadow-card);
-  max-width: 560px;
+  padding: 10px var(--space-3) 10px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+  box-shadow: 0 6px 22px rgba(214, 69, 69, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  max-width: 580px;
 }
 /* Severe / Extreme – silnější červená. */
 .heat-warning.level-severe {
-  background: var(--color-heat-strong);
+  background: linear-gradient(135deg, #d64545 0%, #e0644f 100%);
   color: #fff5f2;
+  box-shadow: 0 6px 24px rgba(214, 69, 69, 0.42);
 }
 .heat-warning.level-severe strong {
   color: #fff;
@@ -343,22 +380,31 @@ a {
 }
 .heat-warning .heat-icon {
   flex: 0 0 auto;
-  font-size: 1.1rem;
-  line-height: 1.3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 1.05rem;
+  line-height: 1;
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
 /* Spodní ovládací panel: filtry + geolokace */
 .map-controls {
   z-index: 10;
-  background: var(--glass-bg);
-  -webkit-backdrop-filter: blur(var(--glass-blur));
-  backdrop-filter: blur(var(--glass-blur));
-  border-top: 1px solid var(--color-border);
-  padding: var(--space-2) var(--space-3);
+  background: var(--glass-bg-strong);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.3);
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.3);
+  border-top: 1px solid var(--glass-border);
+  box-shadow: 0 -6px 24px rgba(13, 44, 66, 0.08);
+  padding: var(--space-3);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: var(--space-2);
+  gap: var(--space-2) var(--space-3);
 }
 
 .filters {
@@ -381,24 +427,29 @@ a {
 .chip {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-1);
-  border: 1px solid var(--color-border);
+  gap: 7px;
+  border: 1.5px solid var(--color-border);
   background: var(--color-surface);
   color: var(--color-text);
   border-radius: var(--radius-pill);
-  padding: 7px 14px;
-  font-size: 0.85rem;
+  padding: 9px 16px;
+  font-size: 0.88rem;
   font-weight: 600;
   cursor: pointer;
-  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s,
-    color 0.15s;
+  transition: border-color 0.18s, background 0.18s, box-shadow 0.18s,
+    color 0.18s, transform 0.12s;
 }
 .chip:hover {
   border-color: var(--color-accent);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-1px);
+}
+.chip:active {
+  transform: translateY(0);
 }
 .chip .chip-dot {
-  width: 10px;
-  height: 10px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   flex: 0 0 auto;
 }
@@ -424,21 +475,29 @@ a {
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
-  width: 1.05rem;
-  height: 1.05rem;
+  width: 1.15rem;
+  height: 1.15rem;
 }
 .chip .chip-icon .chip-glyph {
   width: 100%;
   height: 100%;
   display: block;
 }
+/* Aktivní filtr ochlazení = sytá barva daného typu (ne tmavá primary), aby
+   chip nesl stejný „chladný" jazyk jako markery na mapě. */
 .chip-cooling[aria-pressed="true"] {
-  /* Barevný accent zůstane čitelný i v aktivním stavu – tenký levý proužek. */
-  box-shadow: var(--shadow-card), inset 4px 0 0 var(--chip-accent, var(--color-accent));
+  background: var(--chip-accent, var(--color-accent));
+  border-color: var(--chip-accent, var(--color-accent));
+  color: #fff;
+  box-shadow: var(--shadow-card);
 }
 .chip-cooling[aria-pressed="true"] .chip-icon {
-  /* Bílá ikona na tmavém aktivním chipu (currentColor přebije inline color). */
+  /* Bílá ikona na barevném aktivním chipu (currentColor přebije inline color). */
   color: #fff !important;
+}
+/* Neaktivní filtr ochlazení – jemně ztlumený, ať je rozdíl on/off čitelný. */
+.chip-cooling[aria-pressed="false"] {
+  opacity: 0.92;
 }
 
 /* Overlay přepínač datové vrstvy – vizuálně oddělený od filtrů ochlazení.
@@ -447,12 +506,14 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  padding-left: var(--space-2);
+  padding-left: var(--space-3);
   margin-left: 2px;
-  border-left: 1px solid var(--color-border);
+  border-left: 1.5px solid var(--color-border);
 }
 .chip-overlay {
   border-style: dashed;
+  font-size: 0.82rem;
+  padding: 8px 14px;
 }
 .chip-overlay .chip-dot-air {
   background: radial-gradient(circle at 50% 50%, #9bd17a 0 45%, #fff 46% 60%, #19b8ce 61% 100%);
@@ -471,6 +532,7 @@ a {
 .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: var(--space-2);
   border: 0;
   border-radius: var(--radius-pill);
@@ -479,7 +541,7 @@ a {
   font-size: 0.88rem;
   font-weight: 600;
   cursor: pointer;
-  transition: filter 0.15s, transform 0.05s, box-shadow 0.15s;
+  transition: filter 0.15s, transform 0.08s, box-shadow 0.18s;
 }
 .btn:active {
   transform: translateY(1px);
@@ -502,16 +564,55 @@ a {
   line-height: 1;
 }
 
+/* Hlavní výzva k akci: „Najdi 3 nejbližší chládky". Větší, sytý gradient,
+   výrazný stín, jemný lesk – satisfying primary CTA. */
 .locate-wrap {
   margin-left: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 2px;
+  gap: 6px;
+}
+.locate-wrap .btn-primary {
+  background: var(--gradient-cta);
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  padding: 13px 24px;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-cta);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+.locate-wrap .btn-primary::before {
+  /* Jemný horní lesk pro „tlačítkový" tactile pocit. */
+  content: "";
+  position: absolute;
+  inset: 1px 1px auto 1px;
+  height: 45%;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+.locate-wrap .btn-primary {
+  position: relative;
+  overflow: hidden;
+}
+.locate-wrap .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 127, 158, 0.4), 0 16px 38px rgba(15, 181, 206, 0.34);
+  filter: saturate(1.12) brightness(1.03);
+}
+.locate-wrap .btn-primary:active {
+  transform: translateY(0);
+}
+.locate-wrap .btn-icon {
+  font-size: 1.15rem;
 }
 .locate-status {
   font-size: 0.78rem;
   color: var(--color-text-muted);
+  max-width: 260px;
+  text-align: right;
 }
 .locate-status.error {
   color: var(--color-heat-strong);
@@ -523,6 +624,54 @@ a {
   color: var(--color-text-muted);
   flex-basis: 100%;
   order: 99;
+}
+
+/* ---------- Mobile-first ladění (~390px) ---------- */
+@media (max-width: 560px) {
+  .map-topbar {
+    top: var(--space-2);
+    left: var(--space-2);
+    right: var(--space-2);
+  }
+  .map-controls {
+    padding: var(--space-3) var(--space-2) calc(var(--space-2) + env(safe-area-inset-bottom, 0px));
+    gap: var(--space-2);
+  }
+  /* Filtry a overlaye zaberou plnou šířku a hezky se zalomí. */
+  .filters,
+  .overlay-toggles {
+    width: 100%;
+  }
+  .overlay-toggles {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: 0;
+    padding-top: var(--space-1);
+    border-top: 1px solid var(--color-border);
+  }
+  /* CTA přes celou šířku – palec ho trefí kdekoli. */
+  .locate-wrap {
+    margin-left: 0;
+    width: 100%;
+    align-items: stretch;
+  }
+  .locate-wrap .btn-primary {
+    width: 100%;
+    padding: 15px 22px;
+    font-size: 1.02rem;
+  }
+  .locate-status {
+    text-align: center;
+    max-width: 100%;
+  }
+  .chip {
+    padding: 9px 14px;
+  }
+  /* Atribuci na mobilu ztlumíme na dvě řádky bez přetékání. */
+  .map-attribution {
+    font-size: 0.68rem;
+    line-height: 1.35;
+  }
 }
 
 /* ---------- Popup (MapLibre) ---------- */
@@ -672,8 +821,27 @@ a {
 
 /* Zvýraznění nejbližších míst */
 .maplibregl-marker.near-marker {
-  font-size: 1.4rem;
-  filter: drop-shadow(0 2px 4px rgba(22, 64, 94, 0.4));
+  font-size: 1.6rem;
+  filter: drop-shadow(0 2px 5px rgba(22, 64, 94, 0.45));
+}
+
+/* DOM popisek velkého parku/plochy (ne text-field – HTML Marker). Decentní,
+   čte se přes mapu, ale nepřebíjí markery. */
+.area-label {
+  pointer-events: none;
+  user-select: none;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  color: #2c6a3a;
+  white-space: nowrap;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9), 0 0 6px rgba(255, 255, 255, 0.9),
+    0 0 3px rgba(255, 255, 255, 0.9);
+  opacity: 0.92;
+}
+.area-label-water {
+  color: #1d5aa8;
 }
 
 /* ---------- Stránka O projektu ---------- */

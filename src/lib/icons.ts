@@ -1,70 +1,230 @@
 import type { Map as MlMap } from "maplibre-gl";
-import type { Cooling } from "./types.ts";
-import { coolingColors } from "./mapStyle.ts";
+import type { Cooling, Category } from "./types.ts";
+import { coolingColors, categoryColor } from "./mapStyle.ts";
 
-// Ikonografie chládek-bodů. Dependency-free: každý glyph je inline SVG path,
-// vykreslený na barevný teardrop pin v barvě cooling (coolingColors z mapStyle.ts).
+// Ikonografie chládek-bodů. Dependency-free: každý marker je inline SVG vykreslený
+// jako rastr (HTMLImageElement) přes map.addImage().
 //
 // POZOR – proč rastrová ikona, ne textová vrstva:
 //  MapLibre symbol vrstvy s `text-field` potřebují externí glyphy; jejich fetch
 //  ve workeru selhával a označoval celé geojson tiles jako errored (bílá mapa).
 //  Ikona přes `icon-image` + map.addImage() je ale obyčejný RASTR (HTMLImageElement),
 //  ne glyph – funguje spolehlivě. Proto stavíme SVG → data URI → <img> → addImage.
+//
+// ITERACE 1 (vizuální overhaul): místo teardrop-pinu podle COOLINGU vykreslujeme
+// premiový „squircle" badge podle KATEGORIE – velká, app-like ikona s bílým glyphem,
+// vertikálním gradientem chladné barvy, bílým vnitřním obrysem, měkkým stínem a
+// spodním hrotem („notch") zakotveným do souřadnice. Cíl: na první pohled „CO a KDE".
 
-// Bílé glyphy (cesta v lokálním 0..24 viewBoxu, vykreslíme do středu pinu).
-// water = kapka, ac = vločka, natural = chladný oblouk/průchod, shade = strom.
-const GLYPH_PATHS: Record<Cooling, string> = {
-  // Kapka vody.
-  water:
-    "M12 2.5c3.4 4.2 6 7.6 6 10.8a6 6 0 0 1-12 0c0-3.2 2.6-6.6 6-10.8z",
-  // Vločka (sněhová) – tři osy + drobné větvičky.
-  ac:
-    "M12 2v20M3.34 7l17.32 10M3.34 17 20.66 7M12 5l-2.4-2.4M12 5l2.4-2.4M12 19l-2.4 2.4M12 19l2.4 2.4M5.6 8.4 4.8 5.1 8.1 5.9M18.4 15.6l.8 3.3-3.3-.8M18.4 8.4l.8-3.3-3.3.8M5.6 15.6l-.8 3.3 3.3-.8",
-  // Chladný kamenný oblouk / průchod (kostelní chládek).
-  natural:
-    "M4 21V10a8 8 0 0 1 16 0v11M4 21h16M9 21v-7a3 3 0 0 1 6 0v7",
-  // Strom (stín).
-  shade:
-    "M12 2.5c-3 0-5.2 2.3-5.2 5 0 .5.07 1 .2 1.4A4.3 4.3 0 0 0 8 17h2.6v4.5h2.8V17H16a4.3 4.3 0 0 0 .8-8.1c.13-.45.2-.92.2-1.4 0-2.7-2.2-5-5-5z",
-};
+// ---------- Glyphy kategorií (bílá, viewBox 0..24, kreslíme do středu badge) ----------
+//
+// Každý glyph je seznam SVG <path>. `fill` = vyplněný tvar, `stroke` = obrys (linka).
+// Mícháme oba styly – některé tvary čtou líp jako silueta (taška, strom), jiné jako linka.
 
-// Některé glyphy mají smysl jako vyplněné tvary (kapka, oblouk, strom),
-// vločka jen jako linka. Řídí, jestli path renderujeme fill vs stroke.
-const GLYPH_FILLED: Record<Cooling, boolean> = {
-  water: true,
-  ac: false,
-  natural: false,
-  shade: true,
-};
-
-const ICON_IDS: Cooling[] = ["water", "ac", "natural", "shade"];
-
-function iconId(cooling: Cooling): string {
-  return `icon-${cooling}`;
+interface Glyph {
+  // path data v 0..24 souřadnicích
+  paths: string[];
+  // true = vyplnit bílou, false = bílý obrys (stroke)
+  filled: boolean;
+  // tloušťka obrysu (jen pro filled=false)
+  strokeWidth?: number;
 }
 
-// Teardrop pin 44×56: barevný špendlík se špičkou dolů, bílý glyph uvnitř kruhové
-// hlavičky. Bílý obrys + měkký stín, aby bod „vyskočil" na světlém podkladu.
-function pinSvg(cooling: Cooling): string {
-  const fill = coolingColors[cooling] ?? "#16405e";
-  const filled = GLYPH_FILLED[cooling];
-  const glyph = GLYPH_PATHS[cooling];
+// Glyph per kategorie. Čistý, instantně čitelný.
+const CATEGORY_GLYPHS: Record<Category, Glyph> = {
+  // Obchoďák → nákupní taška.
+  mall: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M5.5 8.5h13l-1 12.5a1.5 1.5 0 0 1-1.5 1.4H8a1.5 1.5 0 0 1-1.5-1.4z",
+      "M8.5 8.5V7a3.5 3.5 0 0 1 7 0v1.5",
+    ],
+  },
+  // Knihovna → otevřená kniha.
+  library: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M12 6.2C10 4.7 7.4 4.4 4.5 4.8v12.6c2.9-.4 5.5-.1 7.5 1.4 2-1.5 4.6-1.8 7.5-1.4V4.8C16.6 4.4 14 4.7 12 6.2z",
+      "M12 6.2v12",
+    ],
+  },
+  // Muzeum → antické sloupy / pediment.
+  museum: {
+    filled: false,
+    strokeWidth: 1.8,
+    paths: [
+      "M3.5 9.5 12 4l8.5 5.5",
+      "M5 9.5v8M9 9.5v8M15 9.5v8M19 9.5v8",
+      "M3.5 20h17",
+    ],
+  },
+  // Kino → klapka / film.
+  cinema: {
+    filled: false,
+    strokeWidth: 1.8,
+    paths: [
+      "M4 10.5h16v8.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 19z",
+      "M4 10.5 5.4 6.2l3.2.7-1.4 4.3M9.2 11.2 10.6 6.9l3.2.7-1.4 4.3M14.4 11.2 15.8 6.9l3.2.7-1.4 4.3",
+    ],
+  },
+  // Bazén → vlnky.
+  pool: {
+    filled: false,
+    strokeWidth: 2.1,
+    paths: [
+      "M3 9.5c1.8 0 1.8 1.6 3.6 1.6S8.4 9.5 10.2 9.5 12 11.1 13.8 11.1 15.6 9.5 17.4 9.5 19.2 11.1 21 11.1",
+      "M3 14.5c1.8 0 1.8 1.6 3.6 1.6s1.8-1.6 3.6-1.6 1.8 1.6 3.6 1.6 1.8-1.6 3.6-1.6 1.8 1.6 3.6 1.6",
+      "M3 19.5c1.8 0 1.8 1.6 3.6 1.6s1.8-1.6 3.6-1.6 1.8 1.6 3.6 1.6 1.8-1.6 3.6-1.6 1.8 1.6 3.6 1.6",
+    ],
+  },
+  // Kašna / fontána → kapka vody.
+  fountain: {
+    filled: true,
+    paths: ["M12 2.5c3.4 4.2 6 7.6 6 10.8a6 6 0 0 1-12 0c0-3.2 2.6-6.6 6-10.8z"],
+  },
+  // Kostel → zaoblený oblouk / portál (chladný kamenný interiér).
+  church: {
+    filled: false,
+    strokeWidth: 2,
+    paths: [
+      "M12 2.5v4M9.5 4.5h5",
+      "M5 21V12a7 7 0 0 1 14 0v9M5 21h14M10 21v-5a2 2 0 0 1 4 0v5",
+    ],
+  },
+  // Park → strom.
+  park: {
+    filled: true,
+    paths: [
+      "M12 2.5c-3 0-5.2 2.3-5.2 5 0 .5.07 1 .2 1.4A4.3 4.3 0 0 0 8 17h2.6v4.5h2.8V17H16a4.3 4.3 0 0 0 .8-8.1c.13-.45.2-.92.2-1.4 0-2.7-2.2-5-5-5z",
+    ],
+  },
+  // AC obchod / místo s klimatizací → vločka.
+  shop_ac: {
+    filled: false,
+    strokeWidth: 2,
+    paths: [
+      "M12 2.5v19M3.8 7.2l16.4 9.6M3.8 16.8 20.2 7.2",
+      "M12 5.3 9.9 3.2M12 5.3l2.1-2.1M12 18.7l-2.1 2.1M12 18.7l2.1 2.1",
+      "M5.6 8.8 5 5.9l2.9.6M18.4 15.2l.6 2.9-2.9-.6M18.4 8.8l.6-2.9-2.9.6M5.6 15.2 5 18.1l2.9-.6",
+    ],
+  },
+  // Kavárna / občerstvení (klimatizované) → hrnek s vločkou.
+  cafe_food: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M5 9.5h11v5.5a4.5 4.5 0 0 1-4.5 4.5H9.5A4.5 4.5 0 0 1 5 15z",
+      "M16 11h1.8a2.3 2.3 0 0 1 0 4.6H16",
+      "M8.6 3.6 7.8 5.6M11.6 3.6l-.8 2M14.6 3.6l-.8 2",
+    ],
+  },
+};
 
-  // Glyph je v 0..24 souřadnicích; vsadíme ho do hlavičky pinu (střed 22,22, ~24 px).
-  const glyphAttrs = filled
+// ---------- Cooling glyphy (chipy + popupy) ----------
+// Pro filtrační chipy a popupy potřebujeme glyph podle COOLINGU (4 typy), ne kategorie.
+const COOLING_GLYPHS: Record<Cooling, Glyph> = {
+  // Voda = kapka.
+  water: {
+    filled: true,
+    paths: ["M12 2.5c3.4 4.2 6 7.6 6 10.8a6 6 0 0 1-12 0c0-3.2 2.6-6.6 6-10.8z"],
+  },
+  // AC = vločka.
+  ac: CATEGORY_GLYPHS.shop_ac,
+  // Přirozený chlad = oblouk.
+  natural: CATEGORY_GLYPHS.church,
+  // Stín a parky = strom.
+  shade: CATEGORY_GLYPHS.park,
+};
+
+const CATEGORIES: Category[] = [
+  "mall",
+  "library",
+  "museum",
+  "cinema",
+  "pool",
+  "fountain",
+  "church",
+  "park",
+  "shop_ac",
+  "cafe_food",
+];
+
+function venueIconId(category: Category): string {
+  return `icon-${category}`;
+}
+
+// ---------- Squircle badge renderer ----------
+//
+// Premiový marker: zaoblený superellipse („squircle", ~22 % radius) s vertikálním
+// gradientem chladné barvy, bílým vnitřním obrysem, měkkým stínem a spodním hrotem
+// (notch) zakotveným do souřadnice. Base canvas 128×148 px, addImage pixelRatio 2
+// → ostré i ve velkém měřítku.
+
+const BADGE_W = 128;
+const BADGE_H = 148; // 128 badge + 20 hrot
+const RADIUS = 30; // ~22 % z 132 → app-like squircle
+
+// Zesvětlí hex barvu směrem k bílé (amount 0..1) – pro horní okraj gradientu.
+function lighten(hex: string, amount: number): string {
+  const h = hex.replace("#", "");
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  const mix = (c: number) => Math.round(c + (255 - c) * amount);
+  const to2 = (n: number) => n.toString(16).padStart(2, "0");
+  return `#${to2(mix(r))}${to2(mix(g))}${to2(mix(b))}`;
+}
+
+// Ztmaví hex barvu (amount 0..1) – pro spodní okraj gradientu.
+function darken(hex: string, amount: number): string {
+  const h = hex.replace("#", "");
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  const mix = (c: number) => Math.round(c * (1 - amount));
+  const to2 = (n: number) => n.toString(16).padStart(2, "0");
+  return `#${to2(mix(r))}${to2(mix(g))}${to2(mix(b))}`;
+}
+
+function glyphMarkup(glyph: Glyph): string {
+  const attrs = glyph.filled
     ? `fill="#ffffff" stroke="none"`
-    : `fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"`;
+    : `fill="none" stroke="#ffffff" stroke-width="${glyph.strokeWidth ?? 2}" stroke-linecap="round" stroke-linejoin="round"`;
+  const paths = glyph.paths.map((d) => `<path d="${d}"/>`).join("");
+  return `<g ${attrs}>${paths}</g>`;
+}
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="56" viewBox="0 0 44 56">
+// Postaví SVG squircle badge dané chladné barvy s daným glyphem.
+function badgeSvg(color: string, glyph: Glyph, uid: string): string {
+  const top = lighten(color, 0.28);
+  const bottom = darken(color, 0.1);
+  const stroke = darken(color, 0.22);
+
+  // Glyph kreslíme do středu badge (badge střed = 64,64), škálujeme 0..24 → ~62 px.
+  // translate na (64 - 31, 64 - 31) = (33,33) a scale 2.6 (24*2.6 ≈ 62).
+  const gScale = 2.6;
+  const gOff = 64 - (24 * gScale) / 2;
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${BADGE_W}" height="${BADGE_H}" viewBox="0 0 ${BADGE_W} ${BADGE_H}">
   <defs>
-    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-color="#0f2d43" flood-opacity="0.35"/>
+    <linearGradient id="g${uid}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${top}"/>
+      <stop offset="1" stop-color="${bottom}"/>
+    </linearGradient>
+    <filter id="sh${uid}" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0d2c42" flood-opacity="0.34"/>
     </filter>
   </defs>
-  <path filter="url(#s)" d="M22 3C12.6 3 5 10.5 5 19.8c0 11.4 13.1 24.6 16 31.6.5 1.2 1.6 1.2 2 0 2.9-7 16-20.2 16-31.6C39 10.5 31.4 3 22 3z" fill="${fill}" stroke="#ffffff" stroke-width="2.5"/>
-  <circle cx="22" cy="20" r="13.5" fill="rgba(255,255,255,0.16)"/>
-  <g transform="translate(10 8) scale(1)" ${glyphAttrs}>
-    <path d="${glyph}"/>
+  <g filter="url(#sh${uid})">
+    <path d="M64 142 L50 116 H78 Z" fill="${bottom}"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="url(#g${uid})" stroke="${stroke}" stroke-width="2.5"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.92"/>
+    <rect x="14" y="12" width="100" height="52" rx="${RADIUS - 8}" ry="${RADIUS - 8}" fill="#ffffff" fill-opacity="0.14"/>
+  </g>
+  <g transform="translate(${gOff} ${gOff}) scale(${gScale})">
+    ${glyphMarkup(glyph)}
   </g>
 </svg>`;
 }
@@ -80,17 +240,20 @@ function loadSvgImage(svg: string): Promise<HTMLImageElement> {
   });
 }
 
-// Zaregistruje všechny ikony chládek-bodů (icon-<cooling>) do mapy.
+// Zaregistruje všechny ikony chládek-bodů (icon-<category>) do mapy.
 // Pre-registrace MUSÍ proběhnout PŘED přidáním symbol vrstvy, která je odkazuje,
 // jinak vyletí styleimagemissing. Awaitujeme všechny obrázky před returnem.
 export async function registerVenueIcons(map: MlMap): Promise<void> {
   await Promise.all(
-    ICON_IDS.map(async (cooling) => {
-      const id = iconId(cooling);
+    CATEGORIES.map(async (category) => {
+      const id = venueIconId(category);
       if (map.hasImage(id)) return;
-      const img = await loadSvgImage(pinSvg(cooling));
+      const color = categoryColor[category] ?? coolingColors["ac"]!;
+      const glyph = CATEGORY_GLYPHS[category];
+      const img = await loadSvgImage(badgeSvg(color, glyph, category));
       // Druhá kontrola: mezi awaitem mohl obrázek doplnit jiný běh.
       if (!map.hasImage(id)) {
+        // pixelRatio 2 → base 128 px se vykreslí jako ~64 px @ icon-size 1.
         map.addImage(id, img, { pixelRatio: 2 });
       }
     })
@@ -98,46 +261,74 @@ export async function registerVenueIcons(map: MlMap): Promise<void> {
 }
 
 // ---------- Overlay ikony (mlžítka, metro) ----------
-// Stejný princip jako chládek-body: SVG → data URI → <img> → map.addImage (rastr,
-// ne glyph). Tvar pinu i barvy jsou ale samostatné, ať jsou overlaye odlišitelné.
+// Stejný princip (squircle badge), ale samostatné barvy, ať jsou overlaye odlišitelné.
 
-// Mlžítko: vodně-modrý pin se sprchovým „kropítkem" + kapičkami.
-function mistPinSvg(): string {
-  const fill = "#2A86C9"; // vodní modrá (cool-water)
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="56" viewBox="0 0 44 56">
+// Mlžítko → sprchové „kropítko" + kapičky, vodní modrá.
+const MIST_GLYPH: Glyph = {
+  filled: false,
+  strokeWidth: 1.9,
+  paths: [
+    "M5 13h14",
+    "M12 13V8.5A2.5 2.5 0 0 1 14.5 6H18",
+  ],
+};
+const MIST_DOTS = `<g fill="#ffffff">
+  <circle cx="9" cy="17" r="1.4"/><circle cx="12" cy="19" r="1.6"/><circle cx="15" cy="17" r="1.4"/>
+  <circle cx="10.5" cy="21.5" r="1.2"/><circle cx="13.5" cy="21.5" r="1.2"/>
+</g>`;
+
+// Metro → bílý kruh s červeným „M" roundelem (PID).
+function metroBadgeSvg(): string {
+  const fill = "#E2231A"; // PID červená
+  const top = lighten(fill, 0.18);
+  const bottom = darken(fill, 0.1);
+  const stroke = darken(fill, 0.2);
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${BADGE_W}" height="${BADGE_H}" viewBox="0 0 ${BADGE_W} ${BADGE_H}">
   <defs>
-    <filter id="ms" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-color="#0f2d43" flood-opacity="0.35"/>
+    <linearGradient id="gmetro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${top}"/>
+      <stop offset="1" stop-color="${bottom}"/>
+    </linearGradient>
+    <filter id="shmetro" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0d2c42" flood-opacity="0.34"/>
     </filter>
   </defs>
-  <path filter="url(#ms)" d="M22 3C12.6 3 5 10.5 5 19.8c0 11.4 13.1 24.6 16 31.6.5 1.2 1.6 1.2 2 0 2.9-7 16-20.2 16-31.6C39 10.5 31.4 3 22 3z" fill="${fill}" stroke="#ffffff" stroke-width="2.5"/>
-  <circle cx="22" cy="20" r="13.5" fill="rgba(255,255,255,0.16)"/>
-  <g fill="none" stroke="#ffffff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M13.5 15.5h17"/>
-    <path d="M22 15.5v-3.2a2.6 2.6 0 0 1 2.6-2.6h2.4"/>
+  <g filter="url(#shmetro)">
+    <path d="M64 142 L50 116 H78 Z" fill="${bottom}"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="url(#gmetro)" stroke="${stroke}" stroke-width="2.5"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.92"/>
   </g>
-  <g fill="#ffffff">
-    <circle cx="16" cy="22" r="1.5"/>
-    <circle cx="22" cy="24" r="1.7"/>
-    <circle cx="28" cy="22" r="1.5"/>
-    <circle cx="19" cy="27.5" r="1.3"/>
-    <circle cx="25" cy="27.5" r="1.3"/>
-  </g>
+  <circle cx="64" cy="64" r="36" fill="#ffffff"/>
+  <path d="M44 84V44l20 24 20-24v40" fill="none" stroke="${fill}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`;
 }
 
-// Metro: kruhový roundel PID v červené #E2231A s bílým „M" – rastr, ne font glyph.
-function metroPinSvg(): string {
-  const fill = "#E2231A"; // PID červená
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="56" viewBox="0 0 44 56">
+function mistBadgeSvg(): string {
+  const color = coolingColors["water"]!;
+  const top = lighten(color, 0.26);
+  const bottom = darken(color, 0.1);
+  const stroke = darken(color, 0.22);
+  const gScale = 2.6;
+  const gOff = 64 - (24 * gScale) / 2;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${BADGE_W}" height="${BADGE_H}" viewBox="0 0 ${BADGE_W} ${BADGE_H}">
   <defs>
-    <filter id="me" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-color="#0f2d43" flood-opacity="0.35"/>
+    <linearGradient id="gmist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${top}"/>
+      <stop offset="1" stop-color="${bottom}"/>
+    </linearGradient>
+    <filter id="shmist" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0d2c42" flood-opacity="0.34"/>
     </filter>
   </defs>
-  <path filter="url(#me)" d="M22 3C12.6 3 5 10.5 5 19.8c0 11.4 13.1 24.6 16 31.6.5 1.2 1.6 1.2 2 0 2.9-7 16-20.2 16-31.6C39 10.5 31.4 3 22 3z" fill="${fill}" stroke="#ffffff" stroke-width="2.5"/>
-  <circle cx="22" cy="20" r="13" fill="#ffffff"/>
-  <path d="M14.5 27V13l7.5 9 7.5-9v14" fill="none" stroke="${fill}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shmist)">
+    <path d="M64 142 L50 116 H78 Z" fill="${bottom}"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="url(#gmist)" stroke="${stroke}" stroke-width="2.5"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.92"/>
+  </g>
+  <g transform="translate(${gOff} ${gOff}) scale(${gScale})">
+    ${glyphMarkup(MIST_GLYPH)}
+    ${MIST_DOTS}
+  </g>
 </svg>`;
 }
 
@@ -145,8 +336,8 @@ function metroPinSvg(): string {
 // musí proběhnout PŘED symbol vrstvou, která je odkazuje. Awaitujeme všechny obrázky.
 export async function registerOverlayIcons(map: MlMap): Promise<void> {
   const entries: { id: string; svg: string }[] = [
-    { id: "icon-mist", svg: mistPinSvg() },
-    { id: "icon-metro", svg: metroPinSvg() },
+    { id: "icon-mist", svg: mistBadgeSvg() },
+    { id: "icon-metro", svg: metroBadgeSvg() },
   ];
   await Promise.all(
     entries.map(async ({ id, svg }) => {
@@ -162,10 +353,10 @@ export async function registerOverlayIcons(map: MlMap): Promise<void> {
 // Malé inline monochrome SVG pro chipy a popupy – používá currentColor,
 // takže barvu řídí CSS (color). 1em × 1em, zarovná se s textem.
 export function chipIconSvg(cooling: Cooling): string {
-  const filled = GLYPH_FILLED[cooling];
-  const glyph = GLYPH_PATHS[cooling];
-  const attrs = filled
+  const glyph = COOLING_GLYPHS[cooling];
+  const attrs = glyph.filled
     ? `fill="currentColor" stroke="none"`
-    : `fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"`;
-  return `<svg class="chip-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><g ${attrs}><path d="${glyph}"/></g></svg>`;
+    : `fill="none" stroke="currentColor" stroke-width="${glyph.strokeWidth ?? 2}" stroke-linecap="round" stroke-linejoin="round"`;
+  const paths = glyph.paths.map((d) => `<path d="${d}"/>`).join("");
+  return `<svg class="chip-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><g ${attrs}>${paths}</g></svg>`;
 }
