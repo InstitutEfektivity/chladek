@@ -28,6 +28,11 @@ export const ui = {
     uvLabel: "UV index",
     aqiLabel: "Ovzduší",
   },
+  airStations: {
+    toggle: "Ovzduší (stanice)",
+    updatedAt: "Aktualizováno",
+    popupTitle: "Kvalita ovzduší",
+  },
   locate: {
     button: "Najdi 3 nejbližší chládky",
     denied: "Polohu se nepodařilo zjistit",
@@ -40,7 +45,7 @@ export const ui = {
     navigate: "Navigovat",
   },
   attribution:
-    "Data: © OpenStreetMap přispěvatelé (ODbL) · IPR Praha „Oázy chladu“ (CC BY) · Open-Meteo · ČHMÚ · podklad © CARTO",
+    "Data: © OpenStreetMap přispěvatelé (ODbL) · IPR Praha „Oázy chladu“ (CC BY) · Open-Meteo · ČHMÚ · Golemio (Operátor ICT) · podklad © CARTO",
   footer: {
     byline: "Projekt Institutu efektivity",
     note: "Ukázka toho, co umí otevřená data, když je někdo poskládá do užitečné služby.",
@@ -95,7 +100,8 @@ export const aboutSections: AboutSection[] = [
       "OpenStreetMap doplňujeme ruční kurátorskou vrstvou. Procházíme místa, kde je klimatizace prakticky jistá – velké obchoďáky, muzea, plavecké haly, hlavní pobočky knihoven – a přidáváme je ověřeně, i když je v datech nikdo neoznačil. Tahle ruční práce je to, co odlišuje použitelnou mapu od náhodného výpisu.",
       "Vodní místa doplňujeme z datasetu IPR Praha „Oázy chladu“ (licence CC BY) – pítka, kašny a fontány i místa ke koupání, u řady z nich včetně informace o sezónním provozu. Díky tomu mapa ukazuje výrazně víc míst, kde se v horku osvěžit vodou.",
       "Živá data bere Chládek z Open-Meteo – meteorologické služby, která data poskytuje zdarma a bez registrace. Vedle venkovní teploty odtud čerpáme i UV index a kvalitu ovzduší (European AQI), protože za horka roste přízemní ozon a oba ukazatele mají přímý zdravotní význam. Vidíte tak aktuální kontrast: venku je třeba 33 °C, zatímco vybraná místa nabízejí chládek. Když navíc ČHMÚ vydá výstrahu před vysokými teplotami, zobrazí se nahoře živý banner – tahejeme ji přímo z výstražné služby ČHMÚ (SIVS).",
-      "Všechna data používáme v souladu s jejich licencemi a uvádíme je: © OpenStreetMap přispěvatelé (licence ODbL), IPR Praha „Oázy chladu“ (CC BY), Open-Meteo, ČHMÚ a mapový podklad © CARTO. Otevřenost dat je pro nás závazek i v praxi – proto je i samotný Chládek otevřený a jeho zdrojový kód k nahlédnutí.",
+      "Nově umíme do mapy zapnout i živé stanice kvality ovzduší – 17 měřicích stanic po Praze, aktualizovaných hodinově z Golemia (Pražská datová platforma, provozuje ji Operátor ICT). Přepínačem „Ovzduší (stanice)“ se zobrazí body s aktuálním stupněm znečištění a naměřenými hodnotami NO₂, PM10 a dalších látek. Je to první vrstva, kterou Chládek tahá přímo z městské datové platformy – a ukázka, že když jsou data dostupná v použitelné podobě, dají se do služby zapojit téměř okamžitě.",
+      "Všechna data používáme v souladu s jejich licencemi a uvádíme je: © OpenStreetMap přispěvatelé (licence ODbL), IPR Praha „Oázy chladu“ (CC BY), Open-Meteo, ČHMÚ, Golemio (Operátor ICT) a mapový podklad © CARTO. Otevřenost dat je pro nás závazek i v praxi – proto je i samotný Chládek otevřený a jeho zdrojový kód k nahlédnutí.",
     ],
   },
   {
@@ -114,7 +120,8 @@ export const aboutSections: AboutSection[] = [
       "Buďme upřímní v jedné věci, na které stojí důvěryhodnost celé mapy: Chládek nezná reálnou vnitřní teplotu jednotlivých míst. Žádný pražský obchoďák ani knihovna teplotu ve svých prostorách veřejně nezveřejňuje – řídicí systémy budov jsou neveřejné a taková data prostě neexistují. Proto u žádného místa nenajdete vymyšlené „uvnitř 21 °C“. Místo toho ukazujeme to, co je ověřitelné: živou venkovní teplotu a štítek typu ochlazení – klimatizace, přirozený chlad, voda, nebo stín.",
       "Druhý limit je v tom, jak nahodile jsou data o klimatizaci v OpenStreetMap. Tag klimatizace má jen zlomek míst, která jsou ve skutečnosti klimatizovaná – mezi knihovnami ho má sotva každá stá, přestože klimatizované jsou téměř všechny. Kdybychom mapu postavili jen na surovém výpisu z dat, vyšlo by z toho absurdní zkreslení, kde fast food má klimatizaci uvedenou a velká knihovna ne. Právě proto přidáváme ruční kurátorskou vrstvu – a právě proto je tahle vrstva nejnáročnější částí projektu.",
       "Tyto limity nejsou ostuda, kterou bychom schovávali – jsou samy o sobě sdělením o stavu otevřených dat. To, že nejde spolehlivě zjistit, kde se v horku schladit, není problém technologie. Je to důsledek toho, že potřebná data zatím nikdo nesdílí v použitelné podobě. Chládek tím nepřímo měří, jak daleko (a jak blízko) je Praha k tomu mít opravdu dobrou službu pro horké dny.",
-      "Kam to chceme dotáhnout: rádi bychom napojili data z Golemia (Pražská datová platforma) – mikroklimatické senzory pro reálné teploty z míst po Praze a přesnější polohy a otevírací doby veřejných budov včetně knihoven. To zatím vyžaduje API klíč a domluvu, takže je to na naší roadmapě, ne v současné mapě. Až bude živá vrstva městských senzorů k dispozici, ukážeme, kde je právě teď nejchladněji. Ve druhé fázi zvažujeme i crowdsourcing – možnost, aby lidé sami reportovali, jak je kde chladno. A pokud Chládek poslouží jako argument, proč má smysl tato data otevřít a sdílet, splní svůj hlavní účel bez ohledu na to, kolik lidí si v něm nakonec najde cestu k pítku.",
+      "S Golemiem (Pražská datová platforma) jsme první krok už udělali – do mapy umíme zapnout živé stanice kvality ovzduší. Narazili jsme tam ale i na konkrétní limit otevřených dat, který stojí za zmínku, protože sedí přesně do příběhu této mapy. Chtěli jsme z Golemia tahat i pražskou síť mikroklimatických senzorů (teplota po městě), abychom mohli ukazovat, kde je právě teď ve městě nejchladněji. Jenže tahle síť aktuálně nereportuje – poslední dostupná data jsou z dubna 2026. „Živou teplotu po městě“ tedy zatím postavit nejde, ne kvůli technologii, ale protože data prostě netečou. Jakmile senzory začnou znovu reportovat, vrstvu přidáme.",
+      "Kam to chceme dotáhnout dál: přesnější polohy a otevírací doby veřejných budov včetně knihoven, ideálně také z městských datových platforem. Ve druhé fázi zvažujeme i crowdsourcing – možnost, aby lidé sami reportovali, jak je kde chladno. A pokud Chládek poslouží jako argument, proč má smysl tato data otevřít, sdílet a hlavně udržovat v chodu, splní svůj hlavní účel bez ohledu na to, kolik lidí si v něm nakonec najde cestu k pítku.",
     ],
   },
 ];
