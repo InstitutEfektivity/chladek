@@ -11,3 +11,7 @@ npm-debug.log*
 data/__pycache__/
 data/.venv/
 *.pyc
+
+# lokalni verifikacni artefakty
+_*.png
+_*.cjs
