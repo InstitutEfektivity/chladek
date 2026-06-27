@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · LOOP UKONČEN (kolo 12)
+- **Smyčka zastavena** (`CronDelete a23353cf`). Důvod: po 11 produktivních kolech jsou datové zdroje (AC i voda) vyčerpané; další kola by byla marginální a hodinový běh by zbytečně pálil rozpočet (~150 kol do 7denní expirace). Saturace eskalována uživateli 2× (kola 10, 11) bez reakce → ekonomicky zodpovědné zastavit.
+- **Restart kdykoli:** `/loop` (původní nebo nový cíl). Stav je kompletní v tomto logu i na live.
+- **Otevřené drobnosti (kdyby se pokračovalo):** OSM metro vchody 346, design polish, launch post na sítě, templatizace zbývajících čísel, footprint landmarků – rozšíření.
+
 ### 2026-06-27 · kolo 11 (polish/robustnost – dynamický about počet)
 - **SATURACE pokračuje** – na rozhodovací bod z kola 10 bez reakce (uživatel pravděpodobně pryč). Místo dalšího marginálního zdroje proveden **robustní polish s reálnou hodnotou**.
 - **✅ FIX: počet AC míst na „o projektu" zdynamizován z dat** – nový `src/lib/acCount.ts` (`fetchLiveAcCount()` = živý součet: ac-areas + culture tier-A + shops + knihovny MKP+KKC + venues shop_ac + kryté AC bazény). About obsah: natvrdo „969" → token `{{acCount}}`; `aboutView` dosadí živou hodnotu (fallback pro okamžitý render → přepis z dat). **Konec recurring stale bugu** (ručně opravováno v kole 7). Frontend-only, žádný nový datový zdroj. Mapa i about teď vždy souhlasí. Ověřeno staging (renderuje 969, ne token), nasazeno live.
