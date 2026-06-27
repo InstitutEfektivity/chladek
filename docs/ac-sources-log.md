@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 6 (vědecká fáze – metodika + mikro-AC)
+- **Metodika (research, veřejné zdroje):** Barcelona „refugis climàtics" (500+ útočišť, 99,2 % obyvatel do 10 min chůze) – typy = knihovny, civic centra, muzea, **bazény**, parky, voda; **mikro-úkryty výslovně vč. obchodů / lékáren / provozoven**; doporučený AC setpoint **26 °C** v létě; kritéria = volný přístup, místo k sezení, voda zdarma, dostupnost ≤ 10 min. → Validuje celý náš dosavadní dataset a ospravedlňuje mikro-AC tier. (Zdroj: barcelona.cat – Climate Shelters Network.)
+- **✅ INTEGROVÁNO: mikro-AC tier – kavárny + rychlé občerstvení (151)** – Overpass `brand:wikidata` (McDonald's 42, KFC 33, Costa 28, Starbucks 28, Burger King 20). Nový **default-OFF** overlay „Kavárny a občerstvení", tier-B, ikona hrnku. `data/build_ac_cafe.py` → `ac-cafe.geojson`, cron `ac-cafe.yml` (týdně). Frontend (mirror metro overlaye) subagent. **NENÍ v headline 969** (mikro-komerční, default OFF → chrání USP). Ověřeno staging (toggle + render), nasazeno live.
+- **Další na řadě:** footprint join (brand→building polygon = víc AC jako PLOCHY) NEBO doplnit na o-projektu **metodický odstavec** (Barcelona/Paříž/Vídeň) jako think-tank důkaz „stavíme podle praxe předních měst".
+
 ### 2026-06-27 · kolo 5
 - **✅ INTEGROVÁNO: úřady MČ / magistrát (91, tier-B)** – Overpass `townhall` + `office=government` (filtr na úřad/magistrát/radnice), AC klientské haly (přepážky, matrika, CzechPOINT). Sloučeno do civic overlaye „Klimatizované veřejné budovy" → **369 bodů** (ordinace 68 + centra 210 + úřady 91, default OFF). `data/fetch_urady.py` → `civic-urady.geojson`, cron `urady.yml` (týdně). Frontend fold-in (fetchCivicUrady, třetí civic zdroj) Bedřich. Silný IE narativ „co má stát oficiálně designovat jako cooling centra" (Paříž mairies, Barcelona civic centres). Headline 969 beze změny (tier-B, default OFF). Ověřeno staging (toggle), nasazeno live.
 - **Civic low-hanging fruit vyčerpán.** Další kolo = skutečně out-of-the-box / vědecká fáze.
@@ -59,6 +64,7 @@
 | **IPR polikliniky** (overlay „Klimatizované veřejné budovy") | ac-civic.geojson | 68 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_ZDRAVPOLIKLINIKY_B` (keyless) | ipr-polikliniky.yml (týdně) |
 | **IPR KULTKKC centra** (komunitní/kulturní, tentýž overlay) | civic-centra.geojson | 210 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (keyless) | ipr-kultkkc-centra.yml (týdně) |
 | **Úřady MČ / magistrát** (tentýž civic overlay) | civic-urady.geojson | 91 | (overlay, tier-B) | Overpass townhall + office=government | urady.yml (týdně) |
+| **Kavárny + rychlé občerstvení** (overlay „Kavárny a občerstvení") | ac-cafe.geojson | 151 | (overlay, tier-B mikro) | Overpass `brand:wikidata` (McD/KFC/BK/Starbucks/Costa) | ac-cafe.yml (týdně) |
 | Golemio kvalita ovzduší (17 stanic) | air-quality-stations.geojson | 17 | (overlay) | Golemio `/v2/airqualitystations` (klíč) | golemio-aq.yml (hod.) |
 | ČHMÚ výstrahy + Open-Meteo (teplota/UV/AQI) | heat-warning.json / client | – | – | CAP feed / Open-Meteo (keyless) | heat-warning.yml (30 min) |
 
@@ -76,7 +82,7 @@
 | IPR pumpy + studánky/prameny | IPR ArcGIS `..._PUMPY_B` (94) + `..._STUDANKYPRAMENY_B` (215) | 94+215 | – | rozšíření vodní vrstvy (chladná pitná voda) |
 | IPR vodní plochy a toky (polygon) | IPR ArcGIS `..._VODNIPLOCHYTOKY_P` | 3526 | – | těžké → zjednodušit/bbox; „chlazení vodou" plochy |
 | 🔬 Úřady MČ / magistrát | Overpass townhall + ruční kurace | ~22 | B | civic AC (do overlay „Veřejné budovy"); silný IE narativ „co má stát designovat" |
-| 🔬 Micro-AC řetězce (McDonald's/KFC/BK/Starbucks/Costa) | Overpass `brand:wikidata` | ~150 | B | default-OFF toggle, chrání USP |
+| ~~Micro-AC řetězce~~ ✅ kolo 6 | – | 151 | B | INTEGROVÁNO jako overlay „Kavárny a občerstvení" (default OFF) |
 | 🔬 sensor.community / Netatmo | data.sensor.community / api.netatmo getpublicdata | ~22 / ? | – | občanská teplotní čidla (sun-bias, jen jako delta) |
 | 🔬 Koupací voda – bezpečnost | koupacivody.cz / hygpraha.cz (scrape) | ~9 | – | badge „zákaz koupání" k IPR koupání |
 

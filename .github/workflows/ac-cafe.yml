@@ -1,0 +1,40 @@
+name: AC cafe refresh
+
+# Stahne znackove fast-food + kavarenske retezce Prahy (McDonald's, KFC, Burger
+# King, Starbucks, Costa) z OpenStreetMap (Overpass, brand:wikidata) a commitne
+# snapshot GeoJSON. Mikro-AC komercni utociste - klimatizovane pobocky jako mekci
+# verejne utociste pred horkem (Tier B), NOVY default-OFF overlay. Precedent:
+# Barcelona "refugis climatics" + Pariz cooling micro-shelters zapocitavaji
+# komercni AC prostory. Bez secretu (otevrena data Overpass). Staticka vrstva,
+# refresh tydne.
+on:
+  schedule:
+    - cron: "38 6 * * 1" # tydne v pondeli rano (vrstva se meni zridka)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install requests
+      - name: Fetch AC cafe (Overpass)
+        run: python data/build_ac_cafe.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/data/ac-cafe.geojson; then
+            git add public/data/ac-cafe.geojson
+            git commit -m "chore(data): tydenni refresh znackovych kavaren/fast-food (OSM) [skip ci]"
+            git push
+          else
+            echo "Beze zmeny."
+          fi

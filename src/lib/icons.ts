@@ -476,13 +476,55 @@ function civicBadgeSvg(): string {
 </svg>`;
 }
 
-// Zaregistruje overlay ikony (mlžítka, metro, čekárny). Jako u registerVenueIcons:
-// musí proběhnout PŘED symbol vrstvou, která je odkazuje. Awaitujeme všechny obrázky.
+// Klimatizovaná kavárna / rychlé občerstvení → bílý hrnek s párou na pinu v AC
+// barvě. Mikro-útočiště (tier-B) – rychlé osvěžení v otevírací době.
+const CAFE_GLYPH: Glyph = {
+  filled: false,
+  strokeWidth: 1.9,
+  paths: [
+    "M5 9.5h11v5.5a4.5 4.5 0 0 1-4.5 4.5H9.5A4.5 4.5 0 0 1 5 15z",
+    "M16 11h1.8a2.3 2.3 0 0 1 0 4.6H16",
+    "M8.6 3.6 7.8 5.6M11.6 3.6l-.8 2M14.6 3.6l-.8 2",
+  ],
+};
+
+function cafeBadgeSvg(): string {
+  const color = coolingColors["ac"]!;
+  const top = lighten(color, 0.26);
+  const bottom = darken(color, 0.1);
+  const stroke = darken(color, 0.22);
+  const gScale = 2.6;
+  const gOff = 64 - (24 * gScale) / 2;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${BADGE_W}" height="${BADGE_H}" viewBox="0 0 ${BADGE_W} ${BADGE_H}">
+  <defs>
+    <linearGradient id="gcafe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${top}"/>
+      <stop offset="1" stop-color="${bottom}"/>
+    </linearGradient>
+    <filter id="shcafe" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0d2c42" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <g filter="url(#shcafe)">
+    <path d="M64 142 L50 116 H78 Z" fill="${bottom}"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="url(#gcafe)" stroke="${stroke}" stroke-width="2.5"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.92"/>
+  </g>
+  <g transform="translate(${gOff} ${gOff}) scale(${gScale})">
+    ${glyphMarkup(CAFE_GLYPH)}
+  </g>
+</svg>`;
+}
+
+// Zaregistruje overlay ikony (mlžítka, metro, čekárny, kavárny). Jako u
+// registerVenueIcons: musí proběhnout PŘED symbol vrstvou, která je odkazuje.
+// Awaitujeme všechny obrázky.
 export async function registerOverlayIcons(map: MlMap): Promise<void> {
   const entries: { id: string; svg: string }[] = [
     { id: "icon-mist", svg: mistBadgeSvg() },
     { id: "icon-metro", svg: metroBadgeSvg() },
     { id: "icon-civic", svg: civicBadgeSvg() },
+    { id: "icon-cafe", svg: cafeBadgeSvg() },
   ];
   await Promise.all(
     entries.map(async ({ id, svg }) => {

@@ -61,6 +61,12 @@ export const ui = {
     toggle: "Klimatizované veřejné budovy",
     popupNote: "Veřejně přístupné klimatizované místo – otevřené v provozních hodinách",
   },
+  // Overlay značkové kavárny + rychlé občerstvení (tier-B mikro-útočiště) –
+  // klimatizované provozovny pro rychlé osvěžení v otevírací době.
+  cafe: {
+    toggle: "Kavárny a občerstvení",
+    popupNote: "Klimatizovaná provozovna – rychlé osvěžení v otevírací době",
+  },
   locate: {
     button: "Najdi 3 nejbližší chládky",
     denied: "Polohu se nepodařilo zjistit",
