@@ -97,6 +97,22 @@ IPR_DATASETS = {
             "https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_KOUPANI_B/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
         ],
     },
+    "pumpy": {
+        "category": "fountain",
+        "cooling": "water",
+        "default_name": "Pumpa",
+        "urls": [
+            "https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_PUMPY_B/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
+        ],
+    },
+    "studanky": {
+        "category": "fountain",
+        "cooling": "water",
+        "default_name": "Studánka / pramen",
+        "urls": [
+            "https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_STUDANKYPRAMENY_B/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
+        ],
+    },
 }
 
 # Práh deduplikace IPR vs OSM vodních bodů (pítka/fontány se překrývají).
