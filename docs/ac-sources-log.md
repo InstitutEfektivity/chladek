@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 5
+- **✅ INTEGROVÁNO: úřady MČ / magistrát (91, tier-B)** – Overpass `townhall` + `office=government` (filtr na úřad/magistrát/radnice), AC klientské haly (přepážky, matrika, CzechPOINT). Sloučeno do civic overlaye „Klimatizované veřejné budovy" → **369 bodů** (ordinace 68 + centra 210 + úřady 91, default OFF). `data/fetch_urady.py` → `civic-urady.geojson`, cron `urady.yml` (týdně). Frontend fold-in (fetchCivicUrady, třetí civic zdroj) Bedřich. Silný IE narativ „co má stát oficiálně designovat jako cooling centra" (Paříž mairies, Barcelona civic centres). Headline 969 beze změny (tier-B, default OFF). Ověřeno staging (toggle), nasazeno live.
+- **Civic low-hanging fruit vyčerpán.** Další kolo = skutečně out-of-the-box / vědecká fáze.
+- **Další na řadě:** footprint join (brand→building polygon = víc AC podniků jako PLOCHY) NEBO sehnat veřejnou metodiku cooling-refuge (Vídeň/Barcelona/Paříž) pro odborně podloženou klasifikaci + obsah na o-projektu.
+
 ### 2026-06-27 · kolo 4
 - **✅ INTEGROVÁNO: kryté bazény split (tier-A)** – `build_venues.py` reklasifikuje plavecké haly: indoor (sports_centre+swimming / building / whitelist Podolí/Šutka/AXA/Slavia/Hloubětín/… mimo „koupaliště") → cooling „ac", outdoor → „water". **32 krytých AC bazénů** (z 91 pools), kategorie zůstává „pool" (ikona). Kanonická změna přímo v pipeline (žádný separátní soubor → žádné duplikáty). Započteno do headline → **969**. Frontend: `computeAcCount` + `venuesAcPools` (Bedřich). Ostatní kategorie beze změny (ověřeno). Ověřeno staging (banner 969), nasazeno live.
 - **Přímé AC zdroje docházejí** → další kola = out-of-the-box / vědecká fáze.
@@ -53,6 +58,7 @@
 | PID/ROPID metro stanice | metro.geojson | 57 | (overlay) | data.pid.cz stops.json | (statické) |
 | **IPR polikliniky** (overlay „Klimatizované veřejné budovy") | ac-civic.geojson | 68 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_ZDRAVPOLIKLINIKY_B` (keyless) | ipr-polikliniky.yml (týdně) |
 | **IPR KULTKKC centra** (komunitní/kulturní, tentýž overlay) | civic-centra.geojson | 210 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (keyless) | ipr-kultkkc-centra.yml (týdně) |
+| **Úřady MČ / magistrát** (tentýž civic overlay) | civic-urady.geojson | 91 | (overlay, tier-B) | Overpass townhall + office=government | urady.yml (týdně) |
 | Golemio kvalita ovzduší (17 stanic) | air-quality-stations.geojson | 17 | (overlay) | Golemio `/v2/airqualitystations` (klíč) | golemio-aq.yml (hod.) |
 | ČHMÚ výstrahy + Open-Meteo (teplota/UV/AQI) | heat-warning.json / client | – | – | CAP feed / Open-Meteo (keyless) | heat-warning.yml (30 min) |
 
@@ -64,8 +70,8 @@
 
 | Kandidát | Endpoint / fetch | Počet | Tier | Pozn. |
 |---|---|---|---|---|
-| 🔬 Úřady MČ / magistrát | Overpass townhall + office=government | ~22–60 | B | civic AC do overlay „Veřejné budovy"; silný IE narativ „co má stát designovat". **Další na řadě.** |
-| 🔬 Footprint join (brand→building) | Overpass: bod prodejny → enclosing `building=retail` polygon | – | – | víc AC podniků jako PLOCHY (uživatelův důraz „celý objekt = area"); out-of-the-box |
+| 🔬 Footprint join (brand→building) | Overpass: bod prodejny → enclosing `building=retail` polygon | – | – | víc AC podniků jako PLOCHY (uživatelův důraz „celý objekt = area"); out-of-the-box. **Další na řadě.** |
+| 🔬 Metodika cooling-refuge (vědecká fáze) | Vídeň Cooles Wien / Barcelona refugis / Paříž îlots – jejich open-data definice + ISO | – | – | sehnat veřejnou metodiku → odborně podložená klasifikace „veřejně přístupné klimatizované" + o-projektu |
 | **OSM metro vchody** | Overpass `railway=subway_entrance` | 346 | – | upgrade metra 57→346 (lepší „nejbližší"); cooling=natural, NE AC |
 | IPR pumpy + studánky/prameny | IPR ArcGIS `..._PUMPY_B` (94) + `..._STUDANKYPRAMENY_B` (215) | 94+215 | – | rozšíření vodní vrstvy (chladná pitná voda) |
 | IPR vodní plochy a toky (polygon) | IPR ArcGIS `..._VODNIPLOCHYTOKY_P` | 3526 | – | těžké → zjednodušit/bbox; „chlazení vodou" plochy |

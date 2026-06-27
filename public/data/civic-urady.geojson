@@ -1,0 +1,1736 @@
+{
+ "type": "FeatureCollection",
+ "generatedAt": "2026-06-27T13:28:36Z",
+ "source": "OpenStreetMap (Overpass) - prazske urady (townhall + office=government)",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.515234,
+     50.137151
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-89991688",
+    "name": "Úřad městské části Praha 18",
+    "type": "úřad městské části",
+    "address": "Bechyňská 639, Praha 18",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.547146,
+     50.133735
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-171299692",
+    "name": "Úřad městské části Praha 19",
+    "type": "úřad městské části",
+    "address": "Semilská 43/1, Praha 19",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.500082,
+     50.110338
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-236996905",
+    "name": "Úřad městské části Praha 9",
+    "type": "úřad městské části",
+    "address": "Sokolovská 14/324, Praha 9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.560745,
+     50.105426
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-267817595",
+    "name": "Odbor hospodářské správy.",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.652372,
+     50.017439
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-296155832",
+    "name": "Úřad městské části Praha-Nedvězí",
+    "type": "úřad městské části",
+    "address": "Únorová 15/3, Praha 10 - Nedvězí u Říčan",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.394397,
+     49.975804
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-296623198",
+    "name": "Úřad městské části Praha-Zbraslav",
+    "type": "úřad městské části",
+    "address": "Zbraslavské náměstí 464, Praha - Zbraslav",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.401625,
+     50.101805
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-360176425",
+    "name": "Úřad městské části Praha 6",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441632,
+     50.062644
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-383705475",
+    "name": "Radnice Prahy 4",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.599282,
+     50.031872
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-412271473",
+    "name": "Úřad mětské části Praha 22",
+    "type": "úřad městské části",
+    "address": "Nové náměstí 1250/10, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.521617,
+     50.018793
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-432429276",
+    "name": "Úřad městské části Praha - Újezd",
+    "type": "úřad městské části",
+    "address": "Kateřinské náměstí 465/1, Praha 4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445812,
+     50.085038
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-794610069",
+    "name": "Úřad městské části Praha 3",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.613285,
+     50.081106
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-1142990989",
+    "name": "úřad městské části Praha-Běchovice",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.623045,
+     50.012671
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-1270591820",
+    "name": "Úřad městké části Praha-Kolovraty",
+    "type": "úřad městské části",
+    "address": "Mírová 364/34, Praha - Kolovraty",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.66024,
+     50.077156
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-1733572276",
+    "name": "Praha 21",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.556374,
+     50.035887
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-1764231728",
+    "name": "Úřad městské části Praha-Petrovice",
+    "type": "úřad městské části",
+    "address": "Edisonova 429/28, Praha 10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.45019,
+     50.043071
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-1814663811",
+    "name": "Úřad městské části Praha 4",
+    "type": "úřad městské části",
+    "address": "Antala Staška 2059/80b, Praha 4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.586112,
+     50.059563
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-2021535623",
+    "name": "Úřad městské části Praha-Dubeč",
+    "type": "úřad městské části",
+    "address": "Starodubečská 401, Praha 10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.577486,
+     50.143911
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-2148257544",
+    "name": "Úřad městské části Praha - Vinoř",
+    "type": "úřad městské části",
+    "address": "Bohdanečská 97, Praha 9 - Vinoř",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.572379,
+     50.12586
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-4690722328",
+    "name": "Úřad městské části Praha-Satalice",
+    "type": "úřad městské části",
+    "address": "K Radonicům 81/3, Praha 9 - Satalice",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.48262,
+     50.145126
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-6888192083",
+    "name": "Úřad městské části Praha-Ďáblice",
+    "type": "úřad městské části",
+    "address": "Osinalická 1104/13, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42789,
+     50.117811
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-7118924449",
+    "name": "Úřad městské části Praha-Troja",
+    "type": "úřad městské části",
+    "address": "Trojská 230/96, Praha 7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.413864,
+     50.002228
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-8907074059",
+    "name": "Radnice Praha 12",
+    "type": "úřad městské části",
+    "address": "Generála Šišky 2375/6, Praha 12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.422798,
+     50.079402
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-9284392455",
+    "name": "Úřad městské části Praha 1",
+    "type": "úřad městské části",
+    "address": "Vodičkova 681/18, Praha 1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.354318,
+     49.959749
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-9463216031",
+    "name": "Úřad městské části Praha-Lipence",
+    "type": "úřad městské části",
+    "address": "K Obci 47, Praha 5 - Lipence",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.454049,
+     50.084651
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-10902078605",
+    "name": "Úřad Městské části Praha 3",
+    "type": "úřad městské části",
+    "address": "Havlíčkovo náměstí 700/9, Praha 3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.488711,
+     50.077334
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11282272432",
+    "name": "Úřad městské části Praha 10",
+    "type": "úřad městské části",
+    "address": "Vinohradská 3218/169, Praha 10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.560332,
+     50.105807
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11362985759",
+    "name": "Úřad městské části Praha 14",
+    "type": "úřad městské části",
+    "address": "Bratří Venclíků 1073, Praha 14",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.556672,
+     50.04725
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11362985956",
+    "name": "Úřad městské části Praha 15",
+    "type": "úřad městské části",
+    "address": "Boloňská 478/1, Praha 15",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.362085,
+     49.982054
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11363039097",
+    "name": "Úřad městké části Praha 16",
+    "type": "úřad městské části",
+    "address": "Václava Balého 23/3, Praha 16",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.612695,
+     50.11483
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11363185961",
+    "name": "Úřad městské části Praha 20",
+    "type": "úřad městské části",
+    "address": "Jívanská 647, Praha 9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.524876,
+     50.151208
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11374639462",
+    "name": "Úřad městské části Praha-Čakovice",
+    "type": "úřad městské části",
+    "address": "náměstí 25. března 121, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445548,
+     50.146649
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11374672970",
+    "name": "Úřad městské části Praha-Dolní Chabry",
+    "type": "úřad městské části",
+    "address": "Hrušovanské náměstí 253/5, Praha 8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.557314,
+     50.058662
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11374705496",
+    "name": "Úřad městské části Praha-Dolní Měcholupy",
+    "type": "úřad městské části",
+    "address": "Dolnoměcholupská 168/37, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.577569,
+     50.088844
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11374712848",
+    "name": "Úřad městské části Praha-Dolní Počernice",
+    "type": "úřad městské části",
+    "address": "Stará obec 10, Praha 9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.638192,
+     50.062117
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11392559225",
+    "name": "Úřad městské části Praha-Koloděje",
+    "type": "úřad městské části",
+    "address": "K Jízdárně 9/20, Praha-Koloděje",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.635164,
+     50.036444
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11392610878",
+    "name": "Úřad městské části Praha-Královice",
+    "type": "úřad městské části",
+    "address": "K Nedvězí 66, Praha-Královice",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.462504,
+     50.009222
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11392675960",
+    "name": "Úřad městské části Praha-Libuš",
+    "type": "úřad městské části",
+    "address": "Libušská 35/200, Praha 4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.565082,
+     50.023266
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11392688245",
+    "name": "Úřad městské části Praha-Křeslice",
+    "type": "úřad městské části",
+    "address": "Štychova 2/34, Praha-Křeslice",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.353292,
+     50.001746
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11392870899",
+    "name": "Úřad městské části Praha-Lochkov",
+    "type": "úřad městské části",
+    "address": "Za Ovčínem 1, Praha - Lochkov",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.373773,
+     50.12521
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11392873224",
+    "name": "Úřad městské části Praha-Lysolaje",
+    "type": "úřad městské části",
+    "address": "Kovárenská 8/5, Praha - Lysolaje",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.325806,
+     50.110974
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11392941450",
+    "name": "Úřad městské části Praha-Nebušice",
+    "type": "úřad městské části",
+    "address": "Nebušická 128, Praha - Nebušice",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.297814,
+     50.117164
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11393109533",
+    "name": "Úřad městské části Praha-Přední Kopanina",
+    "type": "úřad městské části",
+    "address": "Hokešovo náměstí 193, Praha 6 - Přední Kopanina",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.354305,
+     50.019178
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11393143579",
+    "name": "Úřad městské části Praha-Slivenec",
+    "type": "úřad městské části",
+    "address": "K Lochkovu 6/2, Praha 5 - Slivenec",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.549377,
+     50.07132
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11393180856",
+    "name": "Úřad městské části Praha-Štěrboholy",
+    "type": "úřad městské části",
+    "address": "Ústřední 527/14, Praha 10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.513994,
+     50.01142
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11393234497",
+    "name": "Úřad městské části Praha-Šeberov",
+    "type": "úřad městské části",
+    "address": "K Hrnčířům 160, Praha - Šeberov",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.379684,
+     50.135978
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11393234913",
+    "name": "Úřad městské části Praha-Suchdol",
+    "type": "úřad městské části",
+    "address": "Suchdolské náměstí 734/3, Praha - Suchdol",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.390144,
+     50.012202
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-11393296448",
+    "name": "Úřad městské části Praha-Velká Chuchle",
+    "type": "úřad městské části",
+    "address": "U skály 262/2, Praha - Velká Chuchle",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.471738,
+     50.109625
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-26087042",
+    "name": "Úřad městské části Praha 8",
+    "type": "úřad městské části",
+    "address": "U Meteoru 6, Praha 8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.421672,
+     50.081992
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-27852730",
+    "name": "Magistrát Hlavního města Prahy",
+    "type": "magistrát",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418436,
+     50.087215
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-27859095",
+    "name": "Magistrát hlavního města Prahy",
+    "type": "magistrát",
+    "address": "Mariánské náměstí",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403591,
+     50.073219
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-28911652",
+    "name": "Smíchovská radnice",
+    "type": "úřad městské části",
+    "address": "Štefánikova 236/13, Praha 5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.401001,
+     50.100242
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-30386274",
+    "name": "Městský úřad Prahy 6",
+    "type": "úřad městské části",
+    "address": "Československé armády 601/23, Praha 6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.407068,
+     50.072908
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-31556384",
+    "name": "Úřad městské části Praha 5",
+    "type": "úřad městské části",
+    "address": "náměstí 14. října 1381/4, Praha 5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434802,
+     50.075083
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-31615298",
+    "name": "Úřad městské části Praha 2",
+    "type": "úřad městské části",
+    "address": "náměstí Míru 600/20, Praha 2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.468658,
+     50.110464
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-34881781",
+    "name": "Grabova vila",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.470315,
+     50.110983
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-34881809",
+    "name": "Uřad městský části praha 8 - 3",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.470588,
+     50.110699
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-34881813",
+    "name": "Uřad městský části praha 8 - 2",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.470861,
+     50.110412
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-34881825",
+    "name": "Uřad městský části praha 8 - 1",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.451296,
+     50.104867
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-49338160",
+    "name": "Úřad městské části Praha 7",
+    "type": "úřad městské části",
+    "address": "Praha 7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.483304,
+     50.014052
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-53766638",
+    "name": "Úřad městské části Praha-Kunratice",
+    "type": "úřad městské části",
+    "address": "K Libuši 7/10, Praha 4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.287842,
+     50.06172
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-81861928",
+    "name": "Úřad městské části Praha-Zličín",
+    "type": "úřad městské části",
+    "address": "Tylovická 207, Praha 5 Zličín",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.307296,
+     50.073158
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-86702226",
+    "name": "Úřad městské části Praha 17",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.671701,
+     50.096096
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-190517486",
+    "name": "Úřad Městské části Praha-Klánovice",
+    "type": "úřad městské části",
+    "address": "U Besedy 300/8, Praha-Klánovice",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.470837,
+     50.110565
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-337172295",
+    "name": "Uřad městský části praha 8",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.443623,
+     50.01944
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-440087410",
+    "name": "Úřad MČPraha 12",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.311352,
+     50.031936
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-802308110",
+    "name": "Úřad městské části Praha - Řeporyje",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433943,
+     50.097296
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-relation-48964",
+    "name": "Specializovaný finanční úřad",
+    "type": "úřad městské části",
+    "address": "nábřeží Kapitána Jaroše 1000/7, Praha 7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.304759,
+     50.067392
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-relation-1310411",
+    "name": "Úřad měststké části Praha 17",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.344354,
+     50.050531
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-relation-6799361",
+    "name": "Úřad městské části Praha 13",
+    "type": "úřad městské části",
+    "address": "Sluneční náměstí 2580/13, Praha 13",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.524702,
+     50.025658
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-relation-17438517",
+    "name": "Úřad městské části Praha 11 - Odbor živnostenský",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.532025,
+     50.028567
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-relation-17469572",
+    "name": "Úřad městské části Praha 11",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432545,
+     50.0997
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-296782700",
+    "name": "Úřad pro ochranu osobních údajů",
+    "type": "úřad",
+    "address": "Podplukovníka Sochora 727/27",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.474666,
+     50.091855
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-306639799",
+    "name": "Úřad práce",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441991,
+     50.049902
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-2375881986",
+    "name": "Finanční úřad pro Prahu 4",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440788,
+     50.077356
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-2494868530",
+    "name": "Finanční úřad",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.452388,
+     50.121348
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-4451378009",
+    "name": "Finanční úřad - Územní pracoviště pro Prahu 8",
+    "type": "úřad",
+    "address": "Trojská 1997/13a, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.475906,
+     50.06091
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-4535330499",
+    "name": "Magistrát hlavní město Praha - Odbor dopravně správních agend",
+    "type": "magistrát",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.500469,
+     50.022807
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-5384658721",
+    "name": "Imigrační úřad Ministerstva vnitra",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450996,
+     50.094369
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-6027206824",
+    "name": "Finanční úřad pro Středočeský kraj, Územní pracoviště Praha-východ",
+    "type": "úřad",
+    "address": "Thámova 291/27, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449649,
+     50.105244
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-6463627687",
+    "name": "Městská část Praha 7",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435664,
+     50.055765
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-7175211887",
+    "name": "Finanční úřad, Praha-západ",
+    "type": "úřad",
+    "address": "Na Pankráci 95",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.500898,
+     50.121029
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-9721646911",
+    "name": "Úřad práce Prahy 9 - kontaktní pracoviště",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.41478,
+     50.069623
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-13480007669",
+    "name": "Úřad pro zastupování státu ve věcech majetkových",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.414715,
+     50.069975
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-13480007671",
+    "name": "Podatelna úřadu pro zastupování státu ve věcech majetkových",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.453918,
+     50.063357
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-37995533",
+    "name": "Finanční úřad pro Prahu 10",
+    "type": "úřad",
+    "address": "Petrohradská 6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.400723,
+     50.107874
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-41779349",
+    "name": "Úřad průmyslového vlastnictví",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.383073,
+     50.061458
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-50193773",
+    "name": "Finanční úřad Praha 5",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.53196,
+     50.03069
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-172902089",
+    "name": "Finanční úřad pro Prahu 11",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507834,
+     50.070048
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-504431035",
+    "name": "Český statistický úřad",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.463243,
+     50.125446
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-relation-406989",
+    "name": "Úřad pro zahraniční styky a informace",
+    "type": "úřad",
+    "address": "Střelničná 1673/10, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.498389,
+     50.089866
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-relation-6563372",
+    "name": "Magistrát hl.m. Prahy - Odd. dopravně správních agend",
+    "type": "magistrát",
+    "address": "Osiková 2888/2a",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  }
+ ]
+}

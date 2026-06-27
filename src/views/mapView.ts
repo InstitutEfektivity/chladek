@@ -26,7 +26,11 @@ import { fetchAreas } from "../lib/areas.ts";
 import type { AreaFeature } from "../lib/types.ts";
 import { fetchMlzitka } from "../lib/mlzitka.ts";
 import { fetchMetro } from "../lib/metro.ts";
-import { fetchCivic, fetchCivicCentra } from "../lib/civic.ts";
+import {
+  fetchCivic,
+  fetchCivicCentra,
+  fetchCivicUrady,
+} from "../lib/civic.ts";
 import {
   fetchAcCulture,
   fetchAcShops,
@@ -1685,11 +1689,16 @@ async function initMetro(map: MlMap): Promise<void> {
 
 async function initCivic(map: MlMap): Promise<void> {
   // Klimatizované veřejné budovy = polikliniky (ac-civic) + komunitní/kulturní
-  // centra (civic-centra). Oba mají stejný civic shape → sloučíme do jednoho source.
-  const [clinics, centra] = await Promise.all([fetchCivic(), fetchCivicCentra()]);
+  // centra (civic-centra) + úřady MČ/magistrát (civic-urady). Stejný civic shape.
+  const [clinics, centra, urady] = await Promise.all([
+    fetchCivic(),
+    fetchCivicCentra(),
+    fetchCivicUrady(),
+  ]);
   const features = [
     ...(clinics?.features ?? []),
     ...(centra?.features ?? []),
+    ...(urady?.features ?? []),
   ];
   if (features.length === 0) {
     console.warn("Klimatizované veřejné budovy nedostupné – vrstva se nepřidá.");
