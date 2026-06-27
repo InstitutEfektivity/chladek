@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 4
+- **✅ INTEGROVÁNO: kryté bazény split (tier-A)** – `build_venues.py` reklasifikuje plavecké haly: indoor (sports_centre+swimming / building / whitelist Podolí/Šutka/AXA/Slavia/Hloubětín/… mimo „koupaliště") → cooling „ac", outdoor → „water". **32 krytých AC bazénů** (z 91 pools), kategorie zůstává „pool" (ikona). Kanonická změna přímo v pipeline (žádný separátní soubor → žádné duplikáty). Započteno do headline → **969**. Frontend: `computeAcCount` + `venuesAcPools` (Bedřich). Ostatní kategorie beze změny (ověřeno). Ověřeno staging (banner 969), nasazeno live.
+- **Přímé AC zdroje docházejí** → další kola = out-of-the-box / vědecká fáze.
+- **Další na řadě:** úřady MČ (~22, do civic overlay „Veřejné budovy") → footprint join (brand→building polygon = víc AC jako plochy) → metodika cooling-refuge (Vídeň/Barcelona/Paříž).
+
 ### 2026-06-27 · kolo 3
 - **✅ INTEGROVÁNO: KULTKKC komunitní/kulturní centra (210, tier-B)** – sloučena do stávajícího civic overlaye, který přejmenován **„Klimatizované čekárny" → „Klimatizované veřejné budovy"** (ordinace 68 + centra 210 = 278 bodů, default OFF). Ikona civic genericizována (lékařský kříž → budova se sloupy), popup kicker dle typu (Poliklinika / Komunitní centrum / Dům dětí a mládeže / …). `data/fetch_ipr_kultkkc_centra.py` → `civic-centra.geojson`, cron `ipr-kultkkc-centra.yml` (týdně). Frontend fold-in (fetchCivicCentra + sloučení source + relabel) udělal Bedřich. Ověřeno staging (toggle + render), nasazeno live.
 - Tier-B, default OFF → nezahlcuje core AC view ani headline (**937 beze změny**, USP chráněn).
@@ -51,7 +56,7 @@
 | Golemio kvalita ovzduší (17 stanic) | air-quality-stations.geojson | 17 | (overlay) | Golemio `/v2/airqualitystations` (klíč) | golemio-aq.yml (hod.) |
 | ČHMÚ výstrahy + Open-Meteo (teplota/UV/AQI) | heat-warning.json / client | – | – | CAP feed / Open-Meteo (keyless) | heat-warning.yml (30 min) |
 
-**Headline USP:** 937 = ac-areas 70 + ac-culture tier-A 444 + ac-shops 180 + libraries 108 + KULTKKC knihovny 40 + venues shop_ac 95.
+**Headline USP:** 969 = ac-areas 70 + ac-culture tier-A 444 + ac-shops 180 + libraries 108 + KULTKKC knihovny 40 + venues shop_ac 95 + kryté AC bazény 32.
 
 ---
 
@@ -59,7 +64,8 @@
 
 | Kandidát | Endpoint / fetch | Počet | Tier | Pozn. |
 |---|---|---|---|---|
-| 🔬 Kryté bazény split (AC haly) | Overpass building+sport=swimming / whitelist | ~10–15 | A | z 75 „bazénů" oddělit kryté AC haly (tier-A core). **Další na řadě.** |
+| 🔬 Úřady MČ / magistrát | Overpass townhall + office=government | ~22–60 | B | civic AC do overlay „Veřejné budovy"; silný IE narativ „co má stát designovat". **Další na řadě.** |
+| 🔬 Footprint join (brand→building) | Overpass: bod prodejny → enclosing `building=retail` polygon | – | – | víc AC podniků jako PLOCHY (uživatelův důraz „celý objekt = area"); out-of-the-box |
 | **OSM metro vchody** | Overpass `railway=subway_entrance` | 346 | – | upgrade metra 57→346 (lepší „nejbližší"); cooling=natural, NE AC |
 | IPR pumpy + studánky/prameny | IPR ArcGIS `..._PUMPY_B` (94) + `..._STUDANKYPRAMENY_B` (215) | 94+215 | – | rozšíření vodní vrstvy (chladná pitná voda) |
 | IPR vodní plochy a toky (polygon) | IPR ArcGIS `..._VODNIPLOCHYTOKY_P` | 3526 | – | těžké → zjednodušit/bbox; „chlazení vodou" plochy |
