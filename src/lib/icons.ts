@@ -436,12 +436,15 @@ function mistBadgeSvg(): string {
 </svg>`;
 }
 
-// Klimatizovaná čekárna (poliklinika) → bílý zdravotnický kříž (clinic glyph)
-// na pinu v AC barvě. Čitelný symbol „lékařské / klimatizované útočiště".
+// Klimatizovaná veřejná budova (poliklinika / komunitní / kulturní centrum) →
+// bílá „instituce" se sloupy (střecha + 3 sloupy + základna) na pinu v AC barvě.
+// Neutrální symbol „veřejná budova", sedí na ordinace i centra.
 const CIVIC_GLYPH: Glyph = {
   filled: true,
   paths: [
-    "M9.6 3.5h4.8a1 1 0 0 1 1 1v4.1h4.1a1 1 0 0 1 1 1v4.8a1 1 0 0 1-1 1h-4.1v4.1a1 1 0 0 1-1 1H9.6a1 1 0 0 1-1-1v-4.1H4.5a1 1 0 0 1-1-1V9.6a1 1 0 0 1 1-1h4.1V4.5a1 1 0 0 1 1-1z",
+    "M12 3.5 3.5 9.2V11h17V9.2L12 3.5z",
+    "M3.5 19.2h17V21h-17z",
+    "M5.2 11.4h2.2v7.2H5.2zM10.9 11.4h2.2v7.2h-2.2zM16.6 11.4h2.2v7.2h-2.2z",
   ],
 };
 

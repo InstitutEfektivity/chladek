@@ -55,10 +55,11 @@ export const ui = {
     lineLabel: "Linka",
     refugeNote: "Pod zemí bývá v parnu chladněji.",
   },
-  // Overlay klimatizované čekárny (polikliniky) – vnitřní útočiště v ordinačních hodinách.
+  // Overlay klimatizované veřejné budovy (polikliniky + komunitní/kulturní centra) –
+  // vnitřní útočiště volně přístupná v provozních hodinách.
   civic: {
-    toggle: "Klimatizované čekárny",
-    popupNote: "Klimatizovaná čekárna – volně přístupná v ordinačních hodinách",
+    toggle: "Klimatizované veřejné budovy",
+    popupNote: "Veřejně přístupné klimatizované místo – otevřené v provozních hodinách",
   },
   locate: {
     button: "Najdi 3 nejbližší chládky",

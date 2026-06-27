@@ -11,6 +11,12 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 3
+- **✅ INTEGROVÁNO: KULTKKC komunitní/kulturní centra (210, tier-B)** – sloučena do stávajícího civic overlaye, který přejmenován **„Klimatizované čekárny" → „Klimatizované veřejné budovy"** (ordinace 68 + centra 210 = 278 bodů, default OFF). Ikona civic genericizována (lékařský kříž → budova se sloupy), popup kicker dle typu (Poliklinika / Komunitní centrum / Dům dětí a mládeže / …). `data/fetch_ipr_kultkkc_centra.py` → `civic-centra.geojson`, cron `ipr-kultkkc-centra.yml` (týdně). Frontend fold-in (fetchCivicCentra + sloučení source + relabel) udělal Bedřich. Ověřeno staging (toggle + render), nasazeno live.
+- Tier-B, default OFF → nezahlcuje core AC view ani headline (**937 beze změny**, USP chráněn).
+- **Pozn. – docházejí IPR ArcGIS low-hanging fruity.** Příště zvážit posun k out-of-the-box / vědecké fázi: kryté bazény split (AC haly, tier-A), footprint join brand→building polygon, metodika cooling-refuge (Vídeň/Barcelona/Paříž).
+- **Další na řadě:** kryté bazény split (tier-A, upgrade z 75 pools) → úřady MČ (~22, tier-B do civic overlay) → out-of-the-box.
+
 ### 2026-06-27 · kolo 2
 - **✅ INTEGROVÁNO: IPR KULTKKC knihovny (40 net-new)** okrajových MČ (z 84 knihoven v datasetu, dedup −44 vs MKP 108 do 150 m). Sloučeno do clusterovaného AC source jako kategorie „library" (cooling ac, tier A), započteno do headline → **937**. `data/fetch_ipr_kultkkc.py` → `libraries-kkc.geojson`, cron `ipr-kultkkc.yml` (týdně). Frontend integraci udělal Bedřich sám (fetchLibrariesKkc + normalizeLibraryKkc + count). Ověřeno staging (banner 937 + render), nasazeno live.
 - Pozn.: **210 komunitních/kulturních zařízení** z KULTKKC (komunitní/kulturní centra, kluby seniorů, rodinná centra) = kandidát na měkčí tier-B AC vrstvu (invertovaný filtr) – budoucí kolo.
@@ -40,7 +46,8 @@
 | **Golemio cyklosčítače – teploty** (pouliční čidla) | temp-sensors.geojson | 25 | – | Golemio `/v2/bicyclecounters/temperatures` (klíč) | temp-sensors.yml (hod.) |
 | IPR mlžítka | mlzitka.geojson | 44 | (overlay) | IPR ArcGIS `AGD_CUR_AGD_OCH_MLZITKA_B` | mlzitka.yml (týdně) |
 | PID/ROPID metro stanice | metro.geojson | 57 | (overlay) | data.pid.cz stops.json | (statické) |
-| **IPR polikliniky** (klima čekárny, overlay „Klimatizované čekárny") | ac-civic.geojson | 68 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_ZDRAVPOLIKLINIKY_B` (keyless) | ipr-polikliniky.yml (týdně) |
+| **IPR polikliniky** (overlay „Klimatizované veřejné budovy") | ac-civic.geojson | 68 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_ZDRAVPOLIKLINIKY_B` (keyless) | ipr-polikliniky.yml (týdně) |
+| **IPR KULTKKC centra** (komunitní/kulturní, tentýž overlay) | civic-centra.geojson | 210 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (keyless) | ipr-kultkkc-centra.yml (týdně) |
 | Golemio kvalita ovzduší (17 stanic) | air-quality-stations.geojson | 17 | (overlay) | Golemio `/v2/airqualitystations` (klíč) | golemio-aq.yml (hod.) |
 | ČHMÚ výstrahy + Open-Meteo (teplota/UV/AQI) | heat-warning.json / client | – | – | CAP feed / Open-Meteo (keyless) | heat-warning.yml (30 min) |
 
@@ -52,12 +59,11 @@
 
 | Kandidát | Endpoint / fetch | Počet | Tier | Pozn. |
 |---|---|---|---|---|
-| IPR KULTKKC **komunitní centra** (knihovny ✅ kolo 2) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (210 non-library) | 210 | B | komunitní/kulturní centra jako měkčí AC útočiště (invertovaný filtr `typ_kkc_txt`); knihovny už integrovány. **Další na řadě.** |
+| 🔬 Kryté bazény split (AC haly) | Overpass building+sport=swimming / whitelist | ~10–15 | A | z 75 „bazénů" oddělit kryté AC haly (tier-A core). **Další na řadě.** |
 | **OSM metro vchody** | Overpass `railway=subway_entrance` | 346 | – | upgrade metra 57→346 (lepší „nejbližší"); cooling=natural, NE AC |
 | IPR pumpy + studánky/prameny | IPR ArcGIS `..._PUMPY_B` (94) + `..._STUDANKYPRAMENY_B` (215) | 94+215 | – | rozšíření vodní vrstvy (chladná pitná voda) |
 | IPR vodní plochy a toky (polygon) | IPR ArcGIS `..._VODNIPLOCHYTOKY_P` | 3526 | – | těžké → zjednodušit/bbox; „chlazení vodou" plochy |
-| 🔬 Kryté bazény split (indoor/outdoor) | Overpass building+sport=swimming / whitelist | ~10–15 | A | z 75 „bazénů" oddělit kryté AC haly |
-| 🔬 Úřady MČ / magistrát | Overpass townhall + ruční kurace | ~22 | B | civic AC; silný IE narativ „co má stát designovat" |
+| 🔬 Úřady MČ / magistrát | Overpass townhall + ruční kurace | ~22 | B | civic AC (do overlay „Veřejné budovy"); silný IE narativ „co má stát designovat" |
 | 🔬 Micro-AC řetězce (McDonald's/KFC/BK/Starbucks/Costa) | Overpass `brand:wikidata` | ~150 | B | default-OFF toggle, chrání USP |
 | 🔬 sensor.community / Netatmo | data.sensor.community / api.netatmo getpublicdata | ~22 / ? | – | občanská teplotní čidla (sun-bias, jen jako delta) |
 | 🔬 Koupací voda – bezpečnost | koupacivody.cz / hygpraha.cz (scrape) | ~9 | – | badge „zákaz koupání" k IPR koupání |

@@ -1,0 +1,3997 @@
+{
+ "type": "FeatureCollection",
+ "generatedAt": "2026-06-27T11:29:29Z",
+ "source": "IPR Praha - UAP (KULTKKC, komunitni / kulturni centra, Geoportal Praha)",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501525,
+     50.121466
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2555",
+    "name": "Dům dětí a mládeže Praha 9",
+    "type": "dům dětí a mládeže",
+    "address": "Měšická 720/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.456108,
+     50.105875
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2582",
+    "name": "Přístav 7",
+    "type": "komunitní centrum",
+    "address": "Jankovcova 1587/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.514215,
+     50.023413
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2468",
+    "name": "Akademie Vitae & základní umělecká škola a středisko volného času Praha, s.r.o.",
+    "type": "dům dětí a mládeže",
+    "address": "Chomutovická 1443/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.420534,
+     50.089035
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2447",
+    "name": "Farní sbor Českobratrské církve evangelické U Salvátora",
+    "type": "sborový dům",
+    "address": "Salvátorská 1045/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.314197,
+     50.011606
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2429",
+    "name": "Dům dětí a mládeže hlavního města Prahy",
+    "type": "dům dětí a mládeže",
+    "address": "Na Zmrzlíku 3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.595622,
+     50.111304
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2680",
+    "name": "Chvalský zámek",
+    "type": "kulturní centrum",
+    "address": "Na Chvalské tvrzi 857/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.565013,
+     50.040109
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2577",
+    "name": "Klub seniorů DPS Janovská",
+    "type": "klub seniorů",
+    "address": "Janovská 486",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432276,
+     50.072411
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2640",
+    "name": "Dům dětí a mládeže Praha 2",
+    "type": "dům dětí a mládeže",
+    "address": "Lublaňská 398/18",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.578517,
+     50.088815
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2407",
+    "name": "Kulturní a informační centrum Oáza",
+    "type": "kulturní centrum",
+    "address": "Stará obec 6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419498,
+     50.007056
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2475",
+    "name": "Kulturní centrum \"12\" – Jovkova",
+    "type": "kulturní centrum",
+    "address": "Jordana Jovkova 3427/20",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.468165,
+     50.095603
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2548",
+    "name": "Klub K09",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Nekvasilova 625/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.62171,
+     50.114917
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2414",
+    "name": "Dům dětí a mládeže, Praha – Horní Počernice, Ratibořická 1899",
+    "type": "kulturní středisko",
+    "address": "Votuzská 322/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.488784,
+     50.107121
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2607",
+    "name": "klub Hopo – Neposeda",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Sokolovská 971/193",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.514913,
+     50.11009
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2685",
+    "name": "Colben centrum",
+    "type": "komunitní centrum",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.470193,
+     50.107554
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2606",
+    "name": "Studio Alta",
+    "type": "kulturní centrum",
+    "address": "U Českých loděnic 2158/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.48152,
+     50.144975
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2535",
+    "name": "KC Vlna",
+    "type": "komunitní centrum",
+    "address": "Osinalická 1069/26",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.319109,
+     50.072479
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2522",
+    "name": "Kulturní dům Bílá Hora",
+    "type": "kulturní dům",
+    "address": "Ke Kulturnímu domu 439/14",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.400168,
+     50.075228
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2491",
+    "name": "Dům dětí a mládeže hlavního města Prahy",
+    "type": "dům dětí a mládeže",
+    "address": "Drtinova 199",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.438295,
+     50.075186
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2654",
+    "name": "Arcibiskupské gymnázium",
+    "type": "dům dětí a mládeže",
+    "address": "Korunní 586/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425478,
+     50.098191
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2595",
+    "name": "Klub Letka",
+    "type": "kulturní centrum",
+    "address": "Letohradská 557/44",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.408009,
+     50.082914
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2614",
+    "name": "Skautský institut",
+    "type": "kulturní a komunitní centrum",
+    "address": "U Sovových mlýnů 134/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.511072,
+     50.033955
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2466",
+    "name": "Dům dětí a mládeže Jižní Město",
+    "type": "dům dětí a mládeže",
+    "address": "Květnového vítězství 2126/36",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.390278,
+     50.107804
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2518",
+    "name": "KC Šlejnická",
+    "type": "komunitní centrum pro seniory",
+    "address": "Šlejnická 2593/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.561683,
+     50.105414
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2556",
+    "name": "Klub Pacific",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Vlčkova 1067/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.535256,
+     50.055822
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2561",
+    "name": "Sokol Hostivař",
+    "type": "kulturní centrum",
+    "address": "U Branek 674/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.32095,
+     50.048893
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2691",
+    "name": "Nízkoprahový klub JednaTrojka",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.412901,
+     50.036503
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2471",
+    "name": "Klub seniorů Branická",
+    "type": "klub seniorů",
+    "address": "Branická 43/55",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418651,
+     50.066535
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2423",
+    "name": "Dům dětí a mládeže Praha 2",
+    "type": "dům dětí a mládeže",
+    "address": "Vratislavova 66/15",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.594474,
+     50.03657
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2433",
+    "name": "Dům dětí a mládeže Praha 10 – Dům UM a klub 803 Uhříněves",
+    "type": "dům dětí a mládeže, nízkoprahový klub",
+    "address": "V bytovkách 803/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.474536,
+     50.127897
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2541",
+    "name": "Rodinný klub Ďáblík",
+    "type": "rodinný klub",
+    "address": "Taussigova 1172/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.427688,
+     50.025013
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2469",
+    "name": "KC Údolní",
+    "type": "komunitní centrum",
+    "address": "Údolní 1147/106",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.493593,
+     50.024921
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2463",
+    "name": "Kulturní centrum Zahrada",
+    "type": "kulturní centrum",
+    "address": "Malenická 1784/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429841,
+     50.084781
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2624",
+    "name": "Slovenská rímskokatolícka farnosť",
+    "type": "farní centrum",
+    "address": "Jindřišská 973/30",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434026,
+     50.07457
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2642",
+    "name": "Komunitní centrum sv. Anežky",
+    "type": "komunitní centrum",
+    "address": "Londýnská 13/44",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.491856,
+     50.078472
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2632",
+    "name": "Dům dětí a mládeže Praha 10 – Dům UM",
+    "type": "dům dětí a mládeže",
+    "address": "Pod strašnickou vinicí 623/23",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.405353,
+     50.124687
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2686",
+    "name": "KC L.E.S.",
+    "type": "komunitní centrum",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.37878,
+     50.139963
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2532",
+    "name": "Dům dětí a mládeže Praha 6 – Suchdol",
+    "type": "dům dětí a mládeže",
+    "address": "Suchdolská 360/61",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.474019,
+     50.104098
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2590",
+    "name": "Nová libeňská synagoga",
+    "type": "kulturní centrum",
+    "address": "Ludmilina 601/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.483195,
+     50.16626
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2403",
+    "name": "KC Béčko",
+    "type": "komunitní centrum",
+    "address": "Na hlavní 14/41",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.493126,
+     50.073376
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2646",
+    "name": "Kulturní dům Barikádníků",
+    "type": "kulturní dům",
+    "address": "Saratovská 3420/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.578874,
+     50.089168
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2406",
+    "name": "KC jako doma",
+    "type": "komunitní centrum",
+    "address": "Stará obec 366",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.345598,
+     50.049762
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2631",
+    "name": "Komunitní centrum a kostel Svatého Prokopa (Centrum Butovice)",
+    "type": "komunitní centrum",
+    "address": "V Hůrkách 1292/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.451685,
+     50.123353
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2523",
+    "name": "Salesiánské středisko mládeže – středisko volného času, o.p.s.",
+    "type": "dům dětí a mládeže, nízkoprahový klub",
+    "address": "Kobyliské náměstí 640/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.57728,
+     50.125093
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2434",
+    "name": "Komunitní centrum Jiřího Hubače",
+    "type": "komunitní centrum",
+    "address": "K Rybníčku 8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.62762,
+     50.010782
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2418",
+    "name": "KC Na Půdě",
+    "type": "komunitní centrum",
+    "address": "Mírová 21/66",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.406569,
+     50.06998
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2506",
+    "name": "Člověk v tísni",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Vltavská 3101/24",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.379317,
+     50.071539
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2495",
+    "name": "Dům dětí a mládeže hlavního města Prahy",
+    "type": "dům dětí a mládeže",
+    "address": "Podbělohorská 154/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.364785,
+     50.086841
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2580",
+    "name": "KC Nesedím, sousedím",
+    "type": "komunitní centrum",
+    "address": "Sartoriova 2457/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.621843,
+     50.116327
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2413",
+    "name": "Divadlo Horní Počernice",
+    "type": "divadelní sál",
+    "address": "Votuzská 379/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.515628,
+     50.024441
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2461",
+    "name": "Sbor Církve bratrské Praha 4 – Jižní Město (Kostelna)",
+    "type": "sborový dům",
+    "address": "Modletická 1391/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.385454,
+     50.011957
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2509",
+    "name": "rodinné centrum Chuchle – Kulturní centrum K8",
+    "type": "komunitní rodinné centrum",
+    "address": "Kazínská 8/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418256,
+     50.089572
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2428",
+    "name": "Auditorium Oddělení pro vzdělávání a kulturu Židovského muzea v Praze",
+    "type": "auditorium",
+    "address": "Maiselova 38/15",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.326764,
+     50.052409
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2627",
+    "name": "Spolkový dům",
+    "type": "kulturní dům",
+    "address": "K Vidouli 727/18",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448722,
+     50.090874
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2547",
+    "name": "Dům dětí a mládeže hlavního města Prahy",
+    "type": "dům dětí a mládeže",
+    "address": "Karlínské náměstí 316/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.438168,
+     50.076735
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2644",
+    "name": "Sbor Církve bratrské Praha 2 – Vinohrady",
+    "type": "sborový dům",
+    "address": "Římská 1354/43",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429305,
+     50.090053
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2604",
+    "name": "Dům dětí a mládeže Praha 4 – Hobby centrum 4",
+    "type": "dům dětí a mládeže",
+    "address": "Truhlářská 1113/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.402691,
+     50.099074
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2584",
+    "name": "Zasekávák",
+    "type": "kulturní centrum",
+    "address": "Jaselská 246/20",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.382614,
+     50.064804
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2504",
+    "name": "Rodinné centrum MAM Prostor",
+    "type": "rodinné centrum",
+    "address": "U teplárny 1174/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.438381,
+     50.045876
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2455",
+    "name": "Dům dětí a mládeže Praha 4 – Hobby centrum 4",
+    "type": "dům dětí a mládeže",
+    "address": "Bartákova 1200/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.497996,
+     50.057405
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2661",
+    "name": "Point 50+",
+    "type": "klub seniorů",
+    "address": "Ostružinová 2936/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.443414,
+     50.076353
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2655",
+    "name": "Dům dětí a mládeže Praha 2",
+    "type": "dům dětí a mládeže",
+    "address": "Slezská 920/21",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415082,
+     50.085455
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2451",
+    "name": "Unitaria (Pražská obec unitářů)",
+    "type": "komunitní centrum",
+    "address": "Anenská 186/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.34066,
+     50.050439
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2633",
+    "name": "Armáda spásy, Sbor a komunitní centrum",
+    "type": "komunitní centrum",
+    "address": "Petržílkova 2514/29",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.302699,
+     50.064999
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2690",
+    "name": "Klub 17",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Socháňova 1221/25",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.574801,
+     50.104105
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2553",
+    "name": "Stanice Církve bratrské Rajská Zahrada (Galerie 14)",
+    "type": "sborová stanice",
+    "address": "Náměstí plukovníka Vlčka 685/10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.43251,
+     50.065187
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2610",
+    "name": "Klub Beztíže 2",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Jaromírova 92/63",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.483295,
+     50.031872
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2464",
+    "name": "Komunitní centrum Filipovka",
+    "type": "komunitní, integrační a volnočasové centrum",
+    "address": "Filipova 2013/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.407636,
+     50.098996
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2569",
+    "name": "Villa Pellé",
+    "type": "kulturní centrum, klub seniorů",
+    "address": "Pelléova 91/10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.463693,
+     49.992768
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2424",
+    "name": "KC Jasoň",
+    "type": "komunitní centrum",
+    "address": "Putimská 716/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.466256,
+     50.128759
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2684",
+    "name": "KC Hrubého",
+    "type": "komunitní centrum",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415693,
+     50.101042
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2568",
+    "name": "Kulturně komunitní centrum ART na Letné",
+    "type": "kulturně komunitní centrum",
+    "address": "Nad Královskou oborou 553/55",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.41727,
+     50.08073
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2622",
+    "name": "Knihovna Václava Havla",
+    "type": "kulturní centrum",
+    "address": "Ostrovní 129/13",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.446615,
+     50.015374
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2421",
+    "name": "MC Balonek",
+    "type": "mateřské centrum",
+    "address": "Ke Kamýku 686/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419937,
+     50.086628
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2439",
+    "name": "Skautský institut",
+    "type": "kulturní a komunitní centrum",
+    "address": "Staroměstské náměstí 4/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.564654,
+     50.04147
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2576",
+    "name": "Klub seniorů Praha 15",
+    "type": "klub seniorů",
+    "address": "Parmská 390",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.349131,
+     50.050714
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2693",
+    "name": "Czech Photo Centre",
+    "type": "kulturní zařízení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.502574,
+     50.075824
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2636",
+    "name": "Prostor Prádelna",
+    "type": "kulturní centrum",
+    "address": "Dvouletky 43/30",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.360813,
+     50.083556
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2573",
+    "name": "Kaštan",
+    "type": "kulturní centrum",
+    "address": "Bělohorská 201/150",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.579593,
+     50.101991
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2549",
+    "name": "Plechárna Černý most",
+    "type": "komunitní centrum",
+    "address": "Bryksova 1002/20",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.30904,
+     50.091491
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2514",
+    "name": "Dům dětí a mládeže Praha 6",
+    "type": "dům dětí a mládeže",
+    "address": "Žukovského 580/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404491,
+     50.107239
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2570",
+    "name": "Stanice 6",
+    "type": "volnočasové centrum",
+    "address": "Goetheho 61/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.523259,
+     50.15076
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2544",
+    "name": "KC Sýpka",
+    "type": "komunitní centrum",
+    "address": "Na Staré Návsi 29/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.379671,
+     50.135989
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2533",
+    "name": "Komunitní centrum Půda",
+    "type": "komunitní centrum",
+    "address": "Suchdolské náměstí 734/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429582,
+     50.087126
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2618",
+    "name": "Kampus Hybernská",
+    "type": "kulturní centrum",
+    "address": "Hybernská 998/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418992,
+     50.134365
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2534",
+    "name": "V. Kolona",
+    "type": "komunitní centrum",
+    "address": "Ústavní 249",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.422281,
+     50.086316
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2448",
+    "name": "LGBT+ komunitní centrum",
+    "type": "komunitní centrum",
+    "address": "Železná 492/18",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.459356,
+     50.125374
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2524",
+    "name": "Centrum RoSa",
+    "type": "klub seniorů",
+    "address": "Střelničná 1680/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.358941,
+     49.980181
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2441",
+    "name": "Klub Radotín",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Loučanská 1112/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.405672,
+     50.071717
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2493",
+    "name": "Bridžový klub seniorů 10",
+    "type": "klub seniorů",
+    "address": "Na Bělidle 252/34",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.479052,
+     50.044027
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2668",
+    "name": "Římskokatolická farnost u kostela sv. Anežky České",
+    "type": "farní centrum",
+    "address": "Roztylské náměstí 2500",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.416024,
+     50.080425
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2609",
+    "name": "Poslední vlastenecká divadelní",
+    "type": "klub seniorů",
+    "address": "Ostrovní 146/16",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.384397,
+     49.969763
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2507",
+    "name": "Pexeso, Kulturně komunitní centrum Zbraslav",
+    "type": "kulturně komunitní centrum",
+    "address": "Žabovřeská 1227",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.312508,
+     50.029887
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2673",
+    "name": "Studio BUBEC",
+    "type": "kulturní a komunitní centrum",
+    "address": "Tělovýchovná 748",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.453672,
+     50.085241
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2672",
+    "name": "Centrum dětí a mládeže Teen Challenge Praha",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Havlíčkovo náměstí 746/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.523871,
+     50.030016
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2470",
+    "name": "Kaple Blahoslavené Matky Terezy – Komunitní centrum Matky Terezy (kaple sv. Terezie z Kalkaty)",
+    "type": "komunitní centrum",
+    "address": "U modré školy 2337/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.599427,
+     50.112081
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2412",
+    "name": "Mumraj rodinné a komunitní centrum",
+    "type": "rodinné a komunitní centrum",
+    "address": "Mezilesí 2058/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.497352,
+     50.057425
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2667",
+    "name": "Rodinné centrum K2",
+    "type": "rodinné centrum",
+    "address": "Ostružinová 2933/9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374068,
+     50.132218
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2529",
+    "name": "Dům dětí a mládeže Praha 6 – Suchdol",
+    "type": "dům dětí a mládeže",
+    "address": "Rohová 540/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419764,
+     50.07032
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2620",
+    "name": "Komunitní a rodinné centrum Jahoda",
+    "type": "komunitní rodinné centrum",
+    "address": "Na Slupi 1483/14",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.323979,
+     50.074313
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2521",
+    "name": "Dům dětí a mládeže Praha 6",
+    "type": "dům dětí a mládeže",
+    "address": "U boroviček 650/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.372968,
+     50.030062
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2490",
+    "name": "Kulturní a rodinné centrum Barrandov z.s.",
+    "type": "kulturní a rodinné centrum",
+    "address": "Záhorského 886/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.495715,
+     50.12525
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2638",
+    "name": "Klub Harfica a Kulturně aktivizační centurm pro seniory",
+    "type": "nízkoprahový klub pro děti a mládež, klub seniorů",
+    "address": "Harrachovská 422/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441135,
+     50.087186
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2660",
+    "name": "Čítárna Unijazz",
+    "type": "kulturní centrum",
+    "address": "Husitská 42/22",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42496,
+     50.009007
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2483",
+    "name": "Klub Krok",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Rakovského 3138/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.408842,
+     50.133133
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2528",
+    "name": "Dům dětí a mládeže Praha 8 – Spirála",
+    "type": "dům dětí a mládeže",
+    "address": "Dolákova 537/26",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.397307,
+     50.04066
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2484",
+    "name": "KC Konírna",
+    "type": "komunitní centrum",
+    "address": "Hlubočepská 2/33",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.43415,
+     50.103335
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2581",
+    "name": "Dům dětí a mládeže Praha 7",
+    "type": "dům dětí a mládeže",
+    "address": "Šimáčkova 1452/16",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.476597,
+     50.107148
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2683",
+    "name": "KC Kotlaska",
+    "type": "komunitní centrum",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.379679,
+     50.057114
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2488",
+    "name": "Sbor Jednoty bratrské (T4M)",
+    "type": "sborový dům",
+    "address": "Na vysoké II 300/22",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460926,
+     50.087224
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2677",
+    "name": "Komunitní centrum Ostromečská",
+    "type": "komunitní centrum",
+    "address": "Ostromečská 1268/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.372867,
+     50.035567
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2489",
+    "name": "Komunitní centrum Krista Spasitele",
+    "type": "komunitní centrum",
+    "address": "Grussova 1274/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.457954,
+     50.071967
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2658",
+    "name": "Bulmex",
+    "type": "veřejná dílna",
+    "address": "Mexická 692/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.409946,
+     50.014734
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2482",
+    "name": "klub Garáž",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Zátišská 1914/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.452997,
+     50.103685
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2586",
+    "name": "Kulturní zařízení Domovina",
+    "type": "kulturní zařízení",
+    "address": "Na Maninách 1525/32",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429858,
+     50.009696
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2479",
+    "name": "KC Angel",
+    "type": "komunitní centrum",
+    "address": "Angelovova 3183/15",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.454974,
+     50.06389
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2653",
+    "name": "Klub Decima",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "U Seřadiště 1578/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.580228,
+     50.104272
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2551",
+    "name": "Kluby Jahoda a Džagoda",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Vybíralova 969/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.583098,
+     50.106444
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2552",
+    "name": "ROMPRAHA",
+    "type": "komunitní centrum",
+    "address": "Bryksova 1061/40",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445776,
+     50.090706
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2545",
+    "name": "Církevní střední škola Jana Boska",
+    "type": "dům dětí a mládeže",
+    "address": "Vítkova 15/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.388581,
+     50.098264
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2679",
+    "name": "Kulturní centrum KLUBOVNA",
+    "type": "kulturní a komunitní centrum",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435975,
+     50.023429
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2687",
+    "name": "Klub seniorů Jílovská",
+    "type": "klub seniorů",
+    "address": "Jílovská 432/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.455955,
+     50.087457
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2675",
+    "name": "Sbor Církve Bratrské Praha 3 – Žižkov",
+    "type": "sborový dům",
+    "address": "Hartigova 151/24",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.304773,
+     50.067573
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2517",
+    "name": "Kluby seniorů Řepy, Průhon a Centrum",
+    "type": "klub seniorů",
+    "address": "Bendova 1121/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.55522,
+     50.034301
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2579",
+    "name": "Římskokatolická farnost u kostela sv. Jakuba Staršího Praha-Petrovice",
+    "type": "farní centrum",
+    "address": "Edisonova 17/14",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.401965,
+     50.102123
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2565",
+    "name": "Klub Za školou a Kulturně komunitní centrum Senior fitnes",
+    "type": "kulturní a kulturně komunitní centrum",
+    "address": "Uralská 770/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.461509,
+     50.123762
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2526",
+    "name": "Kostel a komunitní centrum U Jákobova žebříku",
+    "type": "komunitní centrum",
+    "address": "U školské zahrady 1264/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.390102,
+     50.073124
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2500",
+    "name": "Kulturní centrum Prádelna",
+    "type": "komunitní centrum, klub seniorů",
+    "address": "Holečkova 3297/38",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449481,
+     50.126743
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2525",
+    "name": "Dům dětí a mládeže Praha 8 – Spirála",
+    "type": "dům dětí a mládeže",
+    "address": "Přemyšlenská 1102/15",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.516106,
+     50.027487
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2459",
+    "name": "Mezi domy",
+    "type": "komunitní centrum",
+    "address": "Křejpského 1502/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.421302,
+     50.078124
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2600",
+    "name": "Novoměstská radnice",
+    "type": "kulturní centrum",
+    "address": "Karlovo náměstí 1/23",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.426522,
+     50.075674
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2626",
+    "name": "Církevní střední zdravotnická škola Jana Pavla II.",
+    "type": "dům dětí a mládeže",
+    "address": "Ječná 527/33",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429585,
+     50.091931
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2617",
+    "name": "Studio Citadela",
+    "type": "kulturní centrum",
+    "address": "Klimentská 1210/16",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.475224,
+     50.046965
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2688",
+    "name": "Klub seniorů Roztylské náměstí",
+    "type": "klub seniorů",
+    "address": "Trenčínská 2772/30",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.447407,
+     50.090482
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2546",
+    "name": "KC Karlín",
+    "type": "komunitní centrum",
+    "address": "Peckova 277/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.593719,
+     50.110751
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2415",
+    "name": "Dům dětí a mládeže, Praha – Horní Počernice, Ratibořická 1899",
+    "type": "dům dětí a mládeže",
+    "address": "Stoliňská 3157/19",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403677,
+     50.072971
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2492",
+    "name": "Dům dětí a mládeže Praha 5",
+    "type": "dům dětí a mládeže",
+    "address": "Štefánikova 235/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.437551,
+     50.020475
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2450",
+    "name": "Centrum Lhotka",
+    "type": "farní centrum",
+    "address": "Ve Lhotce 330/36",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.51343,
+     50.150978
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2542",
+    "name": "Dům dětí a mládeže Praha 9",
+    "type": "dům dětí a mládeže",
+    "address": "Cukrovarská 230/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.413452,
+     50.01233
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2476",
+    "name": "Dům dětí a mládeže Modřany",
+    "type": "dům dětí a mládeže",
+    "address": "Herrmannova 2016/24",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.356119,
+     50.064897
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2496",
+    "name": "Spolek Hájovna",
+    "type": "komunitní centrum",
+    "address": "U Lesíka 23",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.365113,
+     50.086259
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2585",
+    "name": "Klub Suterén",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Meziškolská 1120/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.423465,
+     50.075729
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2598",
+    "name": "Komunitní centrum Maják",
+    "type": "komunitní centrum",
+    "address": "Ječná 545/19",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4082,
+     50.083442
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2612",
+    "name": "Komunitní centrum Kampa",
+    "type": "komunitní centrum",
+    "address": "U Sovových mlýnů 645",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.408024,
+     50.085456
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2613",
+    "name": "Werichova vila",
+    "type": "kulturní centrum",
+    "address": "U Sovových mlýnů 501/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.521508,
+     50.025269
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2473",
+    "name": "Klub Ymkárium",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Tererova 1551/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.321251,
+     50.045196
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2634",
+    "name": "Sbor Církve bratrské Praha 13 – Stodůlky (Třináctka)",
+    "type": "sborový dům",
+    "address": "Mukařovského 1986/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.443257,
+     50.062007
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2608",
+    "name": "Klub seniorů Svatoslavova",
+    "type": "klub seniorů",
+    "address": "Svatoslavova 227/27",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450323,
+     50.086873
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2671",
+    "name": "Komunitní centrum Husitská",
+    "type": "komunitní centrum",
+    "address": "Husitská 114/74",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.458942,
+     50.050137
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2601",
+    "name": "DobroKlub Michelská",
+    "type": "klub seniorů",
+    "address": "Michelská 21/61",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.560348,
+     50.047248
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2578",
+    "name": "Aktivní senioři Praha 15",
+    "type": "klub seniorů",
+    "address": "Boloňská 310/18",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.357304,
+     49.983138
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2442",
+    "name": "Kulturně komunitní centrum Koruna",
+    "type": "kulturně komunitní centrum",
+    "address": "náměstí Osvoboditelů 44/15",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.486875,
+     50.074537
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2629",
+    "name": "Prostor Olga",
+    "type": "komunitní centrum",
+    "address": "Nad Primaskou 821/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.446782,
+     50.140214
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2540",
+    "name": "Moringa Tree Club, z.s.",
+    "type": "komunitní centrum",
+    "address": "U Traktorky 1258/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.470799,
+     50.100255
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2603",
+    "name": "Klub Kontejner",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Sokolovská 264/121",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.456461,
+     50.08203
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2663",
+    "name": "Remedium",
+    "type": "klub seniorů",
+    "address": "Táboritská 15/22",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419873,
+     50.100173
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2567",
+    "name": "Dům dětí a mládeže Praha 7",
+    "type": "dům dětí a mládeže",
+    "address": "Na výšinách 1000/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440558,
+     50.048745
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2457",
+    "name": "Klub Doupě",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Na Strži 1683/40",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.477409,
+     50.102483
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2605",
+    "name": "Husova kaple a evangelický sborový dům",
+    "type": "sborový dům",
+    "address": "U pošty 1098/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415367,
+     50.040663
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2465",
+    "name": "Dobeška",
+    "type": "kulturní dům",
+    "address": "Jasná I 1181/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.499073,
+     50.034734
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2454",
+    "name": "Chodovská tvrz",
+    "type": "kulturní centrum",
+    "address": "Ledvinova 86/9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.295117,
+     50.068058
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2519",
+    "name": "Sokolovna Řepy",
+    "type": "kulturní centrum",
+    "address": "Na Chobotě 125/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445644,
+     50.070624
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2656",
+    "name": "Komunitní centrum Protěž II",
+    "type": "komunitní centrum",
+    "address": "Rybalkova 186/33",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.39584,
+     50.089144
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2588",
+    "name": "Klášter bosých karmeliánů Praha (Fortna)",
+    "type": "komunitní centrum",
+    "address": "Hradčanské náměstí 184/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430938,
+     50.076037
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2641",
+    "name": "Dům národnostních menšin",
+    "type": "kulturní centrum",
+    "address": "Vocelova 602/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.543994,
+     50.09778
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2562",
+    "name": "Kulturní dům Kyje",
+    "type": "kulturní dům",
+    "address": "Šimanovská 47",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.461115,
+     50.087941
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2676",
+    "name": "Komunitní centrum Žižkostel",
+    "type": "komunitní centrum",
+    "address": "Náměstí barikád 1520/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.453886,
+     50.068995
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2651",
+    "name": "Komunitní centrum MANA",
+    "type": "komunitní centrum",
+    "address": "Moskevská 967/34",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.402896,
+     50.067386
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2508",
+    "name": "Radlická kulturní sportovna",
+    "type": "kulturní centrum",
+    "address": "Za Ženskými domovy 125/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.426802,
+     50.078543
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2619",
+    "name": "Bridge Centrum",
+    "type": "komunitní centrum",
+    "address": "Ve Smečkách 603/13",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.420423,
+     50.059105
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2445",
+    "name": "Klub seniorů Podolská",
+    "type": "klub seniorů",
+    "address": "Podolská 208/31",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.324254,
+     50.043095
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2616",
+    "name": "Dům dětí a mládeže Stodůlky",
+    "type": "dům dětí a mládeže",
+    "address": "Chlupova 1800/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4593,
+     50.069215
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2682",
+    "name": "Farní sál u sv. Václava",
+    "type": "farní centrum",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415514,
+     50.13434
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2531",
+    "name": "Římskokatolická farnost Bohnice",
+    "type": "farní centrum",
+    "address": "Bohnická 4/30",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.405731,
+     50.095149
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2594",
+    "name": "Písecká brána",
+    "type": "kulturně společenské a komunitní centrum",
+    "address": "K Brusce 208/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.39939,
+     50.104734
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2566",
+    "name": "Centrum inspirace a tvořivosti",
+    "type": "rodinné a komunitní centrum",
+    "address": "Charlese de Gaulla 832/18",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.67054,
+     50.096861
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2416",
+    "name": "Kulturní centrum Beseda",
+    "type": "kulturní centrum",
+    "address": "Slavětínská 1029/54",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.392633,
+     50.110532
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2511",
+    "name": "Dům dětí a mládeže hlavního města Prahy",
+    "type": "dům dětí a mládeže",
+    "address": "Pod Juliskou 2561",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403639,
+     50.028271
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2462",
+    "name": "Dům dětí a mládeže Praha 4 – Hobby centrum 4",
+    "type": "dům dětí a mládeže",
+    "address": "Vltavanů 229",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.559353,
+     50.061459
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2589",
+    "name": "KC Dolní Měcholupy",
+    "type": "komunitní centrum",
+    "address": "Na Paloučku 704/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430043,
+     50.091214
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2625",
+    "name": "Sbor Církve bratrské Praha 1 – Soukenická",
+    "type": "sborový dům",
+    "address": "Soukenická 1193/15",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.409767,
+     50.062755
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2499",
+    "name": "Komunitní centrum louka",
+    "type": "klub seniorů",
+    "address": "U Královské louky 918/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.524533,
+     50.049192
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2559",
+    "name": "KC Farní dvůr",
+    "type": "farní centrum",
+    "address": "Domkářská 21/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.368893,
+     50.070914
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2497",
+    "name": "Buďánka – ostrov ve městě",
+    "type": "komunitní centrum",
+    "address": "Nad Zámečnicí 3333/10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.446748,
+     50.083819
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2674",
+    "name": "Punctum Krásovka",
+    "type": "kulturní centrum",
+    "address": "Krásova 803/27",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.411461,
+     50.068583
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2681",
+    "name": "DOK16 – Sousedská dílna",
+    "type": "sousedská dílna",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.531361,
+     50.153773
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2694",
+    "name": "Centrum Cirkus",
+    "type": "rodinné centrum",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.414435,
+     50.08368
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2689",
+    "name": "Život 90",
+    "type": "komunitní centrum pro seniory",
+    "address": "Karoliny Světlé 286/18",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448024,
+     50.040583
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2449",
+    "name": "Farní sál Habrovka (u kostela Svatého Františka z Assisi)",
+    "type": "společenský sál",
+    "address": "U Habrovky 66/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425865,
+     50.001733
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2481",
+    "name": "Dům dětí a mládeže Modřany",
+    "type": "dům dětí a mládeže",
+    "address": "Urbánkova 3348/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433502,
+     50.04631
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2458",
+    "name": "Dům dětí a mládeže Praha 4 – Hobby centrum 4",
+    "type": "dům dětí a mládeže",
+    "address": "Pujmanové 874/9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.407669,
+     50.084415
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2692",
+    "name": "Komunitní centrum Kampa - sala terrena",
+    "type": "komunitní centrum",
+    "address": "U Sovových mlýnů 418/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4744,
+     50.109328
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2591",
+    "name": "Libre – Libeňské komunitní a reuse centrum",
+    "type": "komunitní centrum",
+    "address": "Pivovarnická 1022/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.549486,
+     50.134799
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2563",
+    "name": "Rodinné centrum Hangár 19",
+    "type": "rodinné centrum",
+    "address": "Toužimská 244/42",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.481856,
+     50.094482
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2666",
+    "name": "Dům dětí a mládeže Praha 3 – Ulita",
+    "type": "dům dětí a mládeže, nízkoprahový klub",
+    "address": "Na Balkáně 2866/17",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.41678,
+     50.128497
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2635",
+    "name": "Stanice Církve bratrské Bohnice",
+    "type": "sborová stanice",
+    "address": "Lodžská 598/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.616904,
+     50.110872
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2410",
+    "name": "Dům dětí a mládeže, Praha – Horní Počernice, Ratibořická 1899",
+    "type": "dům dětí a mládeže",
+    "address": "Ratibořická 1899/30",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.451931,
+     50.069143
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2649",
+    "name": "Farnost Vršovice",
+    "type": "farní centrum",
+    "address": "Vršovické náměstí 84/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.453125,
+     50.08727
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2669",
+    "name": "Klub R-Mosty",
+    "type": "nízkoprahový klub pro děti a mládež",
+    "address": "Hartigova 605/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417505,
+     50.066817
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2426",
+    "name": "Husův sbor",
+    "type": "komunitní centrum",
+    "address": "Vratislavova 30/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.328947,
+     50.086727
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2515",
+    "name": "Farní centrum Malejov (Konvent Karmelitánů, Římskokatolická farnost u kostela sv. Fabiána a Šebestiána Praha-Liboc)",
+    "type": "farní centrum",
+    "address": "Libocká 5/41",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.387275,
+     50.099317
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2513",
+    "name": "Vyšší odborná škola pedagogická a sociální, Střední odborná škola pedagogická a Gymnázium, Praha 6, Evropská 33",
+    "type": "volnočasové centrum",
+    "address": "Gymnasijní 510/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.431594,
+     50.140809
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2539",
+    "name": "Rodinný klub Čimík",
+    "type": "rodinný klub",
+    "address": "Libčická 333/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.452316,
+     50.064947
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2659",
+    "name": "Petrohradská kolektiv z.s.",
+    "type": "kulturní centrum",
+    "address": "Petrohradská 438/13",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.453097,
+     50.081879
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2664",
+    "name": "Atrium na Žižkově",
+    "type": "kulturní centrum",
+    "address": "Čajkovského 12/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.464654,
+     50.077402
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2639",
+    "name": "Rodinné a komunitní centrum Paleček, z.s.",
+    "type": "rodinné a komunitní centrum",
+    "address": "Písecká 1672/17",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.427531,
+     50.000556
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2477",
+    "name": "Kulturní centrum \"12\" – pobočka Pertoldova",
+    "type": "kulturní centrum",
+    "address": "Pertoldova 3346/10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501518,
+     50.121033
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2557",
+    "name": "KC Knoflík",
+    "type": "kulturní a rodinné centrum",
+    "address": "Jablonecká 723/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.399876,
+     50.065433
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2498",
+    "name": "Komunitní prostor Smíchov",
+    "type": "komunitní centrum",
+    "address": "Na Doubkové 3327/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.512327,
+     50.012861
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2436",
+    "name": "Sbor církve bratrské Šeberov",
+    "type": "sborový dům",
+    "address": "V Ladech 10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.511483,
+     50.025329
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-centra-2460",
+    "name": "Dům dětí a mládeže Jižní Město",
+    "type": "dům dětí a mládeže",
+    "address": "Šalounova 2024/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  }
+ ]
+}

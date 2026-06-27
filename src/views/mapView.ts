@@ -26,7 +26,7 @@ import { fetchAreas } from "../lib/areas.ts";
 import type { AreaFeature } from "../lib/types.ts";
 import { fetchMlzitka } from "../lib/mlzitka.ts";
 import { fetchMetro } from "../lib/metro.ts";
-import { fetchCivic } from "../lib/civic.ts";
+import { fetchCivic, fetchCivicCentra } from "../lib/civic.ts";
 import {
   fetchAcCulture,
   fetchAcShops,
@@ -61,6 +61,7 @@ import type {
   AcShopFeature,
   LibraryFeature,
   LibraryKkcFeature,
+  CivicCollection,
   AcAreaCollection,
 } from "../lib/types.ts";
 
@@ -1672,11 +1673,18 @@ async function initMetro(map: MlMap): Promise<void> {
 }
 
 async function initCivic(map: MlMap): Promise<void> {
-  const data = await fetchCivic();
-  if (!data) {
-    console.warn("Klimatizované čekárny nedostupné – vrstva se nepřidá.");
+  // Klimatizované veřejné budovy = polikliniky (ac-civic) + komunitní/kulturní
+  // centra (civic-centra). Oba mají stejný civic shape → sloučíme do jednoho source.
+  const [clinics, centra] = await Promise.all([fetchCivic(), fetchCivicCentra()]);
+  const features = [
+    ...(clinics?.features ?? []),
+    ...(centra?.features ?? []),
+  ];
+  if (features.length === 0) {
+    console.warn("Klimatizované veřejné budovy nedostupné – vrstva se nepřidá.");
     return;
   }
+  const data: CivicCollection = { type: "FeatureCollection", features };
   map.addSource(CIVIC_SOURCE_ID, { type: "geojson", data });
   map.addLayer({
     id: CIVIC_LAYER_ID,
@@ -1767,13 +1775,17 @@ function openCivicPopup(map: MlMap, feature: MapGeoJSONFeature): void {
       ? String(p["address"])
       : null;
   const source = String(p["source"] ?? "");
+  const rawType = typeof p["type"] === "string" ? String(p["type"]) : "";
+  const typeLabel = rawType
+    ? rawType.charAt(0).toUpperCase() + rawType.slice(1)
+    : ui.civic.toggle;
 
   const addressHtml = address
     ? `<p class="popup-address">${escapeHtml(address)}</p>`
     : "";
   const html = `
     <div class="popup popup-overlay">
-      <span class="overlay-kicker">${escapeHtml(ui.civic.toggle)}</span>
+      <span class="overlay-kicker">${escapeHtml(typeLabel)}</span>
       <h3>${escapeHtml(name)}</h3>
       <p class="overlay-note">${escapeHtml(ui.civic.popupNote)}</p>
       ${addressHtml}
