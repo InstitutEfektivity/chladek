@@ -1,0 +1,1299 @@
+{
+ "type": "FeatureCollection",
+ "generatedAt": "2026-06-27T10:01:27Z",
+ "source": "IPR Praha - UAP (polikliniky / zdravotni strediska, Geoportal Praha)",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.545351,
+     50.049498
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-468",
+    "name": "Zdravotní středisko Hostivař",
+    "type": "poliklinika",
+    "address": "Tenisová 981/10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.554043,
+     50.101611
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-434",
+    "name": "Poliklinika Vajgarská",
+    "type": "poliklinika",
+    "address": "Vajgarská 1141",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.486176,
+     50.092856
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-474",
+    "name": "Centrum zdravotní péče Jarov",
+    "type": "poliklinika",
+    "address": "Koněvova 2427/205",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.354135,
+     49.980193
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-465",
+    "name": "Poliklinika Radotín",
+    "type": "poliklinika",
+    "address": "Sídliště 1100/31",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430602,
+     50.099536
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-449",
+    "name": "Poliklinika Prahy 7",
+    "type": "poliklinika",
+    "address": "Františka Křížka 683/22",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449314,
+     50.101377
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-456",
+    "name": "Zdravotnické zařízení MEDIAM, s.r.o.",
+    "type": "poliklinika",
+    "address": "Tusarova 1152/36",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.365045,
+     50.096517
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-489",
+    "name": "Poliklinika Cordeus",
+    "type": "poliklinika",
+    "address": "Na dlouhém lánu 563/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.382338,
+     49.964646
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-496",
+    "name": "Nová poliklinika Zbraslav",
+    "type": "poliklinika",
+    "address": "Elišky Přemyslovny 1325",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434343,
+     50.051287
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-486",
+    "name": "Poliklinika Medicina Plus",
+    "type": "poliklinika",
+    "address": "Hvězdova 1601",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.45107,
+     50.042533
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-435",
+    "name": "Poliklinika Budějovická",
+    "type": "poliklinika",
+    "address": "Antala Staška 1670/80",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.308167,
+     50.068402
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-485",
+    "name": "Poliklinika Žufanova",
+    "type": "poliklinika",
+    "address": "Žufanova 1113/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.366179,
+     50.084749
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-455",
+    "name": "Poliklinika Pod Marjánkou",
+    "type": "poliklinika",
+    "address": "Pod Marjánkou 1906/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.427373,
+     50.091643
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-477",
+    "name": "Poliklinika Revoluční",
+    "type": "poliklinika",
+    "address": "Revoluční 765/19",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450942,
+     50.065211
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-481",
+    "name": "Poliklinika Vršovice",
+    "type": "poliklinika",
+    "address": "Ukrajinská 900/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.487031,
+     50.045012
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-448",
+    "name": "Poliklinika Spořilov",
+    "type": "poliklinika",
+    "address": "Božkovská 2967/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.679236,
+     50.071014
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-466",
+    "name": "Středisko zdravotní a sociální péče Újezd n. L.",
+    "type": "poliklinika",
+    "address": "Živonínská 1630",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501234,
+     50.08022
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-438",
+    "name": "Poliklinika Malešice",
+    "type": "poliklinika",
+    "address": "Plaňanská 573/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.427352,
+     50.074831
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-483",
+    "name": "Poliklinika Medika",
+    "type": "poliklinika",
+    "address": "Kateřinská 1476/34",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.519447,
+     50.032186
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-472",
+    "name": "Poliklinika Litochleby",
+    "type": "poliklinika",
+    "address": "Hviezdoslavova 1600/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.357896,
+     50.089783
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-450",
+    "name": "Poliklinika DAM. s.r.o.",
+    "type": "poliklinika",
+    "address": "Stamicova 1968/21",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374975,
+     50.033161
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-444",
+    "name": "Poliklinika Barrandov",
+    "type": "poliklinika",
+    "address": "Krškova 807/21",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415578,
+     50.126799
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-443",
+    "name": "Poliklinika Mazurská",
+    "type": "poliklinika",
+    "address": "Mazurská 484/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.342833,
+     50.03594
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-484",
+    "name": "Poliklinika Praha 13",
+    "type": "poliklinika",
+    "address": "Janského 2254/45",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.520625,
+     50.031336
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-433",
+    "name": "Poliklinika Michnova",
+    "type": "poliklinika",
+    "address": "Michnova 1622/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430451,
+     50.074659
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-446",
+    "name": "Poliklinika I. P. Pavlova",
+    "type": "poliklinika",
+    "address": "Legerova 389/56",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.469666,
+     50.078062
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-445",
+    "name": "Poliklina Vinohrady",
+    "type": "poliklinika",
+    "address": "Vinohradská 1513/176",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.43315,
+     50.103752
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-491",
+    "name": "Lékařský dům Praha 7",
+    "type": "poliklinika",
+    "address": "Janovského 993/48",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.431472,
+     50.140373
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-462",
+    "name": "Zdravotní středisko Čimice",
+    "type": "poliklinika",
+    "address": "Tišická 396/1",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.446575,
+     50.102393
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-471",
+    "name": "Lékařský dům Holešovice",
+    "type": "poliklinika",
+    "address": "Tovární 1342/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.508768,
+     50.138558
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-473",
+    "name": "Poliklinika Frýdecká",
+    "type": "poliklinika",
+    "address": "Frýdecká 439",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.447118,
+     50.045381
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-436",
+    "name": "Poliklinika Pacovská",
+    "type": "poliklinika",
+    "address": "Pacovská 869/31",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.601811,
+     50.111821
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-467",
+    "name": "Zdravotní středisko Horní Počernice",
+    "type": "poliklinika",
+    "address": "Lhotská 2072/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.347371,
+     50.050783
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-451",
+    "name": "Poliklinika Lípa",
+    "type": "poliklinika",
+    "address": "Seydlerova 2451/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.314818,
+     50.033799
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-464",
+    "name": "Zdravotní středisko Řeporyje",
+    "type": "poliklinika",
+    "address": "Ke zdravotnímu středisku 447/9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.401544,
+     50.074282
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-437",
+    "name": "Poliklinika Kartouzská",
+    "type": "poliklinika",
+    "address": "Kartouzská 204/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.597996,
+     50.031369
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-498",
+    "name": "Lékařský dům Uhříněves",
+    "type": "poliklinika",
+    "address": "Nové náměstí 1431/20",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.389108,
+     50.105812
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-497",
+    "name": "Poliklinika Bechyňova",
+    "type": "poliklinika",
+    "address": "Bechyňova 2571/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.343679,
+     50.050296
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-494",
+    "name": "Poliklinika Hůrka",
+    "type": "poliklinika",
+    "address": "Sluneční náměstí 2588/14",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.572072,
+     50.106863
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-469",
+    "name": "Poliklinika Černý Most \"Parník\"",
+    "type": "poliklinika",
+    "address": "Generála Janouška 902/17",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.592987,
+     50.063819
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-460",
+    "name": "Zdravotní středisko Dubeč",
+    "type": "poliklinika",
+    "address": "Starodubečská 99/6",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.666083,
+     50.088535
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-499",
+    "name": "Zdravotní středisko",
+    "type": "poliklinika",
+    "address": "Slavětínská 771",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441627,
+     50.042294
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-487",
+    "name": "Krčská poliklinika",
+    "type": "poliklinika",
+    "address": "Krčská 1079/59",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.467739,
+     50.084195
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-475",
+    "name": "Olšanská poliklinika",
+    "type": "poliklinika",
+    "address": "Olšanská 2666/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.549863,
+     50.133921
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-458",
+    "name": "Zdravotní středisko Kbely",
+    "type": "poliklinika",
+    "address": "Železnobrodská 764/25",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.442625,
+     50.107683
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-493",
+    "name": "Poliklinika Holešovice",
+    "type": "poliklinika",
+    "address": "Plynární 1617/10",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.513659,
+     50.01164
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-459",
+    "name": "Zdravotní středisko Šeberov",
+    "type": "poliklinika",
+    "address": "K Hrnčířům 263",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.559791,
+     50.038756
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-470",
+    "name": "Poliklinika Petrovice",
+    "type": "poliklinika",
+    "address": "Ohmova 271/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.394937,
+     49.973955
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-454",
+    "name": "Poliklinika Zbraslav",
+    "type": "poliklinika",
+    "address": "Žitavského 497",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.314916,
+     50.046212
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-452",
+    "name": "Poliklinika Praha 13",
+    "type": "poliklinika",
+    "address": "Hostinského 1533/4",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.414256,
+     50.005868
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-488",
+    "name": "Poliklinika Modřany",
+    "type": "poliklinika",
+    "address": "Soukalova 3355/3",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.421125,
+     50.076431
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-482",
+    "name": "Fakultní poliklinika",
+    "type": "poliklinika",
+    "address": "Karlovo náměstí 554/32",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.423127,
+     50.08113
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-500",
+    "name": "Poliklinika Palackého",
+    "type": "poliklinika",
+    "address": "Palackého 720/5",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.513219,
+     50.110446
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-441",
+    "name": "Poliklinika Kolbenova",
+    "type": "poliklinika",
+    "address": "Kolbenova 473/36",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.461396,
+     50.126635
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-478",
+    "name": "Poliklinika Čumpelíkova",
+    "type": "poliklinika",
+    "address": "Čumpelíkova 1764/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.314385,
+     50.045629
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-463",
+    "name": "Zdravotní středisko Hostinského 1536",
+    "type": "poliklinika",
+    "address": "Hostinského 1536/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.497043,
+     50.056218
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-476",
+    "name": "Poliklinika Zahradní Město",
+    "type": "poliklinika",
+    "address": "Jabloňová 2992/8",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441417,
+     50.062991
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-490",
+    "name": "Nuselská poliklinika",
+    "type": "poliklinika",
+    "address": "Táborská 325/57",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429643,
+     50.078992
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-492",
+    "name": "Lékařský dům v Mezibranské",
+    "type": "poliklinika",
+    "address": "Mezibranská 1367/21",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.517841,
+     50.02574
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-439",
+    "name": "Poliklinika Opatovská",
+    "type": "poliklinika",
+    "address": "Opatovská 1763/11",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449547,
+     50.146428
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-461",
+    "name": "Zdravotní středisko Dolní Chabry",
+    "type": "poliklinika",
+    "address": "Spořická 300/58",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.428958,
+     50.075936
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-480",
+    "name": "Poliklinika Sokolská",
+    "type": "poliklinika",
+    "address": "Sokolská 1638/37",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419949,
+     50.080284
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-442",
+    "name": "Městská poliklinika Praha",
+    "type": "poliklinika",
+    "address": "Spálená 78/12",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.489342,
+     50.027463
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-440",
+    "name": "Poliklinika Jižní Město",
+    "type": "poliklinika",
+    "address": "Šustova 1930/2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.431961,
+     50.085607
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-479",
+    "name": "Poliklinika Senovážné náměstí",
+    "type": "poliklinika",
+    "address": "Senovážné náměstí 980/22",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.494527,
+     50.10827
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-457",
+    "name": "Poliklinika Vysočany",
+    "type": "poliklinika",
+    "address": "Sokolovská 810/304",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.490198,
+     50.128863
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-447",
+    "name": "Poliklinika  Prosek",
+    "type": "poliklinika",
+    "address": "Lovosická 440/40",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.396565,
+     50.101142
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-453",
+    "name": "Poliklinika Vítězné náměstí",
+    "type": "poliklinika",
+    "address": "Vítězné náměstí 817/9",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.473305,
+     50.104363
+    ]
+   },
+   "properties": {
+    "id": "ipr-polikliniky-495",
+    "name": "Lékařský dům Palmovka",
+    "type": "poliklinika",
+    "address": "Zenklova  340/22",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "IPR Praha – ÚAP"
+   }
+  }
+ ]
+}

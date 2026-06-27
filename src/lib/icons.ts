@@ -436,12 +436,50 @@ function mistBadgeSvg(): string {
 </svg>`;
 }
 
-// Zaregistruje overlay ikony (mlžítka, metro). Jako u registerVenueIcons:
+// Klimatizovaná čekárna (poliklinika) → bílý zdravotnický kříž (clinic glyph)
+// na pinu v AC barvě. Čitelný symbol „lékařské / klimatizované útočiště".
+const CIVIC_GLYPH: Glyph = {
+  filled: true,
+  paths: [
+    "M9.6 3.5h4.8a1 1 0 0 1 1 1v4.1h4.1a1 1 0 0 1 1 1v4.8a1 1 0 0 1-1 1h-4.1v4.1a1 1 0 0 1-1 1H9.6a1 1 0 0 1-1-1v-4.1H4.5a1 1 0 0 1-1-1V9.6a1 1 0 0 1 1-1h4.1V4.5a1 1 0 0 1 1-1z",
+  ],
+};
+
+function civicBadgeSvg(): string {
+  const color = coolingColors["ac"]!;
+  const top = lighten(color, 0.26);
+  const bottom = darken(color, 0.1);
+  const stroke = darken(color, 0.22);
+  const gScale = 2.6;
+  const gOff = 64 - (24 * gScale) / 2;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${BADGE_W}" height="${BADGE_H}" viewBox="0 0 ${BADGE_W} ${BADGE_H}">
+  <defs>
+    <linearGradient id="gcivic" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${top}"/>
+      <stop offset="1" stop-color="${bottom}"/>
+    </linearGradient>
+    <filter id="shcivic" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0d2c42" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <g filter="url(#shcivic)">
+    <path d="M64 142 L50 116 H78 Z" fill="${bottom}"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="url(#gcivic)" stroke="${stroke}" stroke-width="2.5"/>
+    <rect x="6" y="6" width="116" height="116" rx="${RADIUS}" ry="${RADIUS}" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.92"/>
+  </g>
+  <g transform="translate(${gOff} ${gOff}) scale(${gScale})">
+    ${glyphMarkup(CIVIC_GLYPH)}
+  </g>
+</svg>`;
+}
+
+// Zaregistruje overlay ikony (mlžítka, metro, čekárny). Jako u registerVenueIcons:
 // musí proběhnout PŘED symbol vrstvou, která je odkazuje. Awaitujeme všechny obrázky.
 export async function registerOverlayIcons(map: MlMap): Promise<void> {
   const entries: { id: string; svg: string }[] = [
     { id: "icon-mist", svg: mistBadgeSvg() },
     { id: "icon-metro", svg: metroBadgeSvg() },
+    { id: "icon-civic", svg: civicBadgeSvg() },
   ];
   await Promise.all(
     entries.map(async ({ id, svg }) => {

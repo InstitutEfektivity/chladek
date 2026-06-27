@@ -1,0 +1,34 @@
+name: IPR polikliniky refresh
+
+# Stahne polikliniky / zdravotni strediska Prahy (IPR UAP) a commitne snapshot GeoJSON.
+# Obcanska AC vrstva - cekarny poliklinik jako verejne utociste pred horkem.
+# Otevrena data IPR Praha - zadny API klic neni potreba. Staticka vrstva, refresh tydne.
+on:
+  schedule:
+    - cron: "35 6 * * 1" # tydne v pondeli rano (vrstva se meni zridka)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch IPR polikliniky
+        run: python data/fetch_ipr_polikliniky.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/data/ac-civic.geojson; then
+            git add public/data/ac-civic.geojson
+            git commit -m "chore(data): tydenni refresh IPR polikliniky [skip ci]"
+            git push
+          else
+            echo "Beze zmeny."
+          fi

@@ -26,6 +26,7 @@ import { fetchAreas } from "../lib/areas.ts";
 import type { AreaFeature } from "../lib/types.ts";
 import { fetchMlzitka } from "../lib/mlzitka.ts";
 import { fetchMetro } from "../lib/metro.ts";
+import { fetchCivic } from "../lib/civic.ts";
 import {
   fetchAcCulture,
   fetchAcShops,
@@ -94,6 +95,10 @@ const MIST_LAYER_ID = "mlzitka-point";
 // Metro (PID) – samostatná symbol vrstva, defaultně skrytá.
 const METRO_SOURCE_ID = "metro";
 const METRO_LAYER_ID = "metro-point";
+
+// Klimatizované čekárny (polikliniky) – samostatná symbol vrstva, defaultně skrytá.
+const CIVIC_SOURCE_ID = "ac-civic";
+const CIVIC_LAYER_ID = "ac-civic-point";
 
 // Teploty (živě) – DOM Markery (ne GL vrstva). Default ON.
 // Pod tímto zoomem ukazujeme jen oficiální ČHMÚ stanice, nad ním přidáme i čidla.
@@ -197,6 +202,10 @@ export function renderMapView(root: HTMLElement): () => void {
           <button type="button" class="chip chip-overlay" id="metro-toggle" aria-pressed="false">
             <span class="chip-dot chip-dot-metro" aria-hidden="true"></span>
             ${escapeHtml(ui.metro.toggle)}
+          </button>
+          <button type="button" class="chip chip-overlay" id="civic-toggle" aria-pressed="false">
+            <span class="chip-dot chip-dot-civic" aria-hidden="true"></span>
+            ${escapeHtml(ui.civic.toggle)}
           </button>
         </div>
         <div class="locate-wrap">
@@ -332,6 +341,9 @@ export function renderMapView(root: HTMLElement): () => void {
 
   // Přepínač „Metro (chládek pod zemí)" – visibility symbol vrstvy. Default OFF.
   wireLayerToggle(root, "#metro-toggle", () => map, METRO_LAYER_ID);
+
+  // Přepínač „Klimatizované čekárny" – visibility symbol vrstvy. Default OFF.
+  wireLayerToggle(root, "#civic-toggle", () => map, CIVIC_LAYER_ID);
 
   // Geolokace „3 nejbližší chládky"
   const locateBtn = root.querySelector<HTMLButtonElement>("#locate-btn");
@@ -1557,6 +1569,7 @@ async function initOverlayPoints(map: MlMap): Promise<void> {
   await registerOverlayIcons(map);
   await initMlzitka(map);
   await initMetro(map);
+  await initCivic(map);
 }
 
 async function initMlzitka(map: MlMap): Promise<void> {
@@ -1625,6 +1638,39 @@ async function initMetro(map: MlMap): Promise<void> {
   });
 }
 
+async function initCivic(map: MlMap): Promise<void> {
+  const data = await fetchCivic();
+  if (!data) {
+    console.warn("Klimatizované čekárny nedostupné – vrstva se nepřidá.");
+    return;
+  }
+  map.addSource(CIVIC_SOURCE_ID, { type: "geojson", data });
+  map.addLayer({
+    id: CIVIC_LAYER_ID,
+    type: "symbol",
+    source: CIVIC_SOURCE_ID,
+    layout: {
+      visibility: "none", // default OFF
+      "icon-image": "icon-civic",
+      "icon-allow-overlap": true,
+      "icon-ignore-placement": true,
+      "icon-anchor": "bottom",
+      "icon-size": ["interpolate", ["linear"], ["zoom"], 11, 0.34, 16, 0.56],
+    },
+  });
+
+  map.on("click", CIVIC_LAYER_ID, (e) => {
+    const feature = e.features?.[0];
+    if (feature) openCivicPopup(map, feature);
+  });
+  map.on("mouseenter", CIVIC_LAYER_ID, () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+  map.on("mouseleave", CIVIC_LAYER_ID, () => {
+    map.getCanvas().style.cursor = "";
+  });
+}
+
 function openMistPopup(map: MlMap, feature: MapGeoJSONFeature): void {
   if (feature.geometry.type !== "Point") return;
   const [lon, lat] = feature.geometry.coordinates as [number, number];
@@ -1669,6 +1715,36 @@ function openMetroPopup(map: MlMap, feature: MapGeoJSONFeature): void {
       <h3>${escapeHtml(name)}</h3>
       ${linesHtml}
       <p class="overlay-note">${escapeHtml(ui.metro.refugeNote)}</p>
+      <p class="overlay-source">${escapeHtml(ui.popup.sourceLabel)}: ${escapeHtml(source)}</p>
+    </div>`;
+
+  new maplibregl.Popup({ closeButton: true, maxWidth: "280px", focusAfterOpen: true })
+    .setLngLat([lon, lat])
+    .setHTML(html)
+    .addTo(map);
+}
+
+function openCivicPopup(map: MlMap, feature: MapGeoJSONFeature): void {
+  if (feature.geometry.type !== "Point") return;
+  const [lon, lat] = feature.geometry.coordinates as [number, number];
+  const p = feature.properties as Record<string, unknown>;
+  const name = String(p["name"] ?? "");
+  const address =
+    typeof p["address"] === "string" && p["address"]
+      ? String(p["address"])
+      : null;
+  const source = String(p["source"] ?? "");
+
+  const addressHtml = address
+    ? `<p class="popup-address">${escapeHtml(address)}</p>`
+    : "";
+  const html = `
+    <div class="popup popup-overlay">
+      <span class="overlay-kicker">${escapeHtml(ui.civic.toggle)}</span>
+      <h3>${escapeHtml(name)}</h3>
+      <p class="overlay-note">${escapeHtml(ui.civic.popupNote)}</p>
+      ${addressHtml}
+      <span class="ac-badge ac-badge-b">${escapeHtml(ui.popup.acTierB)}</span>
       <p class="overlay-source">${escapeHtml(ui.popup.sourceLabel)}: ${escapeHtml(source)}</p>
     </div>`;
 

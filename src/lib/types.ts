@@ -192,6 +192,29 @@ export interface MetroCollection {
   features: MetroFeature[];
 }
 
+// Klimatizované čekárny (polikliniky) – volně přístupná vnitřní útočiště v ordinačních
+// hodinách. Schéma public/data/ac-civic.geojson. tier vždy "B" (vnitřní útočiště).
+export interface CivicProperties {
+  id: string;
+  name: string;
+  type: string;
+  address: string | null;
+  cooling: "ac";
+  tier: "B";
+  source: string;
+}
+
+export interface CivicFeature {
+  type: "Feature";
+  geometry: { type: "Point"; coordinates: [number, number] };
+  properties: CivicProperties;
+}
+
+export interface CivicCollection {
+  type: "FeatureCollection";
+  features: CivicFeature[];
+}
+
 // Plošný rozsah chladu (parky/stín + vodní plochy) – schéma public/data/areas.geojson
 // produkované datovou pipeline. Polygon/MultiPolygon, soubor je volitelný (runtime fetch).
 export interface AreaProperties {
