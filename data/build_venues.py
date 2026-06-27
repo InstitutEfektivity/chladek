@@ -113,15 +113,11 @@ OVERPASS_QUERY = f"""
 [out:json][timeout:{OVERPASS_TIMEOUT}];
 {PRAGUE_AREA}->.praha;
 (
-  // knihovny
-  nwr["amenity"="library"](area.praha);
-  // muzea
-  nwr["tourism"="museum"](area.praha);
-  nwr["amenity"="museum"](area.praha);
+  // POZN.: knihovny, muzea, kina a obchodní centra (mall) jsou nově řešeny
+  // samostatnými autoritativními vrstvami (ac-culture.geojson, ac-areas.geojson),
+  // proto je tu už NEsbíráme – jinak by se dvojitě renderovaly.
   // kostely (jen pojmenované)
   nwr["amenity"="place_of_worship"]["name"](area.praha);
-  // kina
-  nwr["amenity"="cinema"](area.praha);
   // bazény / koupaliště / aquaparky
   nwr["leisure"="swimming_pool"](area.praha);
   nwr["leisure"="water_park"](area.praha);
@@ -130,8 +126,6 @@ OVERPASS_QUERY = f"""
   // fontány a prameny
   nwr["amenity"="fountain"](area.praha);
   nwr["natural"="spring"](area.praha);
-  // obchodní centra
-  nwr["shop"="mall"](area.praha);
   // cokoli s explicitní klimatizací (jen pojmenované)
   nwr["air_conditioning"="yes"]["name"](area.praha);
   // parky (jen pojmenované; plochu filtrujeme až v Pythonu)
@@ -212,23 +206,15 @@ def classify(tags):
     """
     name = tags.get("name")
 
-    # knihovna
-    if tags.get("amenity") == "library":
-        return "library", "ac"
-
-    # muzeum
-    if tags.get("tourism") == "museum" or tags.get("amenity") == "museum":
-        return "museum", "ac"
+    # POZN.: knihovny, muzea, kina a obchodní centra (mall) jsou nově řešeny
+    # samostatnými autoritativními vrstvami (ac-culture / ac-areas), proto je
+    # tu už NEklasifikujeme – jinak by se dvojitě renderovaly.
 
     # kostel (jen s name)
     if tags.get("amenity") == "place_of_worship":
         if not name:
             return None
         return "church", "natural"
-
-    # kino
-    if tags.get("amenity") == "cinema":
-        return "cinema", "ac"
 
     # bazén / koupaliště (access != private) + aquapark
     if tags.get("leisure") == "swimming_pool":
@@ -245,10 +231,6 @@ def classify(tags):
     # fontána / pramen
     if tags.get("amenity") == "fountain" or tags.get("natural") == "spring":
         return "fountain", "water"
-
-    # obchodní centrum
-    if tags.get("shop") == "mall":
-        return "mall", "ac"
 
     # explicitní klimatizace (cokoli s name)
     if tags.get("air_conditioning") == "yes" and name:
@@ -391,8 +373,14 @@ def _to_num(s):
         return None
 
 
+# Kategorie, které jsou nově řešeny autoritativními vrstvami (ac-areas / ac-culture)
+# – ruční řádky s těmito kategoriemi přeskakujeme, aby se nerenderovaly dvojitě.
+MANUAL_SKIP_CATEGORIES = {"mall", "museum", "library"}
+
+
 def features_from_manual():
     feats = []
+    skipped_superseded = 0
     if not os.path.exists(MANUAL_CSV):
         print("[manual] CSV nenalezeno: %s" % MANUAL_CSV, file=sys.stderr)
         return feats
@@ -401,6 +389,10 @@ def features_from_manual():
         for i, row in enumerate(reader, start=1):
             name = (row.get("name") or "").strip()
             if not name:
+                continue
+            category = (row.get("category") or "").strip().lower()
+            if category in MANUAL_SKIP_CATEGORIES:
+                skipped_superseded += 1
                 continue
             try:
                 lat = float(row["lat"]); lon = float(row["lon"])
@@ -429,7 +421,8 @@ def features_from_manual():
                 "_lat": lat,
                 "_lon": lon,
             })
-    print("[manual] načteno %d ověřených míst" % len(feats), file=sys.stderr)
+    print("[manual] načteno %d ověřených míst (přeskočeno %d superseded: mall/museum/library)"
+          % (len(feats), skipped_superseded), file=sys.stderr)
     return feats
 
 

@@ -1,0 +1,36 @@
+name: Golemio knihovny refresh
+
+# Stahne mestske knihovny Prahy z Golemio a commitne snapshot GeoJSON.
+# Klic GOLEMIO_API_KEY je repo secret - nikdy se nedostane do klienta.
+# Denni refresh kvuli zivym oteviracim hodinam (frontend pocita open-now).
+on:
+  schedule:
+    - cron: "50 5 * * *" # denne rano
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch Golemio knihovny
+        env:
+          GOLEMIO_API_KEY: ${{ secrets.GOLEMIO_API_KEY }}
+        run: python data/fetch_golemio_libraries.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/data/libraries.geojson; then
+            git add public/data/libraries.geojson
+            git commit -m "chore(data): denni refresh Golemio knihovny [skip ci]"
+            git push
+          else
+            echo "Beze zmeny."
+          fi
