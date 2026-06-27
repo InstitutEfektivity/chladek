@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-06-26T21:50:21Z",
-  "count": 1286
+  "generated": "2026-06-27T12:31:40Z",
+  "count": 1302
  },
  "features": [
   {
@@ -20,7 +20,7 @@
     "id": "manual-18",
     "name": "Plavecký stadion Podolí",
     "category": "pool",
-    "cooling": "water",
+    "cooling": "ac",
     "typical_c": null,
     "free_entry": false,
     "opening_hours": "Mo-Su 06:00-21:30",
@@ -42,7 +42,7 @@
     "id": "manual-19",
     "name": "Bazén Šutka",
     "category": "pool",
-    "cooling": "water",
+    "cooling": "ac",
     "typical_c": null,
     "free_entry": false,
     "opening_hours": "Mo-Su 06:00-22:00",
@@ -64,7 +64,7 @@
     "id": "manual-20",
     "name": "Aquapalace Praha Čestlice",
     "category": "pool",
-    "cooling": "water",
+    "cooling": "ac",
     "typical_c": null,
     "free_entry": false,
     "opening_hours": "Mo-Su 10:00-22:00",
@@ -86,7 +86,7 @@
     "id": "manual-21",
     "name": "Aquacentrum Šutka",
     "category": "pool",
-    "cooling": "water",
+    "cooling": "ac",
     "typical_c": null,
     "free_entry": false,
     "opening_hours": "Mo-Su 06:00-22:00",
@@ -108,7 +108,7 @@
     "id": "manual-22",
     "name": "Plavecký areál Hloubětín",
     "category": "pool",
-    "cooling": "water",
+    "cooling": "ac",
     "typical_c": null,
     "free_entry": false,
     "opening_hours": "Mo-Su 06:00-21:00",
@@ -12868,13 +12868,13 @@
     "id": "osm-node-449746464",
     "name": "Plavecký a sportovní areál Hloubětín",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": "Hloubětínská 80/32",
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -12956,13 +12956,13 @@
     "id": "osm-node-499367594",
     "name": "Plavecký bazén Slavia",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -13095,6 +13095,28 @@
     "address": "Střelničná 1660/31, Praha 8",
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.389758,
+     50.080046
+    ]
+   },
+   "properties": {
+    "id": "osm-node-671957695",
+    "name": "Plavecký bazén",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -13432,6 +13454,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.380465,
+     50.129531
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1423289657",
+    "name": "Bazén ČZU",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.429944,
      50.100052
     ]
@@ -13594,13 +13638,13 @@
     "id": "osm-node-1937954669",
     "name": "bazén Olšanka",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": "Mo-Fr 06:00-22:00; Sa-Su 08:00-20:00",
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -13770,13 +13814,13 @@
     "id": "osm-node-2263330344",
     "name": "Wellness Blatov",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": false,
     "opening_hours": null,
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -13975,6 +14019,28 @@
     "address": null,
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403064,
+     50.030337
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3080238767",
+    "name": "Klubovna I. plaveckého klubu otužilců Praha",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": "U Kempinku 1801/2",
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -14342,13 +14408,13 @@
     "id": "osm-node-3653401914",
     "name": "bazén Tyršův dům",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -14415,6 +14481,28 @@
     "address": "Na Bělidle 25, Praha 5",
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.48633,
+     50.126373
+    ]
+   },
+   "properties": {
+    "id": "osm-node-3726495693",
+    "name": "Hotel Duo - Sportcentrum",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": false,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -14760,13 +14848,13 @@
     "id": "osm-node-4318215345",
     "name": "Bazén AXA",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -16366,13 +16454,13 @@
     "id": "osm-node-8958310241",
     "name": "Aqua Barrandov dětské plavání",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -16549,6 +16637,28 @@
     "address": null,
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.438118,
+     50.049271
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9365863274",
+    "name": "Top Deck Wellness & Fitness Center",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": false,
+    "opening_hours": "Mo-Fr 6:30-22:00; Sa-Su 07:00-22:00",
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -18258,13 +18368,13 @@
     "id": "osm-way-16277241",
     "name": "Letňany Lagoon",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": "Tupolevova 665",
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -18375,6 +18485,28 @@
     "address": "Královská obora 233, Praha 7",
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.547441,
+     50.051872
+    ]
+   },
+   "properties": {
+    "id": "osm-way-22821876",
+    "name": "Univerzita Karlova - plavecký bazén",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": "Mo 19:30-21:30, We 20:30-21:30, Fr 18:00-21:00, Sa 9:00-11:45, 13:00-18:00, Su 9:00-11:45, 13:00-17:30",
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -22496,6 +22628,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.535776,
+     50.104719
+    ]
+   },
+   "properties": {
+    "id": "osm-way-52433618",
+    "name": "bazén Hloubětín",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.296441,
      50.117253
     ]
@@ -22768,13 +22922,13 @@
     "id": "osm-way-60611424",
     "name": "Aquadream",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -23244,6 +23398,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.436193,
+     50.126088
+    ]
+   },
+   "properties": {
+    "id": "osm-way-128158762",
+    "name": "Aquacentrum Šutka",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": false,
+    "opening_hours": "Mo-Fr 06:00-22:00; Sa-Su 10:00-22:00; Jan 1 off; Dec 24-25 off",
+    "address": "Čimická, Praha",
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.68301,
      50.074688
     ]
@@ -23384,13 +23560,13 @@
     "id": "osm-way-166152874",
     "name": "Plavecký bazén Gymnázium Jaroslava Heyrovského",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -23882,6 +24058,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.501987,
+     50.038836
+    ]
+   },
+   "properties": {
+    "id": "osm-way-285715460",
+    "name": "Aqua Sport Club / Jedenáctka VS",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.516248,
      50.159034
     ]
@@ -24007,6 +24205,28 @@
     "address": null,
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.476806,
+     50.093554
+    ]
+   },
+   "properties": {
+    "id": "osm-way-317914401",
+    "name": "Pražačka",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -24212,6 +24432,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.390711,
+     50.057999
+    ]
+   },
+   "properties": {
+    "id": "osm-way-362885273",
+    "name": "SK Motorlet",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.367583,
      50.026376
     ]
@@ -24220,13 +24462,13 @@
     "id": "osm-way-365889320",
     "name": "AquaDream Barrandov",
     "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
+    "cooling": "ac",
+    "typical_c": 26,
     "free_entry": null,
     "opening_hours": "Sa,Su,PH 08:00-22:00; Tu-Fr 06:00-22:00; Mo 09:00-22:00",
     "address": null,
     "source": "osm",
-    "note": null
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -24872,6 +25114,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.479613,
+     50.067693
+    ]
+   },
+   "properties": {
+    "id": "osm-way-496759774",
+    "name": "Plavecký stadion Slavia",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": "Vladivostocká 1460/10",
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.62691,
      50.013766
     ]
@@ -24887,6 +25151,28 @@
     "address": "U Železnice",
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417601,
+     50.05112
+    ]
+   },
+   "properties": {
+    "id": "osm-way-502933457",
+    "name": "Plavecký areál Podolí",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": false,
+    "opening_hours": "06:00-21:45",
+    "address": "Podolská 47",
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {
@@ -25554,6 +25840,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.359672,
+     49.979451
+    ]
+   },
+   "properties": {
+    "id": "osm-way-804282372",
+    "name": "Biotop Radotín",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.477655,
      50.091353
     ]
@@ -25796,6 +26104,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.296355,
+     50.067001
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1016956653",
+    "name": "Sportovní centrum Řepy",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.366917,
      50.125881
     ]
@@ -25811,6 +26141,28 @@
     "address": null,
     "source": "osm",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.398178,
+     50.002793
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1200638354",
+    "name": "Prague Louka",
+    "category": "pool",
+    "cooling": "ac",
+    "typical_c": 26,
+    "free_entry": false,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": "krytý bazén (klimatizovaná hala)"
    }
   },
   {

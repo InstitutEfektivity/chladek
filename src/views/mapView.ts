@@ -609,6 +609,9 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
     venuesShopAc: baseData.features.filter(
       (f) => f.properties.category === "shop_ac"
     ).length,
+    venuesAcPools: baseData.features.filter(
+      (f) => f.properties.category === "pool" && f.properties.cooling === "ac"
+    ).length,
   });
   renderUspBanner(state.acCount);
 
@@ -961,9 +964,17 @@ function computeAcCount(o: {
   shops: number;
   libraries: number;
   venuesShopAc: number;
+  venuesAcPools: number;
 }): number {
   const areas = o.acAreas ? o.acAreas.features.length : 0;
-  return areas + o.cultureTierA + o.shops + o.libraries + o.venuesShopAc;
+  return (
+    areas +
+    o.cultureTierA +
+    o.shops +
+    o.libraries +
+    o.venuesShopAc +
+    o.venuesAcPools
+  );
 }
 
 // České číslo s mezerou jako oddělovačem tisíců (1 286 → „1 286").

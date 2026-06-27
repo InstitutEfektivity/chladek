@@ -121,6 +121,8 @@ OVERPASS_QUERY = f"""
   // bazény / koupaliště / aquaparky
   nwr["leisure"="swimming_pool"](area.praha);
   nwr["leisure"="water_park"](area.praha);
+  // kryté plavecké haly (budovy/haly, odlišné od leisure=swimming_pool bazénů)
+  nwr["leisure"="sports_centre"]["sport"~"swimming",i](area.praha);
   // pítka
   nwr["amenity"="drinking_water"](area.praha);
   // fontány a prameny
@@ -198,6 +200,60 @@ def element_coords(el):
     return None
 
 
+# --- Kryté bazény (klimatizované haly) vs venkovní koupaliště -----------------
+# Kurátorský whitelist substringů názvů, které spolehlivě označují KRYTÝ bazén /
+# plaveckou halu (klimatizovaná budova → tier-A AC). Match case-insensitive.
+INDOOR_POOL_NAME_HINTS = (
+    "podol", "šutka", "sutka", "axa", "slavia", "hloubětín", "hloubetin",
+    "jedenáctka", "barrandov", "petynka", "ymca", "letňany lagoon",
+    "aquapalace", "aquacentrum", "aquapark", "tyršův dům", "strahov",
+    "radlice", "klíčov", "krytý bazén", "plavecký stadion", "plavecká hala",
+    "krytý plavecký",
+)
+# Substringy, které naopak značí VENKOVNÍ koupání (přebíjejí whitelist).
+OUTDOOR_POOL_NAME_HINTS = ("koupaliště", "koupaliste", "přírodní")
+
+# Indikativní vnitřní teplota a poznámka pro kryté bazény.
+INDOOR_POOL_TYPICAL_C = 26
+INDOOR_POOL_NOTE = "krytý bazén (klimatizovaná hala)"
+
+
+def _is_indoor_pool(tags):
+    """
+    Vrátí True, pokud jde o KRYTÝ (klimatizovaný) bazén/plaveckou halu.
+    Logika dle zadání: INDOOR pokud platí některá z indoor podmínek A ZÁROVEŇ
+    název neobsahuje venkovní indikátor (koupaliště/přírodní).
+    """
+    name = (tags.get("name") or "")
+    nlow = name.lower()
+
+    # venkovní indikátor v názvu přebíjí vše → není to krytá hala
+    for bad in OUTDOOR_POOL_NAME_HINTS:
+        if bad in nlow:
+            return False
+
+    # 1) sports_centre se sportem obsahujícím "swimming"
+    if tags.get("leisure") == "sports_centre":
+        sport = (tags.get("sport") or "").lower()
+        if "swimming" in sport:
+            return True
+
+    # 2) má building=*, nebo indoor=yes, nebo covered=yes/roof
+    if tags.get("building"):
+        return True
+    if tags.get("indoor") == "yes":
+        return True
+    if tags.get("covered") in ("yes", "roof"):
+        return True
+
+    # 3) název odpovídá indoor whitelistu
+    for hint in INDOOR_POOL_NAME_HINTS:
+        if hint in nlow:
+            return True
+
+    return False
+
+
 # --- Mapování OSM tagů na schéma ----------------------------------------------
 def classify(tags):
     """
@@ -216,13 +272,21 @@ def classify(tags):
             return None
         return "church", "natural"
 
-    # bazén / koupaliště (access != private) + aquapark
+    # bazén / koupaliště (access != private) + aquapark + krytá plavecká hala
+    # INDOOR (krytá hala) → cooling "ac"; OUTDOOR (koupaliště) → cooling "water".
+    # Kategorie zůstává "pool" v obou případech (frontend ikona je na category="pool").
     if tags.get("leisure") == "swimming_pool":
         if tags.get("access") == "private":
             return None
-        return "pool", "water"
+        return "pool", ("ac" if _is_indoor_pool(tags) else "water")
     if tags.get("leisure") == "water_park":
-        return "pool", "water"
+        return "pool", ("ac" if _is_indoor_pool(tags) else "water")
+    # plavecká hala / sportovní centrum se sportem swimming (krytá budova)
+    if tags.get("leisure") == "sports_centre":
+        sport = (tags.get("sport") or "").lower()
+        if "swimming" in sport:
+            return "pool", ("ac" if _is_indoor_pool(tags) else "water")
+        return None
 
     # pítko
     if tags.get("amenity") == "drinking_water":
@@ -326,6 +390,11 @@ def features_from_osm(data):
         fid = "osm-%s-%s" % (osm_type, osm_id)
 
         typical_c = AC_TYPICAL_C if cooling == "ac" else None
+        note = None
+        # krytý bazén (klimatizovaná hala): vlastní teplota + poznámka
+        if category == "pool" and cooling == "ac":
+            typical_c = INDOOR_POOL_TYPICAL_C
+            note = INDOOR_POOL_NOTE
 
         props = {
             "id": fid,
@@ -337,7 +406,7 @@ def features_from_osm(data):
             "opening_hours": tags.get("opening_hours"),
             "address": build_address(tags),
             "source": "osm",
-            "note": None,
+            "note": note,
         }
         feats.append({
             "type": "Feature",
@@ -402,12 +471,28 @@ def features_from_manual():
             address = (row.get("address") or "").strip() or None
             opening = (row.get("opening_hours") or "").strip() or None
             note = (row.get("note") or "").strip() or None
+            cooling = (row.get("cooling") or "").strip()
+            typical_c = _to_num(row.get("typical_c"))
+
+            # Kryté bazény v ruční vrstvě → cooling "ac". Match: indoor whitelist,
+            # nebo (category pool a název obsahuje krytý/plavecký/Aquacentrum/Šutka/Podolí).
+            nlow = name.lower()
+            is_indoor_manual = any(h in nlow for h in INDOOR_POOL_NAME_HINTS) and not any(
+                bad in nlow for bad in OUTDOOR_POOL_NAME_HINTS)
+            if not is_indoor_manual and category == "pool":
+                for hint in ("krytý", "plavecký", "aquacentrum", "šutka", "podolí"):
+                    if hint in nlow:
+                        is_indoor_manual = True
+                        break
+            if is_indoor_manual:
+                cooling = "ac"
+
             props = {
                 "id": "manual-%d" % i,
                 "name": name,
                 "category": (row.get("category") or "").strip(),
-                "cooling": (row.get("cooling") or "").strip(),
-                "typical_c": _to_num(row.get("typical_c")),
+                "cooling": cooling,
+                "typical_c": typical_c,
                 "free_entry": _to_bool(row.get("free_entry")),
                 "opening_hours": opening,
                 "address": address,
