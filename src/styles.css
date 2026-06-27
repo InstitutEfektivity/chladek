@@ -569,6 +569,14 @@ a {
 .chip-overlay[aria-pressed="true"] .chip-dot-civic {
   box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.7);
 }
+/* Kavárny + rychlé občerstvení – tečka v AC barvě (tier-B mikro-útočiště). */
+.chip-overlay .chip-dot-cafe {
+  background: #0fb5ce;
+  box-shadow: 0 0 0 1.5px var(--color-border);
+}
+.chip-overlay[aria-pressed="true"] .chip-dot-cafe {
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.7);
+}
 
 .btn {
   display: inline-flex;

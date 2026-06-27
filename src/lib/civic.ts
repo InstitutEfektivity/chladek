@@ -45,3 +45,17 @@ export async function fetchCivicUrady(): Promise<CivicCollection | null> {
     return null;
   }
 }
+
+// Značkové kavárny + rychlé občerstvení (OSM, tier-B) – klimatizované provozovny
+// jako mikro-útočiště (inspirace barcelonskými „refugis climàtics"). Stejný civic
+// shape (navíc property `brand`). Při selhání vracíme null → vrstva se nepřidá.
+export async function fetchAcCafe(): Promise<CivicCollection | null> {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/ac-cafe.geojson`);
+    if (!res.ok) return null;
+    const data: unknown = await res.json();
+    return isCivicCollection(data) ? data : null;
+  } catch {
+    return null;
+  }
+}

@@ -30,6 +30,7 @@ import {
   fetchCivic,
   fetchCivicCentra,
   fetchCivicUrady,
+  fetchAcCafe,
 } from "../lib/civic.ts";
 import {
   fetchAcCulture,
@@ -106,6 +107,11 @@ const METRO_LAYER_ID = "metro-point";
 // Klimatizované čekárny (polikliniky) – samostatná symbol vrstva, defaultně skrytá.
 const CIVIC_SOURCE_ID = "ac-civic";
 const CIVIC_LAYER_ID = "ac-civic-point";
+
+// Značkové kavárny + rychlé občerstvení (mikro-útočiště) – samostatná symbol
+// vrstva, defaultně skrytá.
+const CAFE_SOURCE_ID = "ac-cafe";
+const CAFE_LAYER_ID = "ac-cafe-point";
 
 // Teploty (živě) – DOM Markery (ne GL vrstva). Default ON.
 // Pod tímto zoomem ukazujeme jen oficiální ČHMÚ stanice, nad ním přidáme i čidla.
@@ -213,6 +219,10 @@ export function renderMapView(root: HTMLElement): () => void {
           <button type="button" class="chip chip-overlay" id="civic-toggle" aria-pressed="false">
             <span class="chip-dot chip-dot-civic" aria-hidden="true"></span>
             ${escapeHtml(ui.civic.toggle)}
+          </button>
+          <button type="button" class="chip chip-overlay" id="cafe-toggle" aria-pressed="false">
+            <span class="chip-dot chip-dot-cafe" aria-hidden="true"></span>
+            ${escapeHtml(ui.cafe.toggle)}
           </button>
         </div>
         <div class="locate-wrap">
@@ -351,6 +361,9 @@ export function renderMapView(root: HTMLElement): () => void {
 
   // Přepínač „Klimatizované čekárny" – visibility symbol vrstvy. Default OFF.
   wireLayerToggle(root, "#civic-toggle", () => map, CIVIC_LAYER_ID);
+
+  // Přepínač „Kavárny a občerstvení" – visibility symbol vrstvy. Default OFF.
+  wireLayerToggle(root, "#cafe-toggle", () => map, CAFE_LAYER_ID);
 
   // Geolokace „3 nejbližší chládky"
   const locateBtn = root.querySelector<HTMLButtonElement>("#locate-btn");
@@ -1619,6 +1632,7 @@ async function initOverlayPoints(map: MlMap): Promise<void> {
   await initMlzitka(map);
   await initMetro(map);
   await initCivic(map);
+  await initCafe(map);
 }
 
 async function initMlzitka(map: MlMap): Promise<void> {
@@ -1732,6 +1746,41 @@ async function initCivic(map: MlMap): Promise<void> {
   });
 }
 
+async function initCafe(map: MlMap): Promise<void> {
+  // Značkové kavárny + rychlé občerstvení (tier-B mikro-útočiště). Stejný civic
+  // shape (navíc `brand`). Při chybějících datech graceful skip.
+  const data = await fetchAcCafe();
+  if (!data) {
+    console.warn("Kavárny a občerstvení nedostupné – vrstva se nepřidá.");
+    return;
+  }
+  map.addSource(CAFE_SOURCE_ID, { type: "geojson", data });
+  map.addLayer({
+    id: CAFE_LAYER_ID,
+    type: "symbol",
+    source: CAFE_SOURCE_ID,
+    layout: {
+      visibility: "none", // default OFF
+      "icon-image": "icon-cafe",
+      "icon-allow-overlap": true,
+      "icon-ignore-placement": true,
+      "icon-anchor": "bottom",
+      "icon-size": ["interpolate", ["linear"], ["zoom"], 11, 0.34, 16, 0.56],
+    },
+  });
+
+  map.on("click", CAFE_LAYER_ID, (e) => {
+    const feature = e.features?.[0];
+    if (feature) openCafePopup(map, feature);
+  });
+  map.on("mouseenter", CAFE_LAYER_ID, () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+  map.on("mouseleave", CAFE_LAYER_ID, () => {
+    map.getCanvas().style.cursor = "";
+  });
+}
+
 function openMistPopup(map: MlMap, feature: MapGeoJSONFeature): void {
   if (feature.geometry.type !== "Point") return;
   const [lon, lat] = feature.geometry.coordinates as [number, number];
@@ -1808,6 +1857,46 @@ function openCivicPopup(map: MlMap, feature: MapGeoJSONFeature): void {
       <span class="overlay-kicker">${escapeHtml(typeLabel)}</span>
       <h3>${escapeHtml(name)}</h3>
       <p class="overlay-note">${escapeHtml(ui.civic.popupNote)}</p>
+      ${addressHtml}
+      <span class="ac-badge ac-badge-b">${escapeHtml(ui.popup.acTierB)}</span>
+      <p class="overlay-source">${escapeHtml(ui.popup.sourceLabel)}: ${escapeHtml(source)}</p>
+    </div>`;
+
+  new maplibregl.Popup({ closeButton: true, maxWidth: "280px", focusAfterOpen: true })
+    .setLngLat([lon, lat])
+    .setHTML(html)
+    .addTo(map);
+}
+
+function openCafePopup(map: MlMap, feature: MapGeoJSONFeature): void {
+  if (feature.geometry.type !== "Point") return;
+  const [lon, lat] = feature.geometry.coordinates as [number, number];
+  const p = feature.properties as Record<string, unknown>;
+  const name = String(p["name"] ?? "");
+  const brand =
+    typeof p["brand"] === "string" && p["brand"] ? String(p["brand"]) : null;
+  const address =
+    typeof p["address"] === "string" && p["address"]
+      ? String(p["address"])
+      : null;
+  const source = String(p["source"] ?? "");
+  // Kicker = typ provozovny (fallback značka, pak generický štítek vrstvy).
+  const rawType = typeof p["type"] === "string" ? String(p["type"]) : "";
+  const kicker = rawType || brand || ui.cafe.toggle;
+
+  const brandHtml =
+    brand && brand !== name
+      ? `<p class="overlay-lines">${escapeHtml(ui.popup.brandLabel)}: ${escapeHtml(brand)}</p>`
+      : "";
+  const addressHtml = address
+    ? `<p class="popup-address">${escapeHtml(address)}</p>`
+    : "";
+  const html = `
+    <div class="popup popup-overlay">
+      <span class="overlay-kicker">${escapeHtml(kicker)}</span>
+      <h3>${escapeHtml(name)}</h3>
+      ${brandHtml}
+      <p class="overlay-note">${escapeHtml(ui.cafe.popupNote)}</p>
       ${addressHtml}
       <span class="ac-badge ac-badge-b">${escapeHtml(ui.popup.acTierB)}</span>
       <p class="overlay-source">${escapeHtml(ui.popup.sourceLabel)}: ${escapeHtml(source)}</p>
