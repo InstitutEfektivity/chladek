@@ -38,6 +38,7 @@ import {
   fetchLibraries,
   fetchLibrariesKkc,
   fetchAcAreas,
+  fetchAcLandmarks,
 } from "../lib/acData.ts";
 import { computeOpenNow } from "../lib/library.ts";
 import {
@@ -82,6 +83,12 @@ const AC_AREAS_FILL_ID = "ac-areas-fill";
 const AC_AREAS_OUTLINE_ID = "ac-areas-outline";
 const AC_AREAS_ICON_ID = "ac-areas-icon";
 
+// AC landmark budovy (velká kulturní/veřejná budova jako plošný rozsah pod bodem) –
+// jen jemná výplň + obrys, BEZ ikony (marker dodává ac-culture bod). Řízeno „ac" chipem.
+const LANDMARKS_SOURCE_ID = "ac-landmarks";
+const LANDMARKS_FILL_ID = "ac-landmarks-fill";
+const LANDMARKS_OUTLINE_ID = "ac-landmarks-outline";
+
 // Popisky AC-budov potřebují kind → label. (Bezpečný malý lookup, ne text-field.)
 const AC_AREA_KIND_LABEL: Record<string, string> = {
   mall: "Obchodní centrum",
@@ -89,6 +96,12 @@ const AC_AREA_KIND_LABEL: Record<string, string> = {
   department_store: "Obchodní dům",
   diy: "Hobby / DIY market",
   ikea: "IKEA",
+  museum: "Muzeum",
+  theatre: "Divadlo",
+  concert: "Koncertní sál",
+  congress: "Kongresové centrum",
+  exhibition: "Výstavní síň",
+  library: "Knihovna",
 };
 
 // Samostatná datová vrstva: stanice kvality ovzduší (Golemio). Vlastní source,
@@ -639,6 +652,10 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
   // AC budovy jako celé plochy – NAD zelenými areas, POD clustery/body. Volitelné.
   await initAcAreas(map, state, acAreas);
 
+  // Velké AC kulturní/veřejné budovy jako plošný rozsah (footprint) – jen jemná
+  // výplň pod bodem ac-culture, bez markeru. Volitelné (graceful skip).
+  await initAcLandmarks(map, state);
+
   map.addSource(SOURCE_ID, {
     type: "geojson",
     data,
@@ -1081,6 +1098,64 @@ async function initAcAreas(
   applyAcAreasVisibility(map, state);
 }
 
+// Velké AC kulturní/veřejné budovy (muzea, divadla, koncertní/kongresové sály,
+// velké knihovny) jako plošný rozsah pod stávajícím bodem ac-culture. Jen jemná
+// výplň + obrys, BEZ ikony → žádné nové markery, žádný dedup. Řízeno „ac" chipem.
+async function initAcLandmarks(map: MlMap, state: MapState): Promise<void> {
+  const data = await fetchAcLandmarks();
+  if (!data) return; // soubor chybí → graceful skip
+
+  map.addSource(LANDMARKS_SOURCE_ID, { type: "geojson", data });
+  const acColor = coolingColors["ac"]!;
+
+  map.addLayer({
+    id: LANDMARKS_FILL_ID,
+    type: "fill",
+    source: LANDMARKS_SOURCE_ID,
+    paint: {
+      "fill-color": acColor,
+      // Jemnější než ac-areas (jsou to extenty pod body, ne hlavní marker).
+      "fill-opacity": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        12,
+        0.1,
+        15,
+        0.16,
+        17,
+        0.2,
+      ],
+    },
+  });
+  map.addLayer({
+    id: LANDMARKS_OUTLINE_ID,
+    type: "line",
+    source: LANDMARKS_SOURCE_ID,
+    paint: {
+      "line-color": acColor,
+      "line-blur": 2,
+      "line-width": ["interpolate", ["linear"], ["zoom"], 13, 1.5, 17, 3],
+      "line-opacity": 0.4,
+    },
+  });
+
+  // Klik na výplň → stejný AC-budova popup (čte name/kind/source).
+  const onClick = (e: { features?: MapGeoJSONFeature[]; lngLat: { lng: number; lat: number } }): void => {
+    const f = e.features?.[0];
+    if (f) openAcAreaPopup(map, f, e.lngLat.lng, e.lngLat.lat);
+  };
+  map.on("click", LANDMARKS_FILL_ID, onClick);
+  map.on("mouseenter", LANDMARKS_FILL_ID, () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+  map.on("mouseleave", LANDMARKS_FILL_ID, () => {
+    map.getCanvas().style.cursor = "";
+  });
+
+  applyAcAreasVisibility(map, state);
+}
+
 // Přidá symbol vrstvu s velkou ikonou AC budovy. Voláno AŽ po venue-glow a PŘED
 // clusters-halo → sekvenčním append-em sedí ikona NAD venue-glow, ale POD clustery
 // (přesně dle požadovaného z-orderu). Předpoklad: initAcAreas už proběhl (source
@@ -1134,7 +1209,13 @@ function addAcAreasIconLayer(map: MlMap, state: MapState): void {
 // AC budovy se zobrazují, jen když je aktivní „ac" chip.
 function applyAcAreasVisibility(map: MlMap, state: MapState): void {
   const visible = state.active.has("ac") ? "visible" : "none";
-  for (const id of [AC_AREAS_FILL_ID, AC_AREAS_OUTLINE_ID, AC_AREAS_ICON_ID]) {
+  for (const id of [
+    AC_AREAS_FILL_ID,
+    AC_AREAS_OUTLINE_ID,
+    AC_AREAS_ICON_ID,
+    LANDMARKS_FILL_ID,
+    LANDMARKS_OUTLINE_ID,
+  ]) {
     if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visible);
   }
 }

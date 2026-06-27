@@ -1,0 +1,961 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "title": "Chladek - velke klimatizovane verejne budovy jako plochy (muzea, divadla, koncertni/kongresove/vystavni haly, knihovny)",
+  "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
+  "generated": "2026-06-27T16:35:47Z",
+  "count": 21
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.413742,
+       50.081272
+      ],
+      [
+       14.413854,
+       50.080439
+      ],
+      [
+       14.413575,
+       50.080403
+      ],
+      [
+       14.41322,
+       50.081266
+      ],
+      [
+       14.413662,
+       50.081272
+      ],
+      [
+       14.413742,
+       50.081272
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-7649971",
+    "name": "Národní divadlo",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 3093,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.4294,
+       50.106718
+      ],
+      [
+       14.431222,
+       50.107223
+      ],
+      [
+       14.431517,
+       50.106798
+      ],
+      [
+       14.429691,
+       50.106278
+      ],
+      [
+       14.4294,
+       50.106718
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-9113424",
+    "name": "Průmyslový palác",
+    "kind": "exhibition",
+    "cooling": "ac",
+    "area_m2": 8091,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.431966,
+       50.105358
+      ],
+      [
+       14.431414,
+       50.10515
+      ],
+      [
+       14.430982,
+       50.105774
+      ],
+      [
+       14.431593,
+       50.105898
+      ],
+      [
+       14.431898,
+       50.105457
+      ],
+      [
+       14.431966,
+       50.105358
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-9113427",
+    "name": "Lapidárium Národního muzea",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 3361,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.431853,
+       50.108353
+      ],
+      [
+       14.432236,
+       50.107986
+      ],
+      [
+       14.431672,
+       50.107744
+      ],
+      [
+       14.431289,
+       50.108112
+      ],
+      [
+       14.431853,
+       50.108353
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-9113694",
+    "name": "GoJa Music Hall",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 2381,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.444712,
+       50.087673
+      ],
+      [
+       14.444902,
+       50.087632
+      ],
+      [
+       14.444807,
+       50.087453
+      ],
+      [
+       14.445317,
+       50.087345
+      ],
+      [
+       14.445542,
+       50.087482
+      ],
+      [
+       14.445257,
+       50.087203
+      ],
+      [
+       14.444528,
+       50.087356
+      ],
+      [
+       14.444681,
+       50.087611
+      ],
+      [
+       14.444712,
+       50.087673
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-10107260",
+    "name": "Armádní muzeum Žižkov",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 1505,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.510331,
+       50.11005
+      ],
+      [
+       14.511309,
+       50.110053
+      ],
+      [
+       14.511311,
+       50.109821
+      ],
+      [
+       14.510331,
+       50.109819
+      ],
+      [
+       14.510331,
+       50.109646
+      ],
+      [
+       14.51131,
+       50.109649
+      ],
+      [
+       14.511313,
+       50.109416
+      ],
+      [
+       14.510018,
+       50.109415
+      ],
+      [
+       14.509969,
+       50.110455
+      ],
+      [
+       14.511306,
+       50.110456
+      ],
+      [
+       14.511308,
+       50.110226
+      ],
+      [
+       14.510329,
+       50.110224
+      ],
+      [
+       14.510331,
+       50.11005
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-22372764",
+    "name": "Pragovka",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 8180,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.427223,
+       50.105525
+      ],
+      [
+       14.427615,
+       50.105731
+      ],
+      [
+       14.427842,
+       50.10558
+      ],
+      [
+       14.427692,
+       50.105309
+      ],
+      [
+       14.42718,
+       50.105521
+      ],
+      [
+       14.427223,
+       50.105525
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-22634016",
+    "name": "Planetárium",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 1616,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.425387,
+       50.097892
+      ],
+      [
+       14.425567,
+       50.097363
+      ],
+      [
+       14.42425,
+       50.097175
+      ],
+      [
+       14.424073,
+       50.097705
+      ],
+      [
+       14.424245,
+       50.097731
+      ],
+      [
+       14.425387,
+       50.097892
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-25456828",
+    "name": "Národní technické muzeum",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 5799,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.414535,
+       50.081299
+      ],
+      [
+       14.41507,
+       50.08117
+      ],
+      [
+       14.414059,
+       50.08109
+      ],
+      [
+       14.414045,
+       50.081255
+      ],
+      [
+       14.414303,
+       50.08129
+      ],
+      [
+       14.414535,
+       50.081299
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-27247992",
+    "name": "Nová scéna Národního Divadla",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 1520,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.451512,
+       50.123081
+      ],
+      [
+       14.451789,
+       50.123092
+      ],
+      [
+       14.451789,
+       50.122715
+      ],
+      [
+       14.451509,
+       50.122714
+      ],
+      [
+       14.451366,
+       50.123024
+      ],
+      [
+       14.451378,
+       50.123365
+      ],
+      [
+       14.451794,
+       50.123367
+      ],
+      [
+       14.451512,
+       50.123098
+      ],
+      [
+       14.451512,
+       50.123081
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-28541790",
+    "name": "Salesiánské divadlo",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 1582,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.404388,
+       50.084575
+      ],
+      [
+       14.404369,
+       50.084953
+      ],
+      [
+       14.405088,
+       50.085069
+      ],
+      [
+       14.405118,
+       50.0849
+      ],
+      [
+       14.404741,
+       50.084884
+      ],
+      [
+       14.404818,
+       50.084408
+      ],
+      [
+       14.404395,
+       50.084403
+      ],
+      [
+       14.404388,
+       50.084575
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-28921026",
+    "name": "České muzeum hudby",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 2183,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.433163,
+       50.08018
+      ],
+      [
+       14.432502,
+       50.080551
+      ],
+      [
+       14.432553,
+       50.080689
+      ],
+      [
+       14.432904,
+       50.080781
+      ],
+      [
+       14.433421,
+       50.080409
+      ],
+      [
+       14.433298,
+       50.080202
+      ],
+      [
+       14.433163,
+       50.08018
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-29169734",
+    "name": "Státní opera Praha",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 2518,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.437148,
+       50.076614
+      ],
+      [
+       14.437463,
+       50.076534
+      ],
+      [
+       14.437264,
+       50.076038
+      ],
+      [
+       14.436723,
+       50.076134
+      ],
+      [
+       14.436945,
+       50.076625
+      ],
+      [
+       14.437149,
+       50.076617
+      ],
+      [
+       14.437148,
+       50.076614
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-29199147",
+    "name": "Divadlo na Vinohradech",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 2230,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.414975,
+       50.089728
+      ],
+      [
+       14.415249,
+       50.090396
+      ],
+      [
+       14.416017,
+       50.090259
+      ],
+      [
+       14.415718,
+       50.089783
+      ],
+      [
+       14.415801,
+       50.089583
+      ],
+      [
+       14.415585,
+       50.089469
+      ],
+      [
+       14.414947,
+       50.089659
+      ],
+      [
+       14.414975,
+       50.089728
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-30123527",
+    "name": "Rudolfinum",
+    "kind": "concert",
+    "cooling": "ac",
+    "area_m2": 5082,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.416157,
+       50.089579
+      ],
+      [
+       14.416456,
+       50.090293
+      ],
+      [
+       14.416668,
+       50.090229
+      ],
+      [
+       14.416438,
+       50.089531
+      ],
+      [
+       14.416165,
+       50.089577
+      ],
+      [
+       14.416157,
+       50.089579
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-30825119",
+    "name": "Uměleckoprůmyslové muzeum v Praze",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 1662,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.402374,
+       50.110166
+      ],
+      [
+       14.402647,
+       50.110029
+      ],
+      [
+       14.402405,
+       50.10983
+      ],
+      [
+       14.401699,
+       50.110183
+      ],
+      [
+       14.40194,
+       50.110383
+      ],
+      [
+       14.402416,
+       50.110199
+      ],
+      [
+       14.402374,
+       50.110166
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-41779392",
+    "name": "Stará čistírna odpadních vod;Stará čistírna odpadních vod v Bubeneči",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 1911,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.454437,
+       50.092133
+      ],
+      [
+       14.454867,
+       50.092223
+      ],
+      [
+       14.455245,
+       50.091491
+      ],
+      [
+       14.454575,
+       50.091531
+      ],
+      [
+       14.454523,
+       50.091965
+      ],
+      [
+       14.454437,
+       50.092133
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-49340944",
+    "name": "Forum Karlín",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 3145,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.528976,
+       50.12948
+      ],
+      [
+       14.529665,
+       50.129589
+      ],
+      [
+       14.52977,
+       50.129317
+      ],
+      [
+       14.529053,
+       50.129278
+      ],
+      [
+       14.528976,
+       50.12948
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-406802737",
+    "name": "Areal Staré Aerovky",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 1578,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.4294,
+       50.106718
+      ],
+      [
+       14.429684,
+       50.106273
+      ],
+      [
+       14.42847,
+       50.105923
+      ],
+      [
+       14.428175,
+       50.106348
+      ],
+      [
+       14.429394,
+       50.106716
+      ],
+      [
+       14.4294,
+       50.106718
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-949629835",
+    "name": "Průmyslový palác",
+    "kind": "exhibition",
+    "cooling": "ac",
+    "area_m2": 4886,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.416735,
+       50.087824
+      ],
+      [
+       14.417589,
+       50.08798
+      ],
+      [
+       14.417821,
+       50.087418
+      ],
+      [
+       14.416973,
+       50.087275
+      ],
+      [
+       14.416788,
+       50.087699
+      ],
+      [
+       14.416735,
+       50.087824
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-110048",
+    "name": "Městská knihovna v Praze – Ústřední knihovna",
+    "kind": "library",
+    "cooling": "ac",
+    "area_m2": 3878,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.423172,
+       50.08585
+      ],
+      [
+       14.423915,
+       50.086245
+      ],
+      [
+       14.424119,
+       50.086094
+      ],
+      [
+       14.423405,
+       50.085677
+      ],
+      [
+       14.423189,
+       50.085837
+      ],
+      [
+       14.423172,
+       50.08585
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-5012258",
+    "name": "Stavovské divadlo",
+    "kind": "theatre",
+    "cooling": "ac",
+    "area_m2": 1753,
+    "source": "OSM"
+   }
+  }
+ ]
+}

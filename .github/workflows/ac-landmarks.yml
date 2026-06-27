@@ -1,0 +1,45 @@
+name: ac-landmarks refresh
+
+# Tydne pregeneruje vrstvu velkych klimatizovanych verejnych budov jako plochy:
+#   - public/data/ac-landmarks.geojson  (muzea, divadla, koncertni/kongresove/
+#     vystavni haly, knihovny - pudorys budovy jako jemna vypln, BEZ markeru;
+#     doplnuje ac-culture body)
+# Bez secretu (otevrena data Overpass). Pokud se data zmeni, commitne je zpet.
+on:
+  schedule:
+    - cron: "42 6 * * 1" # pondeli 06:42 UTC (tydne)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Build ac-landmarks.geojson
+        run: python data/build_ac_landmarks.py
+
+      - name: Commit changed data (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain public/data/ac-landmarks.geojson)" ]; then
+            git add public/data/ac-landmarks.geojson
+            git commit -m "chore(data): tydenni refresh ac-landmarks (velke AC verejne budovy jako plochy) [skip ci]"
+            git push
+            echo "Data aktualizovana a pushnuta."
+          else
+            echo "Beze zmeny - nic ke commitu."
+          fi
