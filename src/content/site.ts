@@ -238,7 +238,7 @@ export interface AboutSection {
 }
 
 export const aboutHero = {
-  title: "Jedna mapa. 897 míst, kam se schovat.",
+  title: "Jedna mapa. 969 míst, kam se schovat.",
   subtitle:
     "Chládek ukazuje klimatizovaná a chladná veřejná místa v Praze – a vznikl celý z otevřených dat, aniž by to město stálo jedinou korunu navíc. Praktická pomůcka pro horké dny a zároveň důkaz, co všechno už dnes z dat jde.",
   // Tlačítko zpět na mapu (CTA pod hero).
@@ -250,13 +250,13 @@ export const aboutSections: AboutSection[] = [
     id: "hook",
     heading: "Jedna mapa, kterou nemá nikdo jiný",
     lead:
-      "Chládek ukazuje 897 veřejně přístupných klimatizovaných míst v Praze – plus vodu, stín a metro. Postavili jsme ho čistě z otevřených dat, aniž by to město stálo jedinou korunu navíc.",
+      "Chládek ukazuje 969 veřejně přístupných klimatizovaných míst v Praze – plus vodu, stín a metro. Postavili jsme ho čistě z otevřených dat, aniž by to město stálo jedinou korunu navíc.",
     paragraphs: [
       "Když v Praze udeří vedro, většina lidí ví, že někam zaleze – do obchoďáku, do knihovny, do kostela, k pítku nebo do stínu parku. Málokdo ale ví, kde přesně je to nejbližší. Chládek to dává na jednu mapu: klimatizovaná a přirozeně chladná veřejná místa, živou venkovní teplotu, naměřené teploty z města i výstrahu před horkem. Otevřete ho v mobilu, zmáčknete „najdi nejbližší chládky“ a víte, kam jít.",
       "Takovou mapu pro Prahu nikdo jiný nemá. A nevznikla z nového rozpočtu ani z nové databáze – jen z chytrého poskládání dat, která už dnes volně existují. To je celý vtip: město nemuselo udělat nic nového, a přesto z jeho dat vznikla užitečná veřejná služba.",
     ],
     pullquote:
-      "897 klimatizovaných míst na jedné mapě. Žádná nová data, žádný nový rozpočet – jen otevřená data poskládaná dohromady.",
+      "969 klimatizovaných míst na jedné mapě. Žádná nová data, žádný nový rozpočet – jen otevřená data poskládaná dohromady.",
   },
   {
     id: "kdo-jsme",
@@ -289,8 +289,9 @@ export const aboutSections: AboutSection[] = [
     lead:
       "Mapa ochlazení jako oficiální městská služba nad otevřenými daty není sci-fi. Jinde v Evropě je standardem.",
     paragraphs: [
-      "Vídeň provozuje program Cooles Wien a v městské mapě má jako otevřená data zanesené stovky pítek a mlžicích sprch. Barcelona zveřejnila síť „klimatických útočišť“ (refugis climàtics) jako stažitelný otevřený dataset – přes 500 míst s cílem, aby každý obyvatel měl jedno do deseti minut chůze. Paříž buduje „ostrovy chladu“ (îlots de fraîcheur) a stovky klimatických oáz dostupných během veder.",
-      "Ve všech těchto případech je mapa ochlazení oficiální službou města postavenou nad otevřenými daty. Praha zatím takovou mapu nemá. Chládek ukazuje, že na ni má podklady – jen je potřeba je otevřít, propojit a udržovat živé.",
+      "Vídeň provozuje program Cooles Wien a má v otevřených datech stovky pítek a mlžicích sprch. Barcelona zveřejnila síť „klimatických útočišť“ (refugis climàtics) jako stažitelný dataset – přes 500 míst s cílem, aby každý obyvatel měl jedno do deseti minut chůze, a vědomě do ní řadí i mikro-úkryty: obchody, knihovny, provozovny. Paříž s urbanistickým atelierem APUR zmapovala přes 1 400 „ostrovů chladu“ (îlots de fraîcheur), kde bývá o 2 – 4 °C chladněji než v okolních ulicích.",
+      "A když se podíváme, co tato města do svých map řadí, je to skoro přesně to, co ukazuje Chládek. Paříž eviduje parky a zeleň, knihovny, muzea, klimatizované veřejné prostory, kostely, fontány, mlžítka a pítka – tedy stejné kategorie jako my. Barcelona pro vnitřní útočiště doporučuje klimatizaci nastavenou na 26 °C, volný přístup, místo k sezení a vodu zdarma. Chládek jsme proto postavili vědomě podle téže metodiky – a navíc u každého místa rozlišujeme spolehlivost: autoritativně klimatizováno vs. vnitřní útočiště.",
+      "Ve všech těchto městech je mapa ochlazení oficiální službou postavenou nad otevřenými daty. Praha takovou mapu zatím nemá. Chládek ukazuje, že na ni má podklady – jen je potřeba je otevřít, propojit a udržovat živé.",
     ],
     pullquote:
       "Praha má na mapu chladných míst data. Vídeň, Barcelona i Paříž ji dávno mají jako oficiální službu – Praha zatím ne.",
@@ -302,7 +303,7 @@ export const aboutSections: AboutSection[] = [
       "Žádná magie – jen pět veřejných zdrojů, ruční kurace a poctivé přiznání, čemu se dá věřit víc a čemu míň.",
     paragraphs: [
       "Páteří mapy je OpenStreetMap – komunitní, otevřená mapa světa, ze které čerpáme přes rozhraní Overpass. Doplňujeme ji autoritativními pražskými zdroji: kulturní zařízení z dat IPR Praha (muzea, kina, galerie, divadla – spolehlivá vnitřní útočiště s klimatizací), knihovny Městské knihovny v Praze přes Golemio (s živou otevírací dobou, takže mapa pozná „otevřeno teď“) a velké klimatizované budovy – obchodní centra, hypermarkety, obchodní domy – zakreslené jako celé plochy, ne jen tečky.",
-      "Tahle skladba je důvod, proč Chládek ukazuje 897 spolehlivých klimatizovaných míst místo pár stovek náhodně otagovaných bodů. Místa navíc rozlišujeme do úrovní spolehlivosti: tam, kde je klimatizace autoritativně doložená, ukazujeme štítek „Klimatizováno“; tam, kde jde o ověřené vnitřní útočiště, štítek „Vnitřní útočiště“. Spoléháme tedy na kategorii a značku, ne jen na řídký a nahodilý tag v datech.",
+      "Tahle skladba je důvod, proč Chládek ukazuje 969 spolehlivých klimatizovaných míst místo pár stovek náhodně otagovaných bodů. Místa navíc rozlišujeme do úrovní spolehlivosti: tam, kde je klimatizace autoritativně doložená, ukazujeme štítek „Klimatizováno“; tam, kde jde o ověřené vnitřní útočiště, štítek „Vnitřní útočiště“. Spoléháme tedy na kategorii a značku, ne jen na řídký a nahodilý tag v datech.",
       "Vodu doplňujeme z datasetu IPR Praha „Oázy chladu“ (licence CC BY) – pítka, kašny, fontány, místa ke koupání i mlžítka. Živou venkovní teplotu, UV index a kvalitu ovzduší bere Chládek z Open-Meteo (zdarma, bez registrace). Výstrahu před horkem tahá přímo z výstražné služby ČHMÚ (SIVS) – když platí, naskočí nahoře živý banner.",
       "Všechna data používáme v souladu s jejich licencemi a uvádíme je: © OpenStreetMap přispěvatelé (ODbL), IPR Praha „Oázy chladu“ a kulturní zařízení (CC BY / ÚAP), Městská knihovna v Praze / Golemio, Open-Meteo, ČHMÚ, Golemio (Operátor ICT) a mapový podklad © CARTO. Otevřenost je pro nás závazek i v praxi – proto je i samotný Chládek otevřený a jeho zdrojový kód volně k nahlédnutí.",
     ],

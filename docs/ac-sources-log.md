@@ -11,6 +11,13 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 7 (vědecká fáze – metodika do produktu)
+- **Research:** Paříž „îlots de fraîcheur" (urbanistický atelier APUR, 1400+ míst, o 2 – 4 °C chladněji) – jejich **taxonomie cooling-spotů** (parky/zeleň, knihovny, muzea, klimatizované prostory, kostely, fontány, mlžítka, pítka) **sedí 1:1 na náš dataset**. Vídeň Cooles Wien (pítka/mlžítka v open datech). (Zdroj: apur.org, opendata.paris.fr.)
+- **✅ APLIKOVÁNO (vědecká fáze → produkt):** přepsána sekce „o projektu → Vídeň/Barcelona/Paříž" na konkrétní **metodické srovnání** – Chládek vědomě staví podle metodiky Paříže/Barcelony (stejná taxonomie kategorií, doporučená AC 26 °C, dostupnost ≤ 10 min chůze, mikro-úkryty) a navíc rozlišuje **tiered spolehlivost** (Klimatizováno vs. Vnitřní útočiště). Think-tank důkaz „stavíme podle praxe předních měst" – jádro IE marketingového narativu.
+- **Fix:** sjednoceny natvrdo zapsané počty v about obsahu **897 → 969** (mapa je dynamická, about byl stale od kola 4). ⚠️ TODO: při příští změně headline AC počtu aktualizovat 4 řetězce „969" v `site.ts` (nebo templatizovat z dat).
+- **Pozn.:** kolo bez nových map-bodů – AC bodové zdroje vyčerpané; tohle je vědecký deliverable (metodika do produktu) + bugfix. Mapa beze změny (969).
+- **Další na řadě:** footprint join (landmark AC budovy jako PLOCHY) NEBO IPR pumpy/studánky (chladná pitná voda – Paříž/Barcelona ji počítají jako cooling refuge) NEBO templatizace about počtu z dat.
+
 ### 2026-06-27 · kolo 6 (vědecká fáze – metodika + mikro-AC)
 - **Metodika (research, veřejné zdroje):** Barcelona „refugis climàtics" (500+ útočišť, 99,2 % obyvatel do 10 min chůze) – typy = knihovny, civic centra, muzea, **bazény**, parky, voda; **mikro-úkryty výslovně vč. obchodů / lékáren / provozoven**; doporučený AC setpoint **26 °C** v létě; kritéria = volný přístup, místo k sezení, voda zdarma, dostupnost ≤ 10 min. → Validuje celý náš dosavadní dataset a ospravedlňuje mikro-AC tier. (Zdroj: barcelona.cat – Climate Shelters Network.)
 - **✅ INTEGROVÁNO: mikro-AC tier – kavárny + rychlé občerstvení (151)** – Overpass `brand:wikidata` (McDonald's 42, KFC 33, Costa 28, Starbucks 28, Burger King 20). Nový **default-OFF** overlay „Kavárny a občerstvení", tier-B, ikona hrnku. `data/build_ac_cafe.py` → `ac-cafe.geojson`, cron `ac-cafe.yml` (týdně). Frontend (mirror metro overlaye) subagent. **NENÍ v headline 969** (mikro-komerční, default OFF → chrání USP). Ověřeno staging (toggle + render), nasazeno live.
