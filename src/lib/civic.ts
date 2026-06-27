@@ -33,3 +33,15 @@ export async function fetchCivicCentra(): Promise<CivicCollection | null> {
     return null;
   }
 }
+
+// Úřady MČ / magistrát (OSM, tier-B) – AC klientské haly, stejný civic shape.
+export async function fetchCivicUrady(): Promise<CivicCollection | null> {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/civic-urady.geojson`);
+    if (!res.ok) return null;
+    const data: unknown = await res.json();
+    return isCivicCollection(data) ? data : null;
+  } catch {
+    return null;
+  }
+}

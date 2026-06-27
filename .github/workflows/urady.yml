@@ -1,0 +1,37 @@
+name: Urady refresh
+
+# Stahne prazske mestske urady (urady mestskych casti + magistrat) z OpenStreetMap
+# (Overpass) a commitne snapshot GeoJSON. Obcanska AC vrstva - verejne pristupne
+# haly uradu (prepazky, matrika, CzechPOINT) jako mekci utociste pred horkem (Tier B).
+# Bez secretu (otevrena data Overpass). Staticka vrstva, refresh tydne.
+on:
+  schedule:
+    - cron: "36 6 * * 1" # tydne v pondeli rano (vrstva se meni zridka)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install requests
+      - name: Fetch urady (Overpass)
+        run: python data/fetch_urady.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/data/civic-urady.geojson; then
+            git add public/data/civic-urady.geojson
+            git commit -m "chore(data): tydenni refresh prazskych uradu (OSM) [skip ci]"
+            git push
+          else
+            echo "Beze zmeny."
+          fi
