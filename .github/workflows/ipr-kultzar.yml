@@ -1,0 +1,33 @@
+name: IPR kulturni zarizeni refresh
+
+# Stahne kulturni zarizeni Prahy (IPR UAP) a commitne snapshot GeoJSON.
+# Otevrena data IPR Praha - zadny API klic neni potreba. Staticka vrstva, refresh tydne.
+on:
+  schedule:
+    - cron: "40 6 * * 1" # tydne v pondeli rano (vrstva se meni zridka)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch IPR kulturni zarizeni
+        run: python data/fetch_ipr_kultzar.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/data/ac-culture.geojson; then
+            git add public/data/ac-culture.geojson
+            git commit -m "chore(data): tydenni refresh IPR kulturni zarizeni [skip ci]"
+            git push
+          else
+            echo "Beze zmeny."
+          fi

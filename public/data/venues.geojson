@@ -3,384 +3,10 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-06-26T07:34:38Z",
-  "count": 1586
+  "generated": "2026-06-26T21:50:21Z",
+  "count": 1286
  },
  "features": [
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4905,
-     50.0312
-    ]
-   },
-   "properties": {
-    "id": "manual-1",
-    "name": "Westfield Chodov",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Roztylská 2321/19, Praha 4",
-    "source": "manual",
-    "note": "Velké klimatizované obchodní centrum"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4912,
-     50.0316
-    ]
-   },
-   "properties": {
-    "id": "manual-2",
-    "name": "Centrum Chodov vstupní hala",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Roztylská 2321/19, Praha 4",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4287,
-     50.0894
-    ]
-   },
-   "properties": {
-    "id": "manual-3",
-    "name": "Palladium",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Náměstí Republiky 1078/1, Praha 1",
-    "source": "manual",
-    "note": "Klimatizované obchodní centrum v centru"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4031,
-     50.0716
-    ]
-   },
-   "properties": {
-    "id": "manual-4",
-    "name": "OC Nový Smíchov",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Plzeňská 233/8, Praha 5",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.5708,
-     50.1085
-    ]
-   },
-   "properties": {
-    "id": "manual-5",
-    "name": "Centrum Černý Most",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Chlumecká 765/6, Praha 9",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.449,
-     50.0411
-    ]
-   },
-   "properties": {
-    "id": "manual-6",
-    "name": "Arkády Pankrác",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Na Pankráci 1727/86, Praha 4",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4205,
-     50.0828
-    ]
-   },
-   "properties": {
-    "id": "manual-7",
-    "name": "Quadrio",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Spálená 2121/22, Praha 1",
-    "source": "manual",
-    "note": "Obchodní centrum nad metrem Národní třída"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4937,
-     50.1057
-    ]
-   },
-   "properties": {
-    "id": "manual-8",
-    "name": "Galerie Harfa",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Českomoravská 2420/15, Praha 9",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.2882,
-     50.0578
-    ]
-   },
-   "properties": {
-    "id": "manual-9",
-    "name": "Metropole Zličín",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Řevnická 1/121, Praha 5",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.5078,
-     50.1335
-    ]
-   },
-   "properties": {
-    "id": "manual-10",
-    "name": "OC Letňany",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Veselská 663, Praha 9",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4663,
-     50.0779
-    ]
-   },
-   "properties": {
-    "id": "manual-11",
-    "name": "Atrium Flora",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Vinohradská 2828/151, Praha 3",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.449,
-     50.1018
-    ]
-   },
-   "properties": {
-    "id": "manual-12",
-    "name": "DOX Centrum současného umění",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "We-Mo 11:00-19:00",
-    "address": "Poupětova 1, Praha 7",
-    "source": "manual",
-    "note": "Klimatizované výstavní sály"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4309,
-     50.0786
-    ]
-   },
-   "properties": {
-    "id": "manual-13",
-    "name": "Národní muzeum - Historická budova",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 22,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-18:00",
-    "address": "Václavské náměstí 68, Praha 1",
-    "source": "manual",
-    "note": "Klimatizované expozice"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4339,
-     50.1011
-    ]
-   },
-   "properties": {
-    "id": "manual-14",
-    "name": "Národní galerie - Veletržní palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 22,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "Dukelských hrdinů 530/47, Praha 7",
-    "source": "manual",
-    "note": "Klimatizované galerijní prostory"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.429,
-     50.0967
-    ]
-   },
-   "properties": {
-    "id": "manual-15",
-    "name": "Národní technické muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 22,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 09:00-18:00",
-    "address": "Kostelní 1320/42, Praha 7",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.417,
-     50.0894
-    ]
-   },
-   "properties": {
-    "id": "manual-16",
-    "name": "Uměleckoprůmyslové museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 22,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "17. listopadu 2, Praha 1",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.399,
-     50.0897
-    ]
-   },
-   "properties": {
-    "id": "manual-17",
-    "name": "Národní galerie - Šternberský palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 22,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "Hradčanské náměstí 15, Praha 1",
-    "source": "manual",
-    "note": null
-   }
-  },
   {
    "type": "Feature",
    "geometry": {
@@ -487,94 +113,6 @@
     "free_entry": false,
     "opening_hours": "Mo-Su 06:00-21:00",
     "address": "Hloubětínská 80, Praha 9",
-    "source": "manual",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4185,
-     50.0871
-    ]
-   },
-   "properties": {
-    "id": "manual-23",
-    "name": "Městská knihovna v Praze - ústřední",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Tu-Su 09:00-20:00",
-    "address": "Mariánské náměstí 1/98, Praha 1",
-    "source": "manual",
-    "note": "Ústřední pobočka MKP"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4159,
-     50.0866
-    ]
-   },
-   "properties": {
-    "id": "manual-24",
-    "name": "Národní knihovna - Klementinum",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Sa 09:00-19:00",
-    "address": "Mariánské náměstí 190/5, Praha 1",
-    "source": "manual",
-    "note": "Studovny Klementina"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.3896,
-     50.1037
-    ]
-   },
-   "properties": {
-    "id": "manual-25",
-    "name": "Národní technická knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 08:00-22:00",
-    "address": "Technická 2710/6, Praha 6",
-    "source": "manual",
-    "note": "Klimatizovaná studovna NTK"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4192,
-     50.0894
-    ]
-   },
-   "properties": {
-    "id": "manual-26",
-    "name": "Knihovna AV ČR",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Fr 09:00-18:00",
-    "address": "Národní 1009/3, Praha 1",
     "source": "manual",
     "note": null
    }
@@ -12750,116 +12288,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.500356,
-     50.122996
-    ]
-   },
-   "properties": {
-    "id": "osm-node-130181598",
-    "name": "Městská knihovna v Praze – pobočka Prosek",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
-    "address": "Měšická 806/3, Praha 9",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.510547,
-     50.136365
-    ]
-   },
-   "properties": {
-    "id": "osm-node-130181656",
-    "name": "Knihovna Václava Šorela",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo,Th 09:00-19:00; Tu,We 09:00-16:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.502729,
-     50.13683
-    ]
-   },
-   "properties": {
-    "id": "osm-node-130238716",
-    "name": "Palace Cinemas Letňany",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 13:30-22:30; Sa,Su 09:30-22:30",
-    "address": "Veselská, Praha 9",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.50091,
-     50.111258
-    ]
-   },
-   "properties": {
-    "id": "osm-node-139424568",
-    "name": "Městská knihovna v Praze - pobočka Vysočany",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
-    "address": "Zbuzkova 285/34, Praha 9",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.429952,
-     50.099958
-    ]
-   },
-   "properties": {
-    "id": "osm-node-144033716",
-    "name": "Bio Oko",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:30-01:00",
-    "address": "Františka Křížka 460/15, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.450271,
      50.107777
     ]
@@ -12873,72 +12301,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.470502,
-     50.127453
-    ]
-   },
-   "properties": {
-    "id": "osm-node-150740266",
-    "name": "Městská knihovna v Praze - pobočka Ládví",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; We 12:00-19:00; Th 12:00-19:00; Fr 09:00-16:00; Sa 09:00-13:00",
-    "address": "Burešova 1661/2, Praha 8",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.509088,
-     50.068304
-    ]
-   },
-   "properties": {
-    "id": "osm-node-249253037",
-    "name": "Městská knihovna v Praze – pobočka Skalka",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00 , Fr 09:00-16:00",
-    "address": "Rubensova 2237/2, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.404578,
-     50.003478
-    ]
-   },
-   "properties": {
-    "id": "osm-node-284733214",
-    "name": "Modřanský biograf",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "U Kina, PRAHA 12",
     "source": "osm",
     "note": null
    }
@@ -12970,72 +12332,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.421215,
-     50.06524
-    ]
-   },
-   "properties": {
-    "id": "osm-node-292754380",
-    "name": "Gorlice",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.419272,
-     50.065205
-    ]
-   },
-   "properties": {
-    "id": "osm-node-292756808",
-    "name": "Vyšehradské kasematy",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "PH,Mo-Su 10:00-18:00",
-    "address": "V pevnosti 46/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.41795,
-     50.086039
-    ]
-   },
-   "properties": {
-    "id": "osm-node-296507713",
-    "name": "Czech Beer Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-03:00",
-    "address": "Husova 156/21",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.453081,
      50.085994
     ]
@@ -13058,72 +12354,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.408889,
-     50.091434
-    ]
-   },
-   "properties": {
-    "id": "osm-node-296587523",
-    "name": "Muzeum Kouzlo starých časů",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "Valdštejnská 150/4, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.429286,
-     50.07488
-    ]
-   },
-   "properties": {
-    "id": "osm-node-296595813",
-    "name": "Národní lékařská knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-17:00",
-    "address": "Sokolská 1791/54, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.453272,
-     50.080312
-    ]
-   },
-   "properties": {
-    "id": "osm-node-296618507",
-    "name": "Galerie Troba",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Velehradská 1320/24",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.45021,
      50.079525
     ]
@@ -13137,28 +12367,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Fr 12:00-19:00; Sa,Su 10:00-19:00",
     "address": "Ondříčkova 2166/14, Praha 3",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.445164,
-     50.087663
-    ]
-   },
-   "properties": {
-    "id": "osm-node-296693693",
-    "name": "Vojenský historický ústav Praha",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": null,
-    "address": "U Památníku 1600/2",
     "source": "osm",
     "note": null
    }
@@ -13203,28 +12411,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": "Prvomájová 909/7",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.670671,
-     50.097097
-    ]
-   },
-   "properties": {
-    "id": "osm-node-296751811",
-    "name": "Beseda",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Slavětínská 128",
     "source": "osm",
     "note": null
    }
@@ -13300,28 +12486,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.35635,
-     49.984139
-    ]
-   },
-   "properties": {
-    "id": "osm-node-296821493",
-    "name": "Kino Radotín",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Na Výšince 875/4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.509503,
      50.067781
     ]
@@ -13388,50 +12552,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.450032,
-     50.0752
-    ]
-   },
-   "properties": {
-    "id": "osm-node-306201994",
-    "name": "Městská knihovna v Praze - pobočka Korunní",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:00",
-    "address": "Korunní 2160/68, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.534494,
-     50.103987
-    ]
-   },
-   "properties": {
-    "id": "osm-node-309102998",
-    "name": "Městská knihovna v Praze - pobočka Hloubětín",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 13:00-19:00, Fr 09:00-16:00, Sa 09:00-13:00",
-    "address": "Hloubětínská 1138/5, Praha 14",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.410452,
      50.091358
     ]
@@ -13461,7 +12581,7 @@
    "properties": {
     "id": "osm-node-316829904",
     "name": "Městská knihovna v Praze - pobočka Sedmička",
-    "category": "library",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -13630,182 +12750,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.424144,
-     50.07957
-    ]
-   },
-   "properties": {
-    "id": "osm-node-333305747",
-    "name": "Městská knihovna v Praze - pobočka Školská",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu-Th 11:00-19:00, Fr 09:00-15:00",
-    "address": "Školská 1267/30, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.415969,
-     50.084094
-    ]
-   },
-   "properties": {
-    "id": "osm-node-344975004",
-    "name": "Náprstkovo muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Betlémské náměstí 269/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424786,
-     50.065738
-    ]
-   },
-   "properties": {
-    "id": "osm-node-351948694",
-    "name": "Městská knihovna v Praze - pobočka Ostrčilovo náměstí",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu, Fr 09:00-16:00; We-Th 12:00-19:00; Mo 13:00-19:00",
-    "address": "Ostrčilovo náměstí 518/1, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.415782,
-     50.075572
-    ]
-   },
-   "properties": {
-    "id": "osm-node-355003395",
-    "name": "Galerie VIA ART",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Resslova, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.419049,
-     50.077751
-    ]
-   },
-   "properties": {
-    "id": "osm-node-355008196",
-    "name": "Kino MAT",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.425749,
-     50.08107
-    ]
-   },
-   "properties": {
-    "id": "osm-node-355658947",
-    "name": "Lucerna",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Vodičkova 704/36, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.406741,
-     50.073736
-    ]
-   },
-   "properties": {
-    "id": "osm-node-355678276",
-    "name": "Městská knihovna v Praze - pobočka Smíchov",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; We,Th 12:00-19:00; Fr 09:00-16:00; Sa,Su off",
-    "address": "náměstí 14. října 83/15, Praha 5",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.374021,
-     50.084432
-    ]
-   },
-   "properties": {
-    "id": "osm-node-360673565",
-    "name": "Městská knihovna v Praze - pobočka Břevnov",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
-    "address": "Bělohorská 1666/56, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.427699,
      50.083924
     ]
@@ -13819,28 +12763,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": "Panská 12, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.574247,
-     50.105548
-    ]
-   },
-   "properties": {
-    "id": "osm-node-365545924",
-    "name": "Hasso",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -13894,72 +12816,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.416531,
-     50.073689
-    ]
-   },
-   "properties": {
-    "id": "osm-node-387509669",
-    "name": "Městská knihovna v Praze - pobočka Dittrichova",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; We-Th 12:00-19:00; Fr 09:00-16:00",
-    "address": "Dittrichova 1543/2, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.416456,
-     50.06357
-    ]
-   },
-   "properties": {
-    "id": "osm-node-390278818",
-    "name": "Galerie Vyšehrad",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.41684,
-     50.063434
-    ]
-   },
-   "properties": {
-    "id": "osm-node-390278819",
-    "name": "Gotický sklep",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.599665,
      50.031672
     ]
@@ -13995,28 +12851,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 10:30-22:30",
     "address": "Kolbenova, Praha 9",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.410511,
-     50.087984
-    ]
-   },
-   "properties": {
-    "id": "osm-node-443297509",
-    "name": "Kafka Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-18:00",
-    "address": "Cihelná 2b",
     "source": "osm",
     "note": null
    }
@@ -14092,50 +12926,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.447555,
-     50.106785
-    ]
-   },
-   "properties": {
-    "id": "osm-node-475376666",
-    "name": "DOX",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 11:00-19:00",
-    "address": "Poupětova 793/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.517472,
-     50.053179
-    ]
-   },
-   "properties": {
-    "id": "osm-node-486741798",
-    "name": "Premiere Cinemas",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 14:00-24:00; Sa-Su 10:00-24:00",
-    "address": "Švehlova 1391/32",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.517583,
      50.05318
     ]
@@ -14202,28 +12992,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.390708,
-     50.103841
-    ]
-   },
-   "properties": {
-    "id": "osm-node-514426283",
-    "name": "Ústřední knihovna ČVUT",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 09:00-18:00; Fr 08:00-14:30",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.426459,
      50.092248
     ]
@@ -14237,28 +13005,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.433663,
-     50.005763
-    ]
-   },
-   "properties": {
-    "id": "osm-node-534653398",
-    "name": "Městská knihovna v Praze - pobočka Modřany",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu 09:00-19:00; We-Th 12:00-19:00; Fr 09:00-15:00",
-    "address": "Vazovova 3229/1, Praha 12",
     "source": "osm",
     "note": null
    }
@@ -14356,72 +13102,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.427833,
-     50.086257
-    ]
-   },
-   "properties": {
-    "id": "osm-node-656405949",
-    "name": "Cinema City Slovanský dům",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.449898,
-     50.08676
-    ]
-   },
-   "properties": {
-    "id": "osm-node-658936420",
-    "name": "Městská knihovna v Praze - pobočka Žižkov",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
-    "address": "Husitská 110/70, Praha 3",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424718,
-     50.08182
-    ]
-   },
-   "properties": {
-    "id": "osm-node-871336431",
-    "name": "Kino Světozor",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Vodičkova 41, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.387239,
      50.02527
     ]
@@ -14466,50 +13146,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.432334,
-     50.101523
-    ]
-   },
-   "properties": {
-    "id": "osm-node-993541537",
-    "name": "Národní galerie v Praze - Veletržní palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "Dukelských hrdinů 530/47, Praha 7",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.402534,
-     50.071324
-    ]
-   },
-   "properties": {
-    "id": "osm-node-995953368",
-    "name": "Království železnic",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 09:00-19:00",
-    "address": "Stroupežnického 3181/23, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.403,
      50.069978
     ]
@@ -14522,28 +13158,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.401568,
-     50.071095
-    ]
-   },
-   "properties": {
-    "id": "osm-node-995953386",
-    "name": "Multikino Cinestar – Anděl",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "\"Pondělí - Neděle, vždy 30 minut před začátkem prvního představení, 24. prosince zavřeno\"",
     "address": null,
     "source": "osm",
     "note": null
@@ -14567,50 +13181,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.390086,
-     50.086643
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1058918765",
-    "name": "Památník národního písemnictví",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Strahovské nádvoří 132/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.408491,
-     50.083999
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1083723494",
-    "name": "Museum Kampa",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo off; Tu-Su 10:00-18:00",
-    "address": "U Sovových mlýnů 503/2, Praha",
     "source": "osm",
     "note": null
    }
@@ -14730,28 +13300,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.412925,
-     50.085613
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1201707824",
-    "name": "Muzeum Bedřicha Smetany",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-17:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.328911,
      50.08667
     ]
@@ -14796,182 +13344,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.420146,
-     50.08229
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1258730179",
-    "name": "Komorní kino Evald",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Národní 28, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.417408,
-     50.083129
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1258758427",
-    "name": "Ponrepo",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Bartolomějská 11, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424277,
-     50.068753
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1268946125",
-    "name": "Chlupáčovo muzeum historie Země",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 08:00-12:00",
-    "address": "Albertov, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.413927,
-     50.086511
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1268963413",
-    "name": "Muzeum Karlova mostu",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "May-Sep 10:00-19:00; Oct-Apr 10:00-18:00",
-    "address": "Křižovnické náměstí 191/3, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4211,
-     50.090285
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1269502274",
-    "name": "Židovské muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "U staré školy 141/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.585382,
-     50.109193
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1269712364",
-    "name": "CineStar Praha – Černý most",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Chlumecká 765/6, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.287453,
-     50.054177
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1269744968",
-    "name": "Cinema City",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Praha 5",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.626287,
-     50.011213
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1270591804",
-    "name": "Infocentrum s knihovnou",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 13:00-16:00; We 13:00-19:00; Th 13:00-16:00; Fr 10:00-12:00,13:00-16:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.366109,
      50.029199
     ]
@@ -14984,182 +13356,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Mo-Su 11:00-22:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.417269,
-     50.080572
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1301715531",
-    "name": "Galerie ART+UM",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Ostrovní 22, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.420409,
-     50.08062
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1301735321",
-    "name": "Galerie České pojišťovny",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.413318,
-     50.082237
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1302064019",
-    "name": "Galerie Hollar",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu-Su 10:00-13:00;14:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.419528,
-     50.086296
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1302140338",
-    "name": "Galerie Zlatá lilie",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-22:00",
-    "address": "Malé náměstí 458/12, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.420334,
-     50.082412
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1302217408",
-    "name": "Galerie Václava Špály",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 11:00-19:00",
-    "address": "Národní 30, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.4273,
-     50.079169
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1302296817",
-    "name": "Galerie Smečky",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Tu-Sa 11:00-18:30",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.41724,
-     50.100939
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1302346548",
-    "name": "Galerie Scarabeus",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 11:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.41528,
-     50.090163
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1302407411",
-    "name": "Galerie Rudolfinum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Tu-We,Fr-Su 10:00-18:00; Th 10:00-20:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -15214,28 +13410,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.459766,
-     50.094533
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1353760034",
-    "name": "Letní kino Regina",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Hybešova, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.472431,
      50.123408
     ]
@@ -15258,63 +13432,19 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.400073,
-     50.068402
+     14.429944,
+     50.100052
     ]
    },
    "properties": {
-    "id": "osm-node-1470748757",
-    "name": "Městská knihovna v Praze - pobočka Ostrovského",
-    "category": "library",
+    "id": "osm-node-1490377657",
+    "name": "Bio Oko",
+    "category": "cafe_food",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Tu 09:00-19:00; We,Th 12:00-19:00; Fr 09:00-15:00",
-    "address": "Na Skalce 972/29, Praha 5",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.436875,
-     50.09957
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1490382056",
-    "name": "Cesta domů",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42408,
-     50.102787
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1490384010",
-    "name": "Akademie výtvarných umění",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
+    "opening_hours": "Mo-Fr 00:00-01:00,10:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+    "address": "Františka Křížka 460/15, Praha",
     "source": "osm",
     "note": null
    }
@@ -15390,72 +13520,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.491651,
-     50.045225
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1682438025",
-    "name": "Městská knihovna v Praze - pobočka Spořilov",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00 - 19:00, Fr 09:00-16:00",
-    "address": "Postupická 2932/7, Praha 4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.405079,
-     50.002916
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1756500309",
-    "name": "Husova knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.415677,
-     50.086423
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1758121558",
-    "name": "Národní knihovna České republiky",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Sa 09:00-19:00; Su,PH off",
-    "address": "Klementinum 190, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.448474,
      50.07315
     ]
@@ -15469,28 +13533,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 00:00-01:00,13:00-24:00",
     "address": "sady Bratří Čapků 2508/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.491917,
-     50.024488
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1813589789",
-    "name": "Městská knihovna v Praze - pobočka Chodov",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; We-Th 12:00-19:00; Fr 09:00-16:00",
-    "address": "Jírovcovo náměstí 1782/1, Praha 11",
     "source": "osm",
     "note": null
    }
@@ -15544,28 +13586,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.41865,
-     50.128437
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1823271513",
-    "name": "Městská knihovna v Praze - pobočka Bohnice",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00, Sa 09:00-13:00",
-    "address": "Těšínská 600/4, Praha 8",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.456837,
      50.082807
     ]
@@ -15578,28 +13598,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": "Mo-Fr 06:00-22:00; Sa-Su 08:00-20:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.41417,
-     50.085985
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1946542587",
-    "name": "Museum of Medieval Torture Instruments",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
     "address": null,
     "source": "osm",
     "note": null
@@ -15654,28 +13652,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.422691,
-     50.087153
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1977821280",
-    "name": "Madame Tussauds",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-20:00",
-    "address": "Celetná 6, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.401103,
      50.059302
     ]
@@ -15710,72 +13686,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Mo-Su 07:00-21:00; PH off",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.398906,
-     50.087955
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2032691065",
-    "name": "Muzeum alchymistů a mágů staré Prahy",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "10:00-22:00",
-    "address": "Jánský vršek 8",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42256,
-     50.090759
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2032716125",
-    "name": "Speculum Alchemiæ Prague",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.446855,
-     50.071408
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2084882225",
-    "name": "Kino Pilotů",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 10:00-22:00; Fr-Su 09:45-22:30",
     "address": null,
     "source": "osm",
     "note": null
@@ -15830,72 +13740,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.424926,
-     50.07608
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2162576759",
-    "name": "Biblioteca Carlos Fuentes",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.428098,
-     50.0689
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2197547437",
-    "name": "Muzeum Policie ČR",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-17:00",
-    "address": "Ke Karlovu 453/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424919,
-     50.078972
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2251261280",
-    "name": "Kino 35",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.457279,
      50.068766
     ]
@@ -15918,28 +13762,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.457974,
-     50.068766
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2260242083",
-    "name": "Galerie Deset - Waldesovo muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "\"ouvert seulement pour des événements ponctuels.\"",
-    "address": "Moskevská 57, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.642528,
      50.079528
     ]
@@ -15953,358 +13775,6 @@
     "free_entry": false,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.405533,
-     50.090169
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2295721323",
-    "name": "Trčkovská galerie",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "10:00-17:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.385109,
-     50.011689
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231613",
-    "name": "Městská knihovna v Praze - Velká Chuchle",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu 13:00-18:00, Th 10:00-18:00",
-    "address": "Starochuchelská 7/20, Praha 16",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.309791,
-     50.090443
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231616",
-    "name": "Městská knihovna v Praze - pobočka Dědina",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-18:00, Tu 09:00-16:00, We-Th 12:00-18:00, Fr 09:00-16:00",
-    "address": "Žukovského 888/2, Praha 6",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.547266,
-     50.049176
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231617",
-    "name": "Městská knihovna v Praze - pobočka Hostivař",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
-    "address": "Golfová 910/10, Praha 15",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.451669,
-     50.023383
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231618",
-    "name": "Městská knihovna v Praze - pobočka Krč",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Sep-Jun: Mo 13:00-19:00; Sep-Jun: Tu 09:00-16:00; Sep-Jun: We,Th 12:00-19:00; Sep-Jun: Fr 09:00-16:00; Jul-Aug: Tu 09:00-16:00; Jul-Aug: Th 12:00-19:00",
-    "address": "Štúrova 1282/12, Praha 4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.331988,
-     50.04407
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231619",
-    "name": "Městská knihovna Lužiny",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-20:00; Tu,Fr 09:00-20:00; We,Th 09:00-13:00 \"bez obsluhy\", 13:00-20:00; Sa 09:00-15:00",
-    "address": "Archeologická 2256/1, Praha 13",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.433149,
-     50.024684
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231620",
-    "name": "Městská knihovna v Praze - pobočka Novodvorská",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; Fr 09:00-16:00; We 13:00-19:00; Th 13:00-19:00",
-    "address": "Novodvorská 1013/151, Praha 4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.51908,
-     50.025463
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231621",
-    "name": "Městská knihovna v Praze - pobočka Opatov",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu-Fr 09:00-19:00, Sa 09:00-15:00",
-    "address": "Opatovská 1754/14, Praha 11",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.316827,
-     50.048932
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2316231623",
-    "name": "Městská knihovna v Praze - pobočka Stodůlky",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; We-Th 12:00-19:00; Fr 09:00-16:00",
-    "address": "Kovářova 1615/4, Praha 13",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423139,
-     50.084717
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2317580732",
-    "name": "Městská knihovna v Praze - oddělení digitalizace",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.483619,
-     50.072267
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2317580740",
-    "name": "Městská knihovna v Praze - pobočka Dům čtení (Ruská)",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00, Sa 09:00-13:00",
-    "address": "Ruská 1455/192, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.453573,
-     50.053857
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2317580759",
-    "name": "Městská knihovna v Praze - pobočka Michle",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu 09:00-16:00, We-Th 12:00-18:00",
-    "address": "Michelská 7/1, Praha 4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.438139,
-     50.054389
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2317580771",
-    "name": "Městská knihovna v Praze - pobočka Pankrác",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu,Fr 09:00-16:00; We,Th 12:00-19:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.437519,
-     50.041242
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2317580780",
-    "name": "Městská knihovna v Praze - pobočka Vikova",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
-    "address": "Vikova 1223/4, Praha 4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.437042,
-     50.071872
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2317580785",
-    "name": "Městská knihovna v Praze - pobočka Záhřebská",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; We 12:00-19:00; Th 12:00-19:00; Fr 09:00-16:00",
-    "address": "Záhřebská 158/20, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.564957,
-     50.10312
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2317580790",
-    "name": "Městská knihovna v Praze - pobočka Černý Most",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
-    "address": "Generála Janouška 1060/2, Praha 14",
     "source": "osm",
     "note": null
    }
@@ -16402,28 +13872,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.444101,
-     50.077117
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2513189449",
-    "name": "Knihovna Na Vinohradech",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo,We 10:00-18:00; Tu,Fr 12:00-18:00; Th 10:00-16:00; Sa 09:00-13:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.286608,
      50.053824
     ]
@@ -16437,50 +13885,6 @@
     "free_entry": null,
     "opening_hours": "Su-Th 09:00-22:00; Fr,Sa 09:00-22:30",
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.420819,
-     50.086261
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2517682988",
-    "name": "Sex Machines Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-23:00",
-    "address": "Melantrichova 18, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.441587,
-     50.044975
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2546501581",
-    "name": "Knihovna Husitské teologické fakulty",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 12:00-19:00; Tu-Th 09:00-19:00; Fr 09:00-17:30",
-    "address": "Pacovská 350/4, Praha 4",
     "source": "osm",
     "note": null
    }
@@ -16512,28 +13916,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.556671,
-     50.035914
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2582373437",
-    "name": "Místní knihovna Petrovice",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-16:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.440722,
      50.064755
     ]
@@ -16547,28 +13929,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Sa 11:00-23:00; Su 12:00-23:00",
     "address": "nám. Bratří Synků 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.389251,
-     50.085885
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2659740416",
-    "name": "studovna Strahovské knihovny",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -16612,50 +13972,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.392135,
-     50.101561
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2904959395",
-    "name": "Knihovna Kloknerova ústavu ČVUT",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu 09:00-11:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.390481,
-     50.10388
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2905214912",
-    "name": "Ústřední knihovna VŠCHT",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 08:00-22:00; Sa 10:00-17:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -16732,28 +14048,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.417344,
-     50.080747
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3196599842",
-    "name": "Knihovna Václava Havla",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-17:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.514329,
      50.032114
     ]
@@ -16767,50 +14061,6 @@
     "free_entry": null,
     "opening_hours": "Po-Ne 7:00-21:00",
     "address": "Brandlova 1640, Praha 4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.540353,
-     50.073973
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3206840345",
-    "name": "Fashion Arena Outlet Center",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.426921,
-     50.073688
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3217484773",
-    "name": "Muzeum Antonína Dvořáka",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-13:30, 14:00-17:00",
-    "address": "Ke Karlovu 462/20, Praha",
     "source": "osm",
     "note": null
    }
@@ -16864,248 +14114,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.398934,
-     50.090776
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3235823265",
-    "name": "Císařská konírna",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.398544,
-     50.090679
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3235823267",
-    "name": "Obrazárna Pražského hradu",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.40528,
-     50.090412
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3261373101",
-    "name": "Národní pedagogické muzeum a knihovna J. A. Komenského",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-12:30,13:00-17:00",
-    "address": "Valdštejnská 161/20, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42772,
-     50.084176
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3270484912",
-    "name": "Mucha museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 10:00-18:00",
-    "address": "Panská 890/7, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.41943,
-     50.082625
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3276299082",
-    "name": "Museum of Bricks Praha",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-20:00",
-    "address": "Národní 31, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.417302,
-     50.088181
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3278080261",
-    "name": "Památník Jaroslava Ježka (Modrý pokoj)",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "We 13:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.394677,
-     50.08827
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3278327071",
-    "name": "Galerie Josefa Sudka",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Úvoz 160/24, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.421713,
-     50.087958
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3292370900",
-    "name": "Národní galerie v Praze - Palác Kinských",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.389339,
-     50.087266
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3300474761",
-    "name": "Muzeum miniatur",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-17:00",
-    "address": "Strahovské nádvoří 11, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.428601,
-     50.092312
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3303681505",
-    "name": "Poštovní muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu-Su 09:00-12:00, 13:00-17:00",
-    "address": "Nové mlýny 1239/2, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.428209,
-     50.069674
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3321815165",
-    "name": "Knihovna Františka Závišky",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 08:30-18:00; Fr 08:30-15:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.426761,
      50.071327
     ]
@@ -17119,28 +14127,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.407638,
-     50.086802
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3342148521",
-    "name": "Muzeum Karla Zemana",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Saská 520/3, Praha",
     "source": "osm",
     "note": null
    }
@@ -17185,138 +14171,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": "Na Dlouhém lánu 11, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.404481,
-     50.091949
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3393564844",
-    "name": "Muzeum hraček",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 09:00-18:00",
-    "address": "Jiřská 11/4, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.405906,
-     50.087503
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3393564852",
-    "name": "Muzeum pražských pověstí a strašidel",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-22:00",
-    "address": "Mostecká 18, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.400502,
-     50.088393
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3393593689",
-    "name": "Gingerbread Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": null,
-    "address": "Nerudova 9, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.400184,
-     50.088383
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3393593690",
-    "name": "Museum Montanelli",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Nerudova 13, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.438772,
-     50.076248
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3398286886",
-    "name": "Zemědělská a potravinářská knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.398803,
-     50.076977
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3406732043",
-    "name": "Národopisné muzeum - Musaion",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "PH,Mo-Su 10:00-18:00",
-    "address": "Petřínské sady 98, Praha",
     "source": "osm",
     "note": null
    }
@@ -17436,50 +14290,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.424841,
-     50.068516
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3572218215",
-    "name": "Mapová sbírka Přírodovědecké fakulty UK",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "We 10:00-17:00",
-    "address": "Albertov 6, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42419,
-     50.07253
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3572222293",
-    "name": "Hrdličkovo muzeum člověka",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "We-Fr 10:00-18:00",
-    "address": "Viničná 7, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.425081,
      50.058842
     ]
@@ -17493,28 +14303,6 @@
     "free_entry": true,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.422175,
-     50.087401
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3620539876",
-    "name": "Sklářské muzeum Moser",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Staroměstské náměstí 15, Praha",
     "source": "osm",
     "note": null
    }
@@ -17612,28 +14400,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.472476,
-     50.084624
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3693130507",
-    "name": "Nákladové nádraží Žižkov, kino NFA",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Jun-Aug",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.405995,
      50.071309
     ]
@@ -17669,28 +14435,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 08:00-19:00",
     "address": "Myslíkova 22, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.379452,
-     50.085509
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3779322948",
-    "name": "Kino Dlabačov",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Bělohorská 125/24, Praha 6",
     "source": "osm",
     "note": null
    }
@@ -17744,28 +14488,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.414225,
-     50.104616
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3830768345",
-    "name": "Knihovna Národního muzea",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.515793,
      50.110419
     ]
@@ -17779,138 +14501,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
     "address": "Kolbenova 931/40b, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.388709,
-     50.086293
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3920219970",
-    "name": "Strahovská knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-17:00",
-    "address": "Strahovské nádvoří 132/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.389847,
-     50.08637
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3920219971",
-    "name": "Strahovská obrazárna",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Strahovské nádvoří 132/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423994,
-     50.092257
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3926969670",
-    "name": "Národní galerie v Praze - Klášter sv. Anežky České",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "U Milosrdných 17",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.397444,
-     50.089331
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3927206905",
-    "name": "Národní galerie v Praze - Salmovský palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.396872,
-     50.089115
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3927206906",
-    "name": "Národní galerie v Praze - Schwarzenberský palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu 10:00-18:00; We 10:00-20:00; Th-Su 10:00-18:00",
-    "address": "Hradčanské náměstí 185/2, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.396695,
-     50.090286
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3927206907",
-    "name": "Národní galerie v Praze - Šternberský palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "Hradčanské náměstí 57/15, Praha",
     "source": "osm",
     "note": null
    }
@@ -17955,28 +14545,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.478485,
-     50.091759
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4001212758",
-    "name": "Městská knihovna v Praze - pobočka Vozovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu 09:00-16:00; We 12:00-19:00; Th 12:00-19:00; Fr 09:00-16:00",
-    "address": "Za Žižkovskou vozovnou 2687/18, Praha 3",
     "source": "osm",
     "note": null
    }
@@ -18052,28 +14620,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.425015,
-     50.078953
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4169533911",
-    "name": "Mediatéka",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu, We 13:00-19:00; Th, Fr 10:30-17:00; Sa 10:00-13:00",
-    "address": "Štěpánská 644/35, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.479962,
      50.019225
     ]
@@ -18109,28 +14655,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Th 11:00-20:00; Fr-Su 11:00-21:00",
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.330415,
-     50.087069
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4214906182",
-    "name": "Archeologický park Liboc",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Praha",
     "source": "osm",
     "note": null
    }
@@ -18216,50 +14740,6 @@
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.348963,
-     50.06793
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4302276301",
-    "name": "Trabant muzeum Praha Motol",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "May-Sep 09:00-18:00; Oct-Apr 09:00-17:00",
-    "address": "Plzeňská 290/215b",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.360872,
-     50.083577
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4316409934",
-    "name": "Popmuseum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
@@ -18360,50 +14840,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.413599,
-     50.086141
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4345448189",
-    "name": "Muzeum města Prahy",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "closed \"will reopen in 2025\"",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.388674,
-     50.093953
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4360610699",
-    "name": "Muzeum městské hromadné dopravy v Praze",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Sa-Su, PH 09:00-17:00; Jun-Aug We, Sa-Su, PH 09:00-17:00",
-    "address": "Patočkova, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.370089,
      50.069852
     ]
@@ -18417,94 +14853,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 10-23",
     "address": "Plzeňská 254/191, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423055,
-     50.086973
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4437594389",
-    "name": "Choco-Story Muzeum čokolády",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-19:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.414658,
-     50.085871
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4440226044",
-    "name": "Colloredo - Mansfeldský palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Karlova 189/2, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.408364,
-     50.095195
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4441181217",
-    "name": "Galerie hlavního města Prahy",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Mickiewiczova 233/1, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423243,
-     50.097073
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4441181218",
-    "name": "Národní zemědělské muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 09:00-17:00",
-    "address": "Kostelní 1300/44, Praha 7",
     "source": "osm",
     "note": null
    }
@@ -18602,50 +14950,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.471891,
-     50.090396
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4585024698",
-    "name": "Kino Aero",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su,PH 10:00-24:00",
-    "address": "Biskupcova 87/31a, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42977,
-     50.079231
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4605937391",
-    "name": "Pinball museum 1990",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-22:00; Su 10:00-21:00",
-    "address": "Celetné 558/12, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.445691,
      50.092891
     ]
@@ -18658,50 +14962,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Mo-Fr 10:00-22:00; Sa,Su 11:00-22:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424276,
-     50.079362
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4676940692",
-    "name": "Galerie Leica",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 11:00-18:00",
-    "address": "Školská 693/28",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.404868,
-     50.091551
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4720384283",
-    "name": "Lobkovický palác",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-18:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -18844,72 +15104,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.428102,
-     50.095806
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4852064964",
-    "name": "Artwall Gallery",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "24/7",
-    "address": "nábřeží Kapitána Jaroše, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.414037,
-     50.08505
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4933592624",
-    "name": "Prague Beer Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 12:00-03:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.390253,
-     50.088063
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4939261536",
-    "name": "Městská knihovna v Praze - pobočka Hradčany",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 12:00-17:00",
-    "address": "Pohořelec 111/25, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.368151,
      50.028482
     ]
@@ -18917,56 +15111,12 @@
    "properties": {
     "id": "osm-node-4939298014",
     "name": "Městska knihovna v Praze - pobočka Barrandov",
-    "category": "library",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Mo 13:00-19:00, Tu 09:00-16:00, We-Th 12:00-19:00, Fr 09:00-16:00",
     "address": "Wassermannova 926/16, Praha 5",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.432426,
-     50.067795
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4949583954",
-    "name": "Kryt Folimanka",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": null,
-    "address": "Pod Karlovem, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.464723,
-     50.056201
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4949858723",
-    "name": "Plynárenské muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "U Plynárny 500, Praha 4",
     "source": "osm",
     "note": null
    }
@@ -19055,28 +15205,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.430011,
-     50.087851
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4986978223",
-    "name": "Muzeum komunismu",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su, PH 09:00-20:00; Dec 24 off",
-    "address": "V Celnici 1031/4, Praha 1",
     "source": "osm",
     "note": null
    }
@@ -19184,28 +15312,6 @@
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.521574,
-     50.151911
-    ]
-   },
-   "properties": {
-    "id": "osm-node-5320387221",
-    "name": "knihovna Čakovice",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
@@ -19350,94 +15456,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.492074,
-     50.104791
-    ]
-   },
-   "properties": {
-    "id": "osm-node-5612300943",
-    "name": "Síň slávy českého hokeje",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423055,
-     50.08809
-    ]
-   },
-   "properties": {
-    "id": "osm-node-5614223550",
-    "name": "Muzeum hlavního města Prahy - Dům U Zlatého prstenu",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 09:00-20:00",
-    "address": "Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.428899,
-     50.08415
-    ]
-   },
-   "properties": {
-    "id": "osm-node-5654640033",
-    "name": "Muzeum smyslů",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Jindřišská 939/20, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.414209,
-     50.081722
-    ]
-   },
-   "properties": {
-    "id": "osm-node-5684405850",
-    "name": "Knihovna Akademie věd ČR",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 09:00-19:00",
-    "address": "Národní 3, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.433155,
      50.07528
     ]
@@ -19451,28 +15469,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Fr 11:00-18:00",
     "address": "Jugoslávská 12, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.607029,
-     50.114238
-    ]
-   },
-   "properties": {
-    "id": "osm-node-5884436932",
-    "name": "Knihovna Horní Počernice",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Náchodská 754/94",
     "source": "osm",
     "note": null
    }
@@ -19583,28 +15579,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Fr 08:00-21:00; Sa,Su 09:00-21:00; PH off",
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.425615,
-     50.085347
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6157776207",
-    "name": "Czech Repubrick – Lego země českých památek",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-20:00",
-    "address": "Na Příkopě 854/14, Praha 1",
     "source": "osm",
     "note": null
    }
@@ -19768,72 +15742,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.42306,
-     50.082234
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6445841985",
-    "name": "Národní Filmové Muzeum: NaFilm",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 13:00-19:00",
-    "address": "Jungmannova 748/30",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.432314,
-     50.087803
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6467620185",
-    "name": "Mineralia Gemstone Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-20:00",
-    "address": "Havlíčkova 1029/3",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.578666,
-     50.088899
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6468498189",
-    "name": "Regionální muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.472213,
      50.057192
     ]
@@ -19844,116 +15752,6 @@
     "category": "church",
     "cooling": "natural",
     "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.415149,
-     50.085783
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6644494759",
-    "name": "Český granát",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-21:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.470779,
-     50.067513
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6699708754",
-    "name": "Slavia museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Fr-Su 10:00-18:00",
-    "address": "U Slavie 2a, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.421362,
-     50.078408
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6700000685",
-    "name": "Invisible exhibition",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Fr 12:00-20:00; Sa-Su,PH 10:00-20:00",
-    "address": "Karlovo náměstí 1/23, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.408405,
-     50.087628
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6726507688",
-    "name": "Hórnikova lužickosrbská knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.491034,
-     50.032115
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6812944485",
-    "name": "Cinema City - Praha chodov",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
@@ -20032,28 +15830,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.456112,
-     50.124065
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6914557178",
-    "name": "Městská knihovna v Praze",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu,Fr 09:00-16:00; We, Th 12:00-19:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.332039,
      50.043974
     ]
@@ -20098,50 +15874,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.658943,
-     50.076378
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7010082655",
-    "name": "Knihovna Újezd nad Lesy",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo,We-Fr 08:00-12:30, Mo,We 13:30-18:00, Tu,Th 13:00-14:30, Fr 13:00-17:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.415498,
-     50.067823
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7018902318",
-    "name": "Podskalská celnice na Výtoni",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Sa-Su 10:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.470652,
      50.056283
     ]
@@ -20155,50 +15887,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 07:00-21:30",
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.484618,
-     50.105148
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7151718341",
-    "name": "Film Legends Museum Prague",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
-    "address": "Sokolovská 1207/226, Praha 9",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.36641,
-     50.067696
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7260125085",
-    "name": "Cibulka - Městská knihovna v Praze",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu 09:00-18:00, We-Th 12:00-18:00",
-    "address": "Musílkova 335/62",
     "source": "osm",
     "note": null
    }
@@ -20265,28 +15953,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 11:00-23:00",
     "address": "Vltavská 8, Praha 5",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.449973,
-     50.057794
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7562685923",
-    "name": "Městská knihovna v Praze - pobočka Jezerka",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Nuselská 603/94, Praha 4",
     "source": "osm",
     "note": null
    }
@@ -20406,50 +16072,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.66862,
-     50.095225
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7850397117",
-    "name": "Místní knohovna Klánovice",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Smržovská 1, Praha-Klánovice",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.410122,
-     50.089765
-    ]
-   },
-   "properties": {
-    "id": "osm-node-8016961607",
-    "name": "Muzeum slivovice R. Jelínek",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 11:30-18:30",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.506338,
      50.077802
     ]
@@ -20484,28 +16106,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.582458,
-     50.107716
-    ]
-   },
-   "properties": {
-    "id": "osm-node-8099268814",
-    "name": "Kiosek městské knihovny v Praze",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-21:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -20780,28 +16380,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.394373,
-     49.978762
-    ]
-   },
-   "properties": {
-    "id": "osm-node-8974468204",
-    "name": "Muzeum zvonařství rodu Manoušků",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Sa",
-    "address": "U Národní galerie 488, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.401995,
      50.118638
     ]
@@ -20812,28 +16390,6 @@
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.408878,
-     50.001906
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9075620235",
-    "name": "Muzeum historických nočníků a toalet",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
@@ -21000,28 +16556,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.424402,
-     50.081255
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9356155280",
-    "name": "Muzeum fantastických iluzi",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Vodičkova 31/710, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.550825,
      50.130859
     ]
@@ -21132,28 +16666,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.500489,
-     50.081564
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9510725450",
-    "name": "Malešice",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Počernická 64, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.440145,
      50.040357
     ]
@@ -21242,50 +16754,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.428658,
-     50.075311
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9694881679",
-    "name": "Muzeum Legií",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo,Su off; Tu-Sa 09:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.431305,
-     50.084866
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9714566874",
-    "name": "Edison Filmhub",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 13:00-24:00",
-    "address": "Jeruzalémská 1321/2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.422616,
      50.086287
     ]
@@ -21320,72 +16788,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Mo-Su 08:00-20:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423378,
-     50.087113
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9721323355",
-    "name": "Museum of Torture",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-20:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.420717,
-     50.080776
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9758369618",
-    "name": "Vysoká škola obchodní",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423342,
-     50.086328
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9782193234",
-    "name": "Historie Karlovy Univerzity",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 10:00-18:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -21484,28 +16886,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.421914,
-     50.085251
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9957497352",
-    "name": "IAM Illusion Art Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-20:00",
-    "address": "Melantrichova 536/2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.421358,
      50.089357
     ]
@@ -21563,28 +16943,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 09:00-21:00",
     "address": "Vršovická 1527, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.419724,
-     50.084581
-    ]
-   },
-   "properties": {
-    "id": "osm-node-10135589617",
-    "name": "Galerie u Zlatého Kohouta",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Sa 12:00-18:00",
-    "address": "Michalská 430/3",
     "source": "osm",
     "note": null
    }
@@ -21689,7 +17047,7 @@
    "properties": {
     "id": "osm-node-10730198805",
     "name": "Central Gallery",
-    "category": "museum",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": false,
@@ -21814,28 +17172,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.36796,
-     50.070078
-    ]
-   },
-   "properties": {
-    "id": "osm-node-10819338142",
-    "name": "Kino Kavalírka",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Plzeňská 2576/210, Praha 5",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.43112,
      50.091287
     ]
@@ -21849,28 +17185,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 16:00-02:00",
     "address": "Soukenická 1756/34, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.449423,
-     50.12674
-    ]
-   },
-   "properties": {
-    "id": "osm-node-10888983768",
-    "name": "Spirála",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -22056,28 +17370,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.438403,
-     50.091418
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11185625082",
-    "name": "Atlas",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Sa 11:00-23:00",
-    "address": "Ke Štvanici 371/4, Praha 8",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.337825,
      50.037981
     ]
@@ -22210,50 +17502,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.429481,
-     50.080843
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11395861828",
-    "name": "Film Legends Museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424404,
-     50.08747
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11463686969",
-    "name": "Lumia Gallery",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-21:00",
-    "address": "Celetná 15",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.40358,
      50.072175
     ]
@@ -22364,72 +17612,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.416156,
-     50.088912
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11921665203",
-    "name": "Knihovna Jana Palacha",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 09:00-20:00; Fr 09:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.415903,
-     50.088745
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11921665204",
-    "name": "Knihovna Ústavu filosofie a religionistiky",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 10:00-19:00; Fr 10:00-16:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.426673,
-     50.085927
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11925998365",
-    "name": "Síň slávy českého hokeje",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "Nekázanka 2, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.404111,
      50.072471
     ]
@@ -22443,72 +17625,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
     "address": "Štefánikova 4",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.43022,
-     50.087319
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11929156323",
-    "name": "Knihovna Šporkova paláce",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 10:00-15:45",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.413674,
-     50.084313
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11990769812",
-    "name": "Knihovna Hollar",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 10:00-19:00; Tu-Th 09:00-19:00; Fr 09:00-17:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.354491,
-     50.048205
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12041712969",
-    "name": "Galerie Butovice",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Radlická 117",
     "source": "osm",
     "note": null
    }
@@ -22584,72 +17700,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.414173,
-     50.083922
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12187773071",
-    "name": "Kino Balt",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Karolíny Světlé 325/31",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.409539,
-     50.052116
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12232416848",
-    "name": "Musoleum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Fr 13:00-19:00; Sa, Su 10:00-18:00",
-    "address": "Nádražní 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.428679,
-     50.087032
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12236311107",
-    "name": "CNB Visitor Centre",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Tu-Fr 09:00-17:00; Sa 10:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.456785,
      50.077454
     ]
@@ -22685,72 +17735,6 @@
     "free_entry": true,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.403602,
-     50.087558
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12408812349",
-    "name": "Mozartovo interaktivní muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-20:00",
-    "address": "Karmelitská 33, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.399901,
-     50.086938
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12480699102",
-    "name": "Knihovna ústavu pro soudobé dějiny",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.427459,
-     50.085039
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12512931763",
-    "name": "Kino Panská",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Panská 856/3, Praha 1",
     "source": "osm",
     "note": null
    }
@@ -22816,28 +17800,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Mo-Fr 08:00-20:00; Sa 10:00-18:00, Su 12:00-20:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.432503,
-     50.084005
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13086700598",
-    "name": "Národní pedagogická knihovna J. A. Komenského",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 09:00-18:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -22936,28 +17898,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.414448,
-     50.07697
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13227678308",
-    "name": "Knihovna Jiřiny Šiklové",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 09:00-15:00; Tu 09:00-15:00; We 12:00-18:00; Oct 13-31,Nov 01-18 Mo off,Tu 09:00-18:00,We off;",
-    "address": "Masarykovo nábřeží 2017/8, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.514599,
      50.032144
     ]
@@ -22993,50 +17933,6 @@
     "free_entry": null,
     "opening_hours": "Po, St 9:00 - 16:00, Út, Čt 9:00 - 12:00 a 13:00 - 17:00, Pá 9:00 - 12:00",
     "address": "Římská 2135/45, Praha 2",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424138,
-     50.068533
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13284539620",
-    "name": "Geologická knihovna Přf UK",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 08:00-16:00; Fr 08:00-14:30",
-    "address": "Albertov 6",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.424447,
-     50.068404
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13284539621",
-    "name": "Geografická knihovna Přf UK",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Tu 09:00-18:00; We 09:00-16:00; Th 09:00-18:00; Fr 09:00-15:00",
-    "address": "Albertov 6",
     "source": "osm",
     "note": null
    }
@@ -23222,50 +18118,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.42428,
-     50.072093
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13734235550",
-    "name": "Geografická knihovna Přf UK",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Tu 09:00-18:00; We 09:00-16:00; Th 09:00-18:00; Fr 09:00-15:00",
-    "address": "Albertov 6",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.425,
-     49.986562
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13734711025",
-    "name": "Letecké muzeum Točná",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mar, May, Jul, Sep, Nov Sa[2] 09:00-14:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.395728,
      50.101619
     ]
@@ -23288,72 +18140,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.42101,
-     50.086671
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13920623275",
-    "name": "Mozart museum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-20:00",
-    "address": "Staroměstské náměstí 480/24, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.576592,
-     50.10846
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13922245708",
-    "name": "Městská knihovna v Praze - pobočka Černý Most",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, Tu-Fr 09:00-19:00",
-    "address": "Bobkova 534/47, Praha 14",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.428514,
-     50.081124
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13939054992",
-    "name": "Muzeum studené války",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Václavské náměstí 818/45",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.561637,
      50.087399
     ]
@@ -23367,50 +18153,6 @@
     "free_entry": null,
     "opening_hours": "Tu-Fr 07:00 - 15:00",
     "address": "Českobrodská 942, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.286861,
-     50.053457
-    ]
-   },
-   "properties": {
-    "id": "osm-way-4019771",
-    "name": "Metropole Zličín",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.359391,
-     50.097364
-    ]
-   },
-   "properties": {
-    "id": "osm-way-7249517",
-    "name": "Obchodní centrum Šárka",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Evropská 695/73",
     "source": "osm",
     "note": null
    }
@@ -23499,94 +18241,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 06:00-22:00",
     "address": "Přetlucká 3295/50, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.482366,
-     50.032703
-    ]
-   },
-   "properties": {
-    "id": "osm-way-9076591",
-    "name": "Obchodní dům Chrpa",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.431474,
-     50.105524
-    ]
-   },
-   "properties": {
-    "id": "osm-way-9113427",
-    "name": "Lapidárium Národního muzea",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "U Výstaviště 422, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.445035,
-     50.087438
-    ]
-   },
-   "properties": {
-    "id": "osm-way-10107260",
-    "name": "Armádní muzeum Žižkov",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "Mo-Su 07:00-19:00",
-    "address": "U Památníku 1600/2, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.295927,
-     50.049318
-    ]
-   },
-   "properties": {
-    "id": "osm-way-11737952",
-    "name": "Část obchodního centra Avion",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -23713,34 +18367,12 @@
    "properties": {
     "id": "osm-way-22634016",
     "name": "Planetárium",
-    "category": "museum",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": false,
     "opening_hours": null,
     "address": "Královská obora 233, Praha 7",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.542167,
-     50.07246
-    ]
-   },
-   "properties": {
-    "id": "osm-way-23793410",
-    "name": "Obchodní centrum Europark",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -23763,28 +18395,6 @@
     "free_entry": false,
     "opening_hours": null,
     "address": "Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42752,
-     50.106645
-    ]
-   },
-   "properties": {
-    "id": "osm-way-24399672",
-    "name": "Maroldovo panorama",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Apr-Sep: Th-Su,PH 09:00-12:30,13:00-17:30",
-    "address": "Výstaviště 417, Praha",
     "source": "osm",
     "note": null
    }
@@ -23873,28 +18483,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42482,
-     50.097533
-    ]
-   },
-   "properties": {
-    "id": "osm-way-25456828",
-    "name": "Národní technické muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 09:00-18:00",
-    "address": "Kostelní 1320/42",
     "source": "osm",
     "note": null
    }
@@ -24168,28 +18756,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.33186,
-     50.04381
-    ]
-   },
-   "properties": {
-    "id": "osm-way-26813804",
-    "name": "Obchodní centrum Lužiny",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-20:00",
-    "address": "Archeologická 2256/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.479123,
      50.039487
     ]
@@ -24203,28 +18769,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 08:00-20:00",
     "address": "Tomíčkova 9, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.290969,
-     50.093317
-    ]
-   },
-   "properties": {
-    "id": "osm-way-27043597",
-    "name": "Šestka",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "09:00-21:00",
-    "address": "Fajtlova 1090/1",
     "source": "osm",
     "note": null
    }
@@ -24989,9 +19533,9 @@
    "properties": {
     "id": "osm-way-28517451",
     "name": "Španělská synagoga",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
+    "category": "church",
+    "cooling": "natural",
+    "typical_c": null,
     "free_entry": false,
     "opening_hours": "Jan 01 11:00-16:30; Jan 02-Mar 31,Oct 19-Dec 31 09:00-16:30; Apr 01-30,Sep 01-Oct 18 09:00-18:00; May 01-Aug 31 09:00-19:00; Dec 24 09:00-14:00; \"Jewish holidays\" off",
     "address": "Vězeňská 1, Praha",
@@ -25576,28 +20120,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.438497,
-     50.08997
-    ]
-   },
-   "properties": {
-    "id": "osm-way-28552866",
-    "name": "Muzeum Prahy",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu-Su 09:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.448056,
      50.091312
     ]
@@ -25765,28 +20287,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.404743,
-     50.084736
-    ]
-   },
-   "properties": {
-    "id": "osm-way-28921026",
-    "name": "České muzeum hudby",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "We-Mo 10:00-18:00",
-    "address": "Karmelitská 2, Praha 1",
     "source": "osm",
     "note": null
    }
@@ -26082,28 +20582,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.405219,
-     50.082438
-    ]
-   },
-   "properties": {
-    "id": "osm-way-30475391",
-    "name": "Ateliér Josefa Sudka",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu-Su 12:00-18:00",
-    "address": "Újezd, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.395769,
      50.089025
     ]
@@ -26324,50 +20802,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.392274,
-     50.093993
-    ]
-   },
-   "properties": {
-    "id": "osm-way-30821378",
-    "name": "Městská knihovna v Praze - pobočka Vzácné tisky",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "We 09:00-18:00",
-    "address": "U Brusnice 324/9, Praha 6",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.416429,
-     50.089912
-    ]
-   },
-   "properties": {
-    "id": "osm-way-30825119",
-    "name": "Uměleckoprůmyslové muzeum v Praze",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu 10:00-20:00; We-Su 10:00-18:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.40648,
      50.086581
     ]
@@ -26422,28 +20856,6 @@
     "category": "church",
     "cooling": "natural",
     "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.418444,
-     50.075408
-    ]
-   },
-   "properties": {
-    "id": "osm-way-31574112",
-    "name": "Atrium",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
@@ -26632,50 +21044,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.42572,
-     50.084809
-    ]
-   },
-   "properties": {
-    "id": "osm-way-31776865",
-    "name": "Černá růže",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 10:00-19:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.37845,
-     50.092576
-    ]
-   },
-   "properties": {
-    "id": "osm-way-31985572",
-    "name": "Müllerova vila",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Nad hradním vodojemem 642/14, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.428471,
      50.068698
     ]
@@ -26798,28 +21166,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.517476,
-     50.053152
-    ]
-   },
-   "properties": {
-    "id": "osm-way-32084197",
-    "name": "VIVO!",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 06:30-22:00; Sa,Su 07:00-22:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -27358,50 +21704,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.408197,
-     50.102314
-    ]
-   },
-   "properties": {
-    "id": "osm-way-41772330",
-    "name": "Muzeum literatury",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Tu-Su 10:00-18:00",
-    "address": "Pelléova 44/22",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.402173,
-     50.110106
-    ]
-   },
-   "properties": {
-    "id": "osm-way-41779392",
-    "name": "Stará čistírna odpadních vod;Stará čistírna odpadních vod v Bubeneči",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.394655,
      50.089924
     ]
@@ -27568,28 +21870,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.364256,
-     50.091275
-    ]
-   },
-   "properties": {
-    "id": "osm-way-45100265",
-    "name": "Rothmayerova vila",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "\"by appointment\"",
     "address": null,
     "source": "osm",
     "note": null
@@ -28216,28 +22496,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.43294,
-     50.026764
-    ]
-   },
-   "properties": {
-    "id": "osm-way-53040333",
-    "name": "Novodvorská Plaza",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Novodvorská 1800/136, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.296441,
      50.117253
     ]
@@ -28568,28 +22826,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.403491,
-     50.010885
-    ]
-   },
-   "properties": {
-    "id": "osm-way-62075001",
-    "name": "Viniční Domek",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 12:00-18:00",
-    "address": "Chuchelská 6/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.406959,
      50.004007
     ]
@@ -28603,50 +22839,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.418452,
-     50.005662
-    ]
-   },
-   "properties": {
-    "id": "osm-way-62124177",
-    "name": "Pasáž Sofie",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa,Su 09:00-12:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.565199,
-     50.103104
-    ]
-   },
-   "properties": {
-    "id": "osm-way-72096068",
-    "name": "Městská knihovna - pobočka Rajská zahrada",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Generála Janouška 1060/2",
     "source": "osm",
     "note": null
    }
@@ -28690,50 +22882,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.490906,
-     50.104294
-    ]
-   },
-   "properties": {
-    "id": "osm-way-85550533",
-    "name": "Galerie Harfa",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "mo",
-    "address": "Českomoravská 2420, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.361204,
-     49.981444
-    ]
-   },
-   "properties": {
-    "id": "osm-way-93512473",
-    "name": "Místní knihovna Radotín",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo,We,Th 09:00-12:00,13:00-18:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -28810,28 +22958,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.579237,
-     50.146161
-    ]
-   },
-   "properties": {
-    "id": "osm-way-106290678",
-    "name": "Knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.580934,
      50.142956
     ]
@@ -28845,28 +22971,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.501631,
-     50.135836
-    ]
-   },
-   "properties": {
-    "id": "osm-way-107192648",
-    "name": "Obchodní centrum Letňany",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "address": "Veselská 663",
     "source": "osm",
     "note": null
    }
@@ -28977,28 +23081,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 08:00-22:00",
     "address": "Dopraváků 874/15",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.564605,
-     50.149067
-    ]
-   },
-   "properties": {
-    "id": "osm-way-115914615",
-    "name": "muzeum kočárů",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -29206,28 +23288,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.306983,
-     50.041036
-    ]
-   },
-   "properties": {
-    "id": "osm-way-158043412",
-    "name": "Skanzen Řepora",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "\"see facebok site\"",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.395622,
      50.083479
     ]
@@ -29382,28 +23442,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.424293,
-     50.087424
-    ]
-   },
-   "properties": {
-    "id": "osm-way-173673204",
-    "name": "Gallery Of Steel Figures",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": "Mo-Su 10:00-22:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.44465,
      50.091648
     ]
@@ -29433,9 +23471,9 @@
    "properties": {
     "id": "osm-way-179183380",
     "name": "Pinkasova synagoga",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
+    "category": "church",
+    "cooling": "natural",
+    "typical_c": null,
     "free_entry": false,
     "opening_hours": "Jan 01 11:00-16:30; Jan 02-Mar 31,Oct 19-Dec 31 09:00-16:30; Apr 01-30,Sep 01-Oct 18 09:00-18:00; May 01-Aug 31 09:00-19:00; Dec 24 09:00-14:00; \"Jewish holidays\" off",
     "address": "U Staré Školy 141/1, Praha",
@@ -29668,28 +23706,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.452659,
-     50.068145
-    ]
-   },
-   "properties": {
-    "id": "osm-way-220077991",
-    "name": "Vršovický skanzen",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.393199,
      50.062134
     ]
@@ -29724,28 +23740,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.583684,
-     50.108106
-    ]
-   },
-   "properties": {
-    "id": "osm-way-250416859",
-    "name": "Westfield Černý Most",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 08:00-22:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -29888,50 +23882,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.427757,
-     50.085964
-    ]
-   },
-   "properties": {
-    "id": "osm-way-290298831",
-    "name": "Slovanský dům",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Fr-We 08:00-00:00; Th 08:00-20:00",
-    "address": "Na Příkopě 22",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.41702,
-     50.090036
-    ]
-   },
-   "properties": {
-    "id": "osm-way-295285613",
-    "name": "Obřadní síň",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.516248,
      50.159034
     ]
@@ -30054,28 +24004,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.437965,
-     50.050892
-    ]
-   },
-   "properties": {
-    "id": "osm-way-318479303",
-    "name": "Arkády Pankrác",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 09:00-21:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -30306,28 +24234,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.395087,
-     50.070515
-    ]
-   },
-   "properties": {
-    "id": "osm-way-365967543",
-    "name": "Bertramka",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.464946,
      50.084468
     ]
@@ -30460,28 +24366,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.402159,
-     50.073153
-    ]
-   },
-   "properties": {
-    "id": "osm-way-382843342",
-    "name": "Nový Smíchov",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 06:00-01:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.377868,
      50.088455
     ]
@@ -30517,50 +24401,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": "Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.475715,
-     50.011154
-    ]
-   },
-   "properties": {
-    "id": "osm-way-404011427",
-    "name": "Obchodní centrum Kunratice",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.529677,
-     50.128834
-    ]
-   },
-   "properties": {
-    "id": "osm-way-406802500",
-    "name": "Areal Staré Aerovky",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -30734,28 +24574,6 @@
     "category": "park",
     "cooling": "shade",
     "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.568949,
-     50.043458
-    ]
-   },
-   "properties": {
-    "id": "osm-way-452245504",
-    "name": "OC Retail park Hornoměcholupská",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
@@ -31032,50 +24850,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.461058,
-     50.07923
-    ]
-   },
-   "properties": {
-    "id": "osm-way-486551887",
-    "name": "Cinema City",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 11:30-22:30; Sa-Su 09:30-22:30",
-    "address": "Praha 3",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.461324,
-     50.079125
-    ]
-   },
-   "properties": {
-    "id": "osm-way-486598461",
-    "name": "IMAX",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.471403,
      50.061427
     ]
@@ -31088,28 +24862,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "24/7",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.461115,
-     50.078777
-    ]
-   },
-   "properties": {
-    "id": "osm-way-491160912",
-    "name": "OC Flora",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
     "address": null,
     "source": "osm",
     "note": null
@@ -31318,28 +25070,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.501187,
-     50.10992
-    ]
-   },
-   "properties": {
-    "id": "osm-way-533592726",
-    "name": "Galerie Fénix",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su 08:00-22:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.476071,
      50.121219
     ]
@@ -31370,28 +25100,6 @@
     "id": "osm-way-548174907",
     "name": "Botel Racek",
     "category": "shop_ac",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.590063,
-     50.152564
-    ]
-   },
-   "properties": {
-    "id": "osm-way-558344211",
-    "name": "Retail Park",
-    "category": "mall",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31661,28 +25369,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Su 09:00-21:30",
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.402747,
-     50.07396
-    ]
-   },
-   "properties": {
-    "id": "osm-way-651730197",
-    "name": "Palace Cinemas Nový Smíchov",
-    "category": "cinema",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Plzeňská 8, Praha 5",
     "source": "osm",
     "note": null
    }
@@ -32110,28 +25796,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.390611,
-     50.103658
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1115304603",
-    "name": "Městská knihovna v Praze - pobočka Dejvice",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu-Fr 09:00-19:00; Sa 09:00-13:00",
-    "address": "Technická 2710/6, Praha 6",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.366917,
      50.125881
     ]
@@ -32145,50 +25809,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42438,
-     50.072219
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1214567994",
-    "name": "Knihovna biologie Přf. UK",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo,Th 08:30-17:00; Tu-We 08:30-18:00; Fr 08:30-15:00",
-    "address": "Viničná 7",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.341518,
-     50.085703
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1220523695",
-    "name": "Městská knihovna v Praze - pobočka Petřiny",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00; Tu-Fr 09:00-19:00; Sa 10:00-17:00",
-    "address": "U Petřin 2511/1, Praha 6",
     "source": "osm",
     "note": null
    }
@@ -32308,28 +25928,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.508102,
-     50.056121
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1320031383",
-    "name": "Městská knihovna v Praze - pobočka Zahradní Město",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-19:00, We 12:00-19:00, Fr 09:00-16:00",
-    "address": "Topolová 2961/12a, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.507791,
      50.057165
     ]
@@ -32364,28 +25962,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.286686,
-     50.063327
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1358140615",
-    "name": "Zličínská knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo,We 09:00-11:30,13:00-18:00; Th 09:00-11:30,13:00-16:00; Jul-Aug We 09:00-11:30,14:00-18:00; Jul-Aug Tu 14:00-16:00; Jul-Aug Th 09:00-11:30,13:00-16:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -32431,28 +26007,6 @@
     "free_entry": null,
     "opening_hours": "24/7",
     "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.425287,
-     50.067843
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1442150891",
-    "name": "Knihovna chemie Přírodovědecké fakulty Univerzity Karlovy",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Th 08:00-17:00; Fr 10:00-12:00",
-    "address": "Hlavova",
     "source": "osm",
     "note": null
    }
@@ -32550,50 +26104,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.431431,
-     50.079418
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-85291",
-    "name": "Národní muzeum",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": false,
-    "opening_hours": null,
-    "address": "Václavské náměstí 68, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.417258,
-     50.087628
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-110048",
-    "name": "Městská knihovna v Praze – Ústřední knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo 13:00-20:00; Tu-Fr 09:00-20:00; Sa 13:00-18:00",
-    "address": "Mariánské náměstí 98/1, Praha 1",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.420768,
      50.049343
     ]
@@ -32672,28 +26182,6 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.536132,
-     50.125697
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-2227446",
-    "name": "Vojenské letecké muzeum Kbely",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "May-Sep Tu-Su 10:00-18:00, Oct Sa-Su 10:00-18:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -32937,50 +26425,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": "Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.427163,
-     50.088937
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-5140624",
-    "name": "Kotva",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-19:00; Su 10:00-18:00",
-    "address": "náměstí Republiky 656/8, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.450183,
-     50.088533
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-5389879",
-    "name": "Národní památník na Vítkově",
-    "category": "museum",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": true,
-    "opening_hours": "We-Su 10:00-18:00",
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -33848,28 +27292,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.425079,
-     50.086011
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-12549503",
-    "name": "palác Myslbek",
-    "category": "mall",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.399041,
      50.106742
     ]
@@ -34408,28 +27830,6 @@
     "category": "park",
     "cooling": "shade",
     "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.372725,
-     50.128983
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-14962395",
-    "name": "Knihovna",
-    "category": "library",
-    "cooling": "ac",
-    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,

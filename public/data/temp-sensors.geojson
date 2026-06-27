@@ -1,0 +1,432 @@
+{
+ "type": "FeatureCollection",
+ "generatedAt": "2026-06-26T12:06:20Z",
+ "source": "Golemio / Operator ICT (Prazska datova platforma), data CAMEA",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.398638,
+     50.07189
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_AL-STPL",
+    "name": "Anděl (Plzeňská)",
+    "temp_c": 40.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.378579,
+     50.079374
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_AT-STLA",
+    "name": "Atletická",
+    "temp_c": 37.0,
+    "measuredAt": "2026-06-26T11:45:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.407247,
+     50.042099
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_BS-BMZL",
+    "name": "Barrandovský most",
+    "temp_c": 36.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4581,
+     50.11351
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_CL-PVLI",
+    "name": "U Českých loděnic",
+    "temp_c": 43.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432982,
+     50.097315
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_DS-KJVL",
+    "name": "Dukelských hrdinů",
+    "temp_c": 39.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434427,
+     50.087264
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_HY-WINP",
+    "name": "Hybernská",
+    "temp_c": 37.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403657,
+     50.040233
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_HZ-CE",
+    "name": "Hlubočepská",
+    "temp_c": 32.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417109,
+     50.046196
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_JG-PNPC",
+    "name": "Jeremenkova",
+    "temp_c": 40.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.407747,
+     50.08312
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_KA-KMML",
+    "name": "Kampa",
+    "temp_c": 41.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507327,
+     50.126923
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_KO-LEPR",
+    "name": "Letňany",
+    "temp_c": 39.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.363427,
+     49.980368
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_KR-RAZB",
+    "name": "Radotín",
+    "temp_c": 38.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.534642,
+     50.125671
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_MB-PRVI",
+    "name": "Mladoboleslavská",
+    "temp_c": 40.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430294,
+     50.068247
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_NM-CEKV",
+    "name": "Nuselský most",
+    "temp_c": 40.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.407471,
+     50.098333
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_PM-MHJA",
+    "name": "Pelléova",
+    "temp_c": 36.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417524,
+     50.062169
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_PN-VYBR",
+    "name": "Podolské nábřeží - stezka",
+    "temp_c": 37.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418152,
+     50.061932
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_PN-VYBR2",
+    "name": "Podolské nábřeží - vozovka",
+    "temp_c": 37.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.391871,
+     50.117475
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_PP-ROJP",
+    "name": "Podbabská",
+    "temp_c": 41.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.413667,
+     50.11459
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_PT-ZOVO",
+    "name": "Povltavská",
+    "temp_c": 39.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.413371,
+     50.084218
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_SN-NDKM",
+    "name": "Smetanovo nábřeží",
+    "temp_c": 39.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.443669,
+     50.03462
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_SU-KRKA",
+    "name": "Krč (Sulická)",
+    "temp_c": 38.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.417871,
+     50.111242
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_TL-TRHO",
+    "name": "Císařský ostrov",
+    "temp_c": 39.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.44444,
+     50.086846
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_VK-HRUP",
+    "name": "Drážní stezka - Vítkov",
+    "temp_c": 42.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.444736,
+     50.066464
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_VR-ST",
+    "name": "Vršovická",
+    "temp_c": 38.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.385701,
+     50.070426
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_VS-CE",
+    "name": "Košíře",
+    "temp_c": 32.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.39908,
+     50.143132
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_ZA-KLBO",
+    "name": "V Zámcích",
+    "temp_c": 42.0,
+    "measuredAt": "2026-06-26T12:00:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  }
+ ]
+}

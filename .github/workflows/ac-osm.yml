@@ -1,0 +1,51 @@
+name: ac-osm refresh
+
+# Tydne pregeneruje autoritativni AC vrstvy z OpenStreetMap (Overpass):
+#   - public/data/ac-areas.geojson  (klimatizovane budovy jako plochy)
+#   - public/data/ac-shops.geojson  (znackove klimatizovane prodejny jako body)
+#   - public/data/venues.geojson    (bez mall/museum/cinema/library - dedup)
+# Bez secretu (otevrena data Overpass). Pokud se data zmeni, commitne je zpet.
+on:
+  schedule:
+    - cron: "45 6 * * 1" # pondeli 06:45 UTC (tydne)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Build ac-areas.geojson
+        run: python data/build_ac_areas.py
+
+      - name: Build ac-shops.geojson
+        run: python data/build_ac_shops.py
+
+      - name: Rebuild venues.geojson (dedup)
+        run: python data/build_venues.py
+
+      - name: Commit changed data (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain public/data/ac-areas.geojson public/data/ac-shops.geojson public/data/venues.geojson)" ]; then
+            git add public/data/ac-areas.geojson public/data/ac-shops.geojson public/data/venues.geojson
+            git commit -m "chore(data): tydenni refresh AC vrstev (ac-areas, ac-shops, venues) [skip ci]"
+            git push
+            echo "Data aktualizovana a pushnuta."
+          else
+            echo "Beze zmeny - nic ke commitu."
+          fi

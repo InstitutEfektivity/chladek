@@ -4,13 +4,21 @@ import { escapeHtml } from "../lib/geo.ts";
 // Stránka „O projektu" – think-tank narativ IE nad otevřenými daty.
 export function renderAboutView(root: HTMLElement): () => void {
   const sectionsHtml = aboutSections
-    .map(
-      (s) => `
+    .map((s) => {
+      const leadHtml = s.lead
+        ? `<p class="about-lead">${escapeHtml(s.lead)}</p>`
+        : "";
+      const quoteHtml = s.pullquote
+        ? `<blockquote class="about-quote"><p>${escapeHtml(s.pullquote)}</p></blockquote>`
+        : "";
+      return `
       <section class="about-section" id="${escapeHtml(s.id)}" aria-labelledby="h-${escapeHtml(s.id)}">
         <h2 id="h-${escapeHtml(s.id)}">${escapeHtml(s.heading)}</h2>
+        ${leadHtml}
         ${s.paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("\n")}
-      </section>`
-    )
+        ${quoteHtml}
+      </section>`;
+    })
     .join("\n");
 
   root.innerHTML = `
@@ -19,6 +27,7 @@ export function renderAboutView(root: HTMLElement): () => void {
         <div class="about-hero-inner">
           <h1>${escapeHtml(aboutHero.title)}</h1>
           <p>${escapeHtml(aboutHero.subtitle)}</p>
+          <a class="btn about-hero-cta" href="#/">${escapeHtml(aboutHero.cta)}</a>
         </div>
       </header>
       <article class="about-body">
