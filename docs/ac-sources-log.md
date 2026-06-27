@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 2
+- **✅ INTEGROVÁNO: IPR KULTKKC knihovny (40 net-new)** okrajových MČ (z 84 knihoven v datasetu, dedup −44 vs MKP 108 do 150 m). Sloučeno do clusterovaného AC source jako kategorie „library" (cooling ac, tier A), započteno do headline → **937**. `data/fetch_ipr_kultkkc.py` → `libraries-kkc.geojson`, cron `ipr-kultkkc.yml` (týdně). Frontend integraci udělal Bedřich sám (fetchLibrariesKkc + normalizeLibraryKkc + count). Ověřeno staging (banner 937 + render), nasazeno live.
+- Pozn.: **210 komunitních/kulturních zařízení** z KULTKKC (komunitní/kulturní centra, kluby seniorů, rodinná centra) = kandidát na měkčí tier-B AC vrstvu (invertovaný filtr) – budoucí kolo.
+- **Další na řadě:** KULTKKC komunitní centra (210, tier-B AC, do overlay „čekárny"/civic) NEBO kryté bazény split (AC haly). Pozn.: metro vchody (346) a pumpy/studánky (vodní) jsou doplňkové, ne čistě AC → nižší priorita než tier-B AC.
+
 ### 2026-06-27 · kolo 1
 - Založen tento log + hodinový cron (`7 * * * *`, session-only). Výchozí stav: 12 integrovaných zdrojů, headline 897.
 - Zdroj poznání: 2 multi-agent sweepy (live cooling/temp + AC-max, dohromady 16 agentů, 168 kandidátů) – viz tabulky níže.
@@ -29,6 +34,7 @@
 | **AC budovy jako PLOCHY** (mall 32, hypermarket 20, DIY 10, obch. dům 7, IKEA 1) | ac-areas.geojson | 70 polygonů | ac | Overpass `out geom` (build_ac_areas.py) | ac-osm.yml (týdně) |
 | **Brand-AC obchody** (drogerie 153, elektro 27) | ac-shops.geojson | 180 | ac | Overpass brand-guard (build_ac_shops.py) | ac-osm.yml (týdně) |
 | **Golemio knihovny MKP** (+ živá otevírací doba) | libraries.geojson | 108 | ac | Golemio `/v2/municipallibraries` (klíč) | golemio-libraries.yml (denně) |
+| **IPR KULTKKC knihovny** (okrajové MČ, net-new) | libraries-kkc.geojson | 40 | ac (kat. library) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (keyless) | ipr-kultkkc.yml (týdně) |
 | Zelené/vodní plochy (parky/les/voda) | areas.geojson | 944 polygonů | shade/water | Overpass (build_areas.py) | (manuálně) |
 | **ČHMÚ naměřená teplota** (9 pražských stanic) | temp-stations.geojson | 9 | – | opendata.chmi.cz „now" (keyless) | temp-stations.yml (hod.) |
 | **Golemio cyklosčítače – teploty** (pouliční čidla) | temp-sensors.geojson | 25 | – | Golemio `/v2/bicyclecounters/temperatures` (klíč) | temp-sensors.yml (hod.) |
@@ -38,7 +44,7 @@
 | Golemio kvalita ovzduší (17 stanic) | air-quality-stations.geojson | 17 | (overlay) | Golemio `/v2/airqualitystations` (klíč) | golemio-aq.yml (hod.) |
 | ČHMÚ výstrahy + Open-Meteo (teplota/UV/AQI) | heat-warning.json / client | – | – | CAP feed / Open-Meteo (keyless) | heat-warning.yml (30 min) |
 
-**Headline USP:** 897 = ac-areas 70 + ac-culture tier-A 444 + ac-shops 180 + libraries 108 + venues shop_ac 95.
+**Headline USP:** 937 = ac-areas 70 + ac-culture tier-A 444 + ac-shops 180 + libraries 108 + KULTKKC knihovny 40 + venues shop_ac 95.
 
 ---
 
@@ -46,7 +52,7 @@
 
 | Kandidát | Endpoint / fetch | Počet | Tier | Pozn. |
 |---|---|---|---|---|
-| **IPR KULTKKC** (knihovny + komunitní centra) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (keyless, 294; ~180 knihovny) | ~180 | A/B | rozšíření knihoven do okrajových MČ; dedup vs MKP 108. **Další na řadě.** |
+| IPR KULTKKC **komunitní centra** (knihovny ✅ kolo 2) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (210 non-library) | 210 | B | komunitní/kulturní centra jako měkčí AC útočiště (invertovaný filtr `typ_kkc_txt`); knihovny už integrovány. **Další na řadě.** |
 | **OSM metro vchody** | Overpass `railway=subway_entrance` | 346 | – | upgrade metra 57→346 (lepší „nejbližší"); cooling=natural, NE AC |
 | IPR pumpy + studánky/prameny | IPR ArcGIS `..._PUMPY_B` (94) + `..._STUDANKYPRAMENY_B` (215) | 94+215 | – | rozšíření vodní vrstvy (chladná pitná voda) |
 | IPR vodní plochy a toky (polygon) | IPR ArcGIS `..._VODNIPLOCHYTOKY_P` | 3526 | – | těžké → zjednodušit/bbox; „chlazení vodou" plochy |

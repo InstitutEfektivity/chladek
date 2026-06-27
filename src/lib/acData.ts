@@ -2,6 +2,7 @@ import type {
   AcCultureCollection,
   AcShopCollection,
   LibraryCollection,
+  LibraryKkcCollection,
   AcAreaCollection,
 } from "./types.ts";
 
@@ -37,6 +38,11 @@ export function fetchAcShops(): Promise<AcShopCollection | null> {
 
 export function fetchLibraries(): Promise<LibraryCollection | null> {
   return fetchLocal<LibraryCollection>("libraries.geojson");
+}
+
+// IPR KULTKKC knihovny okrajových MČ (net-new proti MKP, bez otevírací doby).
+export function fetchLibrariesKkc(): Promise<LibraryKkcCollection | null> {
+  return fetchLocal<LibraryKkcCollection>("libraries-kkc.geojson");
 }
 
 export function fetchAcAreas(): Promise<AcAreaCollection | null> {

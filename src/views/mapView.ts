@@ -31,6 +31,7 @@ import {
   fetchAcCulture,
   fetchAcShops,
   fetchLibraries,
+  fetchLibrariesKkc,
   fetchAcAreas,
 } from "../lib/acData.ts";
 import { computeOpenNow } from "../lib/library.ts";
@@ -59,6 +60,7 @@ import type {
   AcCultureFeature,
   AcShopFeature,
   LibraryFeature,
+  LibraryKkcFeature,
   AcAreaCollection,
 } from "../lib/types.ts";
 
@@ -562,12 +564,14 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
   }
 
   // Paralelně dotáhni nově sloučené AC bodové datasety (graceful – null když chybí).
-  const [acCulture, acShops, libraries, acAreas] = await Promise.all([
-    fetchAcCulture(),
-    fetchAcShops(),
-    fetchLibraries(),
-    fetchAcAreas(),
-  ]);
+  const [acCulture, acShops, libraries, librariesKkc, acAreas] =
+    await Promise.all([
+      fetchAcCulture(),
+      fetchAcShops(),
+      fetchLibraries(),
+      fetchLibrariesKkc(),
+      fetchAcAreas(),
+    ]);
 
   // Normalizuj AC body do jednotného venue shape (jeden ikonový systém + clustering).
   const mergedFeatures: VenueFeature[] = [...baseData.features];
@@ -579,6 +583,10 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
   }
   if (libraries) {
     for (const f of libraries.features) mergedFeatures.push(normalizeLibrary(f));
+  }
+  if (librariesKkc) {
+    for (const f of librariesKkc.features)
+      mergedFeatures.push(normalizeLibraryKkc(f));
   }
 
   const data: VenueCollection = {
@@ -594,7 +602,9 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
       ? acCulture.features.filter((f) => f.properties.tier === "A").length
       : 0,
     shops: acShops ? acShops.features.length : 0,
-    libraries: libraries ? libraries.features.length : 0,
+    libraries:
+      (libraries ? libraries.features.length : 0) +
+      (librariesKkc ? librariesKkc.features.length : 0),
     venuesShopAc: baseData.features.filter(
       (f) => f.properties.category === "shop_ac"
     ).length,
@@ -911,6 +921,29 @@ function normalizeLibrary(f: LibraryFeature): VenueFeature {
     tier: p.tier,
     openLabel: open.label,
     openState: open.state,
+  };
+  return {
+    type: "Feature",
+    geometry: { type: "Point", coordinates: f.geometry.coordinates },
+    properties: props,
+  };
+}
+
+// IPR KULTKKC knihovny okrajových MČ – jako knihovna (ac), ale bez otevírací doby.
+function normalizeLibraryKkc(f: LibraryKkcFeature): VenueFeature {
+  const p = f.properties;
+  const props: VenueProperties = {
+    id: p.id,
+    name: p.name,
+    category: "library",
+    cooling: "ac",
+    typical_c: null,
+    free_entry: null,
+    opening_hours: null,
+    address: p.address ?? null,
+    source: p.source,
+    note: null,
+    tier: p.tier,
   };
   return {
     type: "Feature",
