@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 9 (out-of-the-box – point-in-polygon landmarky)
+- **✅ ROZŠÍŘENO: landmark footprinty 21 → 74** – přidána **point-in-polygon** spatial join (kulturní node/way → obklopující OSM `building` polygon; ray-casting + shapely fallback; bounded bbox centra; nearest-building fallback). Chytá ikonické budovy s tagem mimo polygon: **Národní muzeum, Veletržní palác (Národní galerie), Klementinum (Národní knihovna), Obecní dům (Smetanova síň)** + 49 dalších. Kinds: muzea 33, divadla 26, knihovny 10, výstavní 2, koncertní 2, kongres 1. Dedup (id + centroid 40 m + vs ac-areas). `data/build_ac_landmarks.py` rozšířen (Bedřich + subagent). **Frontend beze změny** (ac-landmarks vrstva renderuje cokoli v souboru) → ekonomické. Headline 969 beze změny (extent). Ověřeno staging, nasazeno live.
+- Pozn.: Overpass byl během práce degradovaný (504); failure-safety držela (21-feature soubor zůstal celý, dokud finální běh neuspěl).
+- **Další na řadě:** IPR pumpy/studánky (voda, metodicky doložená cooling refuge) NEBO templatizace about počtu z dat NEBO design polish.
+
 ### 2026-06-27 · kolo 8 (out-of-the-box – footprint landmarků)
 - **✅ INTEGROVÁNO: footprint velkých AC budov (21)** – OSM `building` polygony velkých kulturních/veřejných budov (divadla 9, muzea 8, výstavní 2, koncertní 1, knihovna 1: Rudolfinum, Národní divadlo, Státní opera, Národní technické muzeum, Forum Karlín, Průmyslový palác, MKP ústřední…). Renderováno jako **jemná AC výplň + obrys POD stávajícím bodem ac-culture** (žádný nový marker → žádný dedup), řízeno „Klimatizace" chipem. Naplňuje uživatelův důraz „celý objekt = area" pro ikonické budovy. `data/build_ac_landmarks.py` → `ac-landmarks.geojson`, cron `ac-landmarks.yml` (týdně). Frontend `initAcLandmarks` (Bedřich). Headline 969 beze změny (jde o plošný extent, ne nové body). Ověřeno staging (no-breakage), nasazeno live.
 - Pozn.: Národní muzeum / Veletržní palác / Klementinum mají v OSM kulturní tag mimo `building` polygon → nevešly (21 z 58 kandidátů). Rozšíření (building obsahující kulturní node) = budoucí kolo.
@@ -77,7 +82,7 @@
 | **IPR KULTKKC centra** (komunitní/kulturní, tentýž overlay) | civic-centra.geojson | 210 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (keyless) | ipr-kultkkc-centra.yml (týdně) |
 | **Úřady MČ / magistrát** (tentýž civic overlay) | civic-urady.geojson | 91 | (overlay, tier-B) | Overpass townhall + office=government | urady.yml (týdně) |
 | **Kavárny + rychlé občerstvení** (overlay „Kavárny a občerstvení") | ac-cafe.geojson | 151 | (overlay, tier-B mikro) | Overpass `brand:wikidata` (McD/KFC/BK/Starbucks/Costa) | ac-cafe.yml (týdně) |
-| **Footprint velkých AC budov** (plošný extent pod body, „celý objekt = area") | ac-landmarks.geojson | 21 polygonů | ac (jen výplň) | Overpass `building`+kultura `out geom` | ac-landmarks.yml (týdně) |
+| **Footprint velkých AC budov** (plošný extent pod body, „celý objekt = area") | ac-landmarks.geojson | 74 polygonů | ac (jen výplň) | Overpass `building`+kultura + point-in-polygon | ac-landmarks.yml (týdně) |
 | Golemio kvalita ovzduší (17 stanic) | air-quality-stations.geojson | 17 | (overlay) | Golemio `/v2/airqualitystations` (klíč) | golemio-aq.yml (hod.) |
 | ČHMÚ výstrahy + Open-Meteo (teplota/UV/AQI) | heat-warning.json / client | – | – | CAP feed / Open-Meteo (keyless) | heat-warning.yml (30 min) |
 
