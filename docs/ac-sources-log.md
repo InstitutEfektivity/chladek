@@ -11,6 +11,12 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 11 (polish/robustnost – dynamický about počet)
+- **SATURACE pokračuje** – na rozhodovací bod z kola 10 bez reakce (uživatel pravděpodobně pryč). Místo dalšího marginálního zdroje proveden **robustní polish s reálnou hodnotou**.
+- **✅ FIX: počet AC míst na „o projektu" zdynamizován z dat** – nový `src/lib/acCount.ts` (`fetchLiveAcCount()` = živý součet: ac-areas + culture tier-A + shops + knihovny MKP+KKC + venues shop_ac + kryté AC bazény). About obsah: natvrdo „969" → token `{{acCount}}`; `aboutView` dosadí živou hodnotu (fallback pro okamžitý render → přepis z dat). **Konec recurring stale bugu** (ručně opravováno v kole 7). Frontend-only, žádný nový datový zdroj. Mapa i about teď vždy souhlasí. Ověřeno staging (renderuje 969, ne token), nasazeno live.
+- **Rozhodovací bod stále otevřený** (eskalováno push notifikací): **zastavit** loop (`CronDelete a23353cf`) / **přesměrovat** (design/marketing) / nechat na drobnostech.
+- **Další na řadě (už jen drobnosti):** OSM metro vchody 346 / design polish / launch post.
+
 ### 2026-06-27 · kolo 10 (voda – pumpy + studánky; SATURACE zdrojů)
 - **✅ INTEGROVÁNO: IPR pumpy (94) + studánky/prameny (211)** = chladná pitná voda. Přidáno do `build_venues.py` `IPR_DATASETS` (stejná machinery jako pítka/fontány), kategorie „fountain", cooling „water". venues **1302 → 1566** (+264 po dedup). **Frontend beze změny** (zobrazí se pod chipem „Voda" s ikonou kapky) → ekonomické. Headline 969 AC beze změny. Ostatní kategorie ověřeně beze změny. Refresh přes stávající `ac-osm.yml` (build_venues, týdně). Ověřeno staging, nasazeno live. Metodicky doloženo (kolo 7: Paříž/Barcelona počítají pitnou vodu jako klíčovou cooling refuge).
 - **⚠️ SATURACE:** po 10 kolech jsou smysluplné nové datové zdroje (AC i voda) v podstatě vyčerpané. Integrováno: kultura 444, AC plochy 70, brand obchody 180, knihovny 148, kryté bazény 32, civic 369, kavárny 151, landmark footprinty 74, pumpy/studánky 305. Další kola = spíš **polish/robustnost**, ne nové zdroje. Stojí za zvážení loop zastavit nebo přesměrovat (design polish, templatizace, sociální/marketingové prvky).
