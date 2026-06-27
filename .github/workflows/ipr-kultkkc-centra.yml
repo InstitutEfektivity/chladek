@@ -29,7 +29,13 @@ jobs:
           if ! git diff --quiet -- public/data/civic-centra.geojson; then
             git add public/data/civic-centra.geojson
             git commit -m "chore(data): tydenni refresh IPR KULTKKC centra [skip ci]"
-            git push
+            git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+            tries=0
+            until git push; do
+              tries=$((tries+1)); [ "$tries" -ge 5 ] && { echo "push failed after $tries tries"; exit 1; }
+              echo "push race - retry $tries"; sleep $((RANDOM % 6 + 2))
+              git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+            done
           else
             echo "Beze zmeny."
           fi
