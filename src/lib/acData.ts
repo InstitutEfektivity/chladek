@@ -48,3 +48,9 @@ export function fetchLibrariesKkc(): Promise<LibraryKkcCollection | null> {
 export function fetchAcAreas(): Promise<AcAreaCollection | null> {
   return fetchLocal<AcAreaCollection>("ac-areas.geojson");
 }
+
+// AC landmark budovy (velké kulturní/veřejné budovy jako plošný rozsah). Stejný
+// AcArea shape (bez tier – nečteme ho u landmarků).
+export function fetchAcLandmarks(): Promise<AcAreaCollection | null> {
+  return fetchLocal<AcAreaCollection>("ac-landmarks.geojson");
+}

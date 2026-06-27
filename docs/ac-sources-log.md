@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 8 (out-of-the-box – footprint landmarků)
+- **✅ INTEGROVÁNO: footprint velkých AC budov (21)** – OSM `building` polygony velkých kulturních/veřejných budov (divadla 9, muzea 8, výstavní 2, koncertní 1, knihovna 1: Rudolfinum, Národní divadlo, Státní opera, Národní technické muzeum, Forum Karlín, Průmyslový palác, MKP ústřední…). Renderováno jako **jemná AC výplň + obrys POD stávajícím bodem ac-culture** (žádný nový marker → žádný dedup), řízeno „Klimatizace" chipem. Naplňuje uživatelův důraz „celý objekt = area" pro ikonické budovy. `data/build_ac_landmarks.py` → `ac-landmarks.geojson`, cron `ac-landmarks.yml` (týdně). Frontend `initAcLandmarks` (Bedřich). Headline 969 beze změny (jde o plošný extent, ne nové body). Ověřeno staging (no-breakage), nasazeno live.
+- Pozn.: Národní muzeum / Veletržní palác / Klementinum mají v OSM kulturní tag mimo `building` polygon → nevešly (21 z 58 kandidátů). Rozšíření (building obsahující kulturní node) = budoucí kolo.
+- **Další na řadě:** rozšířit landmark footprinty (loose query pro Národní muzeum atd.) NEBO IPR pumpy/studánky (voda – metodicky doložená cooling refuge) NEBO templatizace about počtu z dat.
+
 ### 2026-06-27 · kolo 7 (vědecká fáze – metodika do produktu)
 - **Research:** Paříž „îlots de fraîcheur" (urbanistický atelier APUR, 1400+ míst, o 2 – 4 °C chladněji) – jejich **taxonomie cooling-spotů** (parky/zeleň, knihovny, muzea, klimatizované prostory, kostely, fontány, mlžítka, pítka) **sedí 1:1 na náš dataset**. Vídeň Cooles Wien (pítka/mlžítka v open datech). (Zdroj: apur.org, opendata.paris.fr.)
 - **✅ APLIKOVÁNO (vědecká fáze → produkt):** přepsána sekce „o projektu → Vídeň/Barcelona/Paříž" na konkrétní **metodické srovnání** – Chládek vědomě staví podle metodiky Paříže/Barcelony (stejná taxonomie kategorií, doporučená AC 26 °C, dostupnost ≤ 10 min chůze, mikro-úkryty) a navíc rozlišuje **tiered spolehlivost** (Klimatizováno vs. Vnitřní útočiště). Think-tank důkaz „stavíme podle praxe předních měst" – jádro IE marketingového narativu.
@@ -72,6 +77,7 @@
 | **IPR KULTKKC centra** (komunitní/kulturní, tentýž overlay) | civic-centra.geojson | 210 | (overlay, tier-B) | IPR ArcGIS `FSV_CUR_OV_KULTKKC_B` (keyless) | ipr-kultkkc-centra.yml (týdně) |
 | **Úřady MČ / magistrát** (tentýž civic overlay) | civic-urady.geojson | 91 | (overlay, tier-B) | Overpass townhall + office=government | urady.yml (týdně) |
 | **Kavárny + rychlé občerstvení** (overlay „Kavárny a občerstvení") | ac-cafe.geojson | 151 | (overlay, tier-B mikro) | Overpass `brand:wikidata` (McD/KFC/BK/Starbucks/Costa) | ac-cafe.yml (týdně) |
+| **Footprint velkých AC budov** (plošný extent pod body, „celý objekt = area") | ac-landmarks.geojson | 21 polygonů | ac (jen výplň) | Overpass `building`+kultura `out geom` | ac-landmarks.yml (týdně) |
 | Golemio kvalita ovzduší (17 stanic) | air-quality-stations.geojson | 17 | (overlay) | Golemio `/v2/airqualitystations` (klíč) | golemio-aq.yml (hod.) |
 | ČHMÚ výstrahy + Open-Meteo (teplota/UV/AQI) | heat-warning.json / client | – | – | CAP feed / Open-Meteo (keyless) | heat-warning.yml (30 min) |
 
@@ -83,7 +89,7 @@
 
 | Kandidát | Endpoint / fetch | Počet | Tier | Pozn. |
 |---|---|---|---|---|
-| 🔬 Footprint join (brand→building) | Overpass: bod prodejny → enclosing `building=retail` polygon | – | – | víc AC podniků jako PLOCHY (uživatelův důraz „celý objekt = area"); out-of-the-box. **Další na řadě.** |
+| 🔬 Footprint landmarků – rozšíření | loose Overpass (building obsahující kulturní node) pro Národní muzeum/Veletržní/Klementinum | ~15 | A | kultura-landmarky (21) ✅ kolo 8; chybí budovy s tagem mimo polygon |
 | 🔬 Metodika cooling-refuge (vědecká fáze) | Vídeň Cooles Wien / Barcelona refugis / Paříž îlots – jejich open-data definice + ISO | – | – | sehnat veřejnou metodiku → odborně podložená klasifikace „veřejně přístupné klimatizované" + o-projektu |
 | **OSM metro vchody** | Overpass `railway=subway_entrance` | 346 | – | upgrade metra 57→346 (lepší „nejbližší"); cooling=natural, NE AC |
 | IPR pumpy + studánky/prameny | IPR ArcGIS `..._PUMPY_B` (94) + `..._STUDANKYPRAMENY_B` (215) | 94+215 | – | rozšíření vodní vrstvy (chladná pitná voda) |
