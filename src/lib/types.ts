@@ -323,6 +323,28 @@ export interface LibraryCollection {
   features: LibraryFeature[];
 }
 
+// Knihovny z IPR KULTKKC (okrajové MČ, net-new proti MKP) – bez otevírací doby.
+// Schéma public/data/libraries-kkc.geojson.
+export interface LibraryKkcProperties {
+  id: string;
+  name: string;
+  address: string | null;
+  cooling: "ac";
+  tier: AcTier;
+  source: string;
+}
+
+export interface LibraryKkcFeature {
+  type: "Feature";
+  geometry: { type: "Point"; coordinates: [number, number] };
+  properties: LibraryKkcProperties;
+}
+
+export interface LibraryKkcCollection {
+  type: "FeatureCollection";
+  features: LibraryKkcFeature[];
+}
+
 // AC budovy jako celé plochy (obchoďáky, hypermarkety, DIY, IKEA, obchodní domy).
 // Schéma public/data/ac-areas.geojson – Polygon/MultiPolygon.
 export type AcAreaKind =
