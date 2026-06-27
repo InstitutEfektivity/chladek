@@ -119,7 +119,7 @@ interface MapState {
   nearMarkers: Marker[];
   data: VenueCollection | null;
   tempMarkers: TempMarker[];
-  tempVisible: boolean; // přepínač „Teploty (živě)" – default ON
+  tempVisible: boolean; // přepínač „Teploty (živě)" – default OFF (AC-first)
   areaLabels: Marker[]; // DOM popisky největších parků (ne text-field)
   acCount: number; // počet klimatizovaných veřejných míst (USP headline)
 }
@@ -175,14 +175,14 @@ export function renderMapView(root: HTMLElement): () => void {
           <legend>Filtr podle typu ochlazení</legend>
           ${COOLINGS.map(
             (c) => `
-            <button type="button" class="chip chip-cooling" data-cooling="${c}" style="--chip-accent:${coolingColors[c]}" aria-pressed="true">
+            <button type="button" class="chip chip-cooling" data-cooling="${c}" style="--chip-accent:${coolingColors[c]}" aria-pressed="${c === "ac" ? "true" : "false"}">
               <span class="chip-icon" style="color:${coolingColors[c]}" aria-hidden="true">${chipIconSvg(c)}</span>
               ${escapeHtml(coolingLabels[c])}
             </button>`
           ).join("")}
         </fieldset>
         <div class="overlay-toggles" role="group" aria-label="Datové vrstvy">
-          <button type="button" class="chip chip-overlay" id="temps-toggle" aria-pressed="true">
+          <button type="button" class="chip chip-overlay" id="temps-toggle" aria-pressed="false">
             <span class="chip-dot chip-dot-temp" aria-hidden="true"></span>
             ${escapeHtml(ui.temps.toggle)}
           </button>
@@ -212,11 +212,12 @@ export function renderMapView(root: HTMLElement): () => void {
   `;
 
   const state: MapState = {
-    active: new Set(COOLINGS),
+    // AC-first: na startu jen klimatizovaná místa (ostatní typy si uživatel zapne).
+    active: new Set<Cooling>(["ac"]),
     nearMarkers: [],
     data: null,
     tempMarkers: [],
-    tempVisible: true,
+    tempVisible: false,
     areaLabels: [],
     acCount: 0,
   };
@@ -241,8 +242,6 @@ export function renderMapView(root: HTMLElement): () => void {
       zoom: 11.5,
       attributionControl: false,
     });
-    // Debug handle pro headless ověření (před live merge se strhne).
-    (window as unknown as Record<string, unknown>)["__chladekMap"] = map;
     map.addControl(
       new maplibregl.AttributionControl({ compact: true }),
       "bottom-right"
@@ -748,6 +747,15 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
       // Tier škála: XL z16 ≈ 0.92 → ~59 px badge; M z16 ≈ 0.62 → ~40 px badge.
       "icon-size": tierSizeExpr(),
     },
+    paint: {
+      // AC body plně syté, doplňkové (voda/stín/přírodní chlad) mírně ztlumené.
+      "icon-opacity": [
+        "case",
+        ["==", ["get", "cooling"], "ac"],
+        1,
+        0.8,
+      ],
+    },
   });
 
   applyFilter(map, state);
@@ -773,19 +781,27 @@ function tierSizeExpr(): ExpressionSpecification {
     0.82, // L
     0.6, // M (store, shop_ac, cafe_food, fountain, church) – default, AC body menší
   ] as ExpressionSpecification;
-  // Základní zoom škála × tier multiplikátor.
+  // AC body lehce výraznější než doplňkové typy (voda/stín/přirozený chlad) –
+  // klimatizace je hlavní smysl mapy, ostatní jsou doplňkové.
+  const acBoost: ExpressionSpecification = [
+    "case",
+    ["==", ["get", "cooling"], "ac"],
+    1.1,
+    0.9,
+  ] as ExpressionSpecification;
+  // Základní zoom škála × tier multiplikátor × AC boost.
   return [
     "interpolate",
     ["linear"],
     ["zoom"],
     10,
-    ["*", 0.34, tier],
+    ["*", 0.34, tier, acBoost],
     13,
-    ["*", 0.62, tier],
+    ["*", 0.62, tier, acBoost],
     16,
-    ["*", 0.92, tier],
+    ["*", 0.92, tier, acBoost],
     18,
-    ["*", 1.08, tier],
+    ["*", 1.08, tier, acBoost],
   ] as ExpressionSpecification;
 }
 
@@ -1191,6 +1207,7 @@ function addAreaLabels(
       f.properties.cooling === "water" ? "area-label area-label-water" : "area-label";
     el.textContent = f.properties.name;
     el.setAttribute("aria-hidden", "true");
+    el.dataset["cooling"] = f.properties.cooling; // pro filtr dle chipů (shade/water)
     const marker = new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat(center)
       .addTo(map);
@@ -1203,26 +1220,38 @@ function clearAreaLabels(state: MapState): void {
   state.areaLabels = [];
 }
 
-function coolingFilter(active: Set<Cooling>): ExpressionSpecification {
-  // Cluster vrstvy: respektuj jen aktivní cooling (clustery agregují vše,
-  // proto u clusterů ponecháme has point_count – filtrace bodů řeší detail).
-  const list = Array.from(active);
-  if (list.length === 0) {
-    // Nic aktivního: schovej všechny body.
-    return ["==", ["get", "cooling"], "__none__"];
-  }
-  return ["in", ["get", "cooling"], ["literal", list]] as ExpressionSpecification;
-}
-
 function applyFilter(map: MlMap, state: MapState): void {
-  // AC budovy (ac-areas) řídí „ac" chip – přepínáme i když venues-point ještě není.
+  // AC budovy (ac-areas) řídí „ac" chip.
   applyAcAreasVisibility(map, state);
-  if (!map.getLayer("venues-point")) return;
-  map.setFilter("venues-point", [
-    "all",
-    ["!", ["has", "point_count"]],
-    coolingFilter(state.active),
-  ]);
+  // Zelené plochy (parky/les = shade, vodní plochy = water) patří k chipům
+  // „Stín a parky" / „Voda" – na startu (jen AC) jsou skryté.
+  const areaFilter = [
+    "in",
+    ["get", "cooling"],
+    ["literal", Array.from(state.active)],
+  ] as ExpressionSpecification;
+  for (const id of ["areas-fill", "areas-outline"]) {
+    if (map.getLayer(id)) map.setFilter(id, areaFilter);
+  }
+  for (const m of state.areaLabels) {
+    const el = m.getElement();
+    const cooling = el.dataset["cooling"];
+    el.style.display =
+      cooling && state.active.has(cooling as Cooling) ? "" : "none";
+  }
+  // Filtrace na úrovni DAT sourcu (ne jen vrstvy bodů). Clustery agregují všechno,
+  // co je v sourcu – takže aby respektovaly zaškrtnuté typy, musí se filtrovat samotná
+  // data, ne jen layer bodů. Nic aktivního → prázdná data → žádné body ani clustery.
+  const src = map.getSource(SOURCE_ID) as GeoJSONSource | undefined;
+  if (src && state.data) {
+    const feats =
+      state.active.size === 0
+        ? []
+        : state.data.features.filter((f) =>
+            state.active.has(f.properties.cooling as Cooling)
+          );
+    src.setData({ type: "FeatureCollection", features: feats });
+  }
 }
 
 function wireInteractions(map: MlMap): void {
