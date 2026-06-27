@@ -11,6 +11,11 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-27 · kolo 10 (voda – pumpy + studánky; SATURACE zdrojů)
+- **✅ INTEGROVÁNO: IPR pumpy (94) + studánky/prameny (211)** = chladná pitná voda. Přidáno do `build_venues.py` `IPR_DATASETS` (stejná machinery jako pítka/fontány), kategorie „fountain", cooling „water". venues **1302 → 1566** (+264 po dedup). **Frontend beze změny** (zobrazí se pod chipem „Voda" s ikonou kapky) → ekonomické. Headline 969 AC beze změny. Ostatní kategorie ověřeně beze změny. Refresh přes stávající `ac-osm.yml` (build_venues, týdně). Ověřeno staging, nasazeno live. Metodicky doloženo (kolo 7: Paříž/Barcelona počítají pitnou vodu jako klíčovou cooling refuge).
+- **⚠️ SATURACE:** po 10 kolech jsou smysluplné nové datové zdroje (AC i voda) v podstatě vyčerpané. Integrováno: kultura 444, AC plochy 70, brand obchody 180, knihovny 148, kryté bazény 32, civic 369, kavárny 151, landmark footprinty 74, pumpy/studánky 305. Další kola = spíš **polish/robustnost**, ne nové zdroje. Stojí za zvážení loop zastavit nebo přesměrovat (design polish, templatizace, sociální/marketingové prvky).
+- **Další na řadě:** templatizace about počtu z dat (konec stale bugu) / design polish / OSM metro vchody (346, upgrade overlaye).
+
 ### 2026-06-27 · kolo 9 (out-of-the-box – point-in-polygon landmarky)
 - **✅ ROZŠÍŘENO: landmark footprinty 21 → 74** – přidána **point-in-polygon** spatial join (kulturní node/way → obklopující OSM `building` polygon; ray-casting + shapely fallback; bounded bbox centra; nearest-building fallback). Chytá ikonické budovy s tagem mimo polygon: **Národní muzeum, Veletržní palác (Národní galerie), Klementinum (Národní knihovna), Obecní dům (Smetanova síň)** + 49 dalších. Kinds: muzea 33, divadla 26, knihovny 10, výstavní 2, koncertní 2, kongres 1. Dedup (id + centroid 40 m + vs ac-areas). `data/build_ac_landmarks.py` rozšířen (Bedřich + subagent). **Frontend beze změny** (ac-landmarks vrstva renderuje cokoli v souboru) → ekonomické. Headline 969 beze změny (extent). Ověřeno staging, nasazeno live.
 - Pozn.: Overpass byl během práce degradovaný (504); failure-safety držela (21-feature soubor zůstal celý, dokud finální běh neuspěl).
@@ -66,8 +71,8 @@
 
 | Zdroj | Soubor | Počet | cooling | Fetch | Obnova |
 |---|---|---|---|---|---|
-| OSM venues (kostely/bazény/pítka/fontány/shop_ac/parky) | venues.geojson | 1286 | natural/water/ac/shade | Overpass (build_venues.py) | ac-osm.yml (týdně) |
-| IPR „Oázy chladu" pítka/fontány/koupání | (ve venues) | ~590 | water | IPR ArcGIS GeoJSON | (ve venues) |
+| OSM venues (kostely/bazény/pítka/fontány/shop_ac/parky) | venues.geojson | 1566 | natural/water/ac/shade | Overpass (build_venues.py) | ac-osm.yml (týdně) |
+| IPR „Oázy chladu" pítka/fontány/koupání **+ pumpy (94) + studánky (211)** | (ve venues) | ~895 | water | IPR ArcGIS GeoJSON | (ve venues) |
 | **IPR Kulturní zařízení** (galerie 168, muzea 105, divadla 94, kina 31, sály 33, instituty 13) | ac-culture.geojson | 523 (444 tier-A) | ac | IPR ArcGIS `FSV_CUR_OV_KULTZAR_B` (keyless) | ipr-kultzar.yml (týdně) |
 | **AC budovy jako PLOCHY** (mall 32, hypermarket 20, DIY 10, obch. dům 7, IKEA 1) | ac-areas.geojson | 70 polygonů | ac | Overpass `out geom` (build_ac_areas.py) | ac-osm.yml (týdně) |
 | **Brand-AC obchody** (drogerie 153, elektro 27) | ac-shops.geojson | 180 | ac | Overpass brand-guard (build_ac_shops.py) | ac-osm.yml (týdně) |
