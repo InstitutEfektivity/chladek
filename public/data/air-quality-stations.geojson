@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-06-28T21:04:58.059500+00:00",
+ "generatedAt": "2026-06-28T22:11:06.116201+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -22,14 +22,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 13.6
+      "value": 14.5
      },
      {
       "type": "PM10",
-      "value": 27.3
+      "value": 30.6
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -45,24 +45,24 @@
     "id": "AHOLA",
     "name": "Praha 7-Holešovice",
     "district": "praha-7",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 3,
+    "aqLabel": "přijatelná",
+    "aqColor": "#9BD17A",
     "components": [
      {
       "type": "NO2",
-      "value": 32.7
+      "value": 20.2
      },
      {
       "type": "PM10",
-      "value": 35
+      "value": 41.4
      },
      {
       "type": "PM2_5",
-      "value": 19.5
+      "value": 25.9
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -84,14 +84,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 8.9
+      "value": 10.5
      },
      {
       "type": "PM10",
-      "value": 23.6
+      "value": 30.9
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -113,14 +113,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 19.2
+      "value": 12.1
      },
      {
       "type": "PM10",
-      "value": 30.4
+      "value": 42.2
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -142,18 +142,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 10.5
+      "value": 11.5
      },
      {
       "type": "O3",
-      "value": 130.1
+      "value": 119.3
      },
      {
       "type": "PM10",
-      "value": 29.1
+      "value": 33.6
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -169,24 +169,24 @@
     "id": "ALEGA",
     "name": "Praha 2-Legerova (hot spot)",
     "district": "praha-2",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 3,
+    "aqLabel": "přijatelná",
+    "aqColor": "#9BD17A",
     "components": [
      {
       "type": "NO2",
-      "value": 70.1
+      "value": 63
      },
      {
       "type": "PM10",
-      "value": 38.9
+      "value": 44.8
      },
      {
       "type": "PM2_5",
-      "value": 20.2
+      "value": 21.9
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -202,28 +202,28 @@
     "id": "ALERA",
     "name": "Letiště Praha",
     "district": "praha-6",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 3,
+    "aqLabel": "přijatelná",
+    "aqColor": "#9BD17A",
     "components": [
      {
       "type": "NO2",
-      "value": 9.5
+      "value": 15
      },
      {
       "type": "O3",
-      "value": 121.2
+      "value": 108.2
      },
      {
       "type": "PM10",
-      "value": 50.6
+      "value": 59.5
      },
      {
       "type": "PM2_5",
-      "value": 16.2
+      "value": 17.7
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -245,26 +245,26 @@
     "components": [
      {
       "type": "NO2",
-      "value": 8
+      "value": 10.1
      },
      {
       "type": "O3",
-      "value": 133.1
+      "value": 119.7
      },
      {
       "type": "PM10",
-      "value": 25.8
+      "value": 26.8
      },
      {
       "type": "PM2_5",
-      "value": 24.3
+      "value": 29
      },
      {
       "type": "SO2",
-      "value": 1.3
+      "value": 2.6
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -286,14 +286,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 11.5
+      "value": 18.7
      },
      {
       "type": "PM10",
-      "value": 29.2
+      "value": 37.7
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -315,14 +315,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 17.1
+      "value": 16.2
      },
      {
       "type": "PM10",
-      "value": 29.3
+      "value": 40.2
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -344,18 +344,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 7.1
+      "value": 9.4
      },
      {
       "type": "PM10",
-      "value": 32.7
+      "value": 40
      },
      {
       "type": "PM2_5",
-      "value": 15.7
+      "value": 16.7
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -371,32 +371,32 @@
     "id": "ARIEA",
     "name": "Praha 2-Riegrovy sady",
     "district": "praha-2",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 3,
+    "aqLabel": "přijatelná",
+    "aqColor": "#9BD17A",
     "components": [
      {
       "type": "NO2",
-      "value": 12.1
+      "value": 13.3
      },
      {
       "type": "O3",
-      "value": 125.9
+      "value": 114.5
      },
      {
       "type": "PM10",
-      "value": 33.2
+      "value": 45.5
      },
      {
       "type": "PM2_5",
-      "value": 29.8
+      "value": 37.7
      },
      {
       "type": "SO2",
-      "value": 4.8
+      "value": 5
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -418,18 +418,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 2.9
+      "value": 3.5
      },
      {
       "type": "PM10",
-      "value": 24.2
+      "value": 29.6
      },
      {
       "type": "PM2_5",
-      "value": 12
+      "value": 13.2
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -445,24 +445,24 @@
     "id": "ASTOA",
     "name": "Praha 5-Stodůlky",
     "district": "praha-13",
-    "aqIndex": 3,
-    "aqLabel": "přijatelná",
-    "aqColor": "#9BD17A",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "O3",
-      "value": 120.1
+      "value": 109.3
      },
      {
       "type": "PM10",
-      "value": 45.9
+      "value": 47.3
      },
      {
       "type": "PM2_5",
       "value": 6.8
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -484,14 +484,14 @@
     "components": [
      {
       "type": "O3",
-      "value": 133.3
+      "value": 121
      },
      {
       "type": "PM10",
-      "value": 29.9
+      "value": 43.9
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -513,14 +513,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 14.4
+      "value": 15.6
      },
      {
       "type": "PM10",
-      "value": 30.9
+      "value": 40.5
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   },
   {
@@ -542,18 +542,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 29
+      "value": 31.3
      },
      {
       "type": "O3",
-      "value": 106.1
+      "value": 93.2
      },
      {
       "type": "PM10",
-      "value": 34.7
+      "value": 39.1
      }
     ],
-    "updatedAt": "2026-06-28T20:45:00.633Z"
+    "updatedAt": "2026-06-28T21:45:00.389Z"
    }
   }
  ]
