@@ -22,3 +22,6 @@ _*.cjs
 
 # AI agent config (interni – nepatri do verejneho repa)
 .claude/
+
+# newsletter backend (interni – v privatnim infra-stack repu + na serveru)
+api/

@@ -81,7 +81,7 @@ function renderIeCta(): string {
     </section>`;
 }
 
-// Newsletter (interní služba double opt-in + interní služba přes /api/subscribe – jako mandaty).
+// Newsletter – přihlášení přes /api/subscribe (double opt-in; backend mimo repozitář).
 function renderNewsletter(): string {
   const n = ui.newsletter;
   return `

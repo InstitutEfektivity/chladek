@@ -71,7 +71,7 @@ data/                      Python pipeline pro venues.geojson (viz data/README.m
 npm run build   # výstup do dist/
 ```
 
-Produkčně web běží jako statický build za reverzní proxy; re-deploy (nahrání `dist/` na server) je zatím manuální. **Konfigurace serveru, přístupy a deploy skripty jsou mimo tento veřejný repozitář.** Automatický deploy přes GitHub Actions zatím neděláme – server SSH klíč záměrně nedáváme do veřejného repa. Možné budoucí řešení: self-hosted runner, deploy token s úzkým scopem, nebo webhook na serveru stahující artefakt z Actions.
+Re-deploy (nahrání `dist/` na hosting) je zatím manuální. **Konfigurace nasazení a přístupy jsou mimo tento veřejný repozitář.**
 
 ## Licence dat a atribuce
 

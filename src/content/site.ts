@@ -135,8 +135,8 @@ export const ui = {
       source: "Zdrojový kód na GitHubu",
     },
   },
-  // Newsletter (Institut efektivity) – stejný list i mechanismus jako mandaty
-  // (interní služba double opt-in + interní služba). Form posílá na /api/subscribe.
+  // Newsletter (Institut efektivity) – přihlášení přes /api/subscribe
+  // (double opt-in; backend je mimo tento repozitář).
   newsletter: {
     eyebrow: "Newsletter Institutu efektivity",
     title: "Chcete vědět o našich dalších projektech?",
