@@ -11,6 +11,14 @@
 
 ## Kolo-log (nejnovější nahoře)
 
+### 2026-06-28 · deep-research integrace (mimo loop) – velký skok AC pokrytí
+- **Deep-research** (multi-agent, `docs/ac-research-2026-06-28.md`): potvrdil, že 969 je řádově podhodnocené; klíč = heuristika „kategorie implikuje AC" nad celými typy provozů + autoritativní registry. USP zůstává „kde je klimatizováno".
+- **✅ INTEGROVÁNO: ac-services (786 bodů)** – `data/build_ac_services.py` → `ac-services.geojson`: supermarkety 317 (Albert/Billa/Lidl/Penny; velkoformát Kaufland/Globus/Tesco/Makro vyloučen – už v `ac-areas` jako plochy), banky 245, fitness 132 (tier-B), hotely 4★/5★ 92 (tier-B). OSM Overpass, cross-layer dedup podle OSM id (venues/ac-areas/ac-shops).
+- **✅ INTEGROVÁNO: lékárny (174)** – `data/build_lekarny_sukl.py` → `lekarny.geojson`: autoritativní registr SÚKL (341 pražských), polohy z OSM POI lékáren (shoda adresy + unikátního jména). Právní opora AC: vyhláška 84/2008 Sb. + Český lékopis (léky „do 25 °C"). tier-A.
+- **Frontend:** 5 nových kategorií (pharmacy, supermarket, bank, fitness, hotel) – ikony, barvy, popup subtype; merge do clusteru; živý počet **969 → 1 705** (do headline jen tier-A: supermarket + banka + lékárny; fitness/hotel = tier-B, zobrazí se, ale nepočítají). Text „o projektu" rozšířen o SÚKL + „kategorie implikuje AC". Workflow `ac-osm.yml` obnovuje nové vrstvy.
+- **Ověřeno:** tsc + build čisté; staging i **produkce** renderují 1 705 (headless). Commit `78fe31b` na main. **✅ NASAZENO NA LIVE 2026-06-28** ([chladek.institutefektivity.cz](https://chladek.institutefektivity.cz)) – schváleno TK, ověřeno.
+- **⛔ Saturace adresního geocodingu:** zbylých ~167 lékáren (SÚKL bez shody na OSM POI) by chtělo adresní geokodér. Per-adresní Nominatim (24 s/dotaz) i Photon (fuzzy fail) na veřejných instancích neprůchozí; zúžený Overpass adresní index (`--addr`, opt-in ve skriptu) veřejné instance neutáhnou. Backlog: lokální RÚIAN dump adres nebo Mapy.cz API klíč (server-side secret).
+
 ### 2026-06-27 · LOOP UKONČEN (kolo 12)
 - **Smyčka zastavena** (`CronDelete a23353cf`). Důvod: po 11 produktivních kolech jsou datové zdroje (AC i voda) vyčerpané; další kola by byla marginální a hodinový běh by zbytečně pálil rozpočet (~150 kol do 7denní expirace). Saturace eskalována uživateli 2× (kola 10, 11) bez reakce → ekonomicky zodpovědné zastavit.
 - **Restart kdykoli:** `/loop` (původní nebo nový cíl). Stav je kompletní v tomto logu i na live.
