@@ -39,6 +39,8 @@ import {
   fetchLibrariesKkc,
   fetchAcAreas,
   fetchAcLandmarks,
+  fetchAcServices,
+  fetchLekarny,
 } from "../lib/acData.ts";
 import { computeOpenNow } from "../lib/library.ts";
 import {
@@ -67,6 +69,8 @@ import type {
   AcShopFeature,
   LibraryFeature,
   LibraryKkcFeature,
+  AcServiceFeature,
+  LekarnaFeature,
   CivicCollection,
   AcAreaCollection,
 } from "../lib/types.ts";
@@ -595,13 +599,15 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
   }
 
   // Paralelně dotáhni nově sloučené AC bodové datasety (graceful – null když chybí).
-  const [acCulture, acShops, libraries, librariesKkc, acAreas] =
+  const [acCulture, acShops, libraries, librariesKkc, acAreas, acServices, lekarny] =
     await Promise.all([
       fetchAcCulture(),
       fetchAcShops(),
       fetchLibraries(),
       fetchLibrariesKkc(),
       fetchAcAreas(),
+      fetchAcServices(),
+      fetchLekarny(),
     ]);
 
   // Normalizuj AC body do jednotného venue shape (jeden ikonový systém + clustering).
@@ -618,6 +624,12 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
   if (librariesKkc) {
     for (const f of librariesKkc.features)
       mergedFeatures.push(normalizeLibraryKkc(f));
+  }
+  if (acServices) {
+    for (const f of acServices.features) mergedFeatures.push(normalizeService(f));
+  }
+  if (lekarny) {
+    for (const f of lekarny.features) mergedFeatures.push(normalizeLekarna(f));
   }
 
   const data: VenueCollection = {
@@ -642,6 +654,12 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
     venuesAcPools: baseData.features.filter(
       (f) => f.properties.category === "pool" && f.properties.cooling === "ac"
     ).length,
+    // Net-new AC zdroje: služby tier A (supermarket+banka; fitness/hotel = tier B
+    // se do headline nepočítají) + lékárny (SÚKL, vše tier A).
+    servicesTierA: acServices
+      ? acServices.features.filter((f) => f.properties.tier === "A").length
+      : 0,
+    lekarny: lekarny ? lekarny.features.length : 0,
   });
   renderUspBanner(state.acCount);
 
@@ -798,6 +816,16 @@ async function initData(map: MlMap, state: MapState): Promise<void> {
         "icon-gallery",
         "store",
         "icon-store",
+        "pharmacy",
+        "icon-pharmacy",
+        "supermarket",
+        "icon-supermarket",
+        "bank",
+        "icon-bank",
+        "fitness",
+        "icon-fitness",
+        "hotel",
+        "icon-hotel",
         "icon-shop_ac",
       ],
       "icon-allow-overlap": true,
@@ -967,6 +995,63 @@ function normalizeLibrary(f: LibraryFeature): VenueFeature {
   };
 }
 
+// Klimatizované služby (supermarket/banka/fitness/hotel) → venue shape. Kind se
+// mapuje 1:1 na Category (ikona) a do subtype (popisek v popupu).
+const SERVICE_LABEL: Record<string, string> = {
+  supermarket: "Supermarket",
+  bank: "Banka",
+  fitness: "Fitness",
+  hotel: "Hotel",
+};
+function normalizeService(f: AcServiceFeature): VenueFeature {
+  const p = f.properties;
+  const props: VenueProperties = {
+    id: p.id,
+    name: p.name,
+    category: p.kind as Category,
+    cooling: "ac",
+    typical_c: null,
+    free_entry: null,
+    opening_hours: null,
+    address: p.address ?? null,
+    source: p.source,
+    note: null,
+    tier: p.tier,
+    subtype: SERVICE_LABEL[p.kind] ?? "Klimatizováno",
+    brand: p.brand ?? null,
+  };
+  return {
+    type: "Feature",
+    geometry: { type: "Point", coordinates: f.geometry.coordinates },
+    properties: props,
+  };
+}
+
+// Lékárna (SÚKL) → venue shape, kategorie „pharmacy". Pohotovost → do subtype.
+function normalizeLekarna(f: LekarnaFeature): VenueFeature {
+  const p = f.properties;
+  const props: VenueProperties = {
+    id: p.id,
+    name: p.name,
+    category: "pharmacy",
+    cooling: "ac",
+    typical_c: null,
+    free_entry: null,
+    opening_hours: null,
+    address: p.address ?? null,
+    source: p.source,
+    note: null,
+    tier: p.tier,
+    subtype: p.pohotovost ? "Lékárna · pohotovost" : "Lékárna",
+    web: p.web ?? null,
+  };
+  return {
+    type: "Feature",
+    geometry: { type: "Point", coordinates: f.geometry.coordinates },
+    properties: props,
+  };
+}
+
 // IPR KULTKKC knihovny okrajových MČ – jako knihovna (ac), ale bez otevírací doby.
 function normalizeLibraryKkc(f: LibraryKkcFeature): VenueFeature {
   const p = f.properties;
@@ -999,6 +1084,8 @@ function computeAcCount(o: {
   libraries: number;
   venuesShopAc: number;
   venuesAcPools: number;
+  servicesTierA: number;
+  lekarny: number;
 }): number {
   const areas = o.acAreas ? o.acAreas.features.length : 0;
   return (
@@ -1007,7 +1094,9 @@ function computeAcCount(o: {
     o.shops +
     o.libraries +
     o.venuesShopAc +
-    o.venuesAcPools
+    o.venuesAcPools +
+    o.servicesTierA +
+    o.lekarny
   );
 }
 

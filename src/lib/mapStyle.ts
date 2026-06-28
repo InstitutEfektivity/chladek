@@ -56,6 +56,12 @@ export const categoryColor: Record<string, string> = {
   concert: "#1C9BBE",
   gallery: "#159FC8",
   store: "#12AEC9",
+  // Net-new AC kategorie (ac-services + lekarny) – stejná chladná rodina.
+  pharmacy: "#13B0A8",
+  supermarket: "#17A6C6",
+  bank: "#2A86C0",
+  fitness: "#1C9BBE",
+  hotel: "#2487C0",
   // Voda (modré odstíny)
   pool: "#2C7DE0",
   fountain: "#2C9BE0",

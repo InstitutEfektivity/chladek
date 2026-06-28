@@ -4,6 +4,8 @@ import type {
   LibraryCollection,
   LibraryKkcCollection,
   AcAreaCollection,
+  AcServiceCollection,
+  LekarnaCollection,
 } from "./types.ts";
 
 // Fetch helpery pro nově sloučené AC datasety (ac-culture, ac-shops, libraries,
@@ -53,4 +55,14 @@ export function fetchAcAreas(): Promise<AcAreaCollection | null> {
 // AcArea shape (bez tier – nečteme ho u landmarků).
 export function fetchAcLandmarks(): Promise<AcAreaCollection | null> {
   return fetchLocal<AcAreaCollection>("ac-landmarks.geojson");
+}
+
+// Klimatizované služby/provozovny jako body (supermarket, banka, fitness, hotel).
+export function fetchAcServices(): Promise<AcServiceCollection | null> {
+  return fetchLocal<AcServiceCollection>("ac-services.geojson");
+}
+
+// Lékárny (SÚKL – autoritativní registr, AC z titulu uchovávání léčiv).
+export function fetchLekarny(): Promise<LekarnaCollection | null> {
+  return fetchLocal<LekarnaCollection>("lekarny.geojson");
 }

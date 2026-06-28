@@ -4,6 +4,8 @@ import {
   fetchAcShops,
   fetchLibraries,
   fetchLibrariesKkc,
+  fetchAcServices,
+  fetchLekarny,
 } from "./acData.ts";
 
 // Živý počet klimatizovaných veřejných míst (USP headline), spočítaný z dat.
@@ -35,14 +37,17 @@ async function countVenuesAc(): Promise<{ shopAc: number; pools: number }> {
 }
 
 export async function fetchLiveAcCount(): Promise<number> {
-  const [areas, culture, shops, libs, libsKkc, venuesAc] = await Promise.all([
-    fetchAcAreas(),
-    fetchAcCulture(),
-    fetchAcShops(),
-    fetchLibraries(),
-    fetchLibrariesKkc(),
-    countVenuesAc(),
-  ]);
+  const [areas, culture, shops, libs, libsKkc, services, lekarny, venuesAc] =
+    await Promise.all([
+      fetchAcAreas(),
+      fetchAcCulture(),
+      fetchAcShops(),
+      fetchLibraries(),
+      fetchLibrariesKkc(),
+      fetchAcServices(),
+      fetchLekarny(),
+      countVenuesAc(),
+    ]);
 
   const areasN = areas ? areas.features.length : 0;
   const cultureTierA = culture
@@ -51,6 +56,11 @@ export async function fetchLiveAcCount(): Promise<number> {
   const shopsN = shops ? shops.features.length : 0;
   const libsN = libs ? libs.features.length : 0;
   const libsKkcN = libsKkc ? libsKkc.features.length : 0;
+  // Služby: jen tier A (supermarket+banka); fitness/hotel = tier B, do headline ne.
+  const servicesTierA = services
+    ? services.features.filter((f) => f.properties.tier === "A").length
+    : 0;
+  const lekarnyN = lekarny ? lekarny.features.length : 0;
 
   const total =
     areasN +
@@ -58,6 +68,8 @@ export async function fetchLiveAcCount(): Promise<number> {
     shopsN +
     libsN +
     libsKkcN +
+    servicesTierA +
+    lekarnyN +
     venuesAc.shopAc +
     venuesAc.pools;
 

@@ -34,6 +34,12 @@ jobs:
       - name: Build ac-shops.geojson
         run: python data/build_ac_shops.py
 
+      - name: Build ac-services.geojson (supermarket, banka, fitness, hotel)
+        run: python data/build_ac_services.py
+
+      - name: Build lekarny.geojson (SUKL + OSM parovani)
+        run: python data/build_lekarny_sukl.py
+
       - name: Rebuild venues.geojson (dedup)
         run: python data/build_venues.py
 
@@ -41,9 +47,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain public/data/ac-areas.geojson public/data/ac-shops.geojson public/data/venues.geojson)" ]; then
-            git add public/data/ac-areas.geojson public/data/ac-shops.geojson public/data/venues.geojson
-            git commit -m "chore(data): tydenni refresh AC vrstev (ac-areas, ac-shops, venues) [skip ci]"
+          if [ -n "$(git status --porcelain public/data/ac-areas.geojson public/data/ac-shops.geojson public/data/ac-services.geojson public/data/lekarny.geojson public/data/venues.geojson)" ]; then
+            git add public/data/ac-areas.geojson public/data/ac-shops.geojson public/data/ac-services.geojson public/data/lekarny.geojson public/data/venues.geojson
+            git commit -m "chore(data): tydenni refresh AC vrstev (ac-areas, ac-shops, ac-services, lekarny, venues) [skip ci]"
             git pull --rebase origin "${GITHUB_REF_NAME:-main}"
             tries=0
             until git push; do

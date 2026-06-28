@@ -17,7 +17,13 @@ export type Category =
   | "theatre" // divadlo
   | "concert" // koncertní / multifunkční sál
   | "gallery" // galerie
-  | "store"; // klimatizovaná prodejna (drogerie / electronics)
+  | "store" // klimatizovaná prodejna (drogerie / electronics)
+  // Net-new AC kategorie z deep-research 2026-06-28 (ac-services + lekarny)
+  | "pharmacy" // lékárna (SÚKL)
+  | "supermarket" // supermarket (Albert/Billa/Lidl/Penny…)
+  | "bank" // bankovní pobočka
+  | "fitness" // fitness centrum
+  | "hotel"; // hotel 4★/5★ (klimatizované lobby/recepce)
 
 // AC „tier": A = autoritativně klimatizováno, B = vnitřní útočiště (pravděpodobně chladné).
 export type AcTier = "A" | "B";
@@ -375,4 +381,52 @@ export interface AcAreaFeature {
 export interface AcAreaCollection {
   type: "FeatureCollection";
   features: AcAreaFeature[];
+}
+
+// Klimatizované služby/provozovny jako body (supermarket, banka, fitness, hotel).
+// Schéma public/data/ac-services.geojson. „Kategorie implikuje AC" z OSM.
+export interface AcServiceProperties {
+  id: string;
+  name: string;
+  brand: string | null;
+  kind: "supermarket" | "bank" | "fitness" | "hotel";
+  cooling: "ac";
+  tier: AcTier; // A = supermarket/banka (volně přístupné), B = fitness/hotel (členství/lobby)
+  address: string | null;
+  source: string;
+}
+
+export interface AcServiceFeature {
+  type: "Feature";
+  geometry: { type: "Point"; coordinates: [number, number] };
+  properties: AcServiceProperties;
+}
+
+export interface AcServiceCollection {
+  type: "FeatureCollection";
+  features: AcServiceFeature[];
+}
+
+// Lékárny (SÚKL – autoritativní registr). Schéma public/data/lekarny.geojson.
+// AC odvozeno z titulu uchovávání léčiv (vyhláška 84/2008 Sb. + Český lékopis ≤25 °C).
+export interface LekarnaProperties {
+  id: string;
+  name: string;
+  address: string | null;
+  web: string | null;
+  pohotovost: boolean;
+  cooling: "ac";
+  tier: "A";
+  source: string;
+}
+
+export interface LekarnaFeature {
+  type: "Feature";
+  geometry: { type: "Point"; coordinates: [number, number] };
+  properties: LekarnaProperties;
+}
+
+export interface LekarnaCollection {
+  type: "FeatureCollection";
+  features: LekarnaFeature[];
 }

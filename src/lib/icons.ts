@@ -161,6 +161,53 @@ const CATEGORY_GLYPHS: Record<Category, Glyph> = {
       "M9.5 20v-4.5h5V20",
     ],
   },
+  // Lékárna → výrazný kříž (lékárenský symbol).
+  pharmacy: {
+    filled: true,
+    paths: ["M9.6 3h4.8v6.6H21v4.8h-6.6V21H9.6v-6.6H3V9.6h6.6z"],
+  },
+  // Supermarket → nákupní vozík s kolečky.
+  supermarket: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M2.5 4h2.2l2.3 11.1a1.6 1.6 0 0 0 1.57 1.27h7.9a1.6 1.6 0 0 0 1.56-1.25L20.5 7.5H6",
+      "M9 19.6m-1.2 0a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0",
+      "M16.4 19.6m-1.2 0a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0",
+    ],
+  },
+  // Banka → trezor s ciferníkem (dvířka sejfu).
+  bank: {
+    filled: false,
+    strokeWidth: 1.8,
+    paths: [
+      "M4 5.5h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1z",
+      "M12 12m-3.1 0a3.1 3.1 0 1 0 6.2 0a3.1 3.1 0 1 0 -6.2 0",
+      "M12 12V9M12 12l2.4 1.8",
+    ],
+  },
+  // Fitness → činka.
+  fitness: {
+    filled: false,
+    strokeWidth: 2,
+    paths: [
+      "M7.5 8.2v7.6M5 9.7v4.6M16.5 8.2v7.6M19 9.7v4.6",
+      "M7.5 12h9",
+      "M3.3 11.3v1.4M20.7 11.3v1.4",
+    ],
+  },
+  // Hotel → postel.
+  hotel: {
+    filled: false,
+    strokeWidth: 1.9,
+    paths: [
+      "M3.5 8v8.5",
+      "M3.5 12.5h13a4 4 0 0 1 4 4v0",
+      "M3.5 16.5h17",
+      "M20.5 16.5v-1.4",
+      "M6 12.5v-1.5a1.4 1.4 0 0 1 1.4-1.4h2.7a1.4 1.4 0 0 1 1.4 1.4v1.5",
+    ],
+  },
 };
 
 // ---------- Glyphy AC-budov (ac-areas symbol vrstva) ----------
@@ -234,6 +281,11 @@ const CATEGORIES: Category[] = [
   "concert",
   "gallery",
   "store",
+  "pharmacy",
+  "supermarket",
+  "bank",
+  "fitness",
+  "hotel",
 ];
 
 function venueIconId(category: Category): string {

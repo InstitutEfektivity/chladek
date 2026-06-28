@@ -300,12 +300,13 @@ export const aboutSections: AboutSection[] = [
     id: "z-jakych-dat",
     heading: "Z jakých dat mapa vzniká",
     lead:
-      "Žádná magie – jen pět veřejných zdrojů, ruční kurace a poctivé přiznání, čemu se dá věřit víc a čemu míň.",
+      "Žádná magie – jen veřejné zdroje, ruční kurace a poctivé přiznání, čemu se dá věřit víc a čemu míň.",
     paragraphs: [
       "Páteří mapy je OpenStreetMap – komunitní, otevřená mapa světa, ze které čerpáme přes rozhraní Overpass. Doplňujeme ji autoritativními pražskými zdroji: kulturní zařízení z dat IPR Praha (muzea, kina, galerie, divadla – spolehlivá vnitřní útočiště s klimatizací), knihovny Městské knihovny v Praze přes Golemio (s živou otevírací dobou, takže mapa pozná „otevřeno teď“) a velké klimatizované budovy – obchodní centra, hypermarkety, obchodní domy – zakreslené jako celé plochy, ne jen tečky.",
+      "Dataset systematicky rozšiřujeme po celých kategoriích, u kterých klimatizace plyne z podstaty provozu. Lékárny bereme z autoritativního registru SÚKL – léky se ze zákona uchovávají „do 25 °C“ (vyhláška 84/2008 Sb. + Český lékopis), takže v létě jsou prakticky vždy chlazené. Z OpenStreetMap přidáváme běžné supermarkety, bankovní pobočky, hotely i fitness. Tomu říkáme „kategorie implikuje klimatizaci“ – stejný princip, na kterém staví Paříž i Barcelona, a díky kterému roste počet míst do tisíců, ne stovek.",
       "Tahle skladba je důvod, proč Chládek ukazuje {{acCount}} spolehlivých klimatizovaných míst místo pár stovek náhodně otagovaných bodů. Místa navíc rozlišujeme do úrovní spolehlivosti: tam, kde je klimatizace autoritativně doložená, ukazujeme štítek „Klimatizováno“; tam, kde jde o ověřené vnitřní útočiště, štítek „Vnitřní útočiště“. Spoléháme tedy na kategorii a značku, ne jen na řídký a nahodilý tag v datech.",
       "Vodu doplňujeme z datasetu IPR Praha „Oázy chladu“ (licence CC BY) – pítka, kašny, fontány, místa ke koupání i mlžítka. Živou venkovní teplotu, UV index a kvalitu ovzduší bere Chládek z Open-Meteo (zdarma, bez registrace). Výstrahu před horkem tahá přímo z výstražné služby ČHMÚ (SIVS) – když platí, naskočí nahoře živý banner.",
-      "Všechna data používáme v souladu s jejich licencemi a uvádíme je: © OpenStreetMap přispěvatelé (ODbL), IPR Praha „Oázy chladu“ a kulturní zařízení (CC BY / ÚAP), Městská knihovna v Praze / Golemio, Open-Meteo, ČHMÚ, Golemio (Operátor ICT) a mapový podklad © CARTO. Otevřenost je pro nás závazek i v praxi – proto je i samotný Chládek otevřený a jeho zdrojový kód volně k nahlédnutí.",
+      "Všechna data používáme v souladu s jejich licencemi a uvádíme je: © OpenStreetMap přispěvatelé (ODbL), IPR Praha „Oázy chladu“ a kulturní zařízení (CC BY / ÚAP), Městská knihovna v Praze / Golemio, SÚKL (Seznam lékáren), Open-Meteo, ČHMÚ, Golemio (Operátor ICT) a mapový podklad © CARTO. Otevřenost je pro nás závazek i v praxi – proto je i samotný Chládek otevřený a jeho zdrojový kód volně k nahlédnutí.",
     ],
   },
   {

@@ -1,0 +1,3491 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "title": "Chladek - lekarny (SUKL, autoritativni; AC z titulu uchovavani leciv)",
+  "attribution": "Zdroj: SUKL (Seznam lekaren); souradnice (c) OpenStreetMap prispevatele (ODbL)",
+  "generated": "2026-06-28T10:47:38Z",
+  "count": 174
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424011,
+     50.083517
+    ]
+   },
+   "properties": {
+    "id": "sukl-1995830",
+    "name": "Adamova lékárna",
+    "address": "Václavské náměstí 775/8, 11000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.509984,
+     50.136695
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995290",
+    "name": "APOMED",
+    "address": "Šumperská 652, 19900 Praha",
+    "web": "http://www.apomed.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.30257,
+     50.065489
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995790",
+    "name": "BENU Lékárna",
+    "address": "Makovského 1223/23, 16300 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.30899,
+     50.046563
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995011",
+    "name": "BENU Lékárna",
+    "address": "Hábova 3209/5b, 15500 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.489075,
+     50.12654
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995710",
+    "name": "BENU Lékárna",
+    "address": "Vysočanská 382/20, 19000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434173,
+     50.024059
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995780",
+    "name": "BENU Lékárna",
+    "address": "Novodvorská 1800/136, 14200 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460784,
+     50.077634
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995910",
+    "name": "BENU Lékárna",
+    "address": "Vinohradská 1784/134, 13000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501551,
+     50.137433
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995720",
+    "name": "BENU Lékárna",
+    "address": "Veselská 663, 19900 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433077,
+     50.098558
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995590",
+    "name": "BENU Lékárna",
+    "address": "Dukelských hrdinů 471/29, 17000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": true,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430637,
+     50.099486
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995490",
+    "name": "BENU Lékárna",
+    "address": "Františka Křížka 683/22, 17000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440361,
+     50.051339
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995001",
+    "name": "BENU Lékárna",
+    "address": "Na Pankráci 1727/86, 14000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.340028,
+     50.077435
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995690",
+    "name": "BENU Lékárna",
+    "address": "Bělohorská 2426/205, 16900 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.431605,
+     50.07556
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995090",
+    "name": "BENU Lékárna",
+    "address": "Jugoslávská 1/9, 12000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.515878,
+     50.025073
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995130",
+    "name": "BENU Lékárna",
+    "address": "Opatovská 1753/12, 14900 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507336,
+     50.057074
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995002",
+    "name": "BENU Lékárna",
+    "address": "Topolová 2915/16, 10600 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.373679,
+     50.08405
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995730",
+    "name": "BENU Lékárna",
+    "address": "Bělohorská 258/43, 16900 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460784,
+     50.077634
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995940",
+    "name": "BENU Lékárna",
+    "address": "Vinohradská 2828/151, 13000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415786,
+     50.081634
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995690",
+    "name": "BENU Lékárna",
+    "address": "Národní 339/11, 11000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.473124,
+     50.105112
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995480",
+    "name": "BENU Lékárna",
+    "address": "Zenklova 32/28, 18000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.469422,
+     50.128316
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995540",
+    "name": "BENU Lékárna",
+    "address": "Burešova 1664/8, 18200 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.420136,
+     50.081534
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995800",
+    "name": "BENU Lékárna",
+    "address": "Spálená 2121/22, 11000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.486437,
+     50.071847
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995040",
+    "name": "BENU Lékárna",
+    "address": "V olšinách 449/41, 10000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.509654,
+     50.068058
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995160",
+    "name": "BENU Lékárna",
+    "address": "Rubensova 2238/4, 10000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.36497,
+     50.096494
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995280",
+    "name": "BENU Lékárna",
+    "address": "Na dlouhém lánu 563/11, 16000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.396613,
+     50.101305
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995310",
+    "name": "BENU Lékárna",
+    "address": "Vítězné náměstí 817/9, 16000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.451671,
+     50.093232
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995550",
+    "name": "BENU Lékárna",
+    "address": "Thámova 118/17, 18600 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.421227,
+     50.076741
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995450",
+    "name": "BENU lékárna Karlovo náměstí",
+    "address": "Karlovo náměstí 557/30, 12000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.350913,
+     50.051002
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995004",
+    "name": "BENU Lékárna, Metronom",
+    "address": "Bucharova 2817/9, 15800 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.568828,
+     50.044114
+    ]
+   },
+   "properties": {
+    "id": "sukl-10996110",
+    "name": "BENU Lékárna, OC Kaufland",
+    "address": "Hornoměcholupská 763/123, 10900 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374172,
+     50.084458
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995510",
+    "name": "Břevnovská lékárna",
+    "address": "Bělohorská 1665/54, 16900 Praha",
+    "web": "http://www.lekarna-na-internetu.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.428617,
+     50.140982
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995160",
+    "name": "Draháň",
+    "address": "Čimická 780/61, 18100 Praha",
+    "web": "www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.30257,
+     50.065489
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995720",
+    "name": "Dr.Max e-laboratoř",
+    "address": "Makovského 1349/2a, 16300 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434173,
+     50.024059
+    ]
+   },
+   "properties": {
+    "id": "sukl-4995016",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Novodvorská 434/149, 14200 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433062,
+     50.099038
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995510",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Dukelských hrdinů 691/33, 17000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.455608,
+     50.124565
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995590",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Pod sídlištěm 188/8, 18200 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.559948,
+     50.038825
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995004",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Ohmova 271/2, 10900 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460784,
+     50.077634
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995140",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Vinohradská 2828/151, 13000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.376886,
+     50.034353
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995040",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Tilleho náměstí 792/2, 15200 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501551,
+     50.137433
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995360",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Veselská 663, 19900 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.446654,
+     50.102359
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995570",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Tovární 1342/12, 17000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.366527,
+     50.084898
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995610",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Pod Marjánkou 1906/12, 16900 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440361,
+     50.051339
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995021",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Na Pankráci 1727/86, 14000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.423988,
+     50.099896
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995460",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Milady Horákové 1071/71, 17000 Praha",
+    "web": "https://www.drmax.cz/lekarny",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.490767,
+     50.074143
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995310",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Starostrašnická 164/38, 10000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448232,
+     50.060943
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995015",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Nuselská 1754/53c, 14000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449855,
+     50.084567
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995970",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Seifertova 612/89, 13000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.396897,
+     50.100262
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995540",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Vítězné náměstí 997/13, 16000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": true,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450209,
+     50.102468
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995470",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Komunardů 1467/40, 17000 Praha",
+    "web": "https://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460784,
+     50.077634
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995920",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Vinohradská 2577/178, 13000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.473124,
+     50.105112
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995510",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Zenklova 340/22, 18000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.357888,
+     50.089817
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995590",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Stamicova 1968/21, 16200 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434551,
+     50.083099
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995700",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Wilsonova 300/8, 12000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.418745,
+     50.07501
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995640",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Karlovo náměstí 313/8, 12000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.46957,
+     50.126752
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995300",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Burešova 1660/1, 18200 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.477858,
+     50.071554
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995880",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Kubánské náměstí 1271/5, 10000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.469243,
+     50.067906
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995930",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "U Slavie 1527/3, 10000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.489075,
+     50.12654
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995500",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Vysočanská 242/111, 19000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419809,
+     50.082685
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995030",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Národní 417/35, 11000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.428205,
+     50.089965
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995050",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Revoluční 765/19, 11000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.33611,
+     50.051697
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995530",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Pod hranicí 1344/15, 15800 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.395231,
+     50.104642
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995010",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Jugoslávských partyzánů 636/20, 16000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.52827,
+     50.033115
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995260",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Anny Drabíkové 534/3, 14900 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.30257,
+     50.065489
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995270",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Makovského 1349/2a, 16300 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.592879,
+     50.063834
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995950",
+    "name": "Dubečská lékárna",
+    "address": "Starodubečská 99/6, 10700 Praha",
+    "web": "http://www.dubecskalekarna.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.489896,
+     50.028028
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996220",
+    "name": "EUC Lékárna",
+    "address": "Šustova 1930/2, 14800 Praha",
+    "web": "http://www.euc.cz",
+    "pohotovost": true,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.51803,
+     50.025999
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996210",
+    "name": "EUC Lékárna",
+    "address": "Opatovská 1763/11, 14900 Praha",
+    "web": "http://www.medifin.eu, https://euc.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.501358,
+     50.080232
+    ]
+   },
+   "properties": {
+    "id": "sukl-10996150",
+    "name": "EUC Lékárna",
+    "address": "Plaňanská 573/1, 10800 Praha",
+    "web": "https://euc.cz",
+    "pohotovost": true,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.475716,
+     50.074155
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995050",
+    "name": "FN Královské Vinohrady - Ústavní lékárna",
+    "address": "Šrobárova 1150/50, 10000 Praha",
+    "web": "http://www.fnkv.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.402197,
+     50.088676
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995020",
+    "name": "Fragnerova lékárna U Černého orla",
+    "address": "Malostranské náměstí 203/14, 11800 Praha",
+    "web": "http://www.lekarna-orel.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.545189,
+     50.049459
+    ]
+   },
+   "properties": {
+    "id": "sukl-10996180",
+    "name": "Hostivařská lékárna s.r.o.",
+    "address": "Tenisová 981/10, 10200 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.462601,
+     50.022642
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995300",
+    "name": "IKEM, ústavní lékárna",
+    "address": "Vídeňská 1958/9, 14000 Praha",
+    "web": "http://www.ikem.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.666105,
+     50.088582
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995680",
+    "name": "Klánovická lékárna",
+    "address": "Slavětínská 771/8, 19014 Praha",
+    "web": "http://www.lekla.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460784,
+     50.077634
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995200",
+    "name": "Lékárna",
+    "address": "Vinohradská 1713/196, 13000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.36607,
+     50.08419
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995430",
+    "name": "Lékárna Bělohorská",
+    "address": "Bělohorská 1686/118, 16900 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.6476,
+     50.077751
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995540",
+    "name": "Lékárna Blatov",
+    "address": "Oplanská 2614, 19016 Praha",
+    "web": "http://www.lekarna-blatov.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.551729,
+     50.131026
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995860",
+    "name": "Lékárna BONATE",
+    "address": "Mladoboleslavská 1108, 19700 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430211,
+     50.101808
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995620",
+    "name": "Lékárna Cithara",
+    "address": "Českomoravská 2420/15a, 19000 Praha",
+    "web": "http://www.cithara.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430211,
+     50.101808
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995530",
+    "name": "Lékárna Cithara",
+    "address": "Veletržní 1623/24, 17000 Praha",
+    "web": "www.cithara.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.422914,
+     50.089719
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995590",
+    "name": "Lékárna Dlouhá BENU",
+    "address": "Dlouhá 719/44, 11000 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.389466,
+     50.071754
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995120",
+    "name": "Lékárna Erbenova",
+    "address": "Erbenova 193/7, 15000 Praha",
+    "web": "https://www.alphega.cz/219394",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.464476,
+     50.115478
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995080",
+    "name": "Lékárna FN Bulovka",
+    "address": "Budínova 67/2, 18000 Praha",
+    "web": "http://www.bulovka.cz",
+    "pohotovost": true,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.462601,
+     50.022642
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995080",
+    "name": "Lékárna FTN",
+    "address": "Vídeňská 800, 14000 Praha",
+    "web": "http://www.ftn.cz/pacientum-a-verejnosti/lekarna/",
+    "pohotovost": true,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.37195,
+     50.103793
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995350",
+    "name": "Lékárna Hanspaulka",
+    "address": "Krocínovská 801/3, 16000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.601608,
+     50.112088
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995030",
+    "name": "Lékárna Horní Počernice",
+    "address": "Lhotská 2071/1, 19300 Praha",
+    "web": "http://www.lekarnapocernice.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404754,
+     50.097021
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995700",
+    "name": "Lékárna Hradčanská",
+    "address": "Milady Horákové 116/109, 16000 Praha",
+    "web": "https://www.magistra.cz/cs/magistra-lekarna-hradcanska-praha-6-hradcany",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.344174,
+     50.08855
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995600",
+    "name": "Lékárna Hvězda Petřiny",
+    "address": "Křenova 438/3, 16200 Praha",
+    "web": "http://www.hvezdapetriny.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.446344,
+     50.091318
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995560",
+    "name": "Lékárna INEP",
+    "address": "Křižíkova 164/20, 18600 Praha",
+    "web": "https://www.mistnilekarna.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.565034,
+     50.040178
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995003",
+    "name": "Lékárna Janovská",
+    "address": "Janovská 486, 10900 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.493304,
+     50.125472
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995890",
+    "name": "Lékárna Jizerka",
+    "address": "Jablonecká 423/70, 19000 Praha",
+    "web": "https://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.359576,
+     50.096122
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995130",
+    "name": "Lékárna K Lánu",
+    "address": "K lánu 503/7, 16000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445555,
+     50.092859
+    ]
+   },
+   "properties": {
+    "id": "sukl-8995680",
+    "name": "Lékárna Karlín",
+    "address": "Sokolovská 5/49, 18600 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.494138,
+     50.068768
+    ]
+   },
+   "properties": {
+    "id": "sukl-10996060",
+    "name": "Lékárna Krupská",
+    "address": "Ke Strašnické 3304/5a, 10000 Praha",
+    "web": "http://www.lekarnakrupska.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.498376,
+     50.067948
+    ]
+   },
+   "properties": {
+    "id": "sukl-10996120",
+    "name": "Lékárna Krupská 28",
+    "address": "Krupská 1978/28, 10000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433202,
+     50.103729
+    ]
+   },
+   "properties": {
+    "id": "sukl-7995310",
+    "name": "Lékárna Lékařský dům",
+    "address": "Janovského 993/48, 17000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374681,
+     50.033277
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995970",
+    "name": "Lékárna Lemon",
+    "address": "Na Poříčí 1068/23, 11000 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374681,
+     50.033277
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995980",
+    "name": "Lékárna Lemon",
+    "address": "Národní 63/26, 11000 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424105,
+     50.08081
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995900",
+    "name": "Lékárna LEMON",
+    "address": "Vodičkova 715/23, 11000 Praha",
+    "web": "https://www.lekarnalemon.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374681,
+     50.033277
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995350",
+    "name": "Lékárna LEMON",
+    "address": "Želetavská 1447/5, 14000 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374681,
+     50.033277
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995270",
+    "name": "Lékárna LEMON",
+    "address": "Krškova 807/21, 15200 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.488198,
+     50.046781
+    ]
+   },
+   "properties": {
+    "id": "sukl-4995006",
+    "name": "Lékárna LEMON",
+    "address": "Hlavní 2459/108, 14100 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374681,
+     50.033277
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995008",
+    "name": "Lékárna LEMON",
+    "address": "K Libuši 57/30, 14800 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374681,
+     50.033277
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995012",
+    "name": "Lékárna LEMON",
+    "address": "Sofijské náměstí 3405/2, 14300 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374681,
+     50.033277
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995330",
+    "name": "Lékárna LEMON",
+    "address": "Žitomírská 397/16, 10100 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.514442,
+     50.136934
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995330",
+    "name": "Lékárna Letňany",
+    "address": "Bechyňská 63, 19900 Praha",
+    "web": "http://www.jh-lekarny.cz/letnany/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.30257,
+     50.065489
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995420",
+    "name": "Lékárna Makovského",
+    "address": "Makovského 1223/23, 16300 Praha",
+    "web": "http://www.benu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.485648,
+     50.034007
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995040",
+    "name": "Lékárna Medicentrum Praha",
+    "address": "Kloknerova 1245/1, 14800 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.666105,
+     50.088582
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995610",
+    "name": "Lékárna Mediexpert",
+    "address": "Slavětínská 1072/68, 19014 Praha",
+    "web": "https://www.mediexpert.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.347104,
+     50.089008
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995560",
+    "name": "Lékárna METRO Petřiny",
+    "address": "Čílova 303/10, 16200 Praha",
+    "web": "http://www.lekarna-praha6.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.41868,
+     50.074805
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995530",
+    "name": "Lékárna Moráň",
+    "address": "Karlovo náměstí 325/7, 12000 Praha",
+    "web": "http://www.lekarnamoran.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440361,
+     50.051339
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996270",
+    "name": "Lékárna Na Pankráci",
+    "address": "Na Pankráci 999/40, 14000 Praha",
+    "web": "http://www.mistnilekarna",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448005,
+     50.08177
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995770",
+    "name": "Lékárna Na Žižkově",
+    "address": "Kubelíkova 1250/16, 13000 Praha",
+    "web": "http://www.nskz.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.382442,
+     49.964706
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995830",
+    "name": "Lékárna Nová poliklinika Zbraslav",
+    "address": "Elišky Přemyslovny 1325, 15600 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.611215,
+     50.115571
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995560",
+    "name": "Lékárna Oční Svět",
+    "address": "Lipí 2556/3, 19300 Praha",
+    "web": "http://www.ocniklinikahp.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.467632,
+     50.084181
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995790",
+    "name": "Lékárna Olšanská",
+    "address": "Olšanská 2666/7, 13000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429442,
+     50.080979
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995040",
+    "name": "Lékárna Opletalova",
+    "address": "Opletalova 1535/4, 11000 Praha",
+    "web": "http://www.lekarnaopletalova.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.44665,
+     50.104486
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995120",
+    "name": "Lékárna Osadní",
+    "address": "Osadní 774/35, 17000 Praha",
+    "web": "http://www.lekarny-ipc.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429618,
+     50.089742
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995560",
+    "name": "Lékárna Palladium",
+    "address": "náměstí Republiky 1078/1, 11000 Praha",
+    "web": "http://www.lekarnapalladium.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42747,
+     50.072898
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995780",
+    "name": "Lékárna PLUS",
+    "address": "Na bojišti 1950/2, 12000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.416565,
+     50.066965
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995760",
+    "name": "Lékárna Pod Vyšehradem",
+    "address": "Vratislavova 33/2, 12800 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.500625,
+     50.118966
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995750",
+    "name": "Lékárna Prosek Point",
+    "address": "Prosecká 855/68, 19000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.551729,
+     50.131026
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995040",
+    "name": "Lékárna Royale s.r.o.",
+    "address": "Mladoboleslavská 565, 19700 Praha",
+    "web": "http://www.lekarnaroyale.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.308027,
+     50.068167
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995570",
+    "name": "Lékárna Řepy",
+    "address": "Žufanova 1114/1, 16300 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.448897,
+     50.066977
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995230",
+    "name": "Lékárna Sámova",
+    "address": "Sámova 220/4, 10100 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.477256,
+     50.038016
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995014",
+    "name": "Lékárna Serpiente",
+    "address": "Tomíčkova 2427/2, 14800 Praha",
+    "web": "www.lekarnaserpiente.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.386322,
+     49.968729
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995200",
+    "name": "Lékárna Slunce",
+    "address": "Pirnerova 1395, 15600 Praha",
+    "web": "https://www.lekarna-slunce.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.388879,
+     50.105873
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995490",
+    "name": "Lékárna Studentský dům",
+    "address": "Bílá 2571/6, 16000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.363688,
+     50.083873
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995670",
+    "name": "Lékárna U Kaštanu",
+    "address": "Bělohorská 723/132, 16900 Praha",
+    "web": "http://www.lekarnaukastanu.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.456794,
+     50.087304
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995860",
+    "name": "Lékárna U Koně",
+    "address": "Lukášova 184/1, 13000 Praha",
+    "web": "http://www.lek-online.cz, http://www.lekonline.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460784,
+     50.077634
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995750",
+    "name": "Lékárna U krále Jiřího",
+    "address": "Vinohradská 1318/99, 12000 Praha",
+    "web": "http://www.lekarnaukralejiriho.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.40412,
+     50.061793
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995870",
+    "name": "Lékárna U Lávky",
+    "address": "Ke Koulce 919/7, 15000 Praha",
+    "web": "http://www.lekarnaulavky.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449855,
+     50.084567
+    ]
+   },
+   "properties": {
+    "id": "sukl-03995050",
+    "name": "Lékárna U Matky Boží",
+    "address": "Seifertova 720/75, 13000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.428205,
+     50.089965
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995930",
+    "name": "Lékárna u Palladia",
+    "address": "Revoluční 1963/6, 11000 Praha",
+    "web": "web: https://www.lekarny-praha.eu/cs/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.422086,
+     50.066914
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995610",
+    "name": "Lékárna U Revmatologického ústavu",
+    "address": "Na slupi 450/4, 12800 Praha",
+    "web": "http://www.revma.cz/cs/lekarna",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.421299,
+     50.073433
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995840",
+    "name": "Lékárna ÚHKT",
+    "address": "U nemocnice 2094/1, 12800 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419315,
+     50.062126
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995800",
+    "name": "Lékárna ÚPMD",
+    "address": "Podolské nábřeží 157/36, 14700 Praha",
+    "web": "http://www.upmd.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.394277,
+     50.098013
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995250",
+    "name": "Lékárna Ústavu leteckého zdravotnictví",
+    "address": "Generála Píky 229/1, 16000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.422914,
+     50.089719
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995710",
+    "name": "Lékárna v Dlouhé",
+    "address": "Dlouhá 743/9, 11000 Praha",
+    "web": "http://www.lekarnavdlouhe.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.574214,
+     50.086524
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995760",
+    "name": "Lékárna v Dolních Počernicích",
+    "address": "Českobrodská 79, 19012 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.420414,
+     50.059319
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995560",
+    "name": "Lékárna V Podolí",
+    "address": "Podolská 137/152, 14700 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432135,
+     50.073829
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995810",
+    "name": "Lékárna v Rumunské",
+    "address": "Rumunská 8/16, 12000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425601,
+     50.100911
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995010",
+    "name": "Lékárna Veletržní",
+    "address": "Malířská 386/1, 17000 Praha",
+    "web": "http://www.lekarna-veletrzni.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42559,
+     50.081686
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995012",
+    "name": "Lékárna Vodičkova",
+    "address": "Vodičkova 1935/38, 11000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.479386,
+     50.070716
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995130",
+    "name": "Lékárna Vršovice",
+    "address": "Kubánské náměstí 1327/15, 10000 Praha",
+    "web": "http://www.lekarnavrsovice.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.376886,
+     50.034353
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995420",
+    "name": "LÉKÁRNA ZAMZAM",
+    "address": "Tilleho náměstí 793/1, 15200 Praha",
+    "web": "http://lekarny.zdravcentra.cz/zamzam/home.xsl",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4353,
+     50.015223
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995170",
+    "name": "Lékárna Zárubova",
+    "address": "Zárubova 498/31, 14200 Praha",
+    "web": "https://www.pharmapoint.cz/lekarny/lekarna-zarubova/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.521696,
+     50.025938
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995980",
+    "name": "Magistra Lékárna Opatov",
+    "address": "Bohúňova 1550/19, 14900 Praha",
+    "web": "http://www.magistra.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.416136,
+     50.005672
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996070",
+    "name": "Magistra Lékárna U polikliniky",
+    "address": "Československého exilu 2175/30, 14300 Praha",
+    "web": "http://www.magistra.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.400543,
+     50.068765
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995350",
+    "name": "Nad Knížecí",
+    "address": "Kováků 1083/3, 15000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.363391,
+     50.090413
+    ]
+   },
+   "properties": {
+    "id": "sukl-06995630",
+    "name": "Nemocniční lékárna ÚVN",
+    "address": "U vojenské nemocnice 1200/1, 16200 Praha",
+    "web": "https://lekarna.uvn.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.421299,
+     50.073433
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995051",
+    "name": "Nemocniční lékárna VFN v Praze",
+    "address": "U nemocnice 499/2, 12800 Praha",
+    "web": "http://www.vfn.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.428294,
+     50.071578
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995660",
+    "name": "Nemocniční lékárna VFN v Praze, odd. výdeje pro veřejnost II",
+    "address": "Ke Karlovu 459/6, 12000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.421204,
+     50.076459
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995670",
+    "name": "Nemocniční lékárna VFN v Praze,odd.výdeje pro veřejnost III",
+    "address": "Karlovo náměstí 554/32, 12000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.441377,
+     50.063028
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995470",
+    "name": "Nuselská lékárna",
+    "address": "Táborská 321/59, 14000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.328726,
+     50.110991
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995064001",
+    "name": "OOVL - LÉKÁRNA ZAMZAM",
+    "address": "Nebušická 324, 16400 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4232,
+     50.081124
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995170",
+    "name": "Palackého",
+    "address": "Palackého 720/5, 11000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449757,
+     50.042763
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996020",
+    "name": "Pharmacentrum Budějovická",
+    "address": "Antala Staška 1670/80, 14000 Praha",
+    "web": "https://www.pharmacentrum.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449578,
+     50.04371
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996030",
+    "name": "Pharmacentrum DBK",
+    "address": "Budějovická 1667/64, 14000 Praha",
+    "web": "http://www.pharmacentrum.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.528545,
+     50.031296
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995310",
+    "name": "Pharmacentrum Háje",
+    "address": "Arkalycká 758/2, 14900 Praha",
+    "web": "http://www.pharmacentrum.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.442949,
+     50.107778
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995500",
+    "name": "Pharmacentrum Holešovice",
+    "address": "Plynární 1617/10, 17000 Praha",
+    "web": "http://www.pharmacentrum.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.494388,
+     50.108213
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995600",
+    "name": "Pharmacentrum Vysočany",
+    "address": "Sokolovská 810/304, 19000 Praha",
+    "web": "http://www.pharmacenrum.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.350913,
+     50.051002
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995006",
+    "name": "SENIMED - Lékárna Polikliniky AKESO - Nové Butovice",
+    "address": "Bucharova 1423/6, 15800 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.49045,
+     50.080076
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995250",
+    "name": "Slunečná lékárna",
+    "address": "Slunečná 2101/2, 10000 Praha",
+    "web": "http://www.intec.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.473124,
+     50.105112
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995530",
+    "name": "Stará lékárna",
+    "address": "Zenklova 162/220, 18200 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.416565,
+     50.066965
+    ]
+   },
+   "properties": {
+    "id": "sukl-32132100",
+    "name": "testovani prod zakladani 30",
+    "address": "Vratislavova 77/31, 12800 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.314119,
+     50.034815
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995460",
+    "name": "Tilia",
+    "address": "Jáchymovská 258/2a, 15500 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.45221,
+     50.122153
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995580",
+    "name": "Trojská lékárna",
+    "address": "Uzavřená 167/1, 18200 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.427679,
+     50.083687
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995420",
+    "name": "U PALMY",
+    "address": "Jindřišská 898/11, 11000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.557977,
+     50.105675
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995430",
+    "name": "U RAJSKÉ ZAHRADY",
+    "address": "Bratří Venclíků 1139/3, 19800 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435371,
+     50.074343
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995080",
+    "name": "U sv.Ludmily",
+    "address": "Belgická 238/37, 12000 Praha",
+    "web": "http://www.lekarnabelgicka.cz/",
+    "pohotovost": true,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.440361,
+     50.051339
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995480",
+    "name": "U sv.Pankráce",
+    "address": "Na Pankráci 976/99, 14000 Praha",
+    "web": "https://www.usvpankrace.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.460784,
+     50.077634
+    ]
+   },
+   "properties": {
+    "id": "sukl-02995030",
+    "name": "U zlatého lva",
+    "address": "Vinohradská 1292/65, 12000 Praha",
+    "web": "http://www.uzlateholvapraha.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419977,
+     50.080225
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995290",
+    "name": "Ve Spálené",
+    "address": "Spálená 78/12, 11000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.551729,
+     50.131026
+    ]
+   },
+   "properties": {
+    "id": "sukl-09995320",
+    "name": "Vinoř",
+    "address": "Mladoboleslavská 514, 19017 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.392466,
+     49.976162
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995500",
+    "name": "Zbraslavská lékárna",
+    "address": "Zbraslavské náměstí 457, 15600 Praha",
+    "web": "http://www.lekarna-zbraslav.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  }
+ ]
+}
