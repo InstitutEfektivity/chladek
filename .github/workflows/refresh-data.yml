@@ -2,9 +2,9 @@ name: refresh-data
 
 # Týdně přegeneruje public/data/venues.geojson z OpenStreetMap (Overpass) a
 # ruční kurátorské vrstvy. Pokud se data změní, commitne je zpět do repa.
-# Pozn.: živé nasazení dat na server (REDACTED-SERVER) je zatím MANUÁLNÍ re-deploy
-# (scp dist -> REDACTED-PATH/ie-chladek/site) – web servíruje statický build.
-# Auto-deploy na server přes Actions zatím NEděláme (SSH klíč nedáváme do public repa). Viz TODO v README.
+# Pozn.: živé nasazení dat na server je zatím MANUÁLNÍ re-deploy – web servíruje
+# statický build. Auto-deploy přes Actions zatím neděláme; server SSH klíč
+# nedáváme do veřejného repa. Viz README.
 
 on:
   schedule:

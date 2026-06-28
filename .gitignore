@@ -19,3 +19,6 @@ _*.cjs
 # secrets
 .env
 .env.*
+
+# AI agent config (interni – nepatri do verejneho repa)
+.claude/

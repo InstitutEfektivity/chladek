@@ -61,20 +61,17 @@ data/                      Python pipeline pro venues.geojson (viz data/README.m
 
 `public/data/venues.geojson` generuje Python pipeline ve složce `data/` (viz `data/README.md`). Zdroje: OpenStreetMap (přes Overpass), ruční kurátorská vrstva, Golemio.
 
-**Refresh přes GitHub Actions** (`.github/workflows/refresh-data.yml`): každé pondělí 04:00 UTC (nebo ručně přes „Run workflow") přegeneruje `venues.geojson` a změnu commitne zpět do repa. Tím se aktualizuje **jen repo** – živé nasazení nových dat na server je zatím **manuální re-deploy** (build + scp na `REDACTED-SERVER`), protože web servíruje statický build.
+**Refresh přes GitHub Actions** (`.github/workflows/refresh-data.yml`): každé pondělí 04:00 UTC (nebo ručně přes „Run workflow") přegeneruje `venues.geojson` a změnu commitne zpět do repa. Tím se aktualizuje **jen repo** – živé nasazení nových dat na server je zatím **manuální re-deploy**, protože web servíruje statický build.
 
 ## Nasazení
 
-`dist/` je čistě statický (HTML + JS/CSS + zkopírovaný `public/`). Lze hostovat na jakémkoli statickém serveru. Produkční cíl: Docker `nginx:alpine` na `REDACTED-SERVER` (Compose projekt `ie-chladek`) za reverzní proxy vhostem. `dist/` se necommituje – buildí se při nasazení (`npm ci && npm run build`).
-
-Re-deploy na server (manuální):
+`dist/` je čistě statický (HTML + JS/CSS + zkopírovaný `public/`). Lze hostovat na jakémkoli statickém serveru (nginx, CDN, libovolný static host). Buildí se při nasazení (`npm ci && npm run build`); `dist/` se necommituje.
 
 ```bash
-npm run build
-scp -i ~/.ssh/REDACTED-KEY -r dist/* root@REDACTED-HOST:REDACTED-PATH/ie-chladek/site/
+npm run build   # výstup do dist/
 ```
 
-**TODO:** automatický deploy dat/buildu na server přes GitHub Actions zatím **neděláme** – server SSH klíč záměrně nedáváme do veřejného repa. Možné budoucí řešení: deploy přes self-hosted runner, deploy token s úzkým scopem, nebo webhook na serveru stahující artefakt z Actions.
+Produkčně web běží jako statický build za reverzní proxy; re-deploy (nahrání `dist/` na server) je zatím manuální. **Konfigurace serveru, přístupy a deploy skripty jsou mimo tento veřejný repozitář.** Automatický deploy přes GitHub Actions zatím neděláme – server SSH klíč záměrně nedáváme do veřejného repa. Možné budoucí řešení: self-hosted runner, deploy token s úzkým scopem, nebo webhook na serveru stahující artefakt z Actions.
 
 ## Licence dat a atribuce
 
