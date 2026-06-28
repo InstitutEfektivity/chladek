@@ -692,12 +692,22 @@ a {
 
 /* Hlavní výzva k akci: „Najdi 3 nejbližší chládky". Větší, sytý gradient,
    výrazný stín, jemný lesk – satisfying primary CTA. */
+/* Floating CTA nad mapou (bottom-center) – nezabírá řádek pod mapou. */
 .locate-wrap {
-  margin-left: auto;
+  position: absolute;
+  bottom: var(--space-4);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 6px;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: var(--space-2);
+  pointer-events: none;
+  max-width: calc(100% - 2 * var(--space-3));
+}
+.locate-wrap > * {
+  pointer-events: auto;
 }
 .locate-wrap .btn-primary {
   background: var(--gradient-cta);
@@ -736,9 +746,19 @@ a {
 }
 .locate-status {
   font-size: 0.78rem;
-  color: var(--color-text-muted);
-  max-width: 260px;
-  text-align: right;
+  color: var(--color-primary-dark);
+  text-align: center;
+  max-width: 320px;
+  background: var(--glass-bg-strong);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-pill);
+  padding: 5px 12px;
+  box-shadow: var(--shadow-card);
+}
+.locate-status:empty {
+  display: none;
 }
 .locate-status.error {
   color: var(--color-heat-strong);
@@ -775,20 +795,13 @@ a {
     padding-top: var(--space-1);
     border-top: 1px solid var(--color-border);
   }
-  /* CTA přes celou šířku – palec ho trefí kdekoli. */
+  /* Floating CTA i na mobilu – centrovaný pill, o kousek výš nad spodním okrajem. */
   .locate-wrap {
-    margin-left: 0;
-    width: 100%;
-    align-items: stretch;
+    bottom: var(--space-3);
   }
   .locate-wrap .btn-primary {
-    width: 100%;
-    padding: 15px 22px;
-    font-size: 1.02rem;
-  }
-  .locate-status {
-    text-align: center;
-    max-width: 100%;
+    padding: 13px 22px;
+    font-size: 1rem;
   }
   .chip {
     padding: 9px 14px;
@@ -1656,6 +1669,125 @@ a {
 .nl-status.success {
   color: #1c7e8c;
   font-weight: 600;
+}
+
+/* ---------- Hlavička: odkaz na Institut efektivity ---------- */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.header-ie {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
+}
+.header-ie:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+@media (max-width: 560px) {
+  /* Na úzkém mobilu IE odkaz z hlavičky schováme – je v úvodním popupu,
+     patičce i na „O projektu". */
+  .header-ie {
+    display: none;
+  }
+}
+
+/* ---------- Úvodní popup (first run) ---------- */
+.intro-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3);
+  background: rgba(13, 44, 66, 0.55);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  animation: introFade 0.18s ease;
+}
+@keyframes introFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.intro-card {
+  position: relative;
+  width: min(560px, 100%);
+  max-height: calc(100% - 2 * var(--space-3));
+  overflow-y: auto;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-hover);
+  padding: var(--space-6) var(--space-4) var(--space-4);
+}
+.intro-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  background: transparent;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-radius: 50%;
+}
+.intro-close:hover {
+  background: var(--color-surface-subtle);
+  color: var(--color-primary-dark);
+}
+.intro-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.intro-card h2 {
+  margin: var(--space-2) 0 var(--space-3);
+  font-size: clamp(1.4rem, 4vw, 1.7rem);
+  color: var(--color-primary-dark);
+}
+.intro-body {
+  margin: 0 0 var(--space-3);
+  font-size: 1.02rem;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+.intro-disclaimer {
+  margin: 0 0 var(--space-4);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+  padding: var(--space-3);
+  background: linear-gradient(100deg, rgba(15, 181, 206, 0.09), rgba(15, 181, 206, 0.02));
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.intro-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
 }
 
 @media (prefers-reduced-motion: reduce) {

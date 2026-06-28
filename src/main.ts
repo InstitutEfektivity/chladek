@@ -2,6 +2,7 @@ import "./styles.css";
 import { site, ui } from "./content/site.ts";
 import { renderMapView } from "./views/mapView.ts";
 import { renderAboutView } from "./views/aboutView.ts";
+import { maybeShowIntro } from "./lib/intro.ts";
 
 type Route = "map" | "about";
 
@@ -26,10 +27,13 @@ function buildShell(): { header: HTMLElement; main: HTMLElement } {
           <span>${escapeAttr(site.name)}</span>
           <span class="tagline">${escapeAttr(site.tagline)}</span>
         </a>
-        <nav class="nav" aria-label="Hlavní navigace">
-          <a href="#/" data-route="map">${escapeAttr(ui.nav.map)}</a>
-          <a href="#/o-projektu" data-route="about">${escapeAttr(ui.nav.about)}</a>
-        </nav>
+        <div class="header-right">
+          <a class="header-ie" href="https://institutefektivity.cz" target="_blank" rel="noopener noreferrer">${escapeAttr(ui.header.ie)} ↗</a>
+          <nav class="nav" aria-label="Hlavní navigace">
+            <a href="#/" data-route="map">${escapeAttr(ui.nav.map)}</a>
+            <a href="#/o-projektu" data-route="about">${escapeAttr(ui.nav.about)}</a>
+          </nav>
+        </div>
       </header>
       <main class="site-main" id="main" tabindex="-1"></main>
     </div>
@@ -77,3 +81,6 @@ function render(): void {
 
 window.addEventListener("hashchange", render);
 render();
+
+// Úvodní popup při prvním spuštění (jen jednou, viz localStorage flag).
+maybeShowIntro();

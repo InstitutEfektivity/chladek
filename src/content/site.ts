@@ -12,6 +12,21 @@ export const site = {
 
 export const ui = {
   nav: { map: "Mapa", about: "O projektu" },
+  // Odkaz na Institut efektivity v hlavičce (na všech stránkách).
+  header: { ie: "Institut efektivity" },
+  // Úvodní popup při prvním spuštění – stručně co/proč/kdo + že jde o ukázku.
+  intro: {
+    eyebrow: "Ukázka Institutu efektivity",
+    title: "Co je Chládek?",
+    body:
+      "Mapa klimatizovaných a přirozeně chladných veřejných míst v Praze – kam se v parnu zdarma schovat. Postavil ji Institut efektivity celou z otevřených dat jako ukázku, co z veřejných dat jde, když se s nimi pracuje prakticky.",
+    disclaimer:
+      "Je to zatím ukázka pro Prahu, tak ji berte s rezervou – mapa není dokonalá a postupně ji doplňujeme. Budeme rádi za zpětnou vazbu i za tip, jestli ji máme udělat i pro další města nebo celou ČR.",
+    primary: "Rozumím, na mapu",
+    about: "O projektu",
+    ie: "Víc o Institutu →",
+    closeAria: "Zavřít úvodní okno",
+  },
   filters: {
     ac: "Klimatizace",
     natural: "Přirozeně chladno",

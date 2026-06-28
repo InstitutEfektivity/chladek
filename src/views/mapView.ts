@@ -209,6 +209,13 @@ export function renderMapView(root: HTMLElement): () => void {
             <span class="heat-text" id="heat-text">${escapeHtml(ui.heatWarning)}</span>
           </div>
         </div>
+        <div class="locate-wrap">
+          <button type="button" class="btn btn-primary" id="locate-btn">
+            <span class="btn-icon" aria-hidden="true">📍</span>
+            ${escapeHtml(ui.locate.button)}
+          </button>
+          <span class="locate-status" id="locate-status" role="status" aria-live="polite"></span>
+        </div>
       </div>
       <div class="map-controls">
         <button type="button" class="controls-toggle" id="controls-toggle" aria-expanded="false" aria-controls="controls-collapsible">
@@ -253,13 +260,6 @@ export function renderMapView(root: HTMLElement): () => void {
             ${escapeHtml(ui.cafe.toggle)}
           </button>
         </div>
-        </div>
-        <div class="locate-wrap">
-          <button type="button" class="btn btn-primary" id="locate-btn">
-            <span class="btn-icon" aria-hidden="true">📍</span>
-            ${escapeHtml(ui.locate.button)}
-          </button>
-          <span class="locate-status" id="locate-status" role="status" aria-live="polite"></span>
         </div>
         <p class="map-attribution">${escapeHtml(ui.attribution)}</p>
       </div>
