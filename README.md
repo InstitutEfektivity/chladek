@@ -65,7 +65,7 @@ data/                      Python pipeline pro venues.geojson (viz data/README.m
 
 ## Nasazení
 
-`dist/` je čistě statický (HTML + JS/CSS + zkopírovaný `public/`). Lze hostovat na jakémkoli statickém serveru (nginx, CDN, libovolný static host). Buildí se při nasazení (`npm ci && npm run build`); `dist/` se necommituje.
+`dist/` je čistě statický (HTML + JS/CSS + zkopírovaný `public/`). Lze hostovat na jakémkoli statickém hostingu. Buildí se při nasazení (`npm ci && npm run build`); `dist/` se necommituje.
 
 ```bash
 npm run build   # výstup do dist/
