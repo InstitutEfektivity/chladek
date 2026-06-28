@@ -457,6 +457,83 @@ a {
   clip: rect(0, 0, 0, 0);
 }
 
+/* ---------- Sbalitelné panely (mobil) ---------- */
+/* Na desktopu jsou toggly skryté a panely vždy viditelné. Obal filtrů je
+   `display: contents`, takže do flexu .map-controls neutralně „zmizí". */
+.topbar-toggle,
+.controls-toggle {
+  display: none;
+}
+.controls-collapsible {
+  display: contents;
+}
+
+@media (max-width: 640px) {
+  /* Toggly se na mobilu zobrazí jako frosted pruh přes celou šířku. */
+  .topbar-toggle,
+  .controls-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg-strong);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.3);
+    backdrop-filter: blur(var(--glass-blur)) saturate(1.3);
+    border-radius: var(--radius-pill);
+    padding: 10px 16px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--color-primary-dark);
+    box-shadow: var(--shadow-card);
+    cursor: pointer;
+  }
+  .topbar-toggle-icon,
+  .controls-toggle-icon {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .topbar-toggle-chevron,
+  .controls-toggle-chevron {
+    margin-left: auto;
+    font-size: 1.1rem;
+    line-height: 1;
+    transition: transform 0.18s ease;
+  }
+  .topbar-toggle.is-open .topbar-toggle-chevron,
+  .controls-toggle.is-open .controls-toggle-chevron {
+    transform: rotate(180deg);
+  }
+
+  /* Default sbaleno – nepřekrývá mapu; otevře se až po kliknutí (.open). */
+  #topbar-badges {
+    display: none;
+  }
+  #topbar-badges.open {
+    display: flex;
+  }
+  #controls-collapsible {
+    display: none;
+  }
+  #controls-collapsible.open {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    width: 100%;
+  }
+
+  /* Kompaktnější USP a výstraha, ať topbar zabere minimum místa nad mapou. */
+  .usp-banner .usp-subtitle {
+    display: none;
+  }
+  .heat-warning {
+    font-size: 0.82rem;
+    padding: 8px 12px;
+    gap: var(--space-2);
+  }
+}
+
 .chip {
   display: inline-flex;
   align-items: center;
@@ -1406,6 +1483,179 @@ a {
   line-height: 1.35;
   letter-spacing: var(--tracking-heading);
   color: var(--color-primary-dark);
+}
+
+/* Hero CTA řádek + IE odkaz */
+.about-hero-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+  margin-top: var(--space-4);
+}
+.about-hero-cta-row .about-hero-cta {
+  margin-top: 0;
+}
+.about-hero-ie {
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  font-weight: 700;
+}
+.about-hero-ie:hover {
+  background: rgba(255, 255, 255, 0.28);
+  transform: translateY(-1px);
+}
+
+/* Univerzální „ghost" tlačítko (sekundární odkazy) */
+.btn-ghost {
+  background: transparent;
+  color: var(--color-primary-dark);
+  border: 1.5px solid var(--color-border);
+  font-weight: 600;
+}
+.btn-ghost:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* ---------- IE prezentační CTA ---------- */
+.about-ie-cta {
+  margin-top: var(--space-6);
+}
+.ie-cta-card {
+  background: linear-gradient(135deg, #0fb5ce 0%, #1c7e8c 100%);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: var(--space-6) var(--space-4);
+  box-shadow: var(--shadow-cta);
+}
+.ie-cta-card h2 {
+  color: #fff;
+  margin: 0 0 var(--space-2);
+}
+.ie-cta-card p {
+  color: rgba(255, 255, 255, 0.93);
+  margin: 0 0 var(--space-3);
+  max-width: 60ch;
+}
+.ie-cta-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.ie-cta-card .btn-primary {
+  background: #fff;
+  color: var(--color-primary-dark);
+}
+.ie-cta-card .btn-ghost {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.ie-cta-card .btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+}
+
+/* ---------- Newsletter ---------- */
+.about-newsletter {
+  margin-top: var(--space-6);
+  scroll-margin-top: 84px;
+}
+.nl-card {
+  display: grid;
+  gap: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6) var(--space-4);
+  box-shadow: var(--shadow-card);
+}
+@media (min-width: 760px) {
+  .nl-card {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: var(--space-6);
+  }
+}
+.nl-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.nl-intro h2 {
+  margin: var(--space-2) 0;
+}
+.nl-intro p {
+  color: var(--color-text-muted);
+  margin: 0;
+  max-width: 44ch;
+}
+.nl-form {
+  display: grid;
+  gap: var(--space-2);
+}
+.nl-field {
+  display: grid;
+  gap: 4px;
+}
+.nl-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+.nl-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 14px;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius);
+  font: inherit;
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+.nl-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(15, 181, 206, 0.18);
+}
+.nl-consent {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  font-size: 0.84rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+  cursor: pointer;
+}
+.nl-consent input {
+  margin-top: 3px;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--color-accent);
+}
+.nl-submit {
+  width: 100%;
+  margin-top: 2px;
+}
+.nl-status {
+  margin: 4px 0 0;
+  font-size: 0.86rem;
+  min-height: 1.2em;
+}
+.nl-status.error {
+  color: #c0392b;
+}
+.nl-status.success {
+  color: #1c7e8c;
+  font-weight: 600;
 }
 
 @media (prefers-reduced-motion: reduce) {

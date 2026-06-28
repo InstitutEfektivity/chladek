@@ -169,7 +169,12 @@ export function renderMapView(root: HTMLElement): () => void {
             <span class="usp-headline" id="usp-headline"></span>
             <span class="usp-subtitle">${escapeHtml(ui.usp.subtitle)}</span>
           </div>
-          <div class="topbar-badges">
+          <button type="button" class="topbar-toggle" id="topbar-toggle" aria-expanded="false" aria-controls="topbar-badges">
+            <span class="topbar-toggle-icon" aria-hidden="true">☀</span>
+            <span class="topbar-toggle-label">Počasí, výstraha &amp; rady</span>
+            <span class="topbar-toggle-chevron" aria-hidden="true">⌄</span>
+          </button>
+          <div class="topbar-badges" id="topbar-badges">
             <button type="button" class="heat-guide-btn" id="heat-guide-btn" aria-haspopup="dialog" aria-label="${escapeHtml(ui.heatGuide.open)}">
               <span class="heat-guide-btn-icon" aria-hidden="true">☀</span>
               <span>${escapeHtml(ui.heatGuide.button)}</span>
@@ -206,6 +211,12 @@ export function renderMapView(root: HTMLElement): () => void {
         </div>
       </div>
       <div class="map-controls">
+        <button type="button" class="controls-toggle" id="controls-toggle" aria-expanded="false" aria-controls="controls-collapsible">
+          <span class="controls-toggle-icon" aria-hidden="true">❄</span>
+          <span class="controls-toggle-label">Filtry a vrstvy</span>
+          <span class="controls-toggle-chevron" aria-hidden="true">⌄</span>
+        </button>
+        <div class="controls-collapsible" id="controls-collapsible">
         <fieldset class="filters">
           <legend>Filtr podle typu ochlazení</legend>
           ${COOLINGS.map(
@@ -242,6 +253,7 @@ export function renderMapView(root: HTMLElement): () => void {
             ${escapeHtml(ui.cafe.toggle)}
           </button>
         </div>
+        </div>
         <div class="locate-wrap">
           <button type="button" class="btn btn-primary" id="locate-btn">
             <span class="btn-icon" aria-hidden="true">📍</span>
@@ -253,6 +265,22 @@ export function renderMapView(root: HTMLElement): () => void {
       </div>
     </section>
   `;
+
+  // Mobilní sbalitelné panely (topbar počasí + spodní filtry/vrstvy). Na desktopu
+  // jsou vždy otevřené (CSS skryje toggle); na mobilu jsou default sbalené, aby
+  // nepřekrývaly mapu – uživatel je rozklikne.
+  const wireCollapse = (btnId: string, targetId: string): void => {
+    const btn = document.getElementById(btnId);
+    const target = document.getElementById(targetId);
+    if (!btn || !target) return;
+    btn.addEventListener("click", () => {
+      const open = target.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.classList.toggle("is-open", open);
+    });
+  };
+  wireCollapse("topbar-toggle", "topbar-badges");
+  wireCollapse("controls-toggle", "controls-collapsible");
 
   const state: MapState = {
     // AC-first: na startu jen klimatizovaná místa (ostatní typy si uživatel zapne).

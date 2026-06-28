@@ -115,8 +115,29 @@ export const ui = {
     note: "Děláme práci, kterou má dělat stát – a děláme ji z dat. Chládek je důkaz, že z otevřených dat jde levně postavit veřejně užitečnou službu.",
     links: {
       ie: "institutefektivity.cz",
+      ieProjects: "Co děláme",
+      newsletter: "Odebírat newsletter",
       source: "Zdrojový kód na GitHubu",
     },
+  },
+  // Newsletter (Institut efektivity) – stejný list i mechanismus jako mandaty
+  // (interní služba double opt-in + interní služba). Form posílá na /api/subscribe.
+  newsletter: {
+    eyebrow: "Newsletter Institutu efektivity",
+    title: "Chcete vědět o našich dalších projektech?",
+    subtitle:
+      "Chládek je jen jeden z nástrojů, které Institut efektivity staví nad otevřenými daty. Nechte nám e-mail – ozveme se, jen když přibude nový nástroj nebo novinka z oblasti efektivity veřejných subjektů a inovací. Žádný spam, pár e-mailů ročně.",
+    email: "Váš e-mail",
+    emailPlaceholder: "jmeno@email.cz",
+    name: "Jméno (nepovinné)",
+    consent:
+      "Souhlasím se zpracováním e-mailu za účelem zasílání novinek Institutu efektivity. Odhlásit se lze kdykoli.",
+    submit: "Přihlásit k odběru",
+    submitting: "Odesílám…",
+    success:
+      "Skoro hotovo! Poslali jsme vám potvrzovací e-mail – kliknutím na odkaz v něm odběr dokončíte.",
+    error: "Něco se nepovedlo. Zkuste to prosím znovu.",
+    consentRequired: "Pro přihlášení je potřeba souhlas.",
   },
   // Banner při odvozené výstraze (oba JSON zdroje selhaly, fallback z teploty).
   heatWarning:
@@ -282,6 +303,20 @@ export const aboutSections: AboutSection[] = [
     ],
     pullquote:
       "Otevřená data nestačí jednou vyvěsit. Musí být kvalitní, reálná a živá – jinak je to jen PDF v jiném kabátě.",
+  },
+  {
+    id: "open-data-jinak",
+    heading: "Open data se musí dělat jinak, aby k něčemu byla",
+    lead:
+      "Tohle je obor, kterému se v Institutu efektivity věnujeme: aby veřejná data nebyla jen formálně „zveřejněná“, ale reálně použitelná. Chládek je toho ukázka v malém.",
+    paragraphs: [
+      "1) Přistupovat k datům jako k produktu, ne jako k povinné příloze. Data, která vznikají při běžném provozu úřadu – polohy a otevírací doby budov, senzory, registry – mají defaultně mířit ven ve strojově čitelné podobě. Ne „na požádání“, ne jako PDF, ale jako živý dataset, nad kterým někdo postaví službu.",
+      "2) Hlídat dostupnost a aktuálnost. Dataset, který se přestane aktualizovat nebo spadne, je horší než žádný – uživatel mu věří, a přitom klame. Dostupnost a čerstvost dat se má měřit a hlídat stejně jako u kterékoli jiné veřejné služby. U Chládku to řešíme automatickými kontrolami a poctivě přiznáváme, kde data zaostávají.",
+      "3) Záležet na podrobnosti a struktuře. Agregovaná tabulka „kolik“ nestačí; služby potřebují konkrétní položky se souřadnicemi, identifikátory a časem. Čím jemnější a líp popsaná data, tím víc z nich jde postavit – a tím méně každý znovu vynalézá kolo.",
+      "4) Měřit praktičnost, ne počet vyvěšených souborů. Úspěch otevřených dat není počet datasetů v katalogu, ale počet reálných služeb, které nad nimi vznikly. Chládek je jedna z nich. Institut efektivity pomáhá veřejným institucím tenhle přístup zavést – od auditu dat přes datovou architekturu až po konkrétní nástroje.",
+    ],
+    pullquote:
+      "Úspěch otevřených dat se nepočítá v počtu vyvěšených souborů, ale v počtu služeb, které nad nimi reálně vznikly.",
   },
   {
     id: "evropa",
