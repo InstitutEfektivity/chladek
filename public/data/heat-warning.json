@@ -1,10 +1,5 @@
 {
-  "active": true,
-  "level": "Severe",
-  "headline": "Odpolední teploty překročí 34 °C.",
-  "event": "Velmi vysoké teploty",
-  "validFrom": "2026-06-29T22:06:20+02:00",
-  "validTo": "2026-06-30T00:00:00+02:00",
-  "updatedAt": "2026-06-29T21:08:27Z",
+  "active": false,
+  "updatedAt": "2026-06-29T22:36:50Z",
   "source": "ČHMÚ (SIVS)"
 }
