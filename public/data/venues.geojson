@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-06-27T18:59:47Z",
+  "generated": "2026-06-29T09:07:01Z",
   "count": 1566
  },
  "features": [
@@ -24080,8 +24080,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.499024,
-     50.020105
+     14.499023,
+     50.020101
     ]
    },
    "properties": {
@@ -24102,8 +24102,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.29414,
-     50.050408
+     14.294142,
+     50.050414
     ]
    },
    "properties": {
@@ -24125,7 +24125,7 @@
     "type": "Point",
     "coordinates": [
      14.322986,
-     50.09306
+     50.093059
     ]
    },
    "properties": {
