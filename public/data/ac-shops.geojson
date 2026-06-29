@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - znackove klimatizovane prodejny jako body (drogerie, elektro)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-06-26T21:33:44Z",
-  "count": 180
+  "generated": "2026-06-29T11:57:20Z",
+  "count": 179
  },
  "features": [
   {
@@ -1956,25 +1956,6 @@
    },
    "properties": {
     "id": "osm-node-6575455853",
-    "name": "Teta",
-    "brand": "Teta",
-    "kind": "drogerie",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.473735,
-     50.102445
-    ]
-   },
-   "properties": {
-    "id": "osm-node-6575464792",
     "name": "Teta",
     "brand": "Teta",
     "kind": "drogerie",
