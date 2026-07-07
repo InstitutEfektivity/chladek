@@ -1,80 +1,8 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-07T15:15:44Z",
+ "generatedAt": "2026-07-07T18:20:30Z",
  "source": "ČHMÚ – otevrena data (opendata.chmi.cz)",
  "features": [
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.255556,
-     50.100278
-    ]
-   },
-   "properties": {
-    "id": "0-20000-0-11518",
-    "name": "Praha, Ruzyně",
-    "temp_c": 26.6,
-    "measuredAt": "2026-07-07T14:50:00Z",
-    "klass": "pro",
-    "source": "ČHMÚ"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.427778,
-     50.069167
-    ]
-   },
-   "properties": {
-    "id": "0-20000-0-11519",
-    "name": "Praha, Karlov",
-    "temp_c": 27.5,
-    "measuredAt": "2026-07-07T14:50:00Z",
-    "klass": "pro",
-    "source": "ČHMÚ"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.446944,
-     50.007778
-    ]
-   },
-   "properties": {
-    "id": "0-20000-0-11520",
-    "name": "Praha, Libuš",
-    "temp_c": 26.9,
-    "measuredAt": "2026-07-07T14:50:00Z",
-    "klass": "pro",
-    "source": "ČHMÚ"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.538056,
-     50.123333
-    ]
-   },
-   "properties": {
-    "id": "0-20000-0-11567",
-    "name": "Praha, Kbely",
-    "temp_c": 26.5,
-    "measuredAt": "2026-07-07T14:50:00Z",
-    "klass": "pro",
-    "source": "ČHMÚ"
-   }
-  },
   {
    "type": "Feature",
    "geometry": {
@@ -87,8 +15,8 @@
    "properties": {
     "id": "0-203-0-10904013001",
     "name": "Praha, Komořany",
-    "temp_c": 27.9,
-    "measuredAt": "2026-07-07T15:00:00Z",
+    "temp_c": 28.3,
+    "measuredAt": "2026-07-07T15:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -105,8 +33,8 @@
    "properties": {
     "id": "0-203-0-11201018001",
     "name": "Průhonice",
-    "temp_c": 26.7,
-    "measuredAt": "2026-07-07T15:00:00Z",
+    "temp_c": 27.4,
+    "measuredAt": "2026-07-07T15:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -123,8 +51,8 @@
    "properties": {
     "id": "0-203-0-11201020001",
     "name": "Praha, Vinohrady - Flora",
-    "temp_c": 27.4,
-    "measuredAt": "2026-07-07T15:00:00Z",
+    "temp_c": 27.2,
+    "measuredAt": "2026-07-07T15:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -141,8 +69,8 @@
    "properties": {
     "id": "0-203-0-11514",
     "name": "Praha, Klementinum",
-    "temp_c": 28.7,
-    "measuredAt": "2026-07-07T13:30:00Z",
+    "temp_c": 27.9,
+    "measuredAt": "2026-07-07T15:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -159,8 +87,8 @@
    "properties": {
     "id": "0-203-0-11515",
     "name": "Praha, Klementinum",
-    "temp_c": 28.7,
-    "measuredAt": "2026-07-07T13:30:00Z",
+    "temp_c": 28.0,
+    "measuredAt": "2026-07-07T15:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
