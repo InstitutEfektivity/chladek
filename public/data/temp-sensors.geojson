@@ -1,8 +1,25 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-07T15:15:57Z",
+ "generatedAt": "2026-07-07T17:26:39Z",
  "source": "Golemio / Operator ICT (Prazska datova platforma), data CAMEA",
  "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.378579,
+     50.079374
+    ]
+   },
+   "properties": {
+    "id": "camea-BC_AT-STLA",
+    "name": "Atletická",
+    "temp_c": 30.0,
+    "measuredAt": "2026-07-07T17:05:00.000Z",
+    "source": "Golemio / CAMEA"
+   }
+  },
   {
    "type": "Feature",
    "geometry": {
@@ -15,8 +32,8 @@
    "properties": {
     "id": "camea-BC_BS-BMZL",
     "name": "Barrandovský most",
-    "temp_c": 28.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 27.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -33,7 +50,7 @@
     "id": "camea-BC_CL-PVLI",
     "name": "U Českých loděnic",
     "temp_c": 31.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -50,7 +67,7 @@
     "id": "camea-BC_DS-KJVL",
     "name": "Dukelských hrdinů",
     "temp_c": 31.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -66,8 +83,8 @@
    "properties": {
     "id": "camea-BC_HZ-CE",
     "name": "Hlubočepská",
-    "temp_c": 28.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 29.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -84,24 +101,7 @@
     "id": "camea-BC_JG-PNPC",
     "name": "Jeremenkova",
     "temp_c": 31.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
-    "source": "Golemio / CAMEA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.407747,
-     50.08312
-    ]
-   },
-   "properties": {
-    "id": "camea-BC_KA-KMML",
-    "name": "Kampa",
-    "temp_c": 31.0,
-    "measuredAt": "2026-07-07T12:45:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -118,7 +118,7 @@
     "id": "camea-BC_KO-LEPR",
     "name": "Letňany",
     "temp_c": 29.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -134,8 +134,8 @@
    "properties": {
     "id": "camea-BC_MB-PRVI",
     "name": "Mladoboleslavská",
-    "temp_c": 31.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 33.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -151,8 +151,8 @@
    "properties": {
     "id": "camea-BC_NM-CEKV",
     "name": "Nuselský most",
-    "temp_c": 33.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 31.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -168,8 +168,8 @@
    "properties": {
     "id": "camea-BC_PM-MHJA",
     "name": "Pelléova",
-    "temp_c": 28.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 27.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -185,8 +185,8 @@
    "properties": {
     "id": "camea-BC_PN-VYBR",
     "name": "Podolské nábřeží - stezka",
-    "temp_c": 30.0,
-    "measuredAt": "2026-07-07T13:50:00.000Z",
+    "temp_c": 29.0,
+    "measuredAt": "2026-07-07T17:05:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -202,8 +202,8 @@
    "properties": {
     "id": "camea-BC_PN-VYBR2",
     "name": "Podolské nábřeží - vozovka",
-    "temp_c": 30.0,
-    "measuredAt": "2026-07-07T13:50:00.000Z",
+    "temp_c": 29.0,
+    "measuredAt": "2026-07-07T17:05:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -220,7 +220,7 @@
     "id": "camea-BC_PP-ROJP",
     "name": "Podbabská",
     "temp_c": 33.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -236,8 +236,8 @@
    "properties": {
     "id": "camea-BC_PT-ZOVO",
     "name": "Povltavská",
-    "temp_c": 29.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 28.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -254,7 +254,7 @@
     "id": "camea-BC_SN-NDKM",
     "name": "Smetanovo nábřeží",
     "temp_c": 31.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -270,8 +270,8 @@
    "properties": {
     "id": "camea-BC_SU-KRKA",
     "name": "Krč (Sulická)",
-    "temp_c": 30.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 28.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -287,8 +287,8 @@
    "properties": {
     "id": "camea-BC_TL-TRHO",
     "name": "Císařský ostrov",
-    "temp_c": 29.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 28.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -305,7 +305,7 @@
     "id": "camea-BC_VK-HRUP",
     "name": "Drážní stezka - Vítkov",
     "temp_c": 32.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -322,7 +322,7 @@
     "id": "camea-BC_VR-ST",
     "name": "Vršovická",
     "temp_c": 32.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -338,8 +338,8 @@
    "properties": {
     "id": "camea-BC_VS-CE",
     "name": "Košíře",
-    "temp_c": 28.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "temp_c": 29.0,
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   },
@@ -356,7 +356,7 @@
     "id": "camea-BC_ZA-KLBO",
     "name": "V Zámcích",
     "temp_c": 32.0,
-    "measuredAt": "2026-07-07T15:10:00.000Z",
+    "measuredAt": "2026-07-07T17:20:00.000Z",
     "source": "Golemio / CAMEA"
    }
   }
