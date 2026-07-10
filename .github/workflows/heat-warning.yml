@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 # Zabraň souběhu (krátký job, ale jistota proti race při commitu).
 concurrency:
@@ -36,23 +37,9 @@ jobs:
       - name: Fetch heat warning
         run: python data/fetch_heat_warning.py
 
-      - name: Commit changed warning (if any)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain public/data/heat-warning.json)" ]; then
-            git add public/data/heat-warning.json
-            git commit -m "chore(data): refresh heat-warning.json [skip ci]"
-            git pull --rebase origin "${GITHUB_REF_NAME:-main}"
-            tries=0
-            until git push; do
-              tries=$((tries+1)); [ "$tries" -ge 5 ] && { echo "push failed after $tries tries"; exit 1; }
-              echo "push race - retry $tries"; sleep $((RANDOM % 6 + 2))
-              git pull --rebase origin "${GITHUB_REF_NAME:-main}"
-            done
-            echo "Výstraha aktualizována a pushnuta."
-          else
-            echo "Beze změny – nic ke commitu."
-          fi
+      - name: Commit & push data (direct / PR fallback)
+        uses: ./.github/actions/push-data
+        with:
+          files: public/data/heat-warning.json
+          message: "chore(data): refresh heat-warning.json [skip ci]"
+          branch: data-refresh/heat-warning
