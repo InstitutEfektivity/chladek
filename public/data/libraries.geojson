@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-09T08:55:57Z",
+ "generatedAt": "2026-07-10T08:52:37Z",
  "source": "Golemio / Mestska knihovna v Praze (Prazska datova platforma)",
  "features": [
   {
@@ -4116,26 +4116,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "17:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -4157,46 +4137,6 @@
     "name": "Bohnice",
     "address": "Těšínská 600/4, 181 00 Praha 8, Česko",
     "opening_hours": [
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
      {
       "day_of_week": "Monday",
       "opens": "13:00",
@@ -4307,46 +4247,6 @@
     "name": "Břevnov",
     "address": "Bělohorská 1666/56, 169 00 Praha 6, Česko",
     "opening_hours": [
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
      {
       "day_of_week": "Monday",
       "opens": "13:00",
@@ -4496,46 +4396,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -4646,46 +4506,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -4735,26 +4555,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -4825,46 +4625,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "17:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -4986,16 +4746,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "17:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -5105,46 +4855,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "self_service"
      }
     ],
@@ -5576,46 +5286,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -5677,46 +5347,6 @@
     "name": "Ládví",
     "address": "Burešova 1661/2, 182 00 Praha 8, Česko",
     "opening_hours": [
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
      {
       "day_of_week": "Monday",
       "opens": "13:00",
@@ -5886,66 +5516,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "09:00",
-      "closes": "13:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "09:00",
-      "closes": "13:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "20:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -5995,26 +5565,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6086,46 +5636,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -6195,46 +5705,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6446,56 +5916,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Saturday",
-      "opens": "10:00",
-      "closes": "17:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -6566,46 +5986,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -6655,26 +6035,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "18:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6846,46 +6206,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -6935,26 +6255,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7066,46 +6366,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "15:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -7175,46 +6435,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "20:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "09:00",
-      "closes": "20:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "09:00",
-      "closes": "20:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "20:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7286,46 +6506,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -7375,26 +6555,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "16:00",
-      "closes": "20:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "15:00",
-      "closes": "17:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7776,26 +6936,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -7845,26 +6985,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7916,26 +7036,6 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -7985,26 +7085,6 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "12:00",
-      "closes": "19:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Zavřeno v pondělí 6. 7. 2026",
-      "is_default": false,
-      "valid_from": "2026-07-05T22:00:00.000Z",
-      "valid_through": "2026-07-05T22:00:00.000Z",
       "type": "standard"
      }
     ],
