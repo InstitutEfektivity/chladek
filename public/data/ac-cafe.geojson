@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-06T11:15:08Z",
+ "generatedAt": "2026-07-13T09:56:33Z",
  "source": "OpenStreetMap (Overpass) - znackove fast-food + kavarny (brand:wikidata)",
  "features": [
   {
@@ -848,26 +848,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.432958,
-     50.074276
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-3298049939",
-    "name": "Café Le Parisien",
-    "brand": "Costa",
-    "type": "kavárna / rychlé občerstvení",
-    "address": "Bělehradská 102, Praha 2",
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.424842,
      50.081373
     ]
@@ -1588,8 +1568,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.491153,
-     50.030289
+     14.491125,
+     50.030349
     ]
    },
    "properties": {
