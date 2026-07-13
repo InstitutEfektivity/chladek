@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-07-06T08:27:08Z",
-  "count": 1566
+  "generated": "2026-07-13T07:25:28Z",
+  "count": 1574
  },
  "features": [
   {
@@ -1963,6 +1963,138 @@
     "address": null,
     "source": "ipr",
     "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.399333,
+     50.09769
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-116",
+    "name": "Pítko na Bachmačském náměstí",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.391024,
+     50.099106
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-117",
+    "name": "Pítko Kafkova",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425468,
+     50.082679
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-118",
+    "name": "Pítko před Palácem U Stýblů",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4045,
+     50.0765
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-119",
+    "name": "Pítko Arbesovo náměstí",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.416248,
+     50.068144
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-120",
+    "name": "Pítko na dětském hřišti na Výtoni I.",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": "8:00 - 21:00; omezená přístupnost"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.416067,
+     50.068188
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-121",
+    "name": "Pítko na dětském hřišti na Výtoni II.",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": "8:00 - 21:00; omezená přístupnost"
    }
   },
   {
@@ -24146,6 +24278,72 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.446475,
+     50.103255
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13992986518",
+    "name": "RAKKI RAMMEN",
+    "category": "cafe_food",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403959,
+     50.120409
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14002052302",
+    "name": "Pítko",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415094,
+     50.068095
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14002069401",
+    "name": "Osvěžítko, mlžítko",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.403204,
      50.087976
     ]
@@ -30768,28 +30966,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.450963,
-     50.110897
-    ]
-   },
-   "properties": {
-    "id": "osm-way-469425496",
-    "name": "River Lofts Gardens",
-    "category": "park",
-    "cooling": "shade",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.406557,
      50.115458
     ]
@@ -33167,7 +33343,7 @@
     "type": "Point",
     "coordinates": [
      14.417662,
-     50.106764
+     50.106766
     ]
    },
    "properties": {
