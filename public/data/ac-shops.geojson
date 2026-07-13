@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chladek - znackove klimatizovane prodejny jako body (drogerie, elektro)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-06-29T11:57:20Z",
+  "generated": "2026-07-13T10:02:11Z",
   "count": 179
  },
  "features": [
@@ -1503,25 +1503,6 @@
     "name": "Rossmann",
     "brand": "Rossmann",
     "kind": "drogerie",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.499023,
-     50.120148
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4368535236",
-    "name": "Datart",
-    "brand": "Datart",
-    "kind": "electronics",
     "cooling": "ac",
     "tier": "A",
     "source": "OSM"
@@ -3193,6 +3174,25 @@
     "id": "osm-node-13894013477",
     "name": "dm",
     "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425156,
+     50.082741
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13995512803",
+    "name": "Rossmann",
+    "brand": "Rossmann",
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",

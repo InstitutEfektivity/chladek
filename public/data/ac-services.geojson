@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - klimatizovane sluzby/provozovny jako body (supermarket, banka, fitness, hotel 4*/5*)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-06-29T11:59:45Z",
-  "count": 786
+  "generated": "2026-07-13T10:04:32Z",
+  "count": 790
  },
  "features": [
   {
@@ -420,6 +420,26 @@
     "id": "osm-node-288056909",
     "name": "Raiffeisenbank",
     "brand": "Raiffeisenbank",
+    "kind": "bank",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.400814,
+     50.098799
+    ]
+   },
+   "properties": {
+    "id": "osm-node-288056924",
+    "name": "Raiffeisen stavební spořitelna",
+    "brand": null,
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -4052,8 +4072,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.487975,
-     50.047037
+     14.487879,
+     50.046828
     ]
    },
    "properties": {
@@ -9718,12 +9738,12 @@
    },
    "properties": {
     "id": "osm-node-7233804991",
-    "name": "mBank",
+    "name": "Broker POINT Premium",
     "brand": "mBank",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
-    "address": null,
+    "address": "Vinohradská 112/101",
     "source": "OSM"
    }
   },
@@ -10358,7 +10378,7 @@
    },
    "properties": {
     "id": "osm-node-9144810908",
-    "name": "DreamFit",
+    "name": "Form factory",
     "brand": null,
     "kind": "fitness",
     "cooling": "ac",
@@ -11880,26 +11900,6 @@
     "id": "osm-node-11515979213",
     "name": "Form Factory",
     "brand": "Form Factory",
-    "kind": "fitness",
-    "cooling": "ac",
-    "tier": "B",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.46774,
-     50.124274
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11618838479",
-    "name": "Fabi Club",
-    "brand": null,
     "kind": "fitness",
     "cooling": "ac",
     "tier": "B",
@@ -13479,6 +13479,86 @@
    "properties": {
     "id": "osm-node-13960116764",
     "name": "Biodomov",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.495102,
+     50.129048
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13992222750",
+    "name": "mini-gym.cz",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.434894,
+     50.046962
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13999563313",
+    "name": "MAX FITNESS",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.396057,
+     50.09964
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14002871928",
+    "name": "Moneta Bank",
+    "brand": null,
+    "kind": "bank",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.467713,
+     50.002291
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14006855718",
+    "name": "Veggie Asian Food",
     "brand": null,
     "kind": "supermarket",
     "cooling": "ac",
