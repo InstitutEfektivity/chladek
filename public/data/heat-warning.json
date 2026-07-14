@@ -1,10 +1,5 @@
 {
-  "active": true,
-  "level": "Moderate",
-  "headline": "V úterý odpoledne očekáváme silnou zátěž teplem. Riziko přehřátí a dehydratace.",
-  "event": "Silná zátěž teplem",
-  "validFrom": "2026-07-14T12:11:11+02:00",
-  "validTo": "2026-07-14T17:00:00+02:00",
-  "updatedAt": "2026-07-14T13:43:26Z",
+  "active": false,
+  "updatedAt": "2026-07-14T15:23:11Z",
   "source": "ČHMÚ (SIVS)"
 }
