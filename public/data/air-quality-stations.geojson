@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-17T06:19:23.951520+00:00",
+ "generatedAt": "2026-07-17T09:11:24.910358+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -16,20 +16,20 @@
     "id": "ABREA",
     "name": "Praha 6-Břevnov",
     "district": "praha-6",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 21.5
+      "value": 13.4
      },
      {
       "type": "PM10",
-      "value": 17.7
+      "value": 16
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -51,18 +51,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 32.5
+      "value": 38.9
      },
      {
       "type": "PM10",
-      "value": 26.7
+      "value": 39.4
      },
      {
       "type": "PM2_5",
-      "value": 16.1
+      "value": 20.8
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -78,20 +78,20 @@
     "id": "ACHOA",
     "name": "Praha 4-Chodov",
     "district": "praha-11",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 18.7
+      "value": 15.6
      },
      {
       "type": "PM10",
-      "value": 18.6
+      "value": 23
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -113,14 +113,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 20.6
+      "value": 26.5
      },
      {
       "type": "PM10",
-      "value": 24.7
+      "value": 22.6
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -142,18 +142,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 16.5
+      "value": 24.1
      },
      {
       "type": "O3",
-      "value": 46.8
+      "value": 68.5
      },
      {
       "type": "PM10",
-      "value": 35
+      "value": 12.8
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -175,18 +175,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 36.4
+      "value": 36.7
      },
      {
       "type": "PM10",
-      "value": 25.2
+      "value": 25.1
      },
      {
       "type": "PM2_5",
-      "value": 16.9
+      "value": 14.8
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -208,18 +208,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 38.5
+      "value": 12.7
      },
      {
       "type": "PM10",
-      "value": 30.2
+      "value": 28.1
      },
      {
       "type": "PM2_5",
-      "value": 14.3
+      "value": 10.6
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -241,26 +241,26 @@
     "components": [
      {
       "type": "NO2",
-      "value": 15.8
+      "value": 12.2
      },
      {
       "type": "O3",
-      "value": 38.2
+      "value": 67.6
      },
      {
       "type": "PM10",
-      "value": 28.4
+      "value": 18.7
      },
      {
       "type": "PM2_5",
-      "value": 16.2
+      "value": 11.6
      },
      {
       "type": "SO2",
       "value": 1.3
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -282,14 +282,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 34.7
+      "value": 38.6
      },
      {
       "type": "PM10",
-      "value": 33.1
+      "value": 40
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -311,14 +311,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 20.4
+      "value": 22.7
      },
      {
       "type": "PM10",
-      "value": 26.7
+      "value": 32.6
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -340,18 +340,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 27.8
+      "value": 9.4
      },
      {
       "type": "PM10",
-      "value": 18
+      "value": 14.3
      },
      {
       "type": "PM2_5",
-      "value": 11
+      "value": 8.1
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -367,32 +367,32 @@
     "id": "ARIEA",
     "name": "Praha 2-Riegrovy sady",
     "district": "praha-2",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 21.7
+      "value": 16.8
      },
      {
       "type": "O3",
-      "value": 36
+      "value": 72.6
      },
      {
       "type": "PM10",
-      "value": 20.3
+      "value": 22
      },
      {
       "type": "PM2_5",
-      "value": 11.7
+      "value": 14.9
      },
      {
       "type": "SO2",
-      "value": 4.3
+      "value": 5.2
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -408,24 +408,24 @@
     "id": "ASROA",
     "name": "Praha 10-Šrobárova",
     "district": "praha-10",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NO2",
-      "value": 8.4
+      "value": 6.8
      },
      {
       "type": "PM10",
-      "value": 15.8
+      "value": 13.8
      },
      {
       "type": "PM2_5",
-      "value": 9.9
+      "value": 8.6
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -441,24 +441,24 @@
     "id": "ASTOA",
     "name": "Praha 5-Stodůlky",
     "district": "praha-13",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "O3",
-      "value": 36.5
+      "value": 89
      },
      {
       "type": "PM10",
-      "value": 15.1
+      "value": 15.2
      },
      {
       "type": "PM2_5",
-      "value": 13.3
+      "value": 17.8
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -474,20 +474,20 @@
     "id": "ASUCA",
     "name": "Praha 6-Suchdol",
     "district": "praha-lysolaje",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "O3",
-      "value": 35.3
+      "value": 80.2
      },
      {
       "type": "PM10",
-      "value": 26
+      "value": 24
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -509,14 +509,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 27.4
+      "value": 17.4
      },
      {
       "type": "PM10",
-      "value": 23.7
+      "value": 19.9
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   },
   {
@@ -538,14 +538,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 21.8
+      "value": 35.9
      },
      {
       "type": "O3",
-      "value": 32.5
+      "value": 53.8
      }
     ],
-    "updatedAt": "2026-07-17T06:10:00.676Z"
+    "updatedAt": "2026-07-17T08:45:00.353Z"
    }
   }
  ]
