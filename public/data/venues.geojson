@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-07-13T10:06:18Z",
+  "generated": "2026-07-20T06:52:25Z",
   "count": 1574
  },
  "features": [
@@ -19664,12 +19664,12 @@
    },
    "properties": {
     "id": "osm-node-449774351",
-    "name": "Garuda",
+    "name": "Pho & Roll",
     "category": "cafe_food",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Mo-Su 11:30-22:00",
+    "opening_hours": "Mo-Fr 11:00-22:00",
     "address": "Milady Horákové 686/12, Praha 7",
     "source": "osm",
     "note": null
@@ -19988,8 +19988,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.473227,
-     50.104832
+     14.473252,
+     50.104797
     ]
    },
    "properties": {
@@ -31523,7 +31523,7 @@
    "properties": {
     "id": "osm-way-651730185",
     "name": "Loving Hut",
-    "category": "cafe_food",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31567,7 +31567,7 @@
    "properties": {
     "id": "osm-way-651730187",
     "name": "Francesco's Pizza",
-    "category": "cafe_food",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31611,7 +31611,7 @@
    "properties": {
     "id": "osm-way-651730189",
     "name": "Nordsee",
-    "category": "cafe_food",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31743,7 +31743,7 @@
    "properties": {
     "id": "osm-way-651730210",
     "name": "Tradice",
-    "category": "cafe_food",
+    "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
