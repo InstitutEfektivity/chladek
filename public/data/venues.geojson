@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-07-20T06:52:25Z",
-  "count": 1574
+  "generated": "2026-07-20T10:00:31Z",
+  "count": 1580
  },
  "features": [
   {
@@ -122,34 +122,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.423747,
-     50.087952
-    ]
-   },
-   "properties": {
-    "id": "ipr-pitka-1",
-    "name": "Pítko",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "ipr",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.432293,
      50.085927
     ]
    },
    "properties": {
-    "id": "ipr-pitka-2",
+    "id": "ipr-pitka-1",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -171,7 +149,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-3",
+    "id": "ipr-pitka-2",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -193,7 +171,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-4",
+    "id": "ipr-pitka-3",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -215,7 +193,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-5",
+    "id": "ipr-pitka-4",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -237,7 +215,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-6",
+    "id": "ipr-pitka-5",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -259,7 +237,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-7",
+    "id": "ipr-pitka-6",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -281,7 +259,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-8",
+    "id": "ipr-pitka-7",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -303,7 +281,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-9",
+    "id": "ipr-pitka-8",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -325,7 +303,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-10",
+    "id": "ipr-pitka-9",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -347,7 +325,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-11",
+    "id": "ipr-pitka-10",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -369,7 +347,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-12",
+    "id": "ipr-pitka-11",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -391,7 +369,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-13",
+    "id": "ipr-pitka-12",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -413,7 +391,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-14",
+    "id": "ipr-pitka-13",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -435,7 +413,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-15",
+    "id": "ipr-pitka-14",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -457,7 +435,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-16",
+    "id": "ipr-pitka-15",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -479,7 +457,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-17",
+    "id": "ipr-pitka-16",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -501,7 +479,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-18",
+    "id": "ipr-pitka-17",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -523,7 +501,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-19",
+    "id": "ipr-pitka-18",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -545,7 +523,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-20",
+    "id": "ipr-pitka-19",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -567,7 +545,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-21",
+    "id": "ipr-pitka-20",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -589,7 +567,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-22",
+    "id": "ipr-pitka-21",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -611,7 +589,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-24",
+    "id": "ipr-pitka-23",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -633,7 +611,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-26",
+    "id": "ipr-pitka-25",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -655,7 +633,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-29",
+    "id": "ipr-pitka-28",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -677,7 +655,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-30",
+    "id": "ipr-pitka-29",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -699,7 +677,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-31",
+    "id": "ipr-pitka-30",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -721,7 +699,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-33",
+    "id": "ipr-pitka-32",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -743,7 +721,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-34",
+    "id": "ipr-pitka-33",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -765,7 +743,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-35",
+    "id": "ipr-pitka-34",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -787,7 +765,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-36",
+    "id": "ipr-pitka-35",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -809,7 +787,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-37",
+    "id": "ipr-pitka-36",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -831,7 +809,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-38",
+    "id": "ipr-pitka-37",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -853,7 +831,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-39",
+    "id": "ipr-pitka-38",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -875,7 +853,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-40",
+    "id": "ipr-pitka-39",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -897,7 +875,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-41",
+    "id": "ipr-pitka-40",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -919,7 +897,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-66",
+    "id": "ipr-pitka-41",
     "name": "jiný vodní zdroj U misky (3759)",
     "category": "fountain",
     "cooling": "water",
@@ -941,8 +919,8 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-67",
-    "name": "Pítko",
+    "id": "ipr-pitka-42",
+    "name": "Na Hřebenkách",
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
@@ -950,7 +928,7 @@
     "opening_hours": null,
     "address": null,
     "source": "ipr",
-    "note": null
+    "note": "správce: TSK"
    }
   },
   {
@@ -963,7 +941,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-68",
+    "id": "ipr-pitka-43",
     "name": "Pítko",
     "category": "fountain",
     "cooling": "water",
@@ -985,7 +963,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-69",
+    "id": "ipr-pitka-44",
     "name": "Pramen Pod Petřínem",
     "category": "fountain",
     "cooling": "water",
@@ -1007,7 +985,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-70",
+    "id": "ipr-pitka-45",
     "name": "Pítko před Loretou",
     "category": "fountain",
     "cooling": "water",
@@ -1016,7 +994,7 @@
     "opening_hours": null,
     "address": null,
     "source": "ipr",
-    "note": null
+    "note": "správce: TSK"
    }
   },
   {
@@ -1029,7 +1007,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-71",
+    "id": "ipr-pitka-46",
     "name": "Pítko v areálu Klementina",
     "category": "fountain",
     "cooling": "water",
@@ -1051,7 +1029,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-72",
+    "id": "ipr-pitka-47",
     "name": "Umyvadélko ve Zlaté uličce",
     "category": "fountain",
     "cooling": "water",
@@ -1073,7 +1051,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-73",
+    "id": "ipr-pitka-48",
     "name": "Pítko u stanice metra Malostranská",
     "category": "fountain",
     "cooling": "water",
@@ -1095,7 +1073,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-74",
+    "id": "ipr-pitka-49",
     "name": "Mramorové pítko u stanice metra Nádraží Holešovice",
     "category": "fountain",
     "cooling": "water",
@@ -1117,7 +1095,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-75",
+    "id": "ipr-pitka-50",
     "name": "Kamenné pítko \"Faun\"",
     "category": "fountain",
     "cooling": "water",
@@ -1139,7 +1117,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-76",
+    "id": "ipr-pitka-51",
     "name": "Pítko s motivem Raka",
     "category": "fountain",
     "cooling": "water",
@@ -1161,7 +1139,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-77",
+    "id": "ipr-pitka-52",
     "name": "Pítko v parku Na Vinici",
     "category": "fountain",
     "cooling": "water",
@@ -1183,7 +1161,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-78",
+    "id": "ipr-pitka-53",
     "name": "Pítko Roztylské náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -1205,7 +1183,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-79",
+    "id": "ipr-pitka-54",
     "name": "Pítko Mendelova",
     "category": "fountain",
     "cooling": "water",
@@ -1227,7 +1205,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-80",
+    "id": "ipr-pitka-55",
     "name": "Pítko na Řezáčově náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -1249,7 +1227,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-81",
+    "id": "ipr-pitka-56",
     "name": "Pergola se skalkou a vodotryskem",
     "category": "fountain",
     "cooling": "water",
@@ -1271,7 +1249,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-82",
+    "id": "ipr-pitka-57",
     "name": "Pítko v parku Malinovka",
     "category": "fountain",
     "cooling": "water",
@@ -1293,7 +1271,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-83",
+    "id": "ipr-pitka-58",
     "name": "Pítko s motivem hadů",
     "category": "fountain",
     "cooling": "water",
@@ -1315,7 +1293,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-84",
+    "id": "ipr-pitka-59",
     "name": "Pítko u základní školy Jílovská",
     "category": "fountain",
     "cooling": "water",
@@ -1337,7 +1315,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-85",
+    "id": "ipr-pitka-60",
     "name": "Pítko před základní školou Fingerova",
     "category": "fountain",
     "cooling": "water",
@@ -1359,7 +1337,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-86",
+    "id": "ipr-pitka-61",
     "name": "Pítko ve vnitrobloku u dětského hřiště",
     "category": "fountain",
     "cooling": "water",
@@ -1381,7 +1359,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-87",
+    "id": "ipr-pitka-62",
     "name": "Pítko pod pergolou",
     "category": "fountain",
     "cooling": "water",
@@ -1403,7 +1381,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-88",
+    "id": "ipr-pitka-63",
     "name": "Pítko u gymnázia Jaroslava Heyrovského",
     "category": "fountain",
     "cooling": "water",
@@ -1425,7 +1403,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-89",
+    "id": "ipr-pitka-64",
     "name": "Pítko poblíž stanice metra Stodůlky",
     "category": "fountain",
     "cooling": "water",
@@ -1447,7 +1425,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-90",
+    "id": "ipr-pitka-65",
     "name": "Pítko na tržišti u základní školy Trávníčkova",
     "category": "fountain",
     "cooling": "water",
@@ -1469,7 +1447,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-91",
+    "id": "ipr-pitka-66",
     "name": "Pítko Šroub",
     "category": "fountain",
     "cooling": "water",
@@ -1491,7 +1469,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-92",
+    "id": "ipr-pitka-67",
     "name": "Pítko u Petřínské rozhledny",
     "category": "fountain",
     "cooling": "water",
@@ -1513,7 +1491,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-93",
+    "id": "ipr-pitka-68",
     "name": "Prameník s vodní kaskádou",
     "category": "fountain",
     "cooling": "water",
@@ -1535,7 +1513,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-94",
+    "id": "ipr-pitka-69",
     "name": "Pítko nad šachtou kolektoru",
     "category": "fountain",
     "cooling": "water",
@@ -1557,7 +1535,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-95",
+    "id": "ipr-pitka-70",
     "name": "Pítko před obchodním domem Baťa",
     "category": "fountain",
     "cooling": "water",
@@ -1579,7 +1557,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-96",
+    "id": "ipr-pitka-71",
     "name": "Moderní pítko ve Františkánské zahradě",
     "category": "fountain",
     "cooling": "water",
@@ -1601,7 +1579,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-97",
+    "id": "ipr-pitka-72",
     "name": "Chlapec s mušlí",
     "category": "fountain",
     "cooling": "water",
@@ -1623,7 +1601,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-98",
+    "id": "ipr-pitka-73",
     "name": "Pítko v parku na Fidlovačce",
     "category": "fountain",
     "cooling": "water",
@@ -1645,7 +1623,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-99",
+    "id": "ipr-pitka-74",
     "name": "Pítko v parku Na Slepičárně",
     "category": "fountain",
     "cooling": "water",
@@ -1667,7 +1645,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-100",
+    "id": "ipr-pitka-75",
     "name": "Pítko u východu z Gorlice",
     "category": "fountain",
     "cooling": "water",
@@ -1689,7 +1667,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-101",
+    "id": "ipr-pitka-76",
     "name": "Pítko u Kaplanky",
     "category": "fountain",
     "cooling": "water",
@@ -1711,7 +1689,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-102",
+    "id": "ipr-pitka-77",
     "name": "Pítko v Ungeltu",
     "category": "fountain",
     "cooling": "water",
@@ -1720,7 +1698,7 @@
     "opening_hours": null,
     "address": null,
     "source": "ipr",
-    "note": null
+    "note": "správce: TSK"
    }
   },
   {
@@ -1733,7 +1711,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-103",
+    "id": "ipr-pitka-78",
     "name": "Pítko u Dětského domu",
     "category": "fountain",
     "cooling": "water",
@@ -1750,12 +1728,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.429772,
-     50.087919
+     14.429832,
+     50.087837
     ]
    },
    "properties": {
-    "id": "ipr-pitka-104",
+    "id": "ipr-pitka-79",
     "name": "Pítko před celnicí",
     "category": "fountain",
     "cooling": "water",
@@ -1764,7 +1742,7 @@
     "opening_hours": null,
     "address": null,
     "source": "ipr",
-    "note": null
+    "note": "správce: TSK"
    }
   },
   {
@@ -1777,7 +1755,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-105",
+    "id": "ipr-pitka-80",
     "name": "Pítko na Škroupově náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -1799,7 +1777,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-106",
+    "id": "ipr-pitka-81",
     "name": "Pítko ze žuly před budovou Domu odborových svazů",
     "category": "fountain",
     "cooling": "water",
@@ -1821,7 +1799,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-107",
+    "id": "ipr-pitka-82",
     "name": "Pítko ze žuly před budovou Domu odborových svazů",
     "category": "fountain",
     "cooling": "water",
@@ -1843,7 +1821,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-108",
+    "id": "ipr-pitka-83",
     "name": "Pítko v Botanické zahradě Troja",
     "category": "fountain",
     "cooling": "water",
@@ -1865,7 +1843,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-109",
+    "id": "ipr-pitka-84",
     "name": "Pítko v areálu strašnického krematoria",
     "category": "fountain",
     "cooling": "water",
@@ -1887,7 +1865,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-112",
+    "id": "ipr-pitka-87",
     "name": "Pítko v areálu strašnického krematoria",
     "category": "fountain",
     "cooling": "water",
@@ -1909,7 +1887,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-113",
+    "id": "ipr-pitka-88",
     "name": "Pítko u dětského hřiště \"Židovské pece\"",
     "category": "fountain",
     "cooling": "water",
@@ -1931,7 +1909,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-114",
+    "id": "ipr-pitka-89",
     "name": "Fontána u Chvalské tvrze",
     "category": "fountain",
     "cooling": "water",
@@ -1953,7 +1931,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-115",
+    "id": "ipr-pitka-90",
     "name": "Pítko před bývalým OD Trio",
     "category": "fountain",
     "cooling": "water",
@@ -1975,7 +1953,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-116",
+    "id": "ipr-pitka-91",
     "name": "Pítko na Bachmačském náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -1997,7 +1975,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-117",
+    "id": "ipr-pitka-92",
     "name": "Pítko Kafkova",
     "category": "fountain",
     "cooling": "water",
@@ -2014,12 +1992,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.425468,
-     50.082679
+     14.425541,
+     50.082631
     ]
    },
    "properties": {
-    "id": "ipr-pitka-118",
+    "id": "ipr-pitka-93",
     "name": "Pítko před Palácem U Stýblů",
     "category": "fountain",
     "cooling": "water",
@@ -2041,7 +2019,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-119",
+    "id": "ipr-pitka-94",
     "name": "Pítko Arbesovo náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -2063,7 +2041,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-120",
+    "id": "ipr-pitka-95",
     "name": "Pítko na dětském hřišti na Výtoni I.",
     "category": "fountain",
     "cooling": "water",
@@ -2085,7 +2063,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pitka-121",
+    "id": "ipr-pitka-96",
     "name": "Pítko na dětském hřišti na Výtoni II.",
     "category": "fountain",
     "cooling": "water",
@@ -2095,6 +2073,182 @@
     "address": null,
     "source": "ipr",
     "note": "8:00 - 21:00; omezená přístupnost"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415144,
+     50.072503
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-97",
+    "name": "Zítkovy sady",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": "správce: TSK"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.424395,
+     50.083816
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-98",
+    "name": "Václavák (hotel Ambasador)",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433098,
+     50.088299
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-99",
+    "name": "Masarykovo nádraží",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.419385,
+     50.07082
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-100",
+    "name": "Na Slupi",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": "správce: TSK"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433478,
+     50.10033
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-101",
+    "name": "Dukelských Hrdinů/Heřmanova",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.432591,
+     50.102812
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-102",
+    "name": "Dukelských hrdinů/Šimáčkova",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.402472,
+     50.023205
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-103",
+    "name": "V náklích",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.381607,
+     50.09401
+    ]
+   },
+   "properties": {
+    "id": "ipr-pitka-104",
+    "name": "Macharovo náměstí",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": "správce: PVS a.s."
    }
   },
   {
@@ -4786,34 +4940,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.402114,
-     50.071535
-    ]
-   },
-   "properties": {
-    "id": "ipr-fontany-124",
-    "name": "Vodní stěna před kulturním centrem",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "ipr",
-    "note": "fontána"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.40438,
      50.073714
     ]
    },
    "properties": {
-    "id": "ipr-fontany-125",
+    "id": "ipr-fontany-124",
     "name": "Kašna v bývalé zahradě Portheimky",
     "category": "fountain",
     "cooling": "water",
@@ -4835,7 +4967,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-126",
+    "id": "ipr-fontany-125",
     "name": "Medvědí kašna",
     "category": "fountain",
     "cooling": "water",
@@ -4857,7 +4989,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-127",
+    "id": "ipr-fontany-126",
     "name": "Moderní fontána v sadech na předmostí Jiráskova mostu",
     "category": "fountain",
     "cooling": "water",
@@ -4879,7 +5011,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-128",
+    "id": "ipr-fontany-127",
     "name": "Bazén s vodotryskem Arbesovo náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -4901,7 +5033,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-129",
+    "id": "ipr-fontany-128",
     "name": "Fontána \"Propadliště času\" před Justičním palácem",
     "category": "fountain",
     "cooling": "water",
@@ -4923,7 +5055,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-130",
+    "id": "ipr-fontany-129",
     "name": "Kašna v ohradní zdi Tyršova domu",
     "category": "fountain",
     "cooling": "water",
@@ -4945,7 +5077,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-131",
+    "id": "ipr-fontany-130",
     "name": "Kašna ve dvoře Tyršova domu",
     "category": "fountain",
     "cooling": "water",
@@ -4967,7 +5099,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-132",
+    "id": "ipr-fontany-131",
     "name": "Kašna v grottě ve dvoře Michnova paláce",
     "category": "fountain",
     "cooling": "water",
@@ -4989,7 +5121,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-133",
+    "id": "ipr-fontany-132",
     "name": "Vodní kaskáda u Sovových mlýnů",
     "category": "fountain",
     "cooling": "water",
@@ -5011,7 +5143,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-134",
+    "id": "ipr-fontany-133",
     "name": "Fontána s plastikou Dálky na sídlišti Novodvorská",
     "category": "fountain",
     "cooling": "water",
@@ -5033,7 +5165,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-135",
+    "id": "ipr-fontany-134",
     "name": "Tři kašny v areálu fakultní Thomayerovy nemocnice",
     "category": "fountain",
     "cooling": "water",
@@ -5055,7 +5187,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-136",
+    "id": "ipr-fontany-135",
     "name": "Dva bazénky v areálu fakultní Thomayerovy nemocnice",
     "category": "fountain",
     "cooling": "water",
@@ -5077,7 +5209,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-137",
+    "id": "ipr-fontany-136",
     "name": "Nádrž s plastikou chlapce v parku u Smíchovského nádraží",
     "category": "fountain",
     "cooling": "water",
@@ -5099,7 +5231,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-138",
+    "id": "ipr-fontany-137",
     "name": "Jezírko v sadech Na Skalce",
     "category": "fountain",
     "cooling": "water",
@@ -5121,7 +5253,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-139",
+    "id": "ipr-fontany-138",
     "name": "Vodní systém Náměstí Augustina Bubníka",
     "category": "fountain",
     "cooling": "water",
@@ -5143,7 +5275,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-140",
+    "id": "ipr-fontany-139",
     "name": "Fontána u budovy Dynamica",
     "category": "fountain",
     "cooling": "water",
@@ -5165,7 +5297,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-141",
+    "id": "ipr-fontany-140",
     "name": "Fontána v nádvoří budovy Aviatica",
     "category": "fountain",
     "cooling": "water",
@@ -5187,7 +5319,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-142",
+    "id": "ipr-fontany-141",
     "name": "Fontána u rezidence Waltrovka",
     "category": "fountain",
     "cooling": "water",
@@ -5209,7 +5341,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-143",
+    "id": "ipr-fontany-142",
     "name": "Fontána u budovy Mechanica",
     "category": "fountain",
     "cooling": "water",
@@ -5231,7 +5363,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-144",
+    "id": "ipr-fontany-143",
     "name": "Fontána v Avenir Business Parku",
     "category": "fountain",
     "cooling": "water",
@@ -5253,7 +5385,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-145",
+    "id": "ipr-fontany-144",
     "name": "Vodotrysky před budovou Metronom",
     "category": "fountain",
     "cooling": "water",
@@ -5275,7 +5407,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-146",
+    "id": "ipr-fontany-145",
     "name": "Květ",
     "category": "fountain",
     "cooling": "water",
@@ -5297,7 +5429,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-147",
+    "id": "ipr-fontany-146",
     "name": "Plastika u pramene Prokopského potoka",
     "category": "fountain",
     "cooling": "water",
@@ -5319,7 +5451,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-148",
+    "id": "ipr-fontany-147",
     "name": "Fontána v parku Panská zahrada",
     "category": "fountain",
     "cooling": "water",
@@ -5341,7 +5473,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-149",
+    "id": "ipr-fontany-148",
     "name": "Fontána Panská zahrada",
     "category": "fountain",
     "cooling": "water",
@@ -5363,7 +5495,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-150",
+    "id": "ipr-fontany-149",
     "name": "Bublák",
     "category": "fountain",
     "cooling": "water",
@@ -5385,7 +5517,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-151",
+    "id": "ipr-fontany-150",
     "name": "Jezírko s plastikou dívky",
     "category": "fountain",
     "cooling": "water",
@@ -5407,7 +5539,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-152",
+    "id": "ipr-fontany-151",
     "name": "Kašna náměstí Junkových",
     "category": "fountain",
     "cooling": "water",
@@ -5429,7 +5561,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-153",
+    "id": "ipr-fontany-152",
     "name": "Dvě fontány v zahradě komplexu City West",
     "category": "fountain",
     "cooling": "water",
@@ -5451,7 +5583,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-154",
+    "id": "ipr-fontany-153",
     "name": "Fontánka v Britské čtvrti",
     "category": "fountain",
     "cooling": "water",
@@ -5473,7 +5605,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-155",
+    "id": "ipr-fontany-154",
     "name": "Fontána náměstí Junkových",
     "category": "fountain",
     "cooling": "water",
@@ -5495,7 +5627,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-156",
+    "id": "ipr-fontany-155",
     "name": "Vodní kaskáda v Britské čtvrti",
     "category": "fountain",
     "cooling": "water",
@@ -5517,7 +5649,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-157",
+    "id": "ipr-fontany-156",
     "name": "Fontána v Uhříněvsi",
     "category": "fountain",
     "cooling": "water",
@@ -5539,7 +5671,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-158",
+    "id": "ipr-fontany-157",
     "name": "Fontána před základní školou Trávníčkova",
     "category": "fountain",
     "cooling": "water",
@@ -5561,7 +5693,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-159",
+    "id": "ipr-fontany-158",
     "name": "Vodotrysky ve Stodůleckém rybníku",
     "category": "fountain",
     "cooling": "water",
@@ -5583,7 +5715,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-160",
+    "id": "ipr-fontany-159",
     "name": "Fontána \"Keltský bojovník\" na sídlišti Velká Ohrada",
     "category": "fountain",
     "cooling": "water",
@@ -5605,7 +5737,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-161",
+    "id": "ipr-fontany-160",
     "name": "Fontána v Dalejském parku",
     "category": "fountain",
     "cooling": "water",
@@ -5627,7 +5759,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-162",
+    "id": "ipr-fontany-161",
     "name": "Fontána v nákupním centru Arkády Pankrác",
     "category": "fountain",
     "cooling": "water",
@@ -5649,7 +5781,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-163",
+    "id": "ipr-fontany-162",
     "name": "Vodní prvky v Main Point Pankrác",
     "category": "fountain",
     "cooling": "water",
@@ -5671,7 +5803,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-164",
+    "id": "ipr-fontany-163",
     "name": "Fontána před hotelem Panorama",
     "category": "fountain",
     "cooling": "water",
@@ -5693,7 +5825,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-165",
+    "id": "ipr-fontany-164",
     "name": "Fontána u nákupního střediska na sídlišti Pankrác I",
     "category": "fountain",
     "cooling": "water",
@@ -5715,7 +5847,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-166",
+    "id": "ipr-fontany-165",
     "name": "Fontána s lekníny",
     "category": "fountain",
     "cooling": "water",
@@ -5737,7 +5869,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-168",
+    "id": "ipr-fontany-167",
     "name": "Fontána v centrální parku Pankrác",
     "category": "fountain",
     "cooling": "water",
@@ -5759,7 +5891,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-169",
+    "id": "ipr-fontany-168",
     "name": "Fontána v centrálním parku Na Pankráci",
     "category": "fountain",
     "cooling": "water",
@@ -5781,7 +5913,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-170",
+    "id": "ipr-fontany-169",
     "name": "Čtvercová fontána v Centrálním parku Pankrác",
     "category": "fountain",
     "cooling": "water",
@@ -5803,7 +5935,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-171",
+    "id": "ipr-fontany-170",
     "name": "Fontány u kancelářské budovy",
     "category": "fountain",
     "cooling": "water",
@@ -5825,7 +5957,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-172",
+    "id": "ipr-fontany-171",
     "name": "Fontána u kancelářské budovy",
     "category": "fountain",
     "cooling": "water",
@@ -5847,7 +5979,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-173",
+    "id": "ipr-fontany-172",
     "name": "Fontána před bytovým domem v Dubči",
     "category": "fountain",
     "cooling": "water",
@@ -5869,7 +6001,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-174",
+    "id": "ipr-fontany-173",
     "name": "Fontána ve dvoře Staré pošty",
     "category": "fountain",
     "cooling": "water",
@@ -5891,7 +6023,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-175",
+    "id": "ipr-fontany-174",
     "name": "Fontána u výzkumných ústavů Běchovice",
     "category": "fountain",
     "cooling": "water",
@@ -5913,7 +6045,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-176",
+    "id": "ipr-fontany-175",
     "name": "Nová fontána v zámeckém parku",
     "category": "fountain",
     "cooling": "water",
@@ -5935,7 +6067,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-177",
+    "id": "ipr-fontany-176",
     "name": "Moderní skleněná fontána u vjezdu do tunelu Mrázovka",
     "category": "fountain",
     "cooling": "water",
@@ -5957,7 +6089,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-178",
+    "id": "ipr-fontany-177",
     "name": "Jezírko v zahradě Palaty",
     "category": "fountain",
     "cooling": "water",
@@ -5979,7 +6111,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-179",
+    "id": "ipr-fontany-178",
     "name": "Kašna před budovou Palaty",
     "category": "fountain",
     "cooling": "water",
@@ -6001,7 +6133,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-180",
+    "id": "ipr-fontany-179",
     "name": "Drobná kašna ve vilové čtvrti",
     "category": "fountain",
     "cooling": "water",
@@ -6023,7 +6155,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-181",
+    "id": "ipr-fontany-180",
     "name": "Betonové nádrže u ventilační šachty Strahovského tunelu",
     "category": "fountain",
     "cooling": "water",
@@ -6045,7 +6177,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-182",
+    "id": "ipr-fontany-181",
     "name": "Drobná kašna u vstupu do Kinského zahrady",
     "category": "fountain",
     "cooling": "water",
@@ -6067,7 +6199,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-183",
+    "id": "ipr-fontany-182",
     "name": "Vodní schody",
     "category": "fountain",
     "cooling": "water",
@@ -6089,7 +6221,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-184",
+    "id": "ipr-fontany-183",
     "name": "Kašna poblíž bývalého skleníku",
     "category": "fountain",
     "cooling": "water",
@@ -6111,7 +6243,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-185",
+    "id": "ipr-fontany-184",
     "name": "Jezírko s lachtanem",
     "category": "fountain",
     "cooling": "water",
@@ -6133,7 +6265,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-186",
+    "id": "ipr-fontany-185",
     "name": "Fontána v altánu pro válečné veterány v areálu UVN",
     "category": "fountain",
     "cooling": "water",
@@ -6155,7 +6287,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-187",
+    "id": "ipr-fontany-186",
     "name": "Jezírko s kaskádou a se sochou Herkula",
     "category": "fountain",
     "cooling": "water",
@@ -6177,7 +6309,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-188",
+    "id": "ipr-fontany-187",
     "name": "Fontánka v areálu Ústřední vojenské nemocnice",
     "category": "fountain",
     "cooling": "water",
@@ -6199,7 +6331,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-189",
+    "id": "ipr-fontany-188",
     "name": "Vodotrysk před letohrádkem Kinských",
     "category": "fountain",
     "cooling": "water",
@@ -6221,7 +6353,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-190",
+    "id": "ipr-fontany-189",
     "name": "Kašna v areálu školy pro neslyšící",
     "category": "fountain",
     "cooling": "water",
@@ -6243,7 +6375,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-191",
+    "id": "ipr-fontany-190",
     "name": "Bazének s vodotryskem v zahradě kláštera Sacré Coeur",
     "category": "fountain",
     "cooling": "water",
@@ -6265,7 +6397,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-192",
+    "id": "ipr-fontany-191",
     "name": "Fontána u oranžerie",
     "category": "fountain",
     "cooling": "water",
@@ -6287,7 +6419,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-193",
+    "id": "ipr-fontany-192",
     "name": "Pískovcová fontána",
     "category": "fountain",
     "cooling": "water",
@@ -6309,7 +6441,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-194",
+    "id": "ipr-fontany-193",
     "name": "Kašna Centrální park Na Pankráci",
     "category": "fountain",
     "cooling": "water",
@@ -6331,7 +6463,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-195",
+    "id": "ipr-fontany-194",
     "name": "Jezírko v Květnici na Petříně",
     "category": "fountain",
     "cooling": "water",
@@ -6353,7 +6485,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-196",
+    "id": "ipr-fontany-195",
     "name": "Vodotrysk v jezírku v parku Kajetánka",
     "category": "fountain",
     "cooling": "water",
@@ -6375,7 +6507,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-197",
+    "id": "ipr-fontany-196",
     "name": "Studánka Petřínka",
     "category": "fountain",
     "cooling": "water",
@@ -6397,7 +6529,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-198",
+    "id": "ipr-fontany-197",
     "name": "Vodotrysk před restaurací Nebozízek",
     "category": "fountain",
     "cooling": "water",
@@ -6419,7 +6551,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-199",
+    "id": "ipr-fontany-198",
     "name": "Fontána s hrajícími si chlapci",
     "category": "fountain",
     "cooling": "water",
@@ -6441,7 +6573,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-200",
+    "id": "ipr-fontany-199",
     "name": "Vodní hříčka v parku Maxe van der Stoela",
     "category": "fountain",
     "cooling": "water",
@@ -6463,7 +6595,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-201",
+    "id": "ipr-fontany-200",
     "name": "Fontána v nádvoří domu",
     "category": "fountain",
     "cooling": "water",
@@ -6485,7 +6617,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-202",
+    "id": "ipr-fontany-201",
     "name": "Kašna ve dvoře Náprstkova muzea",
     "category": "fountain",
     "cooling": "water",
@@ -6507,7 +6639,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-203",
+    "id": "ipr-fontany-202",
     "name": "Fontána na dvoře u Betlémské kaple",
     "category": "fountain",
     "cooling": "water",
@@ -6529,7 +6661,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-204",
+    "id": "ipr-fontany-203",
     "name": "Fontána na dvoře Alchymist Grand Hotel and Spa",
     "category": "fountain",
     "cooling": "water",
@@ -6551,7 +6683,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-205",
+    "id": "ipr-fontany-204",
     "name": "Kašna ve dvoraně Betlémského paláce",
     "category": "fountain",
     "cooling": "water",
@@ -6573,7 +6705,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-206",
+    "id": "ipr-fontany-205",
     "name": "Morový sloup s kašnou",
     "category": "fountain",
     "cooling": "water",
@@ -6595,7 +6727,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-207",
+    "id": "ipr-fontany-206",
     "name": "Fontánka se sochou sv. Václava",
     "category": "fountain",
     "cooling": "water",
@@ -6617,7 +6749,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-208",
+    "id": "ipr-fontany-207",
     "name": "Kinetická fontána v Café Louvre",
     "category": "fountain",
     "cooling": "water",
@@ -6639,7 +6771,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-209",
+    "id": "ipr-fontany-208",
     "name": "Drobná fontána v nádvoří Paláce Platýz",
     "category": "fountain",
     "cooling": "water",
@@ -6661,7 +6793,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-210",
+    "id": "ipr-fontany-209",
     "name": "Moderní fontána v nádvoří domu",
     "category": "fountain",
     "cooling": "water",
@@ -6683,7 +6815,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-211",
+    "id": "ipr-fontany-210",
     "name": "Vodní prvky v Léčebné zahradě sv. Josefa",
     "category": "fountain",
     "cooling": "water",
@@ -6705,7 +6837,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-212",
+    "id": "ipr-fontany-211",
     "name": "Kašna ve vestibulu České pojišťovny",
     "category": "fountain",
     "cooling": "water",
@@ -6727,7 +6859,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-213",
+    "id": "ipr-fontany-212",
     "name": "Kašna na dvoře domu",
     "category": "fountain",
     "cooling": "water",
@@ -6749,7 +6881,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-214",
+    "id": "ipr-fontany-213",
     "name": "Barokní fontána Jižní zahrady",
     "category": "fountain",
     "cooling": "water",
@@ -6771,7 +6903,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-215",
+    "id": "ipr-fontany-214",
     "name": "Kašna ve dvoře domu",
     "category": "fountain",
     "cooling": "water",
@@ -6793,7 +6925,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-217",
+    "id": "ipr-fontany-216",
     "name": "Vodotrysk u vstupu do vinice pod zahradou Na Valech",
     "category": "fountain",
     "cooling": "water",
@@ -6815,7 +6947,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-218",
+    "id": "ipr-fontany-217",
     "name": "Kašna se sochou Herkula",
     "category": "fountain",
     "cooling": "water",
@@ -6837,7 +6969,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-219",
+    "id": "ipr-fontany-218",
     "name": "Fontána na Můstku",
     "category": "fountain",
     "cooling": "water",
@@ -6859,7 +6991,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-220",
+    "id": "ipr-fontany-219",
     "name": "Fontána s divoženkami",
     "category": "fountain",
     "cooling": "water",
@@ -6881,7 +7013,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-221",
+    "id": "ipr-fontany-220",
     "name": "Kašna při zdi Františkánské zahrady",
     "category": "fountain",
     "cooling": "water",
@@ -6903,7 +7035,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-222",
+    "id": "ipr-fontany-221",
     "name": "Kamenná kašnička v domě Langhans",
     "category": "fountain",
     "cooling": "water",
@@ -6925,7 +7057,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-223",
+    "id": "ipr-fontany-222",
     "name": "Kašna ve dvoře domu Langhans",
     "category": "fountain",
     "cooling": "water",
@@ -6947,7 +7079,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-224",
+    "id": "ipr-fontany-223",
     "name": "Fontána u Jízdárny Pražského hradu",
     "category": "fountain",
     "cooling": "water",
@@ -6969,7 +7101,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-225",
+    "id": "ipr-fontany-224",
     "name": "Pískovcové fontány u Hradní jízdárny",
     "category": "fountain",
     "cooling": "water",
@@ -6991,7 +7123,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-226",
+    "id": "ipr-fontany-225",
     "name": "Fontána Jízdárny Pražského hradu",
     "category": "fountain",
     "cooling": "water",
@@ -7013,7 +7145,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-227",
+    "id": "ipr-fontany-226",
     "name": "Kašna s chrličem u Stájového dvora",
     "category": "fountain",
     "cooling": "water",
@@ -7035,7 +7167,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-228",
+    "id": "ipr-fontany-227",
     "name": "Fontánka v restauraci Lví dvůr",
     "category": "fountain",
     "cooling": "water",
@@ -7057,7 +7189,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-229",
+    "id": "ipr-fontany-228",
     "name": "Bazén s vodotryskem Královská zahrada",
     "category": "fountain",
     "cooling": "water",
@@ -7079,7 +7211,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-230",
+    "id": "ipr-fontany-229",
     "name": "Fontána se sochou Herkula",
     "category": "fountain",
     "cooling": "water",
@@ -7101,7 +7233,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-231",
+    "id": "ipr-fontany-230",
     "name": "Bazének s vodotryskem Královská zahrada",
     "category": "fountain",
     "cooling": "water",
@@ -7123,7 +7255,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-232",
+    "id": "ipr-fontany-231",
     "name": "Zpívající fontána",
     "category": "fountain",
     "cooling": "water",
@@ -7145,7 +7277,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-233",
+    "id": "ipr-fontany-232",
     "name": "Fontána Vějíř Žofie Chotkové",
     "category": "fountain",
     "cooling": "water",
@@ -7167,7 +7299,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-234",
+    "id": "ipr-fontany-233",
     "name": "Pomník Julia Zeyera s vodní kaskádou",
     "category": "fountain",
     "cooling": "water",
@@ -7189,7 +7321,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-235",
+    "id": "ipr-fontany-234",
     "name": "Fontána Letenské sady",
     "category": "fountain",
     "cooling": "water",
@@ -7211,7 +7343,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-236",
+    "id": "ipr-fontany-235",
     "name": "Fontána Letenské sady II.",
     "category": "fountain",
     "cooling": "water",
@@ -7233,7 +7365,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-237",
+    "id": "ipr-fontany-236",
     "name": "Kašna ve výklenku u schodů",
     "category": "fountain",
     "cooling": "water",
@@ -7255,7 +7387,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-238",
+    "id": "ipr-fontany-237",
     "name": "Fontána Proudy u Hergetovy cihelny",
     "category": "fountain",
     "cooling": "water",
@@ -7277,7 +7409,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-239",
+    "id": "ipr-fontany-238",
     "name": "Jezírko ve Vojanových sadech",
     "category": "fountain",
     "cooling": "water",
@@ -7299,7 +7431,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-240",
+    "id": "ipr-fontany-239",
     "name": "Kašna ve Vojanových sadech",
     "category": "fountain",
     "cooling": "water",
@@ -7321,7 +7453,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-241",
+    "id": "ipr-fontany-240",
     "name": "Kašna se lví hlavou na druhém nádvoří Valdštejnského paláce",
     "category": "fountain",
     "cooling": "water",
@@ -7343,7 +7475,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-242",
+    "id": "ipr-fontany-241",
     "name": "Kašna na nádvoří Valdštejnského paláce",
     "category": "fountain",
     "cooling": "water",
@@ -7365,7 +7497,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-243",
+    "id": "ipr-fontany-242",
     "name": "Fontána Furstenberské zahrady",
     "category": "fountain",
     "cooling": "water",
@@ -7387,7 +7519,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-244",
+    "id": "ipr-fontany-243",
     "name": "Dvě fontány v zahradě Fürstenberského paláce",
     "category": "fountain",
     "cooling": "water",
@@ -7409,7 +7541,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-245",
+    "id": "ipr-fontany-244",
     "name": "Mramorová fontánka před domem U Turkovy hlavy",
     "category": "fountain",
     "cooling": "water",
@@ -7431,7 +7563,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-246",
+    "id": "ipr-fontany-245",
     "name": "Dvě kašničky v hotelu U Zlaté studně",
     "category": "fountain",
     "cooling": "water",
@@ -7453,7 +7585,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-247",
+    "id": "ipr-fontany-246",
     "name": "Fontána v parku U Prašného mostu",
     "category": "fountain",
     "cooling": "water",
@@ -7475,7 +7607,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-248",
+    "id": "ipr-fontany-247",
     "name": "Studánka Jezerka a nádrž s vodotryskem",
     "category": "fountain",
     "cooling": "water",
@@ -7497,7 +7629,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-249",
+    "id": "ipr-fontany-248",
     "name": "Památník tří odbojů s fontánou",
     "category": "fountain",
     "cooling": "water",
@@ -7519,7 +7651,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-250",
+    "id": "ipr-fontany-249",
     "name": "Fontána u Divadla na Fidlovačce",
     "category": "fountain",
     "cooling": "water",
@@ -7541,7 +7673,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-251",
+    "id": "ipr-fontany-250",
     "name": "Prameník na severní terase Kongresového centra",
     "category": "fountain",
     "cooling": "water",
@@ -7563,7 +7695,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-252",
+    "id": "ipr-fontany-251",
     "name": "Prameník",
     "category": "fountain",
     "cooling": "water",
@@ -7585,7 +7717,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-253",
+    "id": "ipr-fontany-252",
     "name": "Prameník na západní straně Kongresového centra",
     "category": "fountain",
     "cooling": "water",
@@ -7607,7 +7739,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-254",
+    "id": "ipr-fontany-253",
     "name": "Novodobá fontána",
     "category": "fountain",
     "cooling": "water",
@@ -7629,7 +7761,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-255",
+    "id": "ipr-fontany-254",
     "name": "Fontána ve vestibulu Ústavu pro péči o matku a dítě",
     "category": "fountain",
     "cooling": "water",
@@ -7651,7 +7783,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-256",
+    "id": "ipr-fontany-255",
     "name": "Jezírko v areálu Ústavu pro péči o matku a dítě",
     "category": "fountain",
     "cooling": "water",
@@ -7673,7 +7805,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-257",
+    "id": "ipr-fontany-256",
     "name": "Fontána u Jiráskova pomníku",
     "category": "fountain",
     "cooling": "water",
@@ -7695,7 +7827,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-258",
+    "id": "ipr-fontany-257",
     "name": "Kašna se sochou v ulici Náplavní",
     "category": "fountain",
     "cooling": "water",
@@ -7717,7 +7849,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-259",
+    "id": "ipr-fontany-258",
     "name": "Vodotrysk se sochou Tritona v Botanické zahradě",
     "category": "fountain",
     "cooling": "water",
@@ -7739,7 +7871,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-260",
+    "id": "ipr-fontany-259",
     "name": "Nádrž na vodu s chrličem v Botanické zahradě",
     "category": "fountain",
     "cooling": "water",
@@ -7761,7 +7893,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-261",
+    "id": "ipr-fontany-260",
     "name": "Fontánka ve vstupní hale Hlavova ústavu",
     "category": "fountain",
     "cooling": "water",
@@ -7783,7 +7915,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-262",
+    "id": "ipr-fontany-261",
     "name": "Kašna \"Váza\"",
     "category": "fountain",
     "cooling": "water",
@@ -7805,7 +7937,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-263",
+    "id": "ipr-fontany-262",
     "name": "Fontána s kaskádou v parku Folimanka",
     "category": "fountain",
     "cooling": "water",
@@ -7827,7 +7959,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-264",
+    "id": "ipr-fontany-263",
     "name": "Nová fontána a dvě pítka v rekreačním parku Folimanka",
     "category": "fountain",
     "cooling": "water",
@@ -7849,7 +7981,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-265",
+    "id": "ipr-fontany-264",
     "name": "Fontána s plastikou \"Tři\" v parku Folimanka",
     "category": "fountain",
     "cooling": "water",
@@ -7871,7 +8003,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-266",
+    "id": "ipr-fontany-265",
     "name": "Vodní prvky v Umělecké zahradě",
     "category": "fountain",
     "cooling": "water",
@@ -7893,7 +8025,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-267",
+    "id": "ipr-fontany-266",
     "name": "Kašna s delfíny",
     "category": "fountain",
     "cooling": "water",
@@ -7915,7 +8047,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-268",
+    "id": "ipr-fontany-267",
     "name": "Dvě kinetické fontány v restauraci Maitrea",
     "category": "fountain",
     "cooling": "water",
@@ -7937,7 +8069,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-269",
+    "id": "ipr-fontany-268",
     "name": "Dvě kašny v paláci Goltz-Kinských",
     "category": "fountain",
     "cooling": "water",
@@ -7954,12 +8086,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.422964,
-     50.087347
+     14.422968,
+     50.087331
     ]
    },
    "properties": {
-    "id": "ipr-fontany-270",
+    "id": "ipr-fontany-269",
     "name": "Kašna na malém prostranství při jižním vstupu do Týnského chrámu",
     "category": "fountain",
     "cooling": "water",
@@ -7968,7 +8100,7 @@
     "opening_hours": null,
     "address": null,
     "source": "ipr",
-    "note": "kašna"
+    "note": "kašna; správce: TSK"
    }
   },
   {
@@ -7981,7 +8113,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-271",
+    "id": "ipr-fontany-270",
     "name": "Kašna se Lvy",
     "category": "fountain",
     "cooling": "water",
@@ -8003,7 +8135,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-272",
+    "id": "ipr-fontany-271",
     "name": "Dvě kašny ve dvoře paláce Sylva-Taroucca",
     "category": "fountain",
     "cooling": "water",
@@ -8025,7 +8157,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-273",
+    "id": "ipr-fontany-272",
     "name": "Fontánka v dolním foyer Obecního domu",
     "category": "fountain",
     "cooling": "water",
@@ -8047,7 +8179,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-274",
+    "id": "ipr-fontany-273",
     "name": "Kašna v zahradě hotelu The Grand Mark Prague",
     "category": "fountain",
     "cooling": "water",
@@ -8069,7 +8201,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-275",
+    "id": "ipr-fontany-274",
     "name": "Kašna v nádvoří Lidového domu",
     "category": "fountain",
     "cooling": "water",
@@ -8091,7 +8223,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-276",
+    "id": "ipr-fontany-275",
     "name": "Interiérová fontána v kavárně",
     "category": "fountain",
     "cooling": "water",
@@ -8113,7 +8245,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-277",
+    "id": "ipr-fontany-276",
     "name": "Tančící kašna, Čeští muzikanti (nebo také Pražské jaro)",
     "category": "fountain",
     "cooling": "water",
@@ -8135,7 +8267,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-278",
+    "id": "ipr-fontany-277",
     "name": "Fontána v zahradě Slovanského domu",
     "category": "fountain",
     "cooling": "water",
@@ -8157,7 +8289,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-279",
+    "id": "ipr-fontany-278",
     "name": "Fontána ve vrátnici Paláce Fénix",
     "category": "fountain",
     "cooling": "water",
@@ -8179,7 +8311,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-280",
+    "id": "ipr-fontany-279",
     "name": "Drobná kašna s fontánkou v kavárně v Paláci Lucerna",
     "category": "fountain",
     "cooling": "water",
@@ -8201,7 +8333,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-281",
+    "id": "ipr-fontany-280",
     "name": "Fontána v pasáži Exportní garanční a pojišťovací společnosti, a.s.",
     "category": "fountain",
     "cooling": "water",
@@ -8223,7 +8355,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-282",
+    "id": "ipr-fontany-281",
     "name": "Fontána před Národním muzeem",
     "category": "fountain",
     "cooling": "water",
@@ -8245,7 +8377,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-283",
+    "id": "ipr-fontany-282",
     "name": "Žulový prameník na odpočívadle dálnice D11 - směr centrum",
     "category": "fountain",
     "cooling": "water",
@@ -8267,7 +8399,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-284",
+    "id": "ipr-fontany-283",
     "name": "Fontána na náměstí Přátelství",
     "category": "fountain",
     "cooling": "water",
@@ -8289,7 +8421,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-285",
+    "id": "ipr-fontany-284",
     "name": "Kašna s mříží v hotelu Selský Dvůr",
     "category": "fountain",
     "cooling": "water",
@@ -8311,7 +8443,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-286",
+    "id": "ipr-fontany-285",
     "name": "Fontána v areálu vysokoškolských kolejí Hostivař",
     "category": "fountain",
     "cooling": "water",
@@ -8333,7 +8465,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-287",
+    "id": "ipr-fontany-286",
     "name": "Fontána u vodárenského areálu na Kozinci",
     "category": "fountain",
     "cooling": "water",
@@ -8355,7 +8487,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-288",
+    "id": "ipr-fontany-287",
     "name": "Fontána na Veronském náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -8377,7 +8509,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-289",
+    "id": "ipr-fontany-288",
     "name": "Fontána na sídlišti Petrovice",
     "category": "fountain",
     "cooling": "water",
@@ -8399,7 +8531,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-290",
+    "id": "ipr-fontany-289",
     "name": "Fontána s plastikou v areálu Pražských vodovodů a kanalizací",
     "category": "fountain",
     "cooling": "water",
@@ -8421,7 +8553,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-291",
+    "id": "ipr-fontany-290",
     "name": "Fontána na parkovišti firmy Mediaprint & Kapa",
     "category": "fountain",
     "cooling": "water",
@@ -8443,7 +8575,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-292",
+    "id": "ipr-fontany-291",
     "name": "Fontána ve vnitrobloku firmy Penta",
     "category": "fountain",
     "cooling": "water",
@@ -8465,7 +8597,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-293",
+    "id": "ipr-fontany-292",
     "name": "Fontána před budovou Ústředních dílen DP",
     "category": "fountain",
     "cooling": "water",
@@ -8487,7 +8619,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-294",
+    "id": "ipr-fontany-293",
     "name": "Kašna ve dvoře hotelu Baroko",
     "category": "fountain",
     "cooling": "water",
@@ -8509,7 +8641,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-295",
+    "id": "ipr-fontany-294",
     "name": "Fontána ve vnitrobloku Plaňanská",
     "category": "fountain",
     "cooling": "water",
@@ -8531,7 +8663,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-296",
+    "id": "ipr-fontany-295",
     "name": "Vodní prvky v Malešickém parku",
     "category": "fountain",
     "cooling": "water",
@@ -8553,7 +8685,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-297",
+    "id": "ipr-fontany-296",
     "name": "Vodotrysk v Malešickém parku",
     "category": "fountain",
     "cooling": "water",
@@ -8575,7 +8707,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-298",
+    "id": "ipr-fontany-297",
     "name": "Keramická fontána v areálu Střední průmyslové školy",
     "category": "fountain",
     "cooling": "water",
@@ -8597,7 +8729,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-299",
+    "id": "ipr-fontany-298",
     "name": "Fontána v parku před ubytovnou",
     "category": "fountain",
     "cooling": "water",
@@ -8619,7 +8751,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-300",
+    "id": "ipr-fontany-299",
     "name": "Fontánka u bývalého OD Lípa",
     "category": "fountain",
     "cooling": "water",
@@ -8641,7 +8773,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-301",
+    "id": "ipr-fontany-300",
     "name": "Vodní hříčka u studentských kolejí VŠE",
     "category": "fountain",
     "cooling": "water",
@@ -8663,7 +8795,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-302",
+    "id": "ipr-fontany-301",
     "name": "Fontána před budovou společnosti Auto Jarov s.r.o.",
     "category": "fountain",
     "cooling": "water",
@@ -8685,7 +8817,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-303",
+    "id": "ipr-fontany-302",
     "name": "Moderní fontána s bronzovými plastikami",
     "category": "fountain",
     "cooling": "water",
@@ -8707,7 +8839,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-304",
+    "id": "ipr-fontany-303",
     "name": "Dvě pítka na náměstí Míru",
     "category": "fountain",
     "cooling": "water",
@@ -8729,7 +8861,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-305",
+    "id": "ipr-fontany-304",
     "name": "Bazének s vodotryskem Tylovo náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -8751,7 +8883,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-306",
+    "id": "ipr-fontany-305",
     "name": "Bazének s vodotryskem Sady bratří Čapků",
     "category": "fountain",
     "cooling": "water",
@@ -8773,7 +8905,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-307",
+    "id": "ipr-fontany-306",
     "name": "Interiérová fontána v kolumbáriu Husova sboru",
     "category": "fountain",
     "cooling": "water",
@@ -8795,7 +8927,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-308",
+    "id": "ipr-fontany-307",
     "name": "Sjednocená Evropa",
     "category": "fountain",
     "cooling": "water",
@@ -8817,7 +8949,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-309",
+    "id": "ipr-fontany-308",
     "name": "Obdélný bazén s vodotrysky",
     "category": "fountain",
     "cooling": "water",
@@ -8839,7 +8971,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-310",
+    "id": "ipr-fontany-309",
     "name": "Vodní kaskáda v parku Rajská zahrada",
     "category": "fountain",
     "cooling": "water",
@@ -8861,7 +8993,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-311",
+    "id": "ipr-fontany-310",
     "name": "Fontána v komplexu Churchill",
     "category": "fountain",
     "cooling": "water",
@@ -8883,7 +9015,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-312",
+    "id": "ipr-fontany-311",
     "name": "Fontána Lastura",
     "category": "fountain",
     "cooling": "water",
@@ -8905,7 +9037,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-313",
+    "id": "ipr-fontany-312",
     "name": "Fontána",
     "category": "fountain",
     "cooling": "water",
@@ -8927,7 +9059,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-314",
+    "id": "ipr-fontany-313",
     "name": "Fontána před hotelem Olšanka",
     "category": "fountain",
     "cooling": "water",
@@ -8949,7 +9081,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-315",
+    "id": "ipr-fontany-314",
     "name": "Fontána ve vnitrobloku domu s pečovatelskou službou",
     "category": "fountain",
     "cooling": "water",
@@ -8971,7 +9103,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-316",
+    "id": "ipr-fontany-315",
     "name": "Fontána na Komenského náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -8993,7 +9125,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-317",
+    "id": "ipr-fontany-316",
     "name": "Žulová fontána na východní straně Národního památníku",
     "category": "fountain",
     "cooling": "water",
@@ -9015,7 +9147,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-318",
+    "id": "ipr-fontany-317",
     "name": "Fontána s plastikou ve dvoraně České spořitelny",
     "category": "fountain",
     "cooling": "water",
@@ -9037,7 +9169,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-319",
+    "id": "ipr-fontany-318",
     "name": "Interiérová fontána v Domě porcelánu",
     "category": "fountain",
     "cooling": "water",
@@ -9059,7 +9191,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-320",
+    "id": "ipr-fontany-319",
     "name": "Zbytky kubistických kašen ve dvorech Šupichova domu",
     "category": "fountain",
     "cooling": "water",
@@ -9081,7 +9213,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-321",
+    "id": "ipr-fontany-320",
     "name": "Kašna s vodotryskem v nádvoří Karolina Univerzity Karlovy",
     "category": "fountain",
     "cooling": "water",
@@ -9103,7 +9235,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-322",
+    "id": "ipr-fontany-321",
     "name": "Prameník na Havelském tržišti",
     "category": "fountain",
     "cooling": "water",
@@ -9125,7 +9257,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-323",
+    "id": "ipr-fontany-322",
     "name": "Wimmerova kašna",
     "category": "fountain",
     "cooling": "water",
@@ -9147,7 +9279,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-324",
+    "id": "ipr-fontany-323",
     "name": "Kašna ve dvoře domu",
     "category": "fountain",
     "cooling": "water",
@@ -9169,7 +9301,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-325",
+    "id": "ipr-fontany-324",
     "name": "Kašna ve dvoře hotelu Casa Marcello",
     "category": "fountain",
     "cooling": "water",
@@ -9191,7 +9323,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-326",
+    "id": "ipr-fontany-325",
     "name": "Dvě studny a fontánka v areálu Anežského kláštera",
     "category": "fountain",
     "cooling": "water",
@@ -9213,7 +9345,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-327",
+    "id": "ipr-fontany-326",
     "name": "Fontánová plastika na Jezdeckém nádvoří OC Palladium",
     "category": "fountain",
     "cooling": "water",
@@ -9235,7 +9367,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-328",
+    "id": "ipr-fontany-327",
     "name": "Fontána v průchodu",
     "category": "fountain",
     "cooling": "water",
@@ -9257,7 +9389,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-329",
+    "id": "ipr-fontany-328",
     "name": "Fontána u Masarykova nádraží",
     "category": "fountain",
     "cooling": "water",
@@ -9279,7 +9411,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-330",
+    "id": "ipr-fontany-329",
     "name": "Fontánka v atriu",
     "category": "fountain",
     "cooling": "water",
@@ -9301,7 +9433,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-331",
+    "id": "ipr-fontany-330",
     "name": "Fontána v atriu Florentina",
     "category": "fountain",
     "cooling": "water",
@@ -9323,7 +9455,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-332",
+    "id": "ipr-fontany-331",
     "name": "Jezírko v atriu Florentina",
     "category": "fountain",
     "cooling": "water",
@@ -9345,7 +9477,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-333",
+    "id": "ipr-fontany-332",
     "name": "Žulová fontána u Petrské věže",
     "category": "fountain",
     "cooling": "water",
@@ -9367,7 +9499,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-334",
+    "id": "ipr-fontany-333",
     "name": "Fontána na prostranství v business centru River City Prague",
     "category": "fountain",
     "cooling": "water",
@@ -9389,7 +9521,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-335",
+    "id": "ipr-fontany-334",
     "name": "Fontána v Amazon Court",
     "category": "fountain",
     "cooling": "water",
@@ -9411,7 +9543,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-336",
+    "id": "ipr-fontany-335",
     "name": "Kaskáda ve vnitrobloku",
     "category": "fountain",
     "cooling": "water",
@@ -9433,7 +9565,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-337",
+    "id": "ipr-fontany-336",
     "name": "Kašna na Karlínském náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -9455,7 +9587,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-338",
+    "id": "ipr-fontany-337",
     "name": "Fontána před budovou Butterfly Karlín",
     "category": "fountain",
     "cooling": "water",
@@ -9477,7 +9609,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-339",
+    "id": "ipr-fontany-338",
     "name": "Fontány před kaplí v Karlíně",
     "category": "fountain",
     "cooling": "water",
@@ -9499,7 +9631,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-340",
+    "id": "ipr-fontany-339",
     "name": "Jezírko v Kaizlových sadech",
     "category": "fountain",
     "cooling": "water",
@@ -9521,7 +9653,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-341",
+    "id": "ipr-fontany-340",
     "name": "Vodní prvky ve Futurama Business Park",
     "category": "fountain",
     "cooling": "water",
@@ -9543,7 +9675,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-342",
+    "id": "ipr-fontany-341",
     "name": "Fontána s plastikou u stanice metra Invalidovna",
     "category": "fountain",
     "cooling": "water",
@@ -9565,7 +9697,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-343",
+    "id": "ipr-fontany-342",
     "name": "Fontána u budovy Rustonka",
     "category": "fountain",
     "cooling": "water",
@@ -9587,7 +9719,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-345",
+    "id": "ipr-fontany-344",
     "name": "Fontána v hotelu Olympik",
     "category": "fountain",
     "cooling": "water",
@@ -9609,7 +9741,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-346",
+    "id": "ipr-fontany-345",
     "name": "Fontána na Krejcárku",
     "category": "fountain",
     "cooling": "water",
@@ -9631,7 +9763,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-347",
+    "id": "ipr-fontany-346",
     "name": "Fontána v parku na Palmovce",
     "category": "fountain",
     "cooling": "water",
@@ -9653,7 +9785,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-348",
+    "id": "ipr-fontany-347",
     "name": "Fontána v areálu Palmovka Open Park",
     "category": "fountain",
     "cooling": "water",
@@ -9675,7 +9807,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-349",
+    "id": "ipr-fontany-348",
     "name": "Betonový bazén v areálu fakult UK a ČVUT",
     "category": "fountain",
     "cooling": "water",
@@ -9697,7 +9829,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-350",
+    "id": "ipr-fontany-349",
     "name": "Fontána při křižovatce Vychovatelna",
     "category": "fountain",
     "cooling": "water",
@@ -9719,7 +9851,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-351",
+    "id": "ipr-fontany-350",
     "name": "Drobná fontánka při vstupu do stanice metra Kobylisy",
     "category": "fountain",
     "cooling": "water",
@@ -9741,7 +9873,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-352",
+    "id": "ipr-fontany-351",
     "name": "Fontána u metra “Ládví”",
     "category": "fountain",
     "cooling": "water",
@@ -9763,7 +9895,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-353",
+    "id": "ipr-fontany-352",
     "name": "Fontána před multikinem Ládví",
     "category": "fountain",
     "cooling": "water",
@@ -9785,7 +9917,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-354",
+    "id": "ipr-fontany-353",
     "name": "Bazén s pelikány v parku před základní školou",
     "category": "fountain",
     "cooling": "water",
@@ -9807,7 +9939,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-355",
+    "id": "ipr-fontany-354",
     "name": "Květ",
     "category": "fountain",
     "cooling": "water",
@@ -9829,7 +9961,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-356",
+    "id": "ipr-fontany-355",
     "name": "Mramorová fontánka ve vnitrobloku",
     "category": "fountain",
     "cooling": "water",
@@ -9851,7 +9983,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-357",
+    "id": "ipr-fontany-356",
     "name": "Žulová fontánka u Kobyliské střelnice",
     "category": "fountain",
     "cooling": "water",
@@ -9873,7 +10005,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-358",
+    "id": "ipr-fontany-357",
     "name": "Fontány v areálu komerčního centra",
     "category": "fountain",
     "cooling": "water",
@@ -9895,7 +10027,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-360",
+    "id": "ipr-fontany-359",
     "name": "Fontána u Chaberského dvora",
     "category": "fountain",
     "cooling": "water",
@@ -9917,7 +10049,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-361",
+    "id": "ipr-fontany-360",
     "name": "Kašna s hlavou lva",
     "category": "fountain",
     "cooling": "water",
@@ -9939,7 +10071,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-362",
+    "id": "ipr-fontany-361",
     "name": "Fontána Krakov",
     "category": "fountain",
     "cooling": "water",
@@ -9961,7 +10093,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-363",
+    "id": "ipr-fontany-362",
     "name": "Moderní fontána před Trojským zámkem",
     "category": "fountain",
     "cooling": "water",
@@ -9983,7 +10115,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-364",
+    "id": "ipr-fontany-363",
     "name": "Dvě pískovcové fontány s motivy hadů",
     "category": "fountain",
     "cooling": "water",
@@ -10005,7 +10137,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-365",
+    "id": "ipr-fontany-364",
     "name": "Kašna pod hlavním schodištěm Trojského zámku",
     "category": "fountain",
     "cooling": "water",
@@ -10027,7 +10159,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-367",
+    "id": "ipr-fontany-366",
     "name": "Centrální fontána v zámeckém parku",
     "category": "fountain",
     "cooling": "water",
@@ -10049,7 +10181,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-368",
+    "id": "ipr-fontany-367",
     "name": "Fontána před hotelem Duo",
     "category": "fountain",
     "cooling": "water",
@@ -10071,7 +10203,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-369",
+    "id": "ipr-fontany-368",
     "name": "Vodní kaskáda před poliklinikou Prosek",
     "category": "fountain",
     "cooling": "water",
@@ -10093,7 +10225,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-370",
+    "id": "ipr-fontany-369",
     "name": "Mlžná fontána před poliklinikou Prosek",
     "category": "fountain",
     "cooling": "water",
@@ -10115,7 +10247,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-371",
+    "id": "ipr-fontany-370",
     "name": "Fontána Střížkov",
     "category": "fountain",
     "cooling": "water",
@@ -10137,7 +10269,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-372",
+    "id": "ipr-fontany-371",
     "name": "Fontána Park Přátelství",
     "category": "fountain",
     "cooling": "water",
@@ -10159,7 +10291,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-373",
+    "id": "ipr-fontany-372",
     "name": "Vodní systém s potoky a fontánkami",
     "category": "fountain",
     "cooling": "water",
@@ -10181,7 +10313,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-374",
+    "id": "ipr-fontany-373",
     "name": "Fontána před Výstavištěm Letňany",
     "category": "fountain",
     "cooling": "water",
@@ -10203,7 +10335,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-375",
+    "id": "ipr-fontany-374",
     "name": "Kašna s plastikou dětí před budovou ÚMČ Praha 18",
     "category": "fountain",
     "cooling": "water",
@@ -10225,7 +10357,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-376",
+    "id": "ipr-fontany-375",
     "name": "Jezírko na Staré návsi",
     "category": "fountain",
     "cooling": "water",
@@ -10247,7 +10379,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-377",
+    "id": "ipr-fontany-376",
     "name": "Fontána Lentilka",
     "category": "fountain",
     "cooling": "water",
@@ -10269,7 +10401,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-378",
+    "id": "ipr-fontany-377",
     "name": "Kaskádová fontána u Obchodního centra Letňany",
     "category": "fountain",
     "cooling": "water",
@@ -10291,7 +10423,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-379",
+    "id": "ipr-fontany-378",
     "name": "Vodní nádrž v Husově parku",
     "category": "fountain",
     "cooling": "water",
@@ -10313,7 +10445,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-380",
+    "id": "ipr-fontany-379",
     "name": "Fontána před Čakovickým zámkem",
     "category": "fountain",
     "cooling": "water",
@@ -10335,7 +10467,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-381",
+    "id": "ipr-fontany-380",
     "name": "Jezírko v zámeckém parku",
     "category": "fountain",
     "cooling": "water",
@@ -10357,7 +10489,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-382",
+    "id": "ipr-fontany-381",
     "name": "Fontánka před budovou úřadu MČ Prahy 19",
     "category": "fountain",
     "cooling": "water",
@@ -10379,7 +10511,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-383",
+    "id": "ipr-fontany-382",
     "name": "Fontánka v areálu býv. mateřské školy",
     "category": "fountain",
     "cooling": "water",
@@ -10401,7 +10533,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-384",
+    "id": "ipr-fontany-383",
     "name": "Kašna na nádvoří Strašnického krematoria",
     "category": "fountain",
     "cooling": "water",
@@ -10423,7 +10555,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-385",
+    "id": "ipr-fontany-384",
     "name": "Fontána v budově bývalého Strojimportu",
     "category": "fountain",
     "cooling": "water",
@@ -10445,7 +10577,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-386",
+    "id": "ipr-fontany-385",
     "name": "Kašna \"Kalich\" v areálu stanice metra Želivského",
     "category": "fountain",
     "cooling": "water",
@@ -10467,7 +10599,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-387",
+    "id": "ipr-fontany-386",
     "name": "Fontána před areálem sídla společnosti Pražské služby, a.s.",
     "category": "fountain",
     "cooling": "water",
@@ -10489,7 +10621,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-388",
+    "id": "ipr-fontany-387",
     "name": "Vodní stěna v kavárně",
     "category": "fountain",
     "cooling": "water",
@@ -10511,7 +10643,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-389",
+    "id": "ipr-fontany-388",
     "name": "Fontána v ulici Pod Harfou",
     "category": "fountain",
     "cooling": "water",
@@ -10533,7 +10665,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-390",
+    "id": "ipr-fontany-389",
     "name": "Fontána před kancelářskou budovou Balabenka",
     "category": "fountain",
     "cooling": "water",
@@ -10555,7 +10687,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-391",
+    "id": "ipr-fontany-390",
     "name": "Fontána před ZŠ Na Balabence",
     "category": "fountain",
     "cooling": "water",
@@ -10577,7 +10709,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-392",
+    "id": "ipr-fontany-391",
     "name": "Bazének s plastikou lachtana",
     "category": "fountain",
     "cooling": "water",
@@ -10599,7 +10731,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-393",
+    "id": "ipr-fontany-392",
     "name": "Fontána s plastikou v zahradě restaurace Patium",
     "category": "fountain",
     "cooling": "water",
@@ -10621,7 +10753,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-394",
+    "id": "ipr-fontany-393",
     "name": "Vodní systém s jezírky v parku Podviní",
     "category": "fountain",
     "cooling": "water",
@@ -10643,7 +10775,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-395",
+    "id": "ipr-fontany-394",
     "name": "Fontána před hotelem Clarion Congress Hotel",
     "category": "fountain",
     "cooling": "water",
@@ -10665,7 +10797,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-396",
+    "id": "ipr-fontany-395",
     "name": "Keramická fontána ve vstupní hale ČHMÚ",
     "category": "fountain",
     "cooling": "water",
@@ -10687,7 +10819,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-397",
+    "id": "ipr-fontany-396",
     "name": "Fontána u AFI CITY",
     "category": "fountain",
     "cooling": "water",
@@ -10709,7 +10841,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-398",
+    "id": "ipr-fontany-397",
     "name": "Fontána na Sofijském náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -10731,7 +10863,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-399",
+    "id": "ipr-fontany-398",
     "name": "Fontánka před budovou pošty",
     "category": "fountain",
     "cooling": "water",
@@ -10753,7 +10885,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-400",
+    "id": "ipr-fontany-399",
     "name": "Fontána před nákupním centrem",
     "category": "fountain",
     "cooling": "water",
@@ -10775,7 +10907,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-401",
+    "id": "ipr-fontany-400",
     "name": "Fontána s plastikou Jablko",
     "category": "fountain",
     "cooling": "water",
@@ -10797,7 +10929,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-402",
+    "id": "ipr-fontany-401",
     "name": "Fontánka před Alzheimer Centrum Modřany",
     "category": "fountain",
     "cooling": "water",
@@ -10819,7 +10951,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-403",
+    "id": "ipr-fontany-402",
     "name": "Moderní fontána před poliklinikou \"Parník\"",
     "category": "fountain",
     "cooling": "water",
@@ -10841,7 +10973,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-404",
+    "id": "ipr-fontany-403",
     "name": "Betonová fontána u stanice metra Černý Most",
     "category": "fountain",
     "cooling": "water",
@@ -10863,7 +10995,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-405",
+    "id": "ipr-fontany-404",
     "name": "Fontána před obchodním centrem Černý Most",
     "category": "fountain",
     "cooling": "water",
@@ -10885,7 +11017,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-406",
+    "id": "ipr-fontany-405",
     "name": "Kašna v areálu býv. Branického pivovaru",
     "category": "fountain",
     "cooling": "water",
@@ -10907,7 +11039,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-407",
+    "id": "ipr-fontany-406",
     "name": "Kašna u pivovaru Bráník",
     "category": "fountain",
     "cooling": "water",
@@ -10929,7 +11061,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-408",
+    "id": "ipr-fontany-407",
     "name": "Nová fontána před kunratickou radnicí",
     "category": "fountain",
     "cooling": "water",
@@ -10951,7 +11083,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-409",
+    "id": "ipr-fontany-408",
     "name": "Fontána s plastikou v areálu výzkumných ústavů",
     "category": "fountain",
     "cooling": "water",
@@ -10973,8 +11105,8 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-410",
-    "name": "Fontána s plastikou",
+    "id": "ipr-fontany-409",
+    "name": "Fontána s plastikou Vlna",
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
@@ -10995,7 +11127,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-411",
+    "id": "ipr-fontany-410",
     "name": "Průchozí fontána s vodotrysky",
     "category": "fountain",
     "cooling": "water",
@@ -11017,7 +11149,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-412",
+    "id": "ipr-fontany-411",
     "name": "Fontána s kaskádou",
     "category": "fountain",
     "cooling": "water",
@@ -11039,7 +11171,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-413",
+    "id": "ipr-fontany-412",
     "name": "Vodní kaskáda s \"vodní obrazovkou\" na Trnkově náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -11061,7 +11193,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-414",
+    "id": "ipr-fontany-413",
     "name": "Fontána v SAPA Praha",
     "category": "fountain",
     "cooling": "water",
@@ -11083,7 +11215,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-415",
+    "id": "ipr-fontany-414",
     "name": "Bazén se sochou Herkula",
     "category": "fountain",
     "cooling": "water",
@@ -11105,7 +11237,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-416",
+    "id": "ipr-fontany-415",
     "name": "Kašna s Heraklem a Kentaurem",
     "category": "fountain",
     "cooling": "water",
@@ -11127,7 +11259,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-417",
+    "id": "ipr-fontany-416",
     "name": "Pískovcová fontána",
     "category": "fountain",
     "cooling": "water",
@@ -11149,7 +11281,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-418",
+    "id": "ipr-fontany-417",
     "name": "Fontána s rybou",
     "category": "fountain",
     "cooling": "water",
@@ -11171,7 +11303,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-419",
+    "id": "ipr-fontany-418",
     "name": "Fontána Venuše s Amorem",
     "category": "fountain",
     "cooling": "water",
@@ -11193,7 +11325,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-420",
+    "id": "ipr-fontany-419",
     "name": "Fontána v parku nemocnice Na Homolce",
     "category": "fountain",
     "cooling": "water",
@@ -11215,7 +11347,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-421",
+    "id": "ipr-fontany-420",
     "name": "Fontána v nádvoří budovy Vysoké školy ekonomické",
     "category": "fountain",
     "cooling": "water",
@@ -11237,7 +11369,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-422",
+    "id": "ipr-fontany-421",
     "name": "Fontána v parku před základní školou",
     "category": "fountain",
     "cooling": "water",
@@ -11259,7 +11391,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-fontany-423",
+    "id": "ipr-fontany-422",
     "name": "Bazén s vodotryskem před Informačním centrem",
     "category": "fountain",
     "cooling": "water",
@@ -11269,6 +11401,28 @@
     "address": null,
     "source": "ipr",
     "note": "fontána; správce: ÚMČ Praha Kolovraty"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.381261,
+     50.086469
+    ]
+   },
+   "properties": {
+    "id": "ipr-fontany-423",
+    "name": "Multifunkční operativní středisko Malovanka",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": "fontána"
    }
   },
   {
@@ -31201,28 +31355,6 @@
     "address": "Podolská 47",
     "source": "osm",
     "note": "krytý bazén (klimatizovaná hala)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.414674,
-     50.072214
-    ]
-   },
-   "properties": {
-    "id": "osm-way-506355634",
-    "name": "Zítkovy sady",
-    "category": "park",
-    "cooling": "shade",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
    }
   },
   {

@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - klimatizovane sluzby/provozovny jako body (supermarket, banka, fitness, hotel 4*/5*)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-07-13T10:04:32Z",
-  "count": 790
+  "generated": "2026-07-20T09:52:20Z",
+  "count": 788
  },
  "features": [
   {
@@ -552,8 +552,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.494552,
-     50.042178
+     14.494651,
+     50.042205
     ]
    },
    "properties": {
@@ -3421,26 +3421,6 @@
     "name": "Penny",
     "brand": "Penny",
     "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.493483,
-     50.028433
-    ]
-   },
-   "properties": {
-    "id": "osm-node-924190017",
-    "name": "Komerční banka",
-    "brand": "Komerční banka",
-    "kind": "bank",
     "cooling": "ac",
     "tier": "A",
     "address": null,
@@ -8161,26 +8141,6 @@
     "name": "Billa",
     "brand": "Billa",
     "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.502501,
-     50.108677
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4814848722",
-    "name": "Komerční banka",
-    "brand": "Komerční banka",
-    "kind": "bank",
     "cooling": "ac",
     "tier": "A",
     "address": null,

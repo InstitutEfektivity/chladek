@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chladek - znackove klimatizovane prodejny jako body (drogerie, elektro)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-07-13T10:02:11Z",
+  "generated": "2026-07-20T09:50:15Z",
   "count": 179
  },
  "features": [
@@ -620,8 +620,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.473227,
-     50.104832
+     14.473252,
+     50.104797
     ]
    },
    "properties": {
