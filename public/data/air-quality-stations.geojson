@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-22T14:01:26.485550+00:00",
+ "generatedAt": "2026-07-22T15:45:18.169454+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -22,14 +22,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 4.7
+      "value": 6.1
      },
      {
       "type": "PM10",
-      "value": 10
+      "value": 6.6
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -51,18 +51,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 7.5
+      "value": 6.8
      },
      {
       "type": "PM10",
-      "value": 19.8
+      "value": 16.5
      },
      {
       "type": "PM2_5",
-      "value": 3.6
+      "value": 3.7
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -84,14 +84,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 4.5
+      "value": 5.9
      },
      {
       "type": "PM10",
-      "value": 9
+      "value": 8.1
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -113,14 +113,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 11.9
+      "value": 12.9
      },
      {
       "type": "PM10",
-      "value": 13.3
+      "value": 13.1
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -142,18 +142,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 3
+      "value": 2.6
      },
      {
       "type": "O3",
-      "value": 88.7
+      "value": 89.3
      },
      {
       "type": "PM10",
-      "value": 9.7
+      "value": 6.8
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -175,18 +175,18 @@
     "components": [
      {
       "type": "NO2",
-      "value": 6.7
+      "value": 8.6
      },
      {
       "type": "PM10",
-      "value": 10
+      "value": 10.5
      },
      {
       "type": "PM2_5",
-      "value": 3.8
+      "value": 4.1
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -208,22 +208,22 @@
     "components": [
      {
       "type": "NO2",
-      "value": 4.4
+      "value": 3.3
      },
      {
       "type": "O3",
-      "value": 78.7
+      "value": 79.7
      },
      {
       "type": "PM10",
-      "value": 19.6
+      "value": 21.3
      },
      {
       "type": "PM2_5",
-      "value": 3.1
+      "value": 3.4
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -245,26 +245,26 @@
     "components": [
      {
       "type": "NO2",
-      "value": 3.6
+      "value": 4.5
      },
      {
       "type": "O3",
-      "value": 87.1
+      "value": 86.1
      },
      {
       "type": "PM10",
-      "value": 9
+      "value": 5.5
      },
      {
       "type": "PM2_5",
-      "value": 7.3
+      "value": 5.5
      },
      {
       "type": "SO2",
       "value": 1.3
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -286,14 +286,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 26.8
+      "value": 30.5
      },
      {
       "type": "PM10",
-      "value": 4.8
+      "value": 18.3
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -315,14 +315,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 8.1
+      "value": 7.8
      },
      {
       "type": "PM10",
-      "value": 21.9
+      "value": 20.2
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -348,14 +348,14 @@
      },
      {
       "type": "PM10",
-      "value": 9.6
+      "value": 9
      },
      {
       "type": "PM2_5",
-      "value": 2.3
+      "value": 2.2
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -377,26 +377,26 @@
     "components": [
      {
       "type": "NO2",
-      "value": 5.8
+      "value": 6.2
      },
      {
       "type": "O3",
-      "value": 86
+      "value": 86.4
      },
      {
       "type": "PM10",
-      "value": 12.1
+      "value": 14.2
      },
      {
       "type": "PM2_5",
-      "value": 6
+      "value": 9
      },
      {
       "type": "SO2",
-      "value": 4.1
+      "value": 4.3
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -422,14 +422,14 @@
      },
      {
       "type": "PM10",
-      "value": 7.5
+      "value": 8
      },
      {
       "type": "PM2_5",
-      "value": 2.2
+      "value": 2.4
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -451,18 +451,18 @@
     "components": [
      {
       "type": "O3",
-      "value": 88.3
+      "value": 88.5
      },
      {
       "type": "PM10",
-      "value": 4.8
+      "value": 5.9
      },
      {
       "type": "PM2_5",
-      "value": 4.7
+      "value": 3.9
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -484,14 +484,14 @@
     "components": [
      {
       "type": "O3",
-      "value": 92
+      "value": 92.1
      },
      {
       "type": "PM10",
-      "value": 17.2
+      "value": 9.9
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -513,14 +513,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 7.6
+      "value": 8.5
      },
      {
       "type": "PM10",
-      "value": 21
+      "value": 13.7
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   },
   {
@@ -542,14 +542,14 @@
     "components": [
      {
       "type": "NO2",
-      "value": 16.7
+      "value": 17.8
      },
      {
       "type": "O3",
-      "value": 78.1
+      "value": 77.6
      }
     ],
-    "updatedAt": "2026-07-22T13:45:00.947Z"
+    "updatedAt": "2026-07-22T15:15:01.050Z"
    }
   }
  ]
