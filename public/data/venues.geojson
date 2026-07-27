@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-07-20T10:00:31Z",
-  "count": 1580
+  "generated": "2026-07-27T07:37:59Z",
+  "count": 1582
  },
  "features": [
   {
@@ -3384,7 +3384,7 @@
    },
    "properties": {
     "id": "ipr-fontany-53",
-    "name": "Kašna s fontánkou a jezírkem u hotelu Globus",
+    "name": "Jezírko u hotelu Globus",
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
@@ -12574,34 +12574,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.578481,
-     50.022297
-    ]
-   },
-   "properties": {
-    "id": "ipr-pumpy-1",
-    "name": "V Pitkovičkách",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "ipr",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.417045,
      50.079095
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-2",
+    "id": "ipr-pumpy-1",
     "name": "Křemencova",
     "category": "fountain",
     "cooling": "water",
@@ -12623,7 +12601,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-3",
+    "id": "ipr-pumpy-2",
     "name": "Pštrossova",
     "category": "fountain",
     "cooling": "water",
@@ -12645,7 +12623,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-4",
+    "id": "ipr-pumpy-3",
     "name": "Ungelt",
     "category": "fountain",
     "cooling": "water",
@@ -12667,7 +12645,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-5",
+    "id": "ipr-pumpy-4",
     "name": "Betlémské náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -12689,7 +12667,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-6",
+    "id": "ipr-pumpy-5",
     "name": "Velkopřevorské náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -12711,7 +12689,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-7",
+    "id": "ipr-pumpy-6",
     "name": "Hradčanské náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -12733,7 +12711,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-8",
+    "id": "ipr-pumpy-7",
     "name": "Belgická",
     "category": "fountain",
     "cooling": "water",
@@ -12755,7 +12733,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-9",
+    "id": "ipr-pumpy-8",
     "name": "Botičská × Na Slupi",
     "category": "fountain",
     "cooling": "water",
@@ -12777,7 +12755,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-10",
+    "id": "ipr-pumpy-9",
     "name": "Jaromírova",
     "category": "fountain",
     "cooling": "water",
@@ -12799,7 +12777,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-11",
+    "id": "ipr-pumpy-10",
     "name": "Karlov",
     "category": "fountain",
     "cooling": "water",
@@ -12821,7 +12799,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-12",
+    "id": "ipr-pumpy-11",
     "name": "park Na Bělce",
     "category": "fountain",
     "cooling": "water",
@@ -12843,7 +12821,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-13",
+    "id": "ipr-pumpy-12",
     "name": "U Kanálky",
     "category": "fountain",
     "cooling": "water",
@@ -12865,7 +12843,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-14",
+    "id": "ipr-pumpy-13",
     "name": "V Pevnosti",
     "category": "fountain",
     "cooling": "water",
@@ -12887,7 +12865,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-15",
+    "id": "ipr-pumpy-14",
     "name": "Vratislavova",
     "category": "fountain",
     "cooling": "water",
@@ -12909,7 +12887,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-16",
+    "id": "ipr-pumpy-15",
     "name": "V Jezerách",
     "category": "fountain",
     "cooling": "water",
@@ -12931,7 +12909,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-17",
+    "id": "ipr-pumpy-16",
     "name": "V Zahrádkách",
     "category": "fountain",
     "cooling": "water",
@@ -12953,7 +12931,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-18",
+    "id": "ipr-pumpy-17",
     "name": "V Domově",
     "category": "fountain",
     "cooling": "water",
@@ -12975,7 +12953,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-19",
+    "id": "ipr-pumpy-18",
     "name": "Kunratice",
     "category": "fountain",
     "cooling": "water",
@@ -12997,7 +12975,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-20",
+    "id": "ipr-pumpy-19",
     "name": "Kunratice, Kostelní nám.",
     "category": "fountain",
     "cooling": "water",
@@ -13019,7 +12997,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-21",
+    "id": "ipr-pumpy-20",
     "name": "Kunratický mlýn",
     "category": "fountain",
     "cooling": "water",
@@ -13041,7 +13019,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-22",
+    "id": "ipr-pumpy-21",
     "name": "Libuš, Dobronická",
     "category": "fountain",
     "cooling": "water",
@@ -13063,7 +13041,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-23",
+    "id": "ipr-pumpy-22",
     "name": "Modřany, U Domu služeb",
     "category": "fountain",
     "cooling": "water",
@@ -13085,7 +13063,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-24",
+    "id": "ipr-pumpy-23",
     "name": "Písnice",
     "category": "fountain",
     "cooling": "water",
@@ -13107,7 +13085,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-25",
+    "id": "ipr-pumpy-24",
     "name": "Roztylské náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -13129,7 +13107,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-26",
+    "id": "ipr-pumpy-25",
     "name": "Ohradní",
     "category": "fountain",
     "cooling": "water",
@@ -13151,7 +13129,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-27",
+    "id": "ipr-pumpy-26",
     "name": "Točná, Keltská",
     "category": "fountain",
     "cooling": "water",
@@ -13173,7 +13151,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-28",
+    "id": "ipr-pumpy-27",
     "name": "Točná, Keltská 2",
     "category": "fountain",
     "cooling": "water",
@@ -13195,7 +13173,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-29",
+    "id": "ipr-pumpy-28",
     "name": "Točná, nám. Antonína Pacáka",
     "category": "fountain",
     "cooling": "water",
@@ -13217,7 +13195,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-30",
+    "id": "ipr-pumpy-29",
     "name": "Jinonice",
     "category": "fountain",
     "cooling": "water",
@@ -13239,7 +13217,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-31",
+    "id": "ipr-pumpy-30",
     "name": "Živcových",
     "category": "fountain",
     "cooling": "water",
@@ -13261,7 +13239,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-32",
+    "id": "ipr-pumpy-31",
     "name": "Na Dolnici",
     "category": "fountain",
     "cooling": "water",
@@ -13283,7 +13261,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-33",
+    "id": "ipr-pumpy-32",
     "name": "U Návesního rybníka",
     "category": "fountain",
     "cooling": "water",
@@ -13305,7 +13283,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-34",
+    "id": "ipr-pumpy-33",
     "name": "Za Dolejšákem",
     "category": "fountain",
     "cooling": "water",
@@ -13327,7 +13305,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-35",
+    "id": "ipr-pumpy-34",
     "name": "Malostranské náměstí",
     "category": "fountain",
     "cooling": "water",
@@ -13349,7 +13327,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-36",
+    "id": "ipr-pumpy-35",
     "name": "Chotkova",
     "category": "fountain",
     "cooling": "water",
@@ -13371,7 +13349,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-37",
+    "id": "ipr-pumpy-36",
     "name": "Václavkova",
     "category": "fountain",
     "cooling": "water",
@@ -13393,7 +13371,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-38",
+    "id": "ipr-pumpy-37",
     "name": "8. listopadu",
     "category": "fountain",
     "cooling": "water",
@@ -13415,7 +13393,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-39",
+    "id": "ipr-pumpy-38",
     "name": "Markétská",
     "category": "fountain",
     "cooling": "water",
@@ -13437,7 +13415,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-40",
+    "id": "ipr-pumpy-39",
     "name": "Na Pěkné vyhlídce × Střešovická",
     "category": "fountain",
     "cooling": "water",
@@ -13459,7 +13437,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-41",
+    "id": "ipr-pumpy-40",
     "name": "U Podchodu",
     "category": "fountain",
     "cooling": "water",
@@ -13481,7 +13459,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-42",
+    "id": "ipr-pumpy-41",
     "name": "Kidná × Dělostřelecká",
     "category": "fountain",
     "cooling": "water",
@@ -13503,7 +13481,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-43",
+    "id": "ipr-pumpy-42",
     "name": "Macharovo nám.",
     "category": "fountain",
     "cooling": "water",
@@ -13525,7 +13503,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-44",
+    "id": "ipr-pumpy-43",
     "name": "Závěrka",
     "category": "fountain",
     "cooling": "water",
@@ -13547,7 +13525,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-45",
+    "id": "ipr-pumpy-44",
     "name": "Evropská × Za Vokovickou vozovnou",
     "category": "fountain",
     "cooling": "water",
@@ -13569,7 +13547,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-46",
+    "id": "ipr-pumpy-45",
     "name": "Nad Stanicí × Pod Petřinami",
     "category": "fountain",
     "cooling": "water",
@@ -13591,7 +13569,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-47",
+    "id": "ipr-pumpy-46",
     "name": "Petřín",
     "category": "fountain",
     "cooling": "water",
@@ -13613,7 +13591,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-48",
+    "id": "ipr-pumpy-47",
     "name": "V Šáreckém údoli",
     "category": "fountain",
     "cooling": "water",
@@ -13635,7 +13613,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-49",
+    "id": "ipr-pumpy-48",
     "name": "Soborská × Nad Šárkou",
     "category": "fountain",
     "cooling": "water",
@@ -13657,7 +13635,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-50",
+    "id": "ipr-pumpy-49",
     "name": "Na Čihadle × Na Kuthence",
     "category": "fountain",
     "cooling": "water",
@@ -13679,7 +13657,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-51",
+    "id": "ipr-pumpy-50",
     "name": "Na Křídle",
     "category": "fountain",
     "cooling": "water",
@@ -13701,7 +13679,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-52",
+    "id": "ipr-pumpy-51",
     "name": "Kolejní",
     "category": "fountain",
     "cooling": "water",
@@ -13723,7 +13701,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-53",
+    "id": "ipr-pumpy-52",
     "name": "Nad Lávkou × K Červenému vrchu",
     "category": "fountain",
     "cooling": "water",
@@ -13745,7 +13723,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-54",
+    "id": "ipr-pumpy-53",
     "name": "V Středu 1-3",
     "category": "fountain",
     "cooling": "water",
@@ -13767,7 +13745,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-55",
+    "id": "ipr-pumpy-54",
     "name": "Veleslavínská",
     "category": "fountain",
     "cooling": "water",
@@ -13789,7 +13767,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-56",
+    "id": "ipr-pumpy-55",
     "name": "Tusarova",
     "category": "fountain",
     "cooling": "water",
@@ -13811,7 +13789,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-57",
+    "id": "ipr-pumpy-56",
     "name": "Ortenovo nám.",
     "category": "fountain",
     "cooling": "water",
@@ -13833,7 +13811,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-58",
+    "id": "ipr-pumpy-57",
     "name": "Veletržní",
     "category": "fountain",
     "cooling": "water",
@@ -13855,7 +13833,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-59",
+    "id": "ipr-pumpy-58",
     "name": "Libeňská pumpa",
     "category": "fountain",
     "cooling": "water",
@@ -13877,7 +13855,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-60",
+    "id": "ipr-pumpy-59",
     "name": "Koloděje",
     "category": "fountain",
     "cooling": "water",
@@ -13899,7 +13877,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-61",
+    "id": "ipr-pumpy-60",
     "name": "Hrdlořezská",
     "category": "fountain",
     "cooling": "water",
@@ -13921,7 +13899,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-62",
+    "id": "ipr-pumpy-61",
     "name": "Praha - Lipany",
     "category": "fountain",
     "cooling": "water",
@@ -13943,7 +13921,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-63",
+    "id": "ipr-pumpy-62",
     "name": "Kolovraty",
     "category": "fountain",
     "cooling": "water",
@@ -13965,7 +13943,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-64",
+    "id": "ipr-pumpy-63",
     "name": "Kolovraty 2",
     "category": "fountain",
     "cooling": "water",
@@ -13987,8 +13965,30 @@
     ]
    },
    "properties": {
-    "id": "ipr-pumpy-65",
+    "id": "ipr-pumpy-64",
     "name": "Kolovraty 3",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.578481,
+     50.022297
+    ]
+   },
+   "properties": {
+    "id": "ipr-pumpy-65",
+    "name": "V Pitkovičkách",
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
@@ -14642,6 +14642,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.419509,
+     50.086614
+    ]
+   },
+   "properties": {
+    "id": "ipr-pumpy-95",
+    "name": "Studna s renesanční mříží",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.43887,
      50.00817
     ]
@@ -14840,12 +14862,34 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.376258,
+     49.971052
+    ]
+   },
+   "properties": {
+    "id": "ipr-studanky-10",
+    "name": "Peluněk",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "ipr",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.353292,
      49.951073
     ]
    },
    "properties": {
-    "id": "ipr-studanky-10",
+    "id": "ipr-studanky-11",
     "name": "studánka V Obsinách",
     "category": "fountain",
     "cooling": "water",
@@ -14867,7 +14911,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-11",
+    "id": "ipr-studanky-12",
     "name": "studánka Pod Baněmi",
     "category": "fountain",
     "cooling": "water",
@@ -14889,7 +14933,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-12",
+    "id": "ipr-studanky-13",
     "name": "studánka U Žlábku",
     "category": "fountain",
     "cooling": "water",
@@ -14911,7 +14955,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-13",
+    "id": "ipr-studanky-14",
     "name": "studánka Pod Točnou",
     "category": "fountain",
     "cooling": "water",
@@ -14933,7 +14977,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-14",
+    "id": "ipr-studanky-15",
     "name": "studánka Kamínka",
     "category": "fountain",
     "cooling": "water",
@@ -14955,7 +14999,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-15",
+    "id": "ipr-studanky-16",
     "name": "studánka Sklípek",
     "category": "fountain",
     "cooling": "water",
@@ -14977,7 +15021,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-16",
+    "id": "ipr-studanky-17",
     "name": "studánka V Točenské rokli",
     "category": "fountain",
     "cooling": "water",
@@ -14999,7 +15043,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-17",
+    "id": "ipr-studanky-18",
     "name": "studánka U Interny",
     "category": "fountain",
     "cooling": "water",
@@ -15021,7 +15065,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-18",
+    "id": "ipr-studanky-19",
     "name": "studánka Na Belvedéru",
     "category": "fountain",
     "cooling": "water",
@@ -15043,7 +15087,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-19",
+    "id": "ipr-studanky-20",
     "name": "studánka Závistská",
     "category": "fountain",
     "cooling": "water",
@@ -15065,7 +15109,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-20",
+    "id": "ipr-studanky-21",
     "name": "studánka Pod Šancemi",
     "category": "fountain",
     "cooling": "water",
@@ -15087,7 +15131,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-21",
+    "id": "ipr-studanky-22",
     "name": "studánka Cholupická",
     "category": "fountain",
     "cooling": "water",
@@ -15109,7 +15153,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-22",
+    "id": "ipr-studanky-23",
     "name": "studánka Pod Beránkem",
     "category": "fountain",
     "cooling": "water",
@@ -15131,7 +15175,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-23",
+    "id": "ipr-studanky-24",
     "name": "studánka Chatařská 3",
     "category": "fountain",
     "cooling": "water",
@@ -15153,7 +15197,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-24",
+    "id": "ipr-studanky-25",
     "name": "studánka Chatařská 1",
     "category": "fountain",
     "cooling": "water",
@@ -15175,7 +15219,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-25",
+    "id": "ipr-studanky-26",
     "name": "studánka Chatařská 2",
     "category": "fountain",
     "cooling": "water",
@@ -15197,7 +15241,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-26",
+    "id": "ipr-studanky-27",
     "name": "studánka Ve Skále",
     "category": "fountain",
     "cooling": "water",
@@ -15219,7 +15263,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-27",
+    "id": "ipr-studanky-28",
     "name": "studánka Pod Moravcovým lesíkem",
     "category": "fountain",
     "cooling": "water",
@@ -15241,7 +15285,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-28",
+    "id": "ipr-studanky-29",
     "name": "studánka Palisádová",
     "category": "fountain",
     "cooling": "water",
@@ -15263,7 +15307,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-29",
+    "id": "ipr-studanky-30",
     "name": "studánka Nad Cementárnou",
     "category": "fountain",
     "cooling": "water",
@@ -15285,7 +15329,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-30",
+    "id": "ipr-studanky-31",
     "name": "Evina studánka",
     "category": "fountain",
     "cooling": "water",
@@ -15307,7 +15351,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-31",
+    "id": "ipr-studanky-32",
     "name": "studánka Krellova",
     "category": "fountain",
     "cooling": "water",
@@ -15329,7 +15373,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-32",
+    "id": "ipr-studanky-33",
     "name": "studánka U rybízů",
     "category": "fountain",
     "cooling": "water",
@@ -15351,7 +15395,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-33",
+    "id": "ipr-studanky-34",
     "name": "studánka Pod Skalou",
     "category": "fountain",
     "cooling": "water",
@@ -15373,7 +15417,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-34",
+    "id": "ipr-studanky-35",
     "name": "Vernerova studánka",
     "category": "fountain",
     "cooling": "water",
@@ -15395,7 +15439,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-35",
+    "id": "ipr-studanky-36",
     "name": "Karlova studánka",
     "category": "fountain",
     "cooling": "water",
@@ -15417,7 +15461,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-36",
+    "id": "ipr-studanky-37",
     "name": "studánka Urešova",
     "category": "fountain",
     "cooling": "water",
@@ -15439,7 +15483,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-37",
+    "id": "ipr-studanky-38",
     "name": "studánka Žofinka",
     "category": "fountain",
     "cooling": "water",
@@ -15461,7 +15505,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-38",
+    "id": "ipr-studanky-39",
     "name": "studánka V Chaloupkách",
     "category": "fountain",
     "cooling": "water",
@@ -15483,7 +15527,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-39",
+    "id": "ipr-studanky-40",
     "name": "studánka Václavka",
     "category": "fountain",
     "cooling": "water",
@@ -15505,7 +15549,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-40",
+    "id": "ipr-studanky-41",
     "name": "studánka Krychle",
     "category": "fountain",
     "cooling": "water",
@@ -15527,7 +15571,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-41",
+    "id": "ipr-studanky-42",
     "name": "studánka V Obecní zahradě",
     "category": "fountain",
     "cooling": "water",
@@ -15549,7 +15593,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-42",
+    "id": "ipr-studanky-43",
     "name": "studánka Zálesí",
     "category": "fountain",
     "cooling": "water",
@@ -15571,7 +15615,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-43",
+    "id": "ipr-studanky-44",
     "name": "studánka Lysinka",
     "category": "fountain",
     "cooling": "water",
@@ -15593,7 +15637,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-44",
+    "id": "ipr-studanky-45",
     "name": "studánka bez jména",
     "category": "fountain",
     "cooling": "water",
@@ -15615,7 +15659,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-45",
+    "id": "ipr-studanky-46",
     "name": "studánka U čtyř vrb",
     "category": "fountain",
     "cooling": "water",
@@ -15637,7 +15681,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-46",
+    "id": "ipr-studanky-47",
     "name": "studánka V Červeném lomu",
     "category": "fountain",
     "cooling": "water",
@@ -15659,7 +15703,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-47",
+    "id": "ipr-studanky-48",
     "name": "studánka Stydlá voda",
     "category": "fountain",
     "cooling": "water",
@@ -15681,7 +15725,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-48",
+    "id": "ipr-studanky-49",
     "name": "studánka Záběhlice - zahrádky",
     "category": "fountain",
     "cooling": "water",
@@ -15703,7 +15747,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-49",
+    "id": "ipr-studanky-50",
     "name": "studánka Na Troníčku",
     "category": "fountain",
     "cooling": "water",
@@ -15725,7 +15769,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-50",
+    "id": "ipr-studanky-51",
     "name": "studánka Hemrova",
     "category": "fountain",
     "cooling": "water",
@@ -15747,7 +15791,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-51",
+    "id": "ipr-studanky-52",
     "name": "studánka Pod Děvínem",
     "category": "fountain",
     "cooling": "water",
@@ -15769,7 +15813,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-52",
+    "id": "ipr-studanky-53",
     "name": "studánka Topolka",
     "category": "fountain",
     "cooling": "water",
@@ -15791,7 +15835,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-53",
+    "id": "ipr-studanky-54",
     "name": "studánka Pod Kesnerkou",
     "category": "fountain",
     "cooling": "water",
@@ -15813,7 +15857,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-54",
+    "id": "ipr-studanky-55",
     "name": "studánka Pod Vidoulí",
     "category": "fountain",
     "cooling": "water",
@@ -15835,7 +15879,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-55",
+    "id": "ipr-studanky-56",
     "name": "studánka Zelená",
     "category": "fountain",
     "cooling": "water",
@@ -15857,7 +15901,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-56",
+    "id": "ipr-studanky-57",
     "name": "studánka U Cvičáku",
     "category": "fountain",
     "cooling": "water",
@@ -15879,7 +15923,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-57",
+    "id": "ipr-studanky-58",
     "name": "studánka Diana",
     "category": "fountain",
     "cooling": "water",
@@ -15901,7 +15945,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-58",
+    "id": "ipr-studanky-59",
     "name": "studánka V louce",
     "category": "fountain",
     "cooling": "water",
@@ -15923,7 +15967,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-59",
+    "id": "ipr-studanky-60",
     "name": "studánka Jupiter",
     "category": "fountain",
     "cooling": "water",
@@ -15945,7 +15989,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-60",
+    "id": "ipr-studanky-61",
     "name": "studánka Mistřínská",
     "category": "fountain",
     "cooling": "water",
@@ -15967,7 +16011,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-61",
+    "id": "ipr-studanky-62",
     "name": "studánka Pod jezírkem",
     "category": "fountain",
     "cooling": "water",
@@ -15989,7 +16033,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-62",
+    "id": "ipr-studanky-63",
     "name": "studánka Kinská",
     "category": "fountain",
     "cooling": "water",
@@ -16011,7 +16055,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-63",
+    "id": "ipr-studanky-64",
     "name": "studánka Kyjská",
     "category": "fountain",
     "cooling": "water",
@@ -16033,7 +16077,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-65",
+    "id": "ipr-studanky-66",
     "name": "studánka Kaštanka",
     "category": "fountain",
     "cooling": "water",
@@ -16055,7 +16099,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-66",
+    "id": "ipr-studanky-67",
     "name": "studánka Barelka",
     "category": "fountain",
     "cooling": "water",
@@ -16077,7 +16121,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-67",
+    "id": "ipr-studanky-68",
     "name": "studánka Šestákova horní",
     "category": "fountain",
     "cooling": "water",
@@ -16099,7 +16143,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-68",
+    "id": "ipr-studanky-69",
     "name": "studánka Šestákova",
     "category": "fountain",
     "cooling": "water",
@@ -16121,7 +16165,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-69",
+    "id": "ipr-studanky-70",
     "name": "studánka Ovčí",
     "category": "fountain",
     "cooling": "water",
@@ -16143,7 +16187,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-70",
+    "id": "ipr-studanky-71",
     "name": "studánka Horní Zlodějka",
     "category": "fountain",
     "cooling": "water",
@@ -16165,7 +16209,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-71",
+    "id": "ipr-studanky-72",
     "name": "studánka Zlodějka",
     "category": "fountain",
     "cooling": "water",
@@ -16187,7 +16231,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-72",
+    "id": "ipr-studanky-73",
     "name": "studánka Šárecká Habrovka",
     "category": "fountain",
     "cooling": "water",
@@ -16209,7 +16253,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-73",
+    "id": "ipr-studanky-74",
     "name": "studánka U stožáru",
     "category": "fountain",
     "cooling": "water",
@@ -16231,7 +16275,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-74",
+    "id": "ipr-studanky-75",
     "name": "studánka Šárka",
     "category": "fountain",
     "cooling": "water",
@@ -16253,7 +16297,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-75",
+    "id": "ipr-studanky-76",
     "name": "studánka Korek",
     "category": "fountain",
     "cooling": "water",
@@ -16275,7 +16319,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-76",
+    "id": "ipr-studanky-77",
     "name": "studánka Franciho",
     "category": "fountain",
     "cooling": "water",
@@ -16297,7 +16341,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-77",
+    "id": "ipr-studanky-78",
     "name": "studánka Čertovka",
     "category": "fountain",
     "cooling": "water",
@@ -16319,7 +16363,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-78",
+    "id": "ipr-studanky-79",
     "name": "studánka Zlatnice",
     "category": "fountain",
     "cooling": "water",
@@ -16341,7 +16385,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-79",
+    "id": "ipr-studanky-80",
     "name": "studánka Roztočilka",
     "category": "fountain",
     "cooling": "water",
@@ -16363,7 +16407,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-80",
+    "id": "ipr-studanky-81",
     "name": "studánka Markéta",
     "category": "fountain",
     "cooling": "water",
@@ -16385,7 +16429,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-81",
+    "id": "ipr-studanky-82",
     "name": "studánka Pod Matějem",
     "category": "fountain",
     "cooling": "water",
@@ -16407,7 +16451,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-82",
+    "id": "ipr-studanky-83",
     "name": "studánka Okrouhlík",
     "category": "fountain",
     "cooling": "water",
@@ -16429,7 +16473,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-83",
+    "id": "ipr-studanky-84",
     "name": "studánka Haltýř",
     "category": "fountain",
     "cooling": "water",
@@ -16451,7 +16495,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-84",
+    "id": "ipr-studanky-85",
     "name": "studánka Pod křížkem",
     "category": "fountain",
     "cooling": "water",
@@ -16473,7 +16517,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-85",
+    "id": "ipr-studanky-86",
     "name": "studánka Bendovka",
     "category": "fountain",
     "cooling": "water",
@@ -16495,7 +16539,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-86",
+    "id": "ipr-studanky-87",
     "name": "studánka V Černé rokli",
     "category": "fountain",
     "cooling": "water",
@@ -16517,7 +16561,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-87",
+    "id": "ipr-studanky-88",
     "name": "studánka Pod Juliánou",
     "category": "fountain",
     "cooling": "water",
@@ -16539,7 +16583,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-88",
+    "id": "ipr-studanky-89",
     "name": "Ctěnická studánka",
     "category": "fountain",
     "cooling": "water",
@@ -16561,7 +16605,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-89",
+    "id": "ipr-studanky-90",
     "name": "studánka Bohnická",
     "category": "fountain",
     "cooling": "water",
@@ -16583,7 +16627,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-90",
+    "id": "ipr-studanky-91",
     "name": "studánka V Zámecké Rokli",
     "category": "fountain",
     "cooling": "water",
@@ -16605,7 +16649,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-91",
+    "id": "ipr-studanky-92",
     "name": "studánka Prdlavá",
     "category": "fountain",
     "cooling": "water",
@@ -16627,7 +16671,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-92",
+    "id": "ipr-studanky-93",
     "name": "studánka Pod Kozími hřbety",
     "category": "fountain",
     "cooling": "water",
@@ -16649,7 +16693,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-93",
+    "id": "ipr-studanky-94",
     "name": "studánka V zahradě",
     "category": "fountain",
     "cooling": "water",
@@ -16671,7 +16715,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-94",
+    "id": "ipr-studanky-95",
     "name": "studánka Vojtěška",
     "category": "fountain",
     "cooling": "water",
@@ -16693,7 +16737,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-95",
+    "id": "ipr-studanky-96",
     "name": "studánka Hajnovka",
     "category": "fountain",
     "cooling": "water",
@@ -16715,7 +16759,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-96",
+    "id": "ipr-studanky-97",
     "name": "studánka Pod Gothardem",
     "category": "fountain",
     "cooling": "water",
@@ -16737,7 +16781,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-97",
+    "id": "ipr-studanky-98",
     "name": "studánka Jenerálka",
     "category": "fountain",
     "cooling": "water",
@@ -16759,7 +16803,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-98",
+    "id": "ipr-studanky-99",
     "name": "pramen Za plotem",
     "category": "fountain",
     "cooling": "water",
@@ -16781,7 +16825,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-99",
+    "id": "ipr-studanky-100",
     "name": "pramen U plotu",
     "category": "fountain",
     "cooling": "water",
@@ -16803,7 +16847,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-100",
+    "id": "ipr-studanky-101",
     "name": "pramen U cesty",
     "category": "fountain",
     "cooling": "water",
@@ -16825,7 +16869,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-101",
+    "id": "ipr-studanky-102",
     "name": "pramen Pod školkou",
     "category": "fountain",
     "cooling": "water",
@@ -16847,7 +16891,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-102",
+    "id": "ipr-studanky-103",
     "name": "pramen Královka",
     "category": "fountain",
     "cooling": "water",
@@ -16869,7 +16913,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-103",
+    "id": "ipr-studanky-104",
     "name": "pramen U schodů",
     "category": "fountain",
     "cooling": "water",
@@ -16891,7 +16935,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-104",
+    "id": "ipr-studanky-105",
     "name": "pramen Staňkovka",
     "category": "fountain",
     "cooling": "water",
@@ -16913,7 +16957,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-105",
+    "id": "ipr-studanky-106",
     "name": "pramen U zahrádek",
     "category": "fountain",
     "cooling": "water",
@@ -16935,7 +16979,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-106",
+    "id": "ipr-studanky-107",
     "name": "pramen K Dýmači",
     "category": "fountain",
     "cooling": "water",
@@ -16957,7 +17001,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-107",
+    "id": "ipr-studanky-108",
     "name": "pramen Pod Dýmačem",
     "category": "fountain",
     "cooling": "water",
@@ -16979,7 +17023,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-108",
+    "id": "ipr-studanky-109",
     "name": "pramen Travertinový",
     "category": "fountain",
     "cooling": "water",
@@ -17001,7 +17045,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-109",
+    "id": "ipr-studanky-110",
     "name": "pramen Pod skládkou 2",
     "category": "fountain",
     "cooling": "water",
@@ -17023,7 +17067,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-110",
+    "id": "ipr-studanky-111",
     "name": "pramen U Kopkánů",
     "category": "fountain",
     "cooling": "water",
@@ -17045,7 +17089,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-111",
+    "id": "ipr-studanky-112",
     "name": "pramen Liščí díra",
     "category": "fountain",
     "cooling": "water",
@@ -17067,7 +17111,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-112",
+    "id": "ipr-studanky-113",
     "name": "pramen Slavičí",
     "category": "fountain",
     "cooling": "water",
@@ -17089,7 +17133,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-113",
+    "id": "ipr-studanky-114",
     "name": "pramen Pod Skládkou",
     "category": "fountain",
     "cooling": "water",
@@ -17111,7 +17155,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-114",
+    "id": "ipr-studanky-115",
     "name": "pramen Pod Babou",
     "category": "fountain",
     "cooling": "water",
@@ -17133,7 +17177,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-115",
+    "id": "ipr-studanky-116",
     "name": "pramen Pod skládkou 3",
     "category": "fountain",
     "cooling": "water",
@@ -17155,7 +17199,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-116",
+    "id": "ipr-studanky-117",
     "name": "pramen Sadová",
     "category": "fountain",
     "cooling": "water",
@@ -17177,7 +17221,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-117",
+    "id": "ipr-studanky-118",
     "name": "pramen Nezmarka",
     "category": "fountain",
     "cooling": "water",
@@ -17199,7 +17243,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-118",
+    "id": "ipr-studanky-119",
     "name": "pramen Pod Jeslemi 2",
     "category": "fountain",
     "cooling": "water",
@@ -17221,7 +17265,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-119",
+    "id": "ipr-studanky-120",
     "name": "pramen Pod Silnicí",
     "category": "fountain",
     "cooling": "water",
@@ -17243,7 +17287,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-120",
+    "id": "ipr-studanky-121",
     "name": "pramen U rybníka",
     "category": "fountain",
     "cooling": "water",
@@ -17265,7 +17309,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-121",
+    "id": "ipr-studanky-122",
     "name": "pramen Nad Vápenkou",
     "category": "fountain",
     "cooling": "water",
@@ -17287,7 +17331,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-122",
+    "id": "ipr-studanky-123",
     "name": "pramen U Vápenky",
     "category": "fountain",
     "cooling": "water",
@@ -17309,7 +17353,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-123",
+    "id": "ipr-studanky-124",
     "name": "pramen Pod starou vodárnou",
     "category": "fountain",
     "cooling": "water",
@@ -17331,7 +17375,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-124",
+    "id": "ipr-studanky-125",
     "name": "pramen Mariánská",
     "category": "fountain",
     "cooling": "water",
@@ -17353,7 +17397,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-125",
+    "id": "ipr-studanky-126",
     "name": "pramen U Hostivařské přehrady",
     "category": "fountain",
     "cooling": "water",
@@ -17375,7 +17419,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-126",
+    "id": "ipr-studanky-127",
     "name": "pramen Krčský",
     "category": "fountain",
     "cooling": "water",
@@ -17397,7 +17441,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-127",
+    "id": "ipr-studanky-128",
     "name": "pramen Dobrá voda",
     "category": "fountain",
     "cooling": "water",
@@ -17419,7 +17463,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-128",
+    "id": "ipr-studanky-129",
     "name": "pramen Hrůza",
     "category": "fountain",
     "cooling": "water",
@@ -17441,7 +17485,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-129",
+    "id": "ipr-studanky-130",
     "name": "pramen Řeporyjský",
     "category": "fountain",
     "cooling": "water",
@@ -17463,7 +17507,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-130",
+    "id": "ipr-studanky-131",
     "name": "pramen Krajcperk",
     "category": "fountain",
     "cooling": "water",
@@ -17485,7 +17529,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-131",
+    "id": "ipr-studanky-132",
     "name": "pramen Moklina",
     "category": "fountain",
     "cooling": "water",
@@ -17507,7 +17551,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-132",
+    "id": "ipr-studanky-133",
     "name": "pramen Bahňák",
     "category": "fountain",
     "cooling": "water",
@@ -17529,7 +17573,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-133",
+    "id": "ipr-studanky-134",
     "name": "pramen Běchovického potoka",
     "category": "fountain",
     "cooling": "water",
@@ -17551,7 +17595,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-134",
+    "id": "ipr-studanky-135",
     "name": "pramen Karlštejnka",
     "category": "fountain",
     "cooling": "water",
@@ -17573,7 +17617,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-135",
+    "id": "ipr-studanky-136",
     "name": "pramen Jezerka",
     "category": "fountain",
     "cooling": "water",
@@ -17595,7 +17639,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-136",
+    "id": "ipr-studanky-137",
     "name": "pramen Blatovská",
     "category": "fountain",
     "cooling": "water",
@@ -17617,7 +17661,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-137",
+    "id": "ipr-studanky-138",
     "name": "pramen Prokopského potoka",
     "category": "fountain",
     "cooling": "water",
@@ -17639,7 +17683,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-138",
+    "id": "ipr-studanky-139",
     "name": "pramen Poklop",
     "category": "fountain",
     "cooling": "water",
@@ -17661,7 +17705,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-139",
+    "id": "ipr-studanky-140",
     "name": "pramen Nad Cibulkou",
     "category": "fountain",
     "cooling": "water",
@@ -17683,7 +17727,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-140",
+    "id": "ipr-studanky-141",
     "name": "pramen bez jména",
     "category": "fountain",
     "cooling": "water",
@@ -17705,7 +17749,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-141",
+    "id": "ipr-studanky-142",
     "name": "pramen U Vinice",
     "category": "fountain",
     "cooling": "water",
@@ -17727,7 +17771,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-142",
+    "id": "ipr-studanky-143",
     "name": "pramen Husovka",
     "category": "fountain",
     "cooling": "water",
@@ -17749,7 +17793,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-143",
+    "id": "ipr-studanky-144",
     "name": "pramen Kinská II",
     "category": "fountain",
     "cooling": "water",
@@ -17771,7 +17815,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-144",
+    "id": "ipr-studanky-145",
     "name": "pramen U jezírka",
     "category": "fountain",
     "cooling": "water",
@@ -17793,7 +17837,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-145",
+    "id": "ipr-studanky-146",
     "name": "pramen Myší pramínek",
     "category": "fountain",
     "cooling": "water",
@@ -17815,7 +17859,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-146",
+    "id": "ipr-studanky-147",
     "name": "Pramen sira Nicholase Wintona",
     "category": "fountain",
     "cooling": "water",
@@ -17837,7 +17881,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-147",
+    "id": "ipr-studanky-148",
     "name": "pramen Pod Pražačkou",
     "category": "fountain",
     "cooling": "water",
@@ -17859,7 +17903,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-148",
+    "id": "ipr-studanky-149",
     "name": "pramen Nad Světličkou",
     "category": "fountain",
     "cooling": "water",
@@ -17881,7 +17925,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-149",
+    "id": "ipr-studanky-150",
     "name": "pramen Světlička",
     "category": "fountain",
     "cooling": "water",
@@ -17903,7 +17947,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-150",
+    "id": "ipr-studanky-151",
     "name": "pramen Pod Krejcárkem",
     "category": "fountain",
     "cooling": "water",
@@ -17925,7 +17969,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-151",
+    "id": "ipr-studanky-152",
     "name": "pramen Bezdomovec",
     "category": "fountain",
     "cooling": "water",
@@ -17947,7 +17991,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-152",
+    "id": "ipr-studanky-153",
     "name": "pramen Chvalka",
     "category": "fountain",
     "cooling": "water",
@@ -17969,7 +18013,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-153",
+    "id": "ipr-studanky-154",
     "name": "pramen Veleslavínka",
     "category": "fountain",
     "cooling": "water",
@@ -17991,7 +18035,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-154",
+    "id": "ipr-studanky-155",
     "name": "pramen Pod Klapkárnou",
     "category": "fountain",
     "cooling": "water",
@@ -18013,7 +18057,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-155",
+    "id": "ipr-studanky-156",
     "name": "pramen Pro pejsky",
     "category": "fountain",
     "cooling": "water",
@@ -18035,7 +18079,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-156",
+    "id": "ipr-studanky-157",
     "name": "pramen Libeňka",
     "category": "fountain",
     "cooling": "water",
@@ -18057,7 +18101,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-157",
+    "id": "ipr-studanky-158",
     "name": "pramen Pod Máchalkou",
     "category": "fountain",
     "cooling": "water",
@@ -18079,7 +18123,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-158",
+    "id": "ipr-studanky-159",
     "name": "pramen Ve struhách",
     "category": "fountain",
     "cooling": "water",
@@ -18101,7 +18145,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-159",
+    "id": "ipr-studanky-160",
     "name": "pramen Pod pumpou",
     "category": "fountain",
     "cooling": "water",
@@ -18123,7 +18167,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-160",
+    "id": "ipr-studanky-161",
     "name": "Klíčovský pramen",
     "category": "fountain",
     "cooling": "water",
@@ -18145,7 +18189,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-161",
+    "id": "ipr-studanky-162",
     "name": "pramen Nad Jetelkou",
     "category": "fountain",
     "cooling": "water",
@@ -18167,7 +18211,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-162",
+    "id": "ipr-studanky-163",
     "name": "pramen Rákosník",
     "category": "fountain",
     "cooling": "water",
@@ -18189,7 +18233,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-163",
+    "id": "ipr-studanky-164",
     "name": "pramen Pekařka",
     "category": "fountain",
     "cooling": "water",
@@ -18211,7 +18255,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-164",
+    "id": "ipr-studanky-165",
     "name": "pramen Pod kapličkou",
     "category": "fountain",
     "cooling": "water",
@@ -18233,7 +18277,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-165",
+    "id": "ipr-studanky-166",
     "name": "pramen Záveská",
     "category": "fountain",
     "cooling": "water",
@@ -18255,7 +18299,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-166",
+    "id": "ipr-studanky-167",
     "name": "pramen Mrázovka",
     "category": "fountain",
     "cooling": "water",
@@ -18277,7 +18321,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-167",
+    "id": "ipr-studanky-168",
     "name": "Kbelský pramen",
     "category": "fountain",
     "cooling": "water",
@@ -18299,7 +18343,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-168",
+    "id": "ipr-studanky-169",
     "name": "pramen Barborka",
     "category": "fountain",
     "cooling": "water",
@@ -18321,7 +18365,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-169",
+    "id": "ipr-studanky-170",
     "name": "pramen Malá Trhlina",
     "category": "fountain",
     "cooling": "water",
@@ -18343,7 +18387,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-170",
+    "id": "ipr-studanky-171",
     "name": "pramen Trhlina",
     "category": "fountain",
     "cooling": "water",
@@ -18365,7 +18409,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-171",
+    "id": "ipr-studanky-172",
     "name": "pramen bez jména",
     "category": "fountain",
     "cooling": "water",
@@ -18387,7 +18431,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-172",
+    "id": "ipr-studanky-173",
     "name": "pramen Nad Rozvodnou",
     "category": "fountain",
     "cooling": "water",
@@ -18409,7 +18453,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-173",
+    "id": "ipr-studanky-174",
     "name": "pramen Zázračná studánka",
     "category": "fountain",
     "cooling": "water",
@@ -18431,7 +18475,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-174",
+    "id": "ipr-studanky-175",
     "name": "pramen Nad stavidlem",
     "category": "fountain",
     "cooling": "water",
@@ -18453,7 +18497,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-175",
+    "id": "ipr-studanky-176",
     "name": "pramen Dolní",
     "category": "fountain",
     "cooling": "water",
@@ -18475,7 +18519,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-176",
+    "id": "ipr-studanky-177",
     "name": "pramen Pod vrbou",
     "category": "fountain",
     "cooling": "water",
@@ -18497,7 +18541,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-177",
+    "id": "ipr-studanky-178",
     "name": "Zámecký pramen",
     "category": "fountain",
     "cooling": "water",
@@ -18519,7 +18563,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-178",
+    "id": "ipr-studanky-179",
     "name": "jiný vodní zdroj Družstevní",
     "category": "fountain",
     "cooling": "water",
@@ -18541,7 +18585,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-179",
+    "id": "ipr-studanky-180",
     "name": "jiný vodní zdroj U hrobů 1",
     "category": "fountain",
     "cooling": "water",
@@ -18563,7 +18607,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-180",
+    "id": "ipr-studanky-181",
     "name": "jiný vodní zdroj U hrobů 2",
     "category": "fountain",
     "cooling": "water",
@@ -18585,7 +18629,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-181",
+    "id": "ipr-studanky-182",
     "name": "jiný vodní zdroj Višňovka",
     "category": "fountain",
     "cooling": "water",
@@ -18607,7 +18651,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-182",
+    "id": "ipr-studanky-183",
     "name": "jiný vodní zdroj U Památného stromu",
     "category": "fountain",
     "cooling": "water",
@@ -18629,7 +18673,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-183",
+    "id": "ipr-studanky-184",
     "name": "jiný vodní zdroj Břevnovské pítko",
     "category": "fountain",
     "cooling": "water",
@@ -18651,7 +18695,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-184",
+    "id": "ipr-studanky-185",
     "name": "jiný vodní zdroj Medvědí pramen",
     "category": "fountain",
     "cooling": "water",
@@ -18673,7 +18717,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-185",
+    "id": "ipr-studanky-186",
     "name": "jiný vodní zdroj Kelerka",
     "category": "fountain",
     "cooling": "water",
@@ -18695,7 +18739,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-186",
+    "id": "ipr-studanky-187",
     "name": "studna U Klenotů",
     "category": "fountain",
     "cooling": "water",
@@ -18717,7 +18761,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-187",
+    "id": "ipr-studanky-188",
     "name": "studna Krteňská zděná",
     "category": "fountain",
     "cooling": "water",
@@ -18739,7 +18783,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-188",
+    "id": "ipr-studanky-189",
     "name": "studna Pod Jelenem",
     "category": "fountain",
     "cooling": "water",
@@ -18761,7 +18805,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-189",
+    "id": "ipr-studanky-190",
     "name": "studna Za Mototechnou",
     "category": "fountain",
     "cooling": "water",
@@ -18783,7 +18827,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-190",
+    "id": "ipr-studanky-191",
     "name": "studna U Doušů",
     "category": "fountain",
     "cooling": "water",
@@ -18805,7 +18849,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-191",
+    "id": "ipr-studanky-192",
     "name": "prameniště Nad Lipany",
     "category": "fountain",
     "cooling": "water",
@@ -18827,7 +18871,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-192",
+    "id": "ipr-studanky-193",
     "name": "prameniště Na Hupech",
     "category": "fountain",
     "cooling": "water",
@@ -18849,7 +18893,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-193",
+    "id": "ipr-studanky-194",
     "name": "prameniště V Libři",
     "category": "fountain",
     "cooling": "water",
@@ -18871,7 +18915,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-194",
+    "id": "ipr-studanky-195",
     "name": "prameniště Višňovka II",
     "category": "fountain",
     "cooling": "water",
@@ -18893,7 +18937,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-195",
+    "id": "ipr-studanky-196",
     "name": "prameniště Višňovka III",
     "category": "fountain",
     "cooling": "water",
@@ -18915,7 +18959,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-196",
+    "id": "ipr-studanky-197",
     "name": "prameniště bez jména",
     "category": "fountain",
     "cooling": "water",
@@ -18937,7 +18981,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-197",
+    "id": "ipr-studanky-198",
     "name": "prameniště Dotek",
     "category": "fountain",
     "cooling": "water",
@@ -18959,7 +19003,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-198",
+    "id": "ipr-studanky-199",
     "name": "Březinka",
     "category": "fountain",
     "cooling": "water",
@@ -18981,7 +19025,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-199",
+    "id": "ipr-studanky-200",
     "name": "HV štola č. 1",
     "category": "fountain",
     "cooling": "water",
@@ -19003,7 +19047,7 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-200",
+    "id": "ipr-studanky-201",
     "name": "Nad Rybníkem",
     "category": "fountain",
     "cooling": "water",
@@ -19025,30 +19069,8 @@
     ]
    },
    "properties": {
-    "id": "ipr-studanky-201",
-    "name": "Prosecký - východ",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "ipr",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.376258,
-     49.971052
-    ]
-   },
-   "properties": {
     "id": "ipr-studanky-202",
-    "name": "Peluněk",
+    "name": "Prosecký - východ",
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
@@ -19247,28 +19269,6 @@
    "properties": {
     "id": "ipr-studanky-213",
     "name": "Medvědí pramen",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "ipr",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.419509,
-     50.086614
-    ]
-   },
-   "properties": {
-    "id": "ipr-studanky-214",
-    "name": "Studna s renesanční mříží",
     "category": "fountain",
     "cooling": "water",
     "typical_c": null,
@@ -22848,6 +22848,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.469924,
+     50.127797
+    ]
+   },
+   "properties": {
+    "id": "osm-node-9327889571",
+    "name": "PENNY",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.438118,
      50.049271
     ]
@@ -24333,7 +24355,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": null,
+    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-17:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -24707,7 +24729,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": false,
-    "opening_hours": null,
+    "opening_hours": "Tu-Su 10:30-20:30",
     "address": "Královská obora 233, Praha 7",
     "source": "osm",
     "note": null
@@ -24993,7 +25015,7 @@
     "cooling": "shade",
     "typical_c": null,
     "free_entry": null,
-    "opening_hours": null,
+    "opening_hours": "Oct,Mar 10:00-17:00; Apr-Jun,Sep 10:00-19:00; Jul-Aug 10:00-20:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -29206,6 +29228,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.442471,
+     50.035518
+    ]
+   },
+   "properties": {
+    "id": "osm-way-62042702",
+    "name": "Sv. Anna",
+    "category": "church",
+    "cooling": "natural",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.406959,
      50.004007
     ]
@@ -32693,7 +32737,7 @@
     "cooling": "shade",
     "typical_c": null,
     "free_entry": null,
-    "opening_hours": null,
+    "opening_hours": "Oct,Mar 10:00-17:00; Apr-Jun,Sep 10:00-19:00; Jul-Aug 10:00-20:00",
     "address": null,
     "source": "osm",
     "note": null
