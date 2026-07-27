@@ -21,7 +21,10 @@ Výstup `public/data/temp-stations.geojson` (FeatureCollection, WGS84 [lon, lat]
   properties: { id, name, temp_c, measuredAt, klass ("pro"|"auto"), source }
 
 Robustnost: při selhání stažení registru se NEPŘEPISUJE existující snapshot
-(exit nonzero). UTF-8 píše Python přímo (ensure_ascii=False).
+(exit nonzero). Když dnešek ještě nemá žádné čtení (půlnoční rollover denních
+souborů ČHMÚ kolem 00:00 UTC), zkusí se včerejší datové soubory – poslední
+čtení 23:50 UTC je pořád čerstvé; exit nonzero až když selže i včerejšek.
+UTF-8 píše Python přímo (ensure_ascii=False).
 
 Spuštění:  python data/fetch_chmi_now.py
 Atribuce:  © ČHMÚ – otevřená data (opendata.chmi.cz).
@@ -144,17 +147,8 @@ def latest_temp(wsi, day):
         return None
 
 
-def main():
-    try:
-        rows, day = fetch_metadata()
-    except Exception as e:  # noqa: BLE001 – registr nedostupný → nepřepisuj snapshot
-        print("[chmi] CHYBA: %s – ponechavam existujici snapshot beze zmeny." % repr(e)[:120],
-              file=sys.stderr)
-        sys.exit(1)
-
-    stations = select_prague(rows)
-    print("[chmi] prazskych stanic v registru: %d" % len(stations), file=sys.stderr)
-
+def collect_features(stations, day):
+    """Projde stanice, pro daný den vrátí list GeoJSON Features se čtením teploty."""
     features = []
     for st in stations:
         res = latest_temp(st["wsi"], day)
@@ -173,9 +167,30 @@ def main():
                 "source": SOURCE_LABEL,
             },
         })
+    return features
+
+
+def main():
+    try:
+        rows, day = fetch_metadata()
+    except Exception as e:  # noqa: BLE001 – registr nedostupný → nepřepisuj snapshot
+        print("[chmi] CHYBA: %s – ponechavam existujici snapshot beze zmeny." % repr(e)[:120],
+              file=sys.stderr)
+        sys.exit(1)
+
+    stations = select_prague(rows)
+    print("[chmi] prazskych stanic v registru: %d" % len(stations), file=sys.stderr)
+
+    features = collect_features(stations, day)
+    if not features:
+        # Půlnoční rollover: denní soubory nového dne ještě nemají čtení → včerejšek.
+        prev_day = (datetime.strptime(day, "%Y%m%d") - timedelta(days=1)).strftime("%Y%m%d")
+        print("[chmi] zadne cteni pro %s (pulnocni rollover souboru CHMU?) – "
+              "zkousim %s." % (day, prev_day), file=sys.stderr)
+        features = collect_features(stations, prev_day)
 
     if not features:
-        print("[chmi] CHYBA: zadna prazska stanice nevratila aktualni cteni – "
+        print("[chmi] CHYBA: zadna prazska stanice nevratila cteni ani pro vcerejsek – "
               "ponechavam existujici snapshot beze zmeny.", file=sys.stderr)
         sys.exit(1)
 
