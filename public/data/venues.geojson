@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-07-27T07:37:59Z",
-  "count": 1582
+  "generated": "2026-07-27T10:44:21Z",
+  "count": 1570
  },
  "features": [
   {
@@ -19680,8 +19680,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.505845,
-     50.06039
+     14.505796,
+     50.060399
     ]
    },
    "properties": {
@@ -19818,12 +19818,12 @@
    },
    "properties": {
     "id": "osm-node-449774351",
-    "name": "Pho & Roll",
+    "name": "Garuda",
     "category": "cafe_food",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Mo-Fr 11:00-22:00",
+    "opening_hours": "Mo-Su 11:30-22:00",
     "address": "Milady Horákové 686/12, Praha 7",
     "source": "osm",
     "note": null
@@ -19999,7 +19999,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:00",
     "address": "Střelničná 1660/31, Praha 8",
     "source": "osm",
     "note": null
@@ -20142,8 +20142,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.473252,
-     50.104797
+     14.473227,
+     50.104832
     ]
    },
    "properties": {
@@ -21484,28 +21484,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.420834,
-     50.081364
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4273312064",
-    "name": "Starbucks",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 08:00-21:00; Sa,Su 09:00-21:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.43578,
      50.089764
     ]
@@ -22452,28 +22430,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.422391,
-     50.082712
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7807114385",
-    "name": "Starbucks",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 07:00-20:30; Sa 08:00-20:30; Su 09:00-20:00",
-    "address": "Jungmannova 34",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.506338,
      50.077802
     ]
@@ -22838,28 +22794,6 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-02:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.469924,
-     50.127797
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9327889571",
-    "name": "PENNY",
-    "category": "shop_ac",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 07:00-21:00",
     "address": null,
     "source": "osm",
     "note": null
@@ -23536,7 +23470,7 @@
    },
    "properties": {
     "id": "osm-node-10970462332",
-    "name": "Beorigo Fashion & Design",
+    "name": "Beorigo fashion&design",
     "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
@@ -23926,28 +23860,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.456785,
-     50.077454
-    ]
-   },
-   "properties": {
-    "id": "osm-node-12248195775",
-    "name": "Neapolis",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 10:00-22:00",
-    "address": "Vinohradská 112, Praha 3",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.385625,
      49.969294
     ]
@@ -23959,6 +23871,28 @@
     "cooling": "water",
     "typical_c": null,
     "free_entry": true,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433188,
+     50.087917
+    ]
+   },
+   "properties": {
+    "id": "osm-node-12587947882",
+    "name": "Lokni",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": false,
     "opening_hours": null,
     "address": null,
     "source": "osm",
@@ -24093,28 +24027,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Th 09:00-12:30,13:30-17:00; Fr 09:00-12:30,13:30-16:00",
     "address": "Ke Zlatému kopci 407/8, Praha 9 – Miškovice",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.431873,
-     50.074886
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13142555991",
-    "name": "Cafe Tone",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 07:30-19:00; Sa-Su 10:00-18:00",
-    "address": "Tylova pasáž 650/4",
     "source": "osm",
     "note": null
    }
@@ -24355,160 +24267,6 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-17:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.561637,
-     50.087399
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13955680359",
-    "name": "LetemChlebem",
-    "category": "shop_ac",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Tu-Fr 07:00 - 17:00",
-    "address": "Českobrodská 942, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.499023,
-     50.020101
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13970692916",
-    "name": "Spojovna",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 11:00-23:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.294142,
-     50.050414
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13970695175",
-    "name": "McDonald's",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 07:00-23:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.322986,
-     50.093059
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13970697399",
-    "name": "McDonald's",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 07:00-21:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.446475,
-     50.103255
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13992986518",
-    "name": "RAKKI RAMMEN",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.403959,
-     50.120409
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14002052302",
-    "name": "Pítko",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.415094,
-     50.068095
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14002069401",
-    "name": "Osvěžítko, mlžítko",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
     "opening_hours": null,
     "address": null,
     "source": "osm",
@@ -24729,7 +24487,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": false,
-    "opening_hours": "Tu-Su 10:30-20:30",
+    "opening_hours": null,
     "address": "Královská obora 233, Praha 7",
     "source": "osm",
     "note": null
@@ -24872,28 +24630,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.399041,
-     50.106742
-    ]
-   },
-   "properties": {
-    "id": "osm-way-25696687",
-    "name": "Generála Lázaro Cárdenase",
-    "category": "park",
-    "cooling": "shade",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.396542,
      50.104014
     ]
@@ -25015,7 +24751,7 @@
     "cooling": "shade",
     "typical_c": null,
     "free_entry": null,
-    "opening_hours": "Oct,Mar 10:00-17:00; Apr-Jun,Sep 10:00-19:00; Jul-Aug 10:00-20:00",
+    "opening_hours": null,
     "address": null,
     "source": "osm",
     "note": null
@@ -25070,8 +24806,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.557747,
-     50.087178
+     14.557699,
+     50.087154
     ]
    },
    "properties": {
@@ -25347,6 +25083,28 @@
     "free_entry": null,
     "opening_hours": "10:00-17:00",
     "address": "Elišky Krásnohorské, Praha",
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.322985,
+     50.093056
+    ]
+   },
+   "properties": {
+    "id": "osm-way-27549616",
+    "name": "McDonald's",
+    "category": "cafe_food",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "address": "Evropská 634/204, Praha",
     "source": "osm",
     "note": null
    }
@@ -26594,7 +26352,7 @@
    },
    "properties": {
     "id": "osm-way-28701962",
-    "name": "svatá Terezie z Ávily",
+    "name": "svatá Terezie z Ávily",
     "category": "church",
     "cooling": "natural",
     "typical_c": null,
@@ -27437,28 +27195,6 @@
     "free_entry": null,
     "opening_hours": null,
     "address": "Ke Karlovu 453/1, Praha",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.428096,
-     50.075037
-    ]
-   },
-   "properties": {
-    "id": "osm-way-32062527",
-    "name": "Novotel Praha Wenceslas Square",
-    "category": "shop_ac",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": "Kateřinská 38, Praha",
     "source": "osm",
     "note": null
    }
@@ -29008,28 +28744,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.47881,
-     50.067639
-    ]
-   },
-   "properties": {
-    "id": "osm-way-55939630",
-    "name": "Beach Eden",
-    "category": "pool",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 08:00-20:00",
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.312977,
      50.061237
     ]
@@ -29213,28 +28927,6 @@
    "properties": {
     "id": "osm-way-61585300",
     "name": "Narození Panny Marie",
-    "category": "church",
-    "cooling": "natural",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.442471,
-     50.035518
-    ]
-   },
-   "properties": {
-    "id": "osm-way-62042702",
-    "name": "Sv. Anna",
     "category": "church",
     "cooling": "natural",
     "typical_c": null,
@@ -29637,6 +29329,28 @@
     "free_entry": null,
     "opening_hours": "Mo-Fr 07:30-21:30; Sa,Su 08:30-21:30",
     "address": "Skandinávská 145/13",
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.294142,
+     50.050414
+    ]
+   },
+   "properties": {
+    "id": "osm-way-118749708",
+    "name": "McDonald's",
+    "category": "cafe_food",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "address": "Skandinávská 162/27",
     "source": "osm",
     "note": null
    }
@@ -31164,6 +30878,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.450963,
+     50.110897
+    ]
+   },
+   "properties": {
+    "id": "osm-way-469425496",
+    "name": "River Lofts Gardens",
+    "category": "park",
+    "cooling": "shade",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.406557,
      50.115458
     ]
@@ -31648,6 +31384,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.499093,
+     50.020127
+    ]
+   },
+   "properties": {
+    "id": "osm-way-586255093",
+    "name": "Spojovna",
+    "category": "cafe_food",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "address": "U Kunratického lesa 1801, Praha",
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.395824,
      50.095318
     ]
@@ -31699,7 +31457,7 @@
    "properties": {
     "id": "osm-way-651730185",
     "name": "Loving Hut",
-    "category": "shop_ac",
+    "category": "cafe_food",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31743,7 +31501,7 @@
    "properties": {
     "id": "osm-way-651730187",
     "name": "Francesco's Pizza",
-    "category": "shop_ac",
+    "category": "cafe_food",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31787,7 +31545,7 @@
    "properties": {
     "id": "osm-way-651730189",
     "name": "Nordsee",
-    "category": "shop_ac",
+    "category": "cafe_food",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31919,7 +31677,7 @@
    "properties": {
     "id": "osm-way-651730210",
     "name": "Tradice",
-    "category": "shop_ac",
+    "category": "cafe_food",
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
@@ -31969,28 +31727,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Sa 07:00-22:00; Su 08:00-22:00",
     "address": "V Korytech 3432/65, Praha 10",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.379579,
-     50.112486
-    ]
-   },
-   "properties": {
-    "id": "osm-way-682103487",
-    "name": "Koloshop.cz",
-    "category": "shop_ac",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Fr 10:30-18:30; Sa 10:00-13:00",
-    "address": null,
     "source": "osm",
     "note": null
    }
@@ -32616,28 +32352,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.410302,
-     50.066798
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1530127122",
-    "name": "Park Josefa Kohouta",
-    "category": "park",
-    "cooling": "shade",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.420768,
      50.049343
     ]
@@ -32737,7 +32451,7 @@
     "cooling": "shade",
     "typical_c": null,
     "free_entry": null,
-    "opening_hours": "Oct,Mar 10:00-17:00; Apr-Jun,Sep 10:00-19:00; Jul-Aug 10:00-20:00",
+    "opening_hours": null,
     "address": null,
     "source": "osm",
     "note": null
@@ -33519,7 +33233,7 @@
     "type": "Point",
     "coordinates": [
      14.417662,
-     50.106766
+     50.106764
     ]
    },
    "properties": {
@@ -33811,6 +33525,28 @@
    "properties": {
     "id": "osm-relation-12271961",
     "name": "Letenské sady",
+    "category": "park",
+    "cooling": "shade",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.399041,
+     50.106742
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-13216212",
+    "name": "Generála Lázaro Cárdenase",
     "category": "park",
     "cooling": "shade",
     "typical_c": null,

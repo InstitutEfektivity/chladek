@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chladek - klimatizovane sluzby/provozovny jako body (supermarket, banka, fitness, hotel 4*/5*)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-07-20T09:52:20Z",
+  "generated": "2026-07-27T10:36:45Z",
   "count": 788
  },
  "features": [
@@ -1304,6 +1304,26 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Komunardů 1130/25",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450201,
+     50.10313
+    ]
+   },
+   "properties": {
+    "id": "osm-node-316827256",
+    "name": "Tipsy",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
     "source": "OSM"
    }
   },
@@ -4052,8 +4072,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.487879,
-     50.046828
+     14.487863,
+     50.046937
     ]
    },
    "properties": {
@@ -10384,26 +10404,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Libušská 319/126",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.469924,
-     50.127797
-    ]
-   },
-   "properties": {
-    "id": "osm-node-9327889571",
-    "name": "PENNY",
-    "brand": "Penny",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
     "source": "OSM"
    }
   },
