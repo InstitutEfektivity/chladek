@@ -3,8 +3,8 @@
   "level": "Severe",
   "headline": "Maximální teploty nad 37 °C. Komplikace zejména v dopravě, živočišné výrobě, energetice, službách. Pravděpodobný vliv na kolejovou dopravu, deformace a lom kolejnic. Možné ovlivnění silniční dopravy, odstavená vozidla, deformace silničních povrchů, zejména exponovaných slunečnímu svitu. Omezení provozu na některých komunikacích, výluky, zpoždění spojů. Problémy s uchlazením uzavřených hal (živočišná výroba, průmysl, logistika apod.). Možné výpadky v dodávkách elektřiny (výrazné zvýšení odběrů, možné narušení vedení). Částečné omezení zásobování a služeb.",
   "event": "Velmi vysoké teploty",
-  "validFrom": "2026-07-31T20:13:21+02:00",
+  "validFrom": "2026-07-31T22:14:53+02:00",
   "validTo": "2026-08-01T00:00:00+02:00",
-  "updatedAt": "2026-07-31T19:24:08Z",
+  "updatedAt": "2026-07-31T20:41:38Z",
   "source": "ČHMÚ (SIVS)"
 }
