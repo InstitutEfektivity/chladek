@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-30T07:57:48Z",
+ "generatedAt": "2026-07-31T08:22:15Z",
  "source": "Golemio / Mestska knihovna v Praze (Prazska datova platforma)",
  "features": [
   {
@@ -4092,7 +4092,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4102,7 +4102,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4112,7 +4112,7 @@
       "opens": "09:00",
       "closes": "17:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4142,7 +4142,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4152,7 +4152,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4162,7 +4162,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4172,7 +4172,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4182,7 +4182,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4212,7 +4212,7 @@
       "opens": "09:00",
       "closes": "12:00",
       "description": "Otevírací doba (po předchozím objednání)",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4222,7 +4222,7 @@
       "opens": "13:00",
       "closes": "18:00",
       "description": "Otevírací doba (po předchozím objednání)",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4252,7 +4252,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4262,7 +4262,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4272,7 +4272,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4282,7 +4282,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4292,7 +4292,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4322,7 +4322,7 @@
       "opens": "12:00",
       "closes": "18:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4352,7 +4352,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4362,7 +4362,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4372,7 +4372,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4382,7 +4382,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4392,7 +4392,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4422,7 +4422,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4432,7 +4432,7 @@
       "opens": "12:00",
       "closes": "18:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4462,7 +4462,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4472,7 +4472,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4482,7 +4482,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4492,7 +4492,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4502,7 +4502,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4532,7 +4532,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4542,7 +4542,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4552,7 +4552,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4582,7 +4582,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4592,7 +4592,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "self_service"
@@ -4602,7 +4602,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4612,7 +4612,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4622,7 +4622,7 @@
       "opens": "09:00",
       "closes": "17:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4652,7 +4652,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4662,7 +4662,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4692,7 +4692,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4702,7 +4702,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4732,7 +4732,7 @@
       "opens": "12:00",
       "closes": "17:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4742,7 +4742,7 @@
       "opens": "12:00",
       "closes": "17:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4772,7 +4772,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4782,7 +4782,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4812,7 +4812,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4822,7 +4822,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4832,7 +4832,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4842,7 +4842,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -4852,7 +4852,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "self_service"
@@ -5152,7 +5152,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5162,7 +5162,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5242,7 +5242,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5252,7 +5252,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5262,7 +5262,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5272,7 +5272,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5282,7 +5282,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5312,7 +5312,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5322,7 +5322,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5352,7 +5352,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5362,7 +5362,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5372,7 +5372,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5382,7 +5382,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5392,7 +5392,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5422,7 +5422,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5452,7 +5452,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5462,7 +5462,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5472,7 +5472,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5482,7 +5482,7 @@
       "opens": "09:00",
       "closes": "13:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "self_service"
@@ -5492,7 +5492,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5502,7 +5502,7 @@
       "opens": "09:00",
       "closes": "13:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "self_service"
@@ -5512,7 +5512,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5542,7 +5542,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5552,7 +5552,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5562,7 +5562,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5592,7 +5592,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5602,7 +5602,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5612,7 +5612,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5622,7 +5622,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5632,7 +5632,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5662,7 +5662,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5672,7 +5672,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5682,7 +5682,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5692,7 +5692,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5702,7 +5702,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5732,7 +5732,7 @@
       "opens": "09:00",
       "closes": "13:30",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5742,7 +5742,7 @@
       "opens": "14:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5752,7 +5752,7 @@
       "opens": "12:00",
       "closes": "13:30",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5762,7 +5762,7 @@
       "opens": "14:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5792,7 +5792,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5802,7 +5802,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5832,7 +5832,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5842,7 +5842,7 @@
       "opens": "11:00",
       "closes": "18:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5872,7 +5872,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5882,7 +5882,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5892,7 +5892,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5902,7 +5902,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5912,7 +5912,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5942,7 +5942,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5952,7 +5952,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5962,7 +5962,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5972,7 +5972,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5982,7 +5982,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6012,7 +6012,7 @@
       "opens": "13:00",
       "closes": "18:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6022,7 +6022,7 @@
       "opens": "12:00",
       "closes": "18:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6032,7 +6032,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6062,7 +6062,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6072,7 +6072,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6082,7 +6082,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6092,7 +6092,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6122,7 +6122,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6132,7 +6132,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6162,7 +6162,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6172,7 +6172,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6182,7 +6182,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6192,7 +6192,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6202,7 +6202,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6232,7 +6232,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6242,7 +6242,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6252,7 +6252,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6282,7 +6282,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6292,7 +6292,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6322,7 +6322,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6332,7 +6332,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6342,7 +6342,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6352,7 +6352,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6362,7 +6362,7 @@
       "opens": "09:00",
       "closes": "15:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6392,7 +6392,7 @@
       "opens": "13:00",
       "closes": "20:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6402,7 +6402,7 @@
       "opens": "09:00",
       "closes": "20:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6412,7 +6412,7 @@
       "opens": "09:00",
       "closes": "20:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6422,7 +6422,7 @@
       "opens": "09:00",
       "closes": "20:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6432,7 +6432,7 @@
       "opens": "09:00",
       "closes": "20:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6462,7 +6462,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6472,7 +6472,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6482,7 +6482,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6492,7 +6492,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6502,7 +6502,7 @@
       "opens": "09:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6532,7 +6532,7 @@
       "opens": "13:00",
       "closes": "17:00",
       "description": "Běžná otevírací doba",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6542,7 +6542,7 @@
       "opens": "16:00",
       "closes": "20:00",
       "description": "Běžná otevírací doba",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6552,7 +6552,7 @@
       "opens": "15:00",
       "closes": "17:00",
       "description": "Běžná otevírací doba",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6652,7 +6652,7 @@
       "opens": "10:00",
       "closes": "18:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6872,7 +6872,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6882,7 +6882,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6912,7 +6912,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6922,7 +6922,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6932,7 +6932,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6962,7 +6962,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6972,7 +6972,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6982,7 +6982,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7012,7 +7012,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7022,7 +7022,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7032,7 +7032,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7062,7 +7062,7 @@
       "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7072,7 +7072,7 @@
       "opens": "12:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7082,7 +7082,7 @@
       "opens": "09:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7112,7 +7112,7 @@
       "opens": "09:00",
       "closes": "12:30",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7122,7 +7122,7 @@
       "opens": "13:00",
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7132,7 +7132,7 @@
       "opens": "12:00",
       "closes": "15:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7142,7 +7142,7 @@
       "opens": "15:30",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
