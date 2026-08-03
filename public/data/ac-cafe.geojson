@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-27T10:27:53Z",
+ "generatedAt": "2026-08-03T10:27:12Z",
  "source": "OpenStreetMap (Overpass) - znackove fast-food + kavarny (brand:wikidata)",
  "features": [
   {
@@ -848,6 +848,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.432958,
+     50.074276
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-3298049939",
+    "name": "Café Le Parisien",
+    "brand": "Costa",
+    "type": "kavárna / rychlé občerstvení",
+    "address": "Bělehradská 102, Praha 2",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.424842,
      50.081373
     ]
@@ -858,6 +878,26 @@
     "brand": "Costa",
     "type": "kavárna / rychlé občerstvení",
     "address": "Vodičkova 33, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.492779,
+     50.028882
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-3429959255",
+    "name": "Starbucks",
+    "brand": "Starbucks",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1548,8 +1588,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.491125,
-     50.030349
+     14.491153,
+     50.030289
     ]
    },
    "properties": {
@@ -2288,36 +2328,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.548006,
-     50.067237
+     14.35443,
+     50.096814
     ]
    },
    "properties": {
-    "id": "osm-cafe-node-13970692553",
-    "name": "Burger King",
-    "brand": "Burger King",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.347762,
-     50.019872
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970692576",
+    "id": "osm-cafe-way-7641677",
     "name": "KFC",
     "brand": "KFC",
     "type": "kavárna / rychlé občerstvení",
-    "address": null,
+    "address": "Etiopská 3, Praha",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -2328,16 +2348,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.393446,
-     50.018483
+     14.576617,
+     50.110087
     ]
    },
    "properties": {
-    "id": "osm-cafe-node-13970692764",
+    "id": "osm-cafe-way-22372820",
     "name": "KFC",
     "brand": "KFC",
     "type": "kavárna / rychlé občerstvení",
-    "address": null,
+    "address": "Skorkovská 2461",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -2348,296 +2368,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.503773,
-     50.148627
+     14.322985,
+     50.093056
     ]
    },
    "properties": {
-    "id": "osm-cafe-node-13970692780",
-    "name": "Burger King",
-    "brand": "Burger King",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.504495,
-     50.14904
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970692781",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.342235,
-     50.054948
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970692817",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.305117,
-     50.076772
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970692830",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.517178,
-     50.102996
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970692865",
+    "id": "osm-cafe-way-27549616",
     "name": "McDonald's",
     "brand": "McDonald's",
     "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.531622,
-     50.070126
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970692902",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.613253,
-     50.12443
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970693136",
-    "name": "McDonald's",
-    "brand": "McDonald's",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.538749,
-     50.077852
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970693214",
-    "name": "McDonald's",
-    "brand": "McDonald's",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.43772,
-     50.090373
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970693440",
-    "name": "McDonald's",
-    "brand": "McDonald's",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.474072,
-     50.052651
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970693458",
-    "name": "Burger King",
-    "brand": "Burger King",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.467185,
-     50.040665
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970694454",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.294142,
-     50.050414
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970695175",
-    "name": "McDonald's",
-    "brand": "McDonald's",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.310514,
-     50.064693
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970695873",
-    "name": "McDonald's",
-    "brand": "McDonald's",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.292396,
-     50.052637
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970695874",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.583186,
-     50.109668
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970696039",
-    "name": "McDonald's",
-    "brand": "McDonald's",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
+    "address": "Evropská 634/204, Praha",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -2649,11 +2389,31 @@
     "type": "Point",
     "coordinates": [
      14.440174,
-     50.108491
+     50.10849
     ]
    },
    "properties": {
-    "id": "osm-cafe-node-13970697397",
+    "id": "osm-cafe-way-28270211",
+    "name": "McDonald's",
+    "brand": "McDonald's",
+    "type": "kavárna / rychlé občerstvení",
+    "address": "Plynární ev.167, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.583182,
+     50.109669
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-72056921",
     "name": "McDonald's",
     "brand": "McDonald's",
     "type": "kavárna / rychlé občerstvení",
@@ -2668,56 +2428,36 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.322986,
-     50.093059
+     14.292395,
+     50.052636
     ]
    },
    "properties": {
-    "id": "osm-cafe-node-13970697399",
+    "id": "osm-cafe-way-79659549",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": "Sárská 124/7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.3105,
+     50.064695
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-79660754",
     "name": "McDonald's",
     "brand": "McDonald's",
     "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.576612,
-     50.110088
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970697424",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.35443,
-     50.096814
-    ]
-   },
-   "properties": {
-    "id": "osm-cafe-node-13970697431",
-    "name": "KFC",
-    "brand": "KFC",
-    "type": "kavárna / rychlé občerstvení",
-    "address": null,
+    "address": "Skuteckého 1395/1",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -2748,6 +2488,86 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.294142,
+     50.050414
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-118749708",
+    "name": "McDonald's",
+    "brand": "McDonald's",
+    "type": "kavárna / rychlé občerstvení",
+    "address": "Skandinávská 162/27",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.467174,
+     50.040664
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-179556015",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.474068,
+     50.052653
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-304382516",
+    "name": "Burger King",
+    "brand": "Burger King",
+    "type": "kavárna / rychlé občerstvení",
+    "address": "Chodovská 1554/3c",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.437733,
+     50.090378
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-309552347",
+    "name": "McDonald's",
+    "brand": "McDonald's",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.269161,
      50.10845
     ]
@@ -2756,6 +2576,46 @@
     "id": "osm-cafe-way-371402654",
     "name": "Starbucks",
     "brand": "Starbucks",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.538751,
+     50.077852
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-379885173",
+    "name": "McDonald's",
+    "brand": "McDonald's",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.613253,
+     50.12443
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-418593105",
+    "name": "McDonald's",
+    "brand": "McDonald's",
     "type": "kavárna / rychlé občerstvení",
     "address": null,
     "cooling": "ac",
@@ -2854,6 +2714,26 @@
    },
    "properties": {
     "id": "osm-cafe-way-486598468",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.531615,
+     50.070124
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-619225888",
     "name": "KFC",
     "brand": "KFC",
     "type": "kavárna / rychlé občerstvení",
@@ -2974,6 +2854,166 @@
    },
    "properties": {
     "id": "osm-cafe-way-651730209",
+    "name": "Burger King",
+    "brand": "Burger King",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.517178,
+     50.102997
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-686328019",
+    "name": "McDonald's",
+    "brand": "McDonald's",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.305113,
+     50.07677
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-762731573",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": "Karlovarská 99",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.342236,
+     50.054948
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-788128272",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": "Bucharova 2991, Praha",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.504498,
+     50.149038
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-865501273",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.503774,
+     50.148624
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-865501274",
+    "name": "Burger King",
+    "brand": "Burger King",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.393453,
+     50.018485
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-909280503",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.347767,
+     50.01987
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-1304496785",
+    "name": "KFC",
+    "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.547999,
+     50.067238
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-way-1340075904",
     "name": "Burger King",
     "brand": "Burger King",
     "type": "kavárna / rychlé občerstvení",
