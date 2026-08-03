@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-07-27T10:29:24Z",
+ "generatedAt": "2026-08-03T10:25:31Z",
  "source": "OpenStreetMap (Overpass) - prazske urady (townhall + office=government)",
  "features": [
   {
@@ -1097,7 +1097,7 @@
    },
    "properties": {
     "id": "osm-urad-way-34881825",
-    "name": "Uřad městský části praha 8 - 1",
+    "name": "Uřad městské části praha 8 - 1",
     "type": "úřad městské části",
     "address": null,
     "cooling": "ac",
@@ -1195,25 +1195,6 @@
     "name": "Úřad Městské části Praha-Klánovice",
     "type": "úřad městské části",
     "address": "U Besedy 300/8, Praha-Klánovice",
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.470837,
-     50.110565
-    ]
-   },
-   "properties": {
-    "id": "osm-urad-way-337172295",
-    "name": "Uřad městský části praha 8",
-    "type": "úřad městské části",
-    "address": null,
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1498,7 +1479,7 @@
     "id": "osm-urad-node-6027206824",
     "name": "Finanční úřad pro Středočeský kraj, Územní pracoviště Praha-východ",
     "type": "úřad",
-    "address": "Thámova 291/27, Praha",
+    "address": "Thámova 291/27, Praha 8",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1592,6 +1573,25 @@
    "properties": {
     "id": "osm-urad-node-13480007671",
     "name": "Podatelna úřadu pro zastupování státu ve věcech majetkových",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.427692,
+     50.065143
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-14029196871",
+    "name": "Městská část Praha 2 - Informační kancelář",
     "type": "úřad",
     "address": null,
     "cooling": "ac",
