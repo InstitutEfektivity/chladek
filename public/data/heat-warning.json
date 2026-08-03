@@ -1,10 +1,10 @@
 {
   "active": true,
   "level": "Severe",
-  "headline": "Očekáváme velmi silnou zátěž teplem. Riziko přehřátí a dehydratace. Výrazně zvýšená zátěž zdravotnického systému (praktičtí lékaři, zdravotnická záchranná služba, hospitalizace) a sociálních služeb (zejména péče o seniory a dlouhodobě nemocné). Pokles výkonnosti pracujících a zvýšení rizika pracovních úrazů, zejména u prací venku nebo v dusném uzavřeném prostředí.",
-  "event": "Velmi silná zátěž teplem",
-  "validFrom": "2026-08-03T10:58:40+02:00",
-  "validTo": null,
-  "updatedAt": "2026-08-03T21:41:39Z",
+  "headline": "Maximální teploty nad 37 °C. Komplikace zejména v dopravě, živočišné výrobě, energetice, službách. Pravděpodobný vliv na kolejovou dopravu, deformace a lom kolejnic. Možné ovlivnění silniční dopravy, odstavená vozidla, deformace silničních povrchů, zejména exponovaných slunečnímu svitu. Omezení provozu na některých komunikacích, výluky, zpoždění spojů. Problémy s uchlazením uzavřených hal (živočišná výroba, průmysl, logistika apod.). Možné výpadky v dodávkách elektřiny (výrazné zvýšení odběrů, možné narušení vedení). Částečné omezení zásobování a služeb.",
+  "event": "Velmi vysoké teploty",
+  "validFrom": "2026-08-04T00:00:00+02:00",
+  "validTo": "2026-08-05T00:00:00+02:00",
+  "updatedAt": "2026-08-03T23:00:13Z",
   "source": "ČHMÚ (SIVS)"
 }
