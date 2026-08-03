@@ -3,8 +3,8 @@
   "level": "Severe",
   "headline": "Očekáváme velmi silnou zátěž teplem. Riziko přehřátí a dehydratace. Výrazně zvýšená zátěž zdravotnického systému (praktičtí lékaři, zdravotnická záchranná služba, hospitalizace) a sociálních služeb (zejména péče o seniory a dlouhodobě nemocné). Pokles výkonnosti pracujících a zvýšení rizika pracovních úrazů, zejména u prací venku nebo v dusném uzavřeném prostředí.",
   "event": "Velmi silná zátěž teplem",
-  "validFrom": "2026-08-03T10:00:00+02:00",
+  "validFrom": "2026-08-03T10:58:40+02:00",
   "validTo": null,
-  "updatedAt": "2026-08-03T07:57:08Z",
+  "updatedAt": "2026-08-03T11:29:27Z",
   "source": "ČHMÚ (SIVS)"
 }
