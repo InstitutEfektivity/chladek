@@ -1,5 +1,10 @@
 {
-  "active": false,
-  "updatedAt": "2026-08-08T08:40:29Z",
+  "active": true,
+  "level": "Moderate",
+  "headline": "Maximální teploty nad 32 °C. Možné komplikace zejména v dopravě, živočišné výrobě, energetice. Možné deformace kolejnic v kolejové dopravě, škody na méně kvalitních površích silnic, zejména exponovaných slunečnímu svitu. Nutnost intenzivního chlazení uzavřených hal (živočišná výroba, průmysl, logistika apod.). Vyšší zatížení energetické infrastruktury.",
+  "event": "Vysoké teploty",
+  "validFrom": "2026-08-09T12:00:00+02:00",
+  "validTo": "2026-08-10T18:00:00+02:00",
+  "updatedAt": "2026-08-08T09:37:11Z",
   "source": "ČHMÚ (SIVS)"
 }
