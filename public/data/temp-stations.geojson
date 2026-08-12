@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-12T21:03:02Z",
+ "generatedAt": "2026-08-12T22:02:37Z",
  "source": "ČHMÚ – otevrena data (opendata.chmi.cz)",
  "features": [
   {
@@ -87,8 +87,8 @@
    "properties": {
     "id": "0-203-0-10904013001",
     "name": "Praha, Komořany",
-    "temp_c": 17.5,
-    "measuredAt": "2026-08-12T19:50:00Z",
+    "temp_c": 17.1,
+    "measuredAt": "2026-08-12T20:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -105,8 +105,8 @@
    "properties": {
     "id": "0-203-0-11201018001",
     "name": "Průhonice",
-    "temp_c": 15.4,
-    "measuredAt": "2026-08-12T19:50:00Z",
+    "temp_c": 13.8,
+    "measuredAt": "2026-08-12T20:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -123,8 +123,8 @@
    "properties": {
     "id": "0-203-0-11201020001",
     "name": "Praha, Vinohrady - Flora",
-    "temp_c": 21.3,
-    "measuredAt": "2026-08-12T19:50:00Z",
+    "temp_c": 21.0,
+    "measuredAt": "2026-08-12T20:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -141,8 +141,8 @@
    "properties": {
     "id": "0-203-0-11514",
     "name": "Praha, Klementinum",
-    "temp_c": 23.0,
-    "measuredAt": "2026-08-12T20:00:00Z",
+    "temp_c": 22.4,
+    "measuredAt": "2026-08-12T20:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -159,8 +159,8 @@
    "properties": {
     "id": "0-203-0-11515",
     "name": "Praha, Klementinum",
-    "temp_c": 22.7,
-    "measuredAt": "2026-08-12T20:00:00Z",
+    "temp_c": 22.1,
+    "measuredAt": "2026-08-12T20:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
