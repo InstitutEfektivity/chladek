@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-15T03:04:49Z",
+ "generatedAt": "2026-08-15T03:54:14Z",
  "source": "ČHMÚ – otevrena data (opendata.chmi.cz)",
  "features": [
   {
@@ -87,8 +87,8 @@
    "properties": {
     "id": "0-203-0-10904013001",
     "name": "Praha, Komořany",
-    "temp_c": 13.3,
-    "measuredAt": "2026-08-15T01:50:00Z",
+    "temp_c": 12.8,
+    "measuredAt": "2026-08-15T02:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
