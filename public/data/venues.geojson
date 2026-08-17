@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-08-10T05:37:57Z",
+  "generated": "2026-08-17T04:47:30Z",
   "count": 1656
  },
  "features": [
@@ -24905,7 +24905,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": null,
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00",
     "address": "Budějovická 1667/64",
     "source": "osm",
     "note": null
