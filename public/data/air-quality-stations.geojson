@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-20T15:35:48.181661+00:00",
+ "generatedAt": "2026-08-20T16:37:08.900855+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -22,15 +22,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 7.8
+      "value": 8.8
      },
      {
       "type": "NO2",
-      "value": 6.7
+      "value": 7.1
      },
      {
       "type": "PM10",
-      "value": 4.5
+      "value": 3.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -88,15 +88,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 75
+      "value": 115.9
      },
      {
       "type": "NO2",
-      "value": 45
+      "value": 63.5
      },
      {
       "type": "PM10",
-      "value": 129.6
+      "value": 250.8
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -121,15 +121,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 19.5
+      "value": 18.6
      },
      {
       "type": "NO2",
-      "value": 15.7
+      "value": 15.5
      },
      {
       "type": "PM10",
-      "value": 5.4
+      "value": 8.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -153,12 +153,20 @@
     "aqColor": "#5FE0CF",
     "components": [
      {
+      "type": "NOx",
+      "value": 8.4
+     },
+     {
+      "type": "NO2",
+      "value": 6.9
+     },
+     {
       "type": "O3",
-      "value": 77.4
+      "value": 76.6
      },
      {
       "type": "PM10",
-      "value": 21.3
+      "value": 11.6
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -182,12 +190,24 @@
     "aqColor": "#9AA7AE",
     "components": [
      {
+      "type": "CO",
+      "value": 28136
+     },
+     {
+      "type": "NOx",
+      "value": 14.3
+     },
+     {
+      "type": "NO2",
+      "value": 11.3
+     },
+     {
       "type": "PM10",
-      "value": 13.3
+      "value": 12.4
      },
      {
       "type": "PM2_5",
-      "value": 4.4
+      "value": 4.1
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -249,31 +269,31 @@
     "components": [
      {
       "type": "CO",
-      "value": 381
+      "value": 367
      },
      {
       "type": "NOx",
-      "value": 5.5
+      "value": 5.7
      },
      {
       "type": "NO2",
-      "value": 4.6
+      "value": 5
      },
      {
       "type": "O3",
-      "value": 87.4
+      "value": 84.6
      },
      {
       "type": "PM10",
-      "value": 5.1
+      "value": 8.7
      },
      {
       "type": "PM2_5",
-      "value": 4.6
+      "value": 3.5
      },
      {
       "type": "SO2",
-      "value": 2.9
+      "value": 3.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -298,15 +318,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 49.7
+      "value": 65.8
      },
      {
       "type": "NO2",
-      "value": 26
+      "value": 34
      },
      {
       "type": "PM10",
-      "value": 37.4
+      "value": 34.4
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -331,15 +351,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 14.5
+      "value": 13.8
      },
      {
       "type": "NO2",
-      "value": 10.7
+      "value": 9.6
      },
      {
       "type": "PM10",
-      "value": 22.4
+      "value": 12.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -397,27 +417,27 @@
     "components": [
      {
       "type": "NOx",
-      "value": 10.9
+      "value": 11.9
      },
      {
       "type": "NO2",
-      "value": 9
+      "value": 9.8
      },
      {
       "type": "O3",
-      "value": 77.4
+      "value": 72.6
      },
      {
       "type": "PM10",
-      "value": 4.7
+      "value": 8.3
      },
      {
       "type": "PM2_5",
-      "value": 9.5
+      "value": 6.5
      },
      {
       "type": "SO2",
-      "value": 5.3
+      "value": 4
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -475,11 +495,11 @@
     "components": [
      {
       "type": "O3",
-      "value": 82
+      "value": 77.2
      },
      {
       "type": "PM10",
-      "value": 4
+      "value": 3.2
      },
      {
       "type": "PM2_5",
@@ -508,11 +528,11 @@
     "components": [
      {
       "type": "O3",
-      "value": 78.8
+      "value": 80
      },
      {
       "type": "PM10",
-      "value": 5.6
+      "value": 11.2
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -537,15 +557,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 17.2
+      "value": 22.4
      },
      {
       "type": "NO2",
-      "value": 12.8
+      "value": 16.6
      },
      {
       "type": "PM10",
-      "value": 16.8
+      "value": 10.1
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -570,19 +590,19 @@
     "components": [
      {
       "type": "NOx",
-      "value": 20.3
+      "value": 30.2
      },
      {
       "type": "NO2",
-      "value": 13.8
+      "value": 20.1
      },
      {
       "type": "O3",
-      "value": 72
+      "value": 64.2
      },
      {
       "type": "PM10",
-      "value": 10.1
+      "value": 57.9
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
