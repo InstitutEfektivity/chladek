@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-21T21:38:52Z",
+ "generatedAt": "2026-08-21T22:41:43Z",
  "source": "ČHMÚ – otevrena data (opendata.chmi.cz)",
  "features": [
   {
@@ -16,7 +16,7 @@
     "id": "0-20000-0-11518",
     "name": "Praha, Ruzyně",
     "temp_c": 13.5,
-    "measuredAt": "2026-08-21T20:50:00Z",
+    "measuredAt": "2026-08-21T21:50:00Z",
     "klass": "pro",
     "source": "ČHMÚ"
    }
@@ -34,7 +34,7 @@
     "id": "0-20000-0-11519",
     "name": "Praha, Karlov",
     "temp_c": 14.4,
-    "measuredAt": "2026-08-21T20:50:00Z",
+    "measuredAt": "2026-08-21T21:50:00Z",
     "klass": "pro",
     "source": "ČHMÚ"
    }
@@ -51,8 +51,8 @@
    "properties": {
     "id": "0-20000-0-11520",
     "name": "Praha, Libuš",
-    "temp_c": 13.9,
-    "measuredAt": "2026-08-21T20:50:00Z",
+    "temp_c": 13.7,
+    "measuredAt": "2026-08-21T21:50:00Z",
     "klass": "pro",
     "source": "ČHMÚ"
    }
@@ -70,7 +70,7 @@
     "id": "0-20000-0-11567",
     "name": "Praha, Kbely",
     "temp_c": 14.1,
-    "measuredAt": "2026-08-21T20:50:00Z",
+    "measuredAt": "2026-08-21T21:50:00Z",
     "klass": "pro",
     "source": "ČHMÚ"
    }
