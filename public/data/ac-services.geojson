@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - klimatizovane sluzby/provozovny jako body (supermarket, banka, fitness, hotel 4*/5*)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-07-27T10:36:45Z",
-  "count": 788
+  "generated": "2026-08-24T07:49:36Z",
+  "count": 795
  },
  "features": [
   {
@@ -403,7 +403,7 @@
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
-    "address": null,
+    "address": "Nádražní",
     "source": "OSM"
    }
   },
@@ -3498,7 +3498,7 @@
    },
    "properties": {
     "id": "osm-node-995953416",
-    "name": "Bonveno",
+    "name": "Pont to go",
     "brand": null,
     "kind": "supermarket",
     "cooling": "ac",
@@ -3818,8 +3818,8 @@
    },
    "properties": {
     "id": "osm-node-1272392410",
-    "name": "UniCredit Bank",
-    "brand": "UniCredit Bank",
+    "name": "UniCredit",
+    "brand": "UniCredit",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -5444,26 +5444,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "náměstí Míru 8/1356",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.476965,
-     50.077892
-    ]
-   },
-   "properties": {
-    "id": "osm-node-2420223885",
-    "name": "Lidl",
-    "brand": "Lidl",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
     "source": "OSM"
    }
   },
@@ -8212,33 +8192,13 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.264409,
-     50.105807
+     14.264414,
+     50.10581
     ]
    },
    "properties": {
     "id": "osm-node-4864052998",
-    "name": "Prague Duty Free",
-    "brand": null,
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.26409,
-     50.106226
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4864052999",
-    "name": "Relay",
+    "name": "Aelia Duty Free",
     "brand": null,
     "kind": "supermarket",
     "cooling": "ac",
@@ -10643,7 +10603,7 @@
     "kind": "supermarket",
     "cooling": "ac",
     "tier": "A",
-    "address": null,
+    "address": "Heřmanická 163/7",
     "source": "OSM"
    }
   },
@@ -13532,6 +13492,186 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.435567,
+     50.078189
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14059087491",
+    "name": "Bon Asia",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435441,
+     50.078243
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14059087492",
+    "name": "Bon Veno",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404613,
+     50.067851
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14064610074",
+    "name": "Pilates Studio",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404613,
+     50.067851
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14066635756",
+    "name": "Pilates Studio",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404613,
+     50.067851
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14072473033",
+    "name": "Pilates Studio",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435567,
+     50.078189
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14074249715",
+    "name": "Bon Asia",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.435441,
+     50.078243
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14074249716",
+    "name": "Bon Veno",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.404613,
+     50.067851
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14074268440",
+    "name": "Pilates Studio",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.263337,
+     50.106274
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14084818596",
+    "name": "Aelia Duty Free",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.432048,
      50.062773
     ]
@@ -14932,6 +15072,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.439309,
+     50.091562
+    ]
+   },
+   "properties": {
+    "id": "osm-way-223862766",
+    "name": "Banka Creditas",
+    "brand": "Banka Creditas",
+    "kind": "bank",
+    "cooling": "ac",
+    "tier": "A",
+    "address": "Sokolovská 675/9",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.563777,
      50.086796
     ]
@@ -15624,26 +15784,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Evropská 695/73",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.507992,
-     50.056963
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1389537841",
-    "name": "Albert",
-    "brand": "Albert",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "Topolová 2915/16",
     "source": "OSM"
    }
   },

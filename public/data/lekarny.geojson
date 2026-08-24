@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - lekarny (SUKL, autoritativni; AC z titulu uchovavani leciv)",
   "attribution": "Zdroj: SUKL (Seznam lekaren); souradnice (c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-07-27T10:40:06Z",
-  "count": 174
+  "generated": "2026-08-24T07:49:39Z",
+  "count": 170
  },
  "features": [
   {
@@ -320,26 +320,6 @@
     "id": "sukl-06995730",
     "name": "BENU Lékárna",
     "address": "Bělohorská 258/43, 16900 Praha",
-    "web": "http://www.benu.cz",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.460784,
-     50.077634
-    ]
-   },
-   "properties": {
-    "id": "sukl-03995940",
-    "name": "BENU Lékárna",
-    "address": "Vinohradská 2828/151, 13000 Praha",
     "web": "http://www.benu.cz",
     "pohotovost": false,
     "cooling": "ac",
@@ -732,26 +712,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.460784,
-     50.077634
-    ]
-   },
-   "properties": {
-    "id": "sukl-03995140",
-    "name": "Dr.Max LÉKÁRNA",
-    "address": "Vinohradská 2828/151, 13000 Praha",
-    "web": "http://www.drmax.cz",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.376886,
      50.034353
     ]
@@ -961,26 +921,6 @@
     "name": "Dr.Max LÉKÁRNA",
     "address": "Komunardů 1467/40, 17000 Praha",
     "web": "https://www.drmax.cz",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.460784,
-     50.077634
-    ]
-   },
-   "properties": {
-    "id": "sukl-03995920",
-    "name": "Dr.Max LÉKÁRNA",
-    "address": "Vinohradská 2577/178, 13000 Praha",
-    "web": "http://www.drmax.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1452,26 +1392,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.460784,
-     50.077634
-    ]
-   },
-   "properties": {
-    "id": "sukl-03995200",
-    "name": "Lékárna",
-    "address": "Vinohradská 1713/196, 13000 Praha",
-    "web": null,
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.36607,
      50.08419
     ]
@@ -1537,10 +1457,10 @@
     ]
    },
    "properties": {
-    "id": "sukl-09995620",
+    "id": "sukl-07995530",
     "name": "Lékárna Cithara",
-    "address": "Českomoravská 2420/15a, 19000 Praha",
-    "web": "http://www.cithara.cz",
+    "address": "Veletržní 1623/24, 17000 Praha",
+    "web": "www.cithara.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1557,10 +1477,10 @@
     ]
    },
    "properties": {
-    "id": "sukl-07995530",
+    "id": "sukl-09995620",
     "name": "Lékárna Cithara",
-    "address": "Veletržní 1623/24, 17000 Praha",
-    "web": "www.cithara.cz",
+    "address": "Českomoravská 2420/15a, 19000 Praha",
+    "web": "http://www.cithara.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1640,7 +1560,7 @@
     "id": "sukl-04995080",
     "name": "Lékárna FTN",
     "address": "Vídeňská 800, 14000 Praha",
-    "web": "http://www.ftn.cz/pacientum-a-verejnosti/lekarna/",
+    "web": "https://www.ftn.cz/lekarna-50/",
     "pohotovost": true,
     "cooling": "ac",
     "tier": "A",
@@ -1992,8 +1912,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.488198,
-     50.046781
+     14.488152,
+     50.0468
     ]
    },
    "properties": {
@@ -2081,26 +2001,6 @@
     "name": "Lékárna Letňany",
     "address": "Bechyňská 63, 19900 Praha",
     "web": "http://www.jh-lekarny.cz/letnany/",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.30257,
-     50.065489
-    ]
-   },
-   "properties": {
-    "id": "sukl-06995420",
-    "name": "Lékárna Makovského",
-    "address": "Makovského 1223/23, 16300 Praha",
-    "web": "http://www.benu.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -2452,6 +2352,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.406456,
+     50.06802
+    ]
+   },
+   "properties": {
+    "id": "sukl-05995003",
+    "name": "Lékárna S City",
+    "address": "Nádražní 3385/9b, 15000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.448897,
      50.066977
     ]
@@ -2532,6 +2452,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.454343,
+     50.021703
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995017",
+    "name": "Lékárna Tajovského",
+    "address": "Tajovského 1310/4, 14200 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.363688,
      50.083873
     ]
@@ -2572,8 +2512,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.460784,
-     50.077634
+     14.448752,
+     50.077278
     ]
    },
    "properties": {
@@ -3380,7 +3320,7 @@
     "id": "sukl-02995080",
     "name": "U sv.Ludmily",
     "address": "Belgická 238/37, 12000 Praha",
-    "web": "http://www.lekarnabelgicka.cz/",
+    "web": null,
     "pohotovost": true,
     "cooling": "ac",
     "tier": "A",
@@ -3401,26 +3341,6 @@
     "name": "U sv.Pankráce",
     "address": "Na Pankráci 976/99, 14000 Praha",
     "web": "https://www.usvpankrace.cz/",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.460784,
-     50.077634
-    ]
-   },
-   "properties": {
-    "id": "sukl-02995030",
-    "name": "U zlatého lva",
-    "address": "Vinohradská 1292/65, 12000 Praha",
-    "web": "http://www.uzlateholvapraha.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",

@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chladek - znackove klimatizovane prodejny jako body (drogerie, elektro)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-07-27T10:34:32Z",
+  "generated": "2026-08-24T07:47:45Z",
   "count": 179
  },
  "features": [
@@ -1437,25 +1437,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.415791,
-     50.086012
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4117465089",
-    "name": "Thai paradise",
-    "brand": null,
-    "kind": "drogerie",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.436518,
      50.040194
     ]
@@ -1521,6 +1502,25 @@
     "id": "osm-node-4368535243",
     "name": "dm",
     "brand": "dm",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429038,
+     50.080725
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4393965090",
+    "name": "Rossmann",
+    "brand": "Rossmann",
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",
@@ -1861,7 +1861,7 @@
    },
    "properties": {
     "id": "osm-node-6178497186",
-    "name": "Drogerie",
+    "name": "dm Drogerie",
     "brand": null,
     "kind": "drogerie",
     "cooling": "ac",
@@ -2558,25 +2558,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.296343,
-     50.049368
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11248393781",
-    "name": "Datart",
-    "brand": "Datart",
-    "kind": "electronics",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.297537,
      50.049227
     ]
@@ -3193,6 +3174,25 @@
     "id": "osm-node-13995512803",
     "name": "Rossmann",
     "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429816,
+     50.101725
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14069843601",
+    "name": "dm",
+    "brand": null,
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",
