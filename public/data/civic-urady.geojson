@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-17T07:36:06Z",
+ "generatedAt": "2026-08-24T07:41:58Z",
  "source": "OpenStreetMap (Overpass) - prazske urady (townhall + office=government)",
  "features": [
   {
@@ -559,8 +559,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.612695,
-     50.11483
+     14.612556,
+     50.114736
     ]
    },
    "properties": {
@@ -578,8 +578,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.524876,
-     50.151208
+     14.52517,
+     50.151502
     ]
    },
    "properties": {
