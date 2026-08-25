@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-25T07:08:20Z",
+ "generatedAt": "2026-08-25T07:58:10Z",
  "source": "ČHMÚ – otevrena data (opendata.chmi.cz)",
  "features": [
   {
@@ -141,8 +141,8 @@
    "properties": {
     "id": "0-203-0-11514",
     "name": "Praha, Klementinum",
-    "temp_c": 16.7,
-    "measuredAt": "2026-08-25T05:50:00Z",
+    "temp_c": 17.7,
+    "measuredAt": "2026-08-25T06:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
@@ -159,8 +159,8 @@
    "properties": {
     "id": "0-203-0-11515",
     "name": "Praha, Klementinum",
-    "temp_c": 16.4,
-    "measuredAt": "2026-08-25T05:50:00Z",
+    "temp_c": 17.5,
+    "measuredAt": "2026-08-25T06:50:00Z",
     "klass": "auto",
     "source": "ČHMÚ"
    }
