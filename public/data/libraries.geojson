@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-27T16:50:44Z",
+ "generatedAt": "2026-08-28T17:43:20Z",
  "source": "Golemio / Mestska knihovna v Praze (Prazska datova platforma)",
  "features": [
   {
@@ -5908,11 +5908,31 @@
     "address": "Klapkova 26/3, 182 00 Praha 8, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -5921,10 +5941,40 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6001,10 +6051,70 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6013,8 +6123,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6023,8 +6133,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6033,8 +6143,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6043,8 +6153,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6068,11 +6178,31 @@
     "address": "Štúrova 1282/12, 140 00 Praha 4, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6081,10 +6211,40 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6111,8 +6271,8 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6121,8 +6281,8 @@
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6131,8 +6291,8 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6141,8 +6301,8 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6151,10 +6311,70 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6180,11 +6400,61 @@
      {
       "day_of_week": "Monday",
       "opens": "13:00",
+      "closes": "18:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "18:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "18:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6210,11 +6480,91 @@
      {
       "day_of_week": "Monday",
       "opens": "13:00",
+      "closes": "20:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "15:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6223,8 +6573,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6233,8 +6583,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6243,8 +6593,8 @@
       "closes": "13:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
      {
@@ -6253,8 +6603,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6263,8 +6613,8 @@
       "closes": "13:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
      {
@@ -6273,8 +6623,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6301,8 +6651,18 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6311,8 +6671,18 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6321,10 +6691,40 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6351,8 +6751,8 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6361,8 +6761,8 @@
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6371,8 +6771,8 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6381,8 +6781,8 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6391,10 +6791,60 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6421,10 +6871,70 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "15:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6433,8 +6943,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6443,8 +6953,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6453,8 +6963,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6463,8 +6973,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6488,11 +6998,21 @@
     "address": "Ostrčilovo nám. 518/1, 12000 Praha 2, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "13:30",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6501,8 +7021,28 @@
       "day_of_week": "Tuesday",
       "opens": "14:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "13:30",
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "14:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6511,8 +7051,8 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "13:30",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6521,10 +7061,70 @@
       "day_of_week": "Thursday",
       "opens": "14:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "13:30",
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "14:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba ",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "13:30",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "14:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "13:30",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "14:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6551,8 +7151,18 @@
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6561,10 +7171,30 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6588,11 +7218,31 @@
     "address": "Na Veselí 542/5, 140 00 Praha 4, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "18:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "11:00",
+      "closes": "18:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6601,10 +7251,30 @@
       "day_of_week": "Thursday",
       "opens": "11:00",
       "closes": "18:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "11:00",
+      "closes": "18:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6631,10 +7301,70 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "10:00",
+      "closes": "17:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6643,8 +7373,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6653,8 +7383,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6663,8 +7393,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6673,8 +7403,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6701,7 +7431,7 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "description": "Běžná otevírací doba",
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
@@ -6711,7 +7441,7 @@
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "description": "Běžná otevírací doba",
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
@@ -6721,7 +7451,7 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "description": "Běžná otevírací doba",
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
@@ -6731,7 +7461,7 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "description": "Běžná otevírací doba",
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
@@ -6741,10 +7471,50 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "description": "Běžná otevírací doba",
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Zavřeno v pondělí 31. 8. 2026",
+      "is_default": false,
+      "valid_from": "2026-08-30T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Zavřeno v pondělí 31. 8. 2026",
+      "is_default": false,
+      "valid_from": "2026-08-30T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Zavřeno v pondělí 31. 8. 2026",
+      "is_default": false,
+      "valid_from": "2026-08-30T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Zavřeno v pondělí 31. 8. 2026",
+      "is_default": false,
+      "valid_from": "2026-08-30T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6868,11 +7638,21 @@
     "address": "Tusarova 429/35, 170 00 Praha 7, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6881,8 +7661,8 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6891,8 +7671,8 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6901,10 +7681,60 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6928,11 +7758,31 @@
     "address": "Rubensova 2237/2, 100 00 Praha 10, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -6941,10 +7791,40 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -6971,10 +7851,70 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6983,8 +7923,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -6993,8 +7933,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -7003,8 +7943,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -7013,8 +7953,8 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7041,8 +7981,18 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7051,8 +8001,18 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7061,10 +8021,40 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7088,11 +8078,31 @@
     "address": "Kovářova 1615/4, 155 00 Praha 13, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7101,10 +8111,40 @@
       "day_of_week": "Thursday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7131,38 +8171,38 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
      },
      {
       "day_of_week": "Tuesday",
-      "opens": "09:00",
-      "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "opens": "11:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
      },
      {
       "day_of_week": "Wednesday",
-      "opens": "12:00",
+      "opens": "11:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
      },
      {
       "day_of_week": "Thursday",
-      "opens": "12:00",
+      "opens": "11:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7171,10 +8211,60 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "15:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "15:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7351,8 +8441,8 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7361,8 +8451,8 @@
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7371,8 +8461,8 @@
       "day_of_week": "Wednesday",
       "opens": "09:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7381,8 +8471,8 @@
       "day_of_week": "Thursday",
       "opens": "09:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7391,10 +8481,60 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7538,13 +8678,33 @@
     "address": "Starochuchelská 20/7, 159 00 Praha 16, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Tuesday",
+      "opens": "13:00",
+      "closes": "18:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "10:00",
+      "closes": "18:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Thursday",
       "opens": "10:00",
       "closes": "18:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7571,9 +8731,179 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "14:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "17:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "14:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "17:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "14:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "17:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "09:00",
+      "closes": "14:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "17:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "14:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "17:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Sunday",
+      "opens": "09:00",
+      "closes": "20:00",
+      "description": "Otevírací doba (s obsluhou knihovníka 14:00-17:00)",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
@@ -7583,7 +8913,7 @@
       "closes": "14:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7593,7 +8923,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7603,7 +8933,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
@@ -7613,7 +8943,7 @@
       "closes": "14:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7623,7 +8953,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7633,7 +8963,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
@@ -7643,7 +8973,7 @@
       "closes": "14:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7653,7 +8983,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7663,7 +8993,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
@@ -7673,7 +9003,7 @@
       "closes": "14:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7683,7 +9013,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7693,7 +9023,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
@@ -7703,7 +9033,7 @@
       "closes": "14:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7713,7 +9043,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7723,7 +9053,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      },
@@ -7733,7 +9063,7 @@
       "closes": "20:00",
       "description": "Letní provoz od 13. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": "2026-07-12T22:00:00.000Z",
+      "valid_from": "2026-08-20T22:00:00.000Z",
       "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "self_service"
      }
@@ -7758,11 +9088,41 @@
     "address": "Vikova 1223/4, 140 00 Praha 4, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7771,10 +9131,30 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7803,8 +9183,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-29T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -7813,8 +9193,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-29T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -7823,8 +9203,28 @@
       "closes": "16:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-29T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Zavřeno v pondělí 31. 8. 2026",
+      "is_default": false,
+      "valid_from": "2026-08-30T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Zavřeno v pondělí 31. 8. 2026",
+      "is_default": false,
+      "valid_from": "2026-08-30T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7851,8 +9251,18 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7861,8 +9271,18 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7871,10 +9291,40 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7901,8 +9351,18 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7911,8 +9371,18 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7921,10 +9391,40 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7951,8 +9451,18 @@
       "day_of_week": "Monday",
       "opens": "13:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7961,8 +9471,18 @@
       "day_of_week": "Wednesday",
       "opens": "12:00",
       "closes": "19:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -7971,10 +9491,40 @@
       "day_of_week": "Friday",
       "opens": "09:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -7998,11 +9548,21 @@
     "address": "Husitská 110/70, 130 00 Praha 3, Česko",
     "opening_hours": [
      {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
       "day_of_week": "Tuesday",
       "opens": "09:00",
       "closes": "12:30",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
@@ -8011,10 +9571,70 @@
       "day_of_week": "Tuesday",
       "opens": "13:00",
       "closes": "16:00",
-      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
-      "is_default": true,
+      "description": "Běžná otevírací doba",
+      "is_default": false,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "09:00",
+      "closes": "12:30",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "13:00",
+      "closes": "16:00",
+      "description": "Běžná otevírací doba",
+      "is_default": false,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "12:30",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "13:00",
+      "closes": "16:00",
+      "description": "Letní provoz od 1. 7. do 31. 8. 2026",
+      "is_default": true,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -8023,8 +9643,8 @@
       "closes": "15:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      },
      {
@@ -8033,8 +9653,8 @@
       "closes": "19:00",
       "description": "Letní provoz od 1. 7. do 31. 8. 2026",
       "is_default": true,
-      "valid_from": null,
-      "valid_through": null,
+      "valid_from": "2026-08-20T22:00:00.000Z",
+      "valid_through": "2026-08-30T22:00:00.000Z",
       "type": "standard"
      }
     ],
