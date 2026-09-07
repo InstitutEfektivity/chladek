@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-08-31T10:44:34Z",
+  "generated": "2026-09-07T09:08:36Z",
   "count": 1656
  },
  "features": [
@@ -25917,7 +25917,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Tu-Fr 07:00 - 17:00",
+    "opening_hours": "Tu-Fr 07:00 - 18:00",
     "address": "Českobrodská 942, Praha",
     "source": "osm",
     "note": null
@@ -26016,28 +26016,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.415094,
-     50.068095
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14002069401",
-    "name": "Osvěžítko, mlžítko",
-    "category": "fountain",
-    "cooling": "water",
-    "typical_c": null,
-    "free_entry": null,
-    "opening_hours": null,
-    "address": null,
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.375902,
      50.087421
     ]
@@ -26051,6 +26029,28 @@
     "free_entry": null,
     "opening_hours": "Mo-Sa 08:00-21:00",
     "address": "Radimova 2522/4, Praha 6 (Břevnov)",
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415146,
+     50.073208
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14139614501",
+    "name": "Mlžítko, osvěžítko",
+    "category": "fountain",
+    "cooling": "water",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
     "source": "osm",
     "note": null
    }
@@ -35894,7 +35894,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.498995,
+     14.499008,
      50.084571
     ]
    },
