@@ -1,242 +1,8 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-08-31T14:20:37Z",
+ "generatedAt": "2026-09-07T12:57:29Z",
  "source": "IPR Praha - UAP (KULTKKC, knihovny vnejsich casti, Geoportal Praha)",
  "features": [
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.547229,
-     50.133677
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2564",
-    "name": "Místní knihovna Praha – Kbely",
-    "address": "Semilská 43/1",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.598315,
-     50.032631
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2431",
-    "name": "Místní knihovna Uhříněves",
-    "address": "Nové náměstí 1251/2",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.359893,
-     49.960136
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2425",
-    "name": "Místní veřejná knihovna v Praze – Lipencích",
-    "address": "K samoobsluze 500",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.373715,
-     50.125202
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2520",
-    "name": "Místní knihovna Lysolaje",
-    "address": "Kovárenská 8/5",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.659003,
-     50.076284
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2438",
-    "name": "Level 21: DDM Praha 10 – Dům UM a Místní knihovna Praha – Újezd nad Lesy",
-    "address": "Staroújezdská 2300",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.579307,
-     50.146223
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2443",
-    "name": "kulturně vzdělávací centrum Vincent a Místní knihovna Praha – Vinoř",
-    "address": "Opočínská 364",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.510359,
-     50.136344
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2572",
-    "name": "Knihovna MČ Praha 18",
-    "address": "Rychnovská 651",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.626352,
-     50.011376
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2420",
-    "name": "Knihovna s infocentrem – Kolovraty",
-    "address": "Mírová 20/54",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.48093,
-     50.144237
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2536",
-    "name": "Místní knihovna Praha – Ďáblice",
-    "address": "Osinalická 901/30",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.485868,
-     50.165043
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2404",
-    "name": "Místní knihovna Praha – Březiněves",
-    "address": "U parku 140/3",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.378849,
-     50.139888
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2530",
-    "name": "Místní veřejná knihovna Praha-Suchdol",
-    "address": "Suchdolská 360/59",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.52293,
-     50.16281
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2543",
-    "name": "Místní knihovna Třeboradice",
-    "address": "Schoellerova 11/99",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.506137,
-     50.036618
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2453",
-    "name": "Místní veřejná knihovna Chodov",
-    "address": "Donovalská 2222/31",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
   {
    "type": "Feature",
    "geometry": {
@@ -247,135 +13,9 @@
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2419",
+    "id": "ipr-kultkkc-4030",
     "name": "Místní knihovna Praha – Královice",
-    "address": "K Nedvězí 66",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.444155,
-     50.077117
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2643",
-    "name": "Knihovna na Vinohradech",
-    "address": "Vinohradská 1431/69",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.483332,
-     50.011607
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2487",
-    "name": "Místní veřejná knihovna v Praze – Kunraticích",
-    "address": "Golčova 24",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.308592,
-     50.030635
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2678",
-    "name": "Místní knihovna Praha 5 – Řeporyje",
-    "address": "Od školy 640",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.409912,
-     50.013613
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2474",
-    "name": "Husova knihovna v Modřanech – pobočka Tyršova čtvrť",
-    "address": "Lysinská 1862/42",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.578866,
-     50.088731
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2405",
-    "name": "Místní knihovna Dolní Počernice",
-    "address": "Stará obec 5",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.556583,
-     50.035739
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2575",
-    "name": "Místní knihovna MČ Praha – Petrovice",
-    "address": "Edisonova 429/30",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.57408,
-     50.127313
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2430",
-    "name": "Místní knihovna Praha Satalice",
-    "address": "U obory 385",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -391,27 +31,9 @@
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2444",
+    "id": "ipr-kultkkc-4055",
     "name": "Místní knihovna Radotín",
-    "address": "Loučanská 1406/1",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.604903,
-     50.013772
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2402",
-    "name": "Místní knihovna Praha – Benice",
-    "address": "Květnového povstání 21",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -427,9 +49,9 @@
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2435",
+    "id": "ipr-kultkkc-4046",
     "name": "Veřejná knihovna Slivenec",
-    "address": "K Lochkovu 6/2",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -440,14 +62,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.352974,
-     50.002625
+     14.506137,
+     50.036618
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2422",
-    "name": "Místní knihovna Praha – Lochkov",
-    "address": "Cementářská 8",
+    "id": "ipr-kultkkc-4064",
+    "name": "Místní veřejná knihovna Chodov",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -458,14 +80,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.668732,
-     50.095153
+     14.483332,
+     50.011607
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2408",
-    "name": "Místní knihovna Praha – Klánovice",
-    "address": "Smržovská 1/1",
+    "id": "ipr-kultkkc-4094",
+    "name": "Místní veřejná knihovna v Praze – Kunraticích",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -481,9 +103,9 @@
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2401",
+    "id": "ipr-kultkkc-4014",
     "name": "Místní knihovna Praha – Běchovice",
-    "address": "Za poštovskou zahradou 479",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -494,14 +116,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.549498,
-     50.073023
+     14.365279,
+     50.12946
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2571",
-    "name": "Místní knihovna Praha – Štěrboholy",
-    "address": "K Učilišti 50/13",
+    "id": "ipr-kultkkc-4008",
+    "name": "Místní knihovna Lysolaje",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -512,14 +134,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.2979,
-     50.11721
+     14.359893,
+     49.960136
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2432",
-    "name": "Místní knihovna Praha – Přední Kopanina",
-    "address": "Hokešovo náměstí 193",
+    "id": "ipr-kultkkc-4036",
+    "name": "Místní veřejná knihovna v Praze – Lipencích",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -530,32 +152,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.595931,
-     50.063113
+     14.556583,
+     50.035739
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2409",
-    "name": "Místní knihovna Praha – Dubeč",
-    "address": "náměstí U lípy svobody 547",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.286714,
-     50.063262
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2510",
-    "name": "Zličínská knihovna",
-    "address": "Křivatcová 244/1",
+    "id": "ipr-kultkkc-3885",
+    "name": "Místní knihovna MČ Praha – Petrovice",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -571,9 +175,9 @@
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2427",
+    "id": "ipr-kultkkc-4038",
     "name": "Místní knihovna Praha – Nedvězí",
-    "address": "Únorová 15/3",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -584,14 +188,68 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.445531,
-     50.146447
+     14.352974,
+     50.002625
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2538",
-    "name": "Chaberský dvůr a Místní veřejná knihovna v Praze – Dolních Chabrech",
-    "address": "Hrušovanské náměstí 253/5",
+    "id": "ipr-kultkkc-4033",
+    "name": "Místní knihovna Praha – Lochkov",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.668732,
+     50.095153
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4021",
+    "name": "Místní knihovna Praha – Klánovice",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.48093,
+     50.144237
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3849",
+    "name": "Místní knihovna Praha – Ďáblice",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.52293,
+     50.16281
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3856",
+    "name": "Místní knihovna Třeboradice",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -607,9 +265,9 @@
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2437",
+    "id": "ipr-kultkkc-4048",
     "name": "Místní veřejná knihovna v Praze – Šeberově",
-    "address": "K Hrnčířům 34",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -620,14 +278,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.638211,
-     50.062161
+     14.595887,
+     50.063213
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2417",
-    "name": "Klub kolodějských seniorů a Místní knihovna Praha – Koloděje",
-    "address": "K Jízdárně 9/20",
+    "id": "ipr-kultkkc-4022",
+    "name": "Místní knihovna Praha – Dubeč",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -638,68 +296,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.301668,
-     50.065159
+     14.444155,
+     50.077117
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2516",
-    "name": "Kulturní centrum Průhon a Místní knihovna v Praze 17 – Řepy",
-    "address": "Socháňova 1220/27",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.607206,
-     50.114294
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2411",
-    "name": "Kulturně komunitní centrum Horní Počernice a Místní veřejná knihovna Praha – Horní Počernice",
-    "address": "Náchodská 754/94",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.405094,
-     50.002845
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2478",
-    "name": "Husova knihovna v Modřanech",
-    "address": "Komořanská 35/12",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "IPR Praha – ÚAP (KULTKKC)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.39618,
-     49.975791
-    ]
-   },
-   "properties": {
-    "id": "ipr-kultkkc-2494",
-    "name": "Mistní knihovna Praha-Zbraslav",
-    "address": "U Malé řeky 3",
+    "id": "ipr-kultkkc-3946",
+    "name": "Knihovna na Vinohradech",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
@@ -715,9 +319,405 @@
     ]
    },
    "properties": {
-    "id": "ipr-kultkkc-2554",
+    "id": "ipr-kultkkc-3864",
     "name": "Místní knihovna Čakovice",
-    "address": "Cukrovarská 1/23",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.409912,
+     50.013613
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4083",
+    "name": "Husova knihovna v Modřanech – pobočka Tyršova čtvrť",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.549498,
+     50.073023
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3881",
+    "name": "Místní knihovna Praha – Štěrboholy",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.445691,
+     50.146645
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3851",
+    "name": "Chaberský dvůr a Místní veřejná knihovna v Praze – Dolních Chabrech",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.626352,
+     50.011376
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4031",
+    "name": "Knihovna s infocentrem – Kolovraty",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.286714,
+     50.063262
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3998",
+    "name": "Zličínská knihovna",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.57408,
+     50.127313
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4041",
+    "name": "Místní knihovna Praha Satalice",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.485868,
+     50.165043
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4017",
+    "name": "Místní knihovna Praha – Březiněves",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.301668,
+     50.065159
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4004",
+    "name": "Kulturní centrum Průhon a Místní knihovna v Praze 17 – Řepy",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.607206,
+     50.114294
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4024",
+    "name": "Kulturně komunitní centrum Horní Počernice a Místní veřejná knihovna Praha – Horní Počernice",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.405094,
+     50.002845
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4087",
+    "name": "Husova knihovna v Modřanech",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.638211,
+     50.062161
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4028",
+    "name": "Klub kolodějských seniorů a Místní knihovna Praha – Koloděje",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.510359,
+     50.136344
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3882",
+    "name": "Knihovna MČ Praha 18",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.39618,
+     49.975791
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4101",
+    "name": "Mistní knihovna Praha-Zbraslav",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.598315,
+     50.032631
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4042",
+    "name": "Místní knihovna Uhříněves",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.308592,
+     50.030635
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3980",
+    "name": "Místní knihovna Praha 5 – Řeporyje",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.659003,
+     50.076284
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4049",
+    "name": "Level 21: DDM Praha 10 – Dům UM a Místní knihovna Praha – Újezd nad Lesy",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.547229,
+     50.133677
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3874",
+    "name": "Místní knihovna Praha – Kbely",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.2979,
+     50.11721
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4043",
+    "name": "Místní knihovna Praha – Přední Kopanina",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.579307,
+     50.146223
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4054",
+    "name": "kulturně vzdělávací centrum Vincent a Místní knihovna Praha – Vinoř",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.604903,
+     50.013772
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4015",
+    "name": "Místní knihovna Praha – Benice",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.378849,
+     50.139888
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-3845",
+    "name": "Místní veřejná knihovna Praha-Suchdol",
+    "address": null,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "IPR Praha – ÚAP (KULTKKC)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.578866,
+     50.088731
+    ]
+   },
+   "properties": {
+    "id": "ipr-kultkkc-4018",
+    "name": "Místní knihovna Dolní Počernice",
+    "address": null,
     "cooling": "ac",
     "tier": "A",
     "source": "IPR Praha – ÚAP (KULTKKC)"
