@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-09-07T21:57:43.476414+00:00",
+ "generatedAt": "2026-09-08T00:02:34.879181+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -16,21 +16,21 @@
     "id": "ABREA",
     "name": "Praha 6-Břevnov",
     "district": "praha-6",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
     "components": [
      {
       "type": "NOx",
-      "value": 24.7
+      "value": 15.5
      },
      {
       "type": "NO2",
-      "value": 23.5
+      "value": 14.7
      },
      {
       "type": "PM10",
-      "value": 20.8
+      "value": 8.7
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -88,15 +88,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 13
+      "value": 10.3
      },
      {
       "type": "NO2",
-      "value": 12.4
+      "value": 9.8
      },
      {
       "type": "PM10",
-      "value": 23.2
+      "value": 9.4
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -121,15 +121,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 37.5
+      "value": 50.9
      },
      {
       "type": "NO2",
-      "value": 36.2
+      "value": 48.4
      },
      {
       "type": "PM10",
-      "value": 22.9
+      "value": 44.1
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -148,25 +148,25 @@
     "id": "AKOBA",
     "name": "Praha 8-Kobylisy",
     "district": "praha-8",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
     "components": [
      {
       "type": "NOx",
-      "value": 26.6
+      "value": 30.8
      },
      {
       "type": "NO2",
-      "value": 24.5
+      "value": 29.6
      },
      {
       "type": "O3",
-      "value": 53.5
+      "value": 37.3
      },
      {
       "type": "PM10",
-      "value": 4.8
+      "value": 5.2
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -191,15 +191,15 @@
     "components": [
      {
       "type": "CO",
-      "value": 430
+      "value": 367
      },
      {
       "type": "PM10",
-      "value": 20.1
+      "value": 21.7
      },
      {
       "type": "PM2_5",
-      "value": 9.2
+      "value": 10.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -261,31 +261,31 @@
     "components": [
      {
       "type": "CO",
-      "value": 280
+      "value": 255
      },
      {
       "type": "NOx",
-      "value": 11.9
+      "value": 7.8
      },
      {
       "type": "NO2",
-      "value": 11.3
+      "value": 7.5
      },
      {
       "type": "O3",
-      "value": 64.8
+      "value": 65
      },
      {
       "type": "PM10",
-      "value": 10.1
+      "value": 5.6
      },
      {
       "type": "PM2_5",
-      "value": 3.9
+      "value": 5.3
      },
      {
       "type": "SO2",
-      "value": 3.2
+      "value": 3.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -310,15 +310,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 36.2
+      "value": 66
      },
      {
       "type": "NO2",
-      "value": 31
+      "value": 39.2
      },
      {
       "type": "PM10",
-      "value": 8.2
+      "value": 24.8
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -343,15 +343,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 41.1
+      "value": 26.6
      },
      {
       "type": "NO2",
-      "value": 36.3
+      "value": 21
      },
      {
       "type": "PM10",
-      "value": 27.4
+      "value": 23.7
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -409,27 +409,27 @@
     "components": [
      {
       "type": "NOx",
-      "value": 26.2
+      "value": 46.9
      },
      {
       "type": "NO2",
-      "value": 25.6
+      "value": 44.4
      },
      {
       "type": "O3",
-      "value": 56.3
+      "value": 24.1
      },
      {
       "type": "PM10",
-      "value": 13.6
+      "value": 18.1
      },
      {
       "type": "PM2_5",
-      "value": 13.3
+      "value": 3.9
      },
      {
       "type": "SO2",
-      "value": 4.3
+      "value": 4.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -487,15 +487,15 @@
     "components": [
      {
       "type": "O3",
-      "value": 37.3
+      "value": 30.5
      },
      {
       "type": "PM10",
-      "value": 26.5
+      "value": 10.2
      },
      {
       "type": "PM2_5",
-      "value": 13.9
+      "value": 5.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -514,17 +514,13 @@
     "id": "ASUCA",
     "name": "Praha 6-Suchdol",
     "district": "praha-lysolaje",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
     "components": [
      {
-      "type": "O3",
-      "value": 43.7
-     },
-     {
       "type": "PM10",
-      "value": 12.6
+      "value": 18
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -549,15 +545,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 39.8
+      "value": 43
      },
      {
       "type": "NO2",
-      "value": 35.8
+      "value": 38.3
      },
      {
       "type": "PM10",
-      "value": 29.2
+      "value": 25.4
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -576,25 +572,25 @@
     "id": "AVYNA",
     "name": "Praha 9-Vysočany",
     "district": "praha-9",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
     "components": [
      {
       "type": "NOx",
-      "value": 59.3
+      "value": 46.1
      },
      {
       "type": "NO2",
-      "value": 42.8
+      "value": 41.5
      },
      {
       "type": "O3",
-      "value": 26.7
+      "value": 9.6
      },
      {
       "type": "PM10",
-      "value": 19.2
+      "value": 22.9
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
