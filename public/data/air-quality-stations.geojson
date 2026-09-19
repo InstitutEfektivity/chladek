@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-09-19T20:14:19.428024+00:00",
+ "generatedAt": "2026-09-19T22:44:16.418738+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -16,13 +16,21 @@
     "id": "ABREA",
     "name": "Praha 6-Břevnov",
     "district": "praha-6",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
     "components": [
      {
+      "type": "NOx",
+      "value": 7.8
+     },
+     {
+      "type": "NO2",
+      "value": 6.9
+     },
+     {
       "type": "PM10",
-      "value": 15.1
+      "value": 4.2
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -80,15 +88,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 9.6
-     },
-     {
-      "type": "NO2",
       "value": 9.2
      },
      {
+      "type": "NO2",
+      "value": 8.8
+     },
+     {
       "type": "PM10",
-      "value": 9.9
+      "value": 16
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -113,15 +121,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 33.5
+      "value": 38.6
      },
      {
       "type": "NO2",
-      "value": 31.9
+      "value": 36.5
      },
      {
       "type": "PM10",
-      "value": 15.3
+      "value": 19.7
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -146,11 +154,11 @@
     "components": [
      {
       "type": "NOx",
-      "value": 28.9
+      "value": 24.7
      },
      {
       "type": "NO2",
-      "value": 27.9
+      "value": 23.5
      },
      {
       "type": "O3",
@@ -158,7 +166,7 @@
      },
      {
       "type": "PM10",
-      "value": 28.8
+      "value": 24.6
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -183,23 +191,23 @@
     "components": [
      {
       "type": "CO",
-      "value": 396
+      "value": 430
      },
      {
       "type": "NOx",
-      "value": 84.4
+      "value": 66.6
      },
      {
       "type": "NO2",
-      "value": 50.5
+      "value": 38.6
      },
      {
       "type": "PM10",
-      "value": 13.2
+      "value": 17.2
      },
      {
       "type": "PM2_5",
-      "value": 6.7
+      "value": 11.4
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -261,31 +269,31 @@
     "components": [
      {
       "type": "CO",
-      "value": 306
+      "value": 310
      },
      {
       "type": "NOx",
-      "value": 7.5
+      "value": 10.5
      },
      {
       "type": "NO2",
-      "value": 6.7
+      "value": 9.9
      },
      {
       "type": "O3",
-      "value": 77.8
+      "value": 67
      },
      {
       "type": "PM10",
-      "value": 13.6
+      "value": 10.4
      },
      {
       "type": "PM2_5",
-      "value": 7.1
+      "value": 6.5
      },
      {
       "type": "SO2",
-      "value": 3.5
+      "value": 4.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -310,15 +318,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 19.3
+      "value": 25.3
      },
      {
       "type": "NO2",
-      "value": 16.6
+      "value": 22.6
      },
      {
       "type": "PM10",
-      "value": 14.8
+      "value": 20.4
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -343,15 +351,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 29.6
+      "value": 32.3
      },
      {
       "type": "NO2",
-      "value": 23.7
+      "value": 27
      },
      {
       "type": "PM10",
-      "value": 26.1
+      "value": 16.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -403,33 +411,21 @@
     "id": "ARIEA",
     "name": "Praha 2-Riegrovy sady",
     "district": "praha-2",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
     "components": [
      {
-      "type": "NOx",
-      "value": 18.6
-     },
-     {
-      "type": "NO2",
-      "value": 17.6
-     },
-     {
       "type": "O3",
-      "value": 61.8
+      "value": 46.7
      },
      {
       "type": "PM10",
-      "value": 8.2
+      "value": 3.5
      },
      {
       "type": "PM2_5",
-      "value": 5.1
-     },
-     {
-      "type": "SO2",
-      "value": 4.5
+      "value": 4.4
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -487,15 +483,15 @@
     "components": [
      {
       "type": "O3",
-      "value": 71
+      "value": 62.6
      },
      {
       "type": "PM10",
-      "value": 12.4
+      "value": 13.1
      },
      {
       "type": "PM2_5",
-      "value": 17.4
+      "value": 20.1
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -520,11 +516,11 @@
     "components": [
      {
       "type": "O3",
-      "value": 73.4
+      "value": 69.6
      },
      {
       "type": "PM10",
-      "value": 11.9
+      "value": 9.2
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -549,15 +545,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 32.3
+      "value": 27.9
      },
      {
       "type": "NO2",
-      "value": 29.3
+      "value": 24.7
      },
      {
       "type": "PM10",
-      "value": 10
+      "value": 9.6
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -576,25 +572,25 @@
     "id": "AVYNA",
     "name": "Praha 9-Vysočany",
     "district": "praha-9",
-    "aqIndex": 2,
-    "aqLabel": "dobrá",
-    "aqColor": "#5FE0CF",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
     "components": [
      {
       "type": "NOx",
-      "value": 44.8
+      "value": 96.2
      },
      {
       "type": "NO2",
-      "value": 32.9
+      "value": 62.9
      },
      {
       "type": "O3",
-      "value": 47.9
+      "value": 7
      },
      {
       "type": "PM10",
-      "value": 6.2
+      "value": 10.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
