@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-09-14T13:17:56Z",
+ "generatedAt": "2026-09-21T13:17:30Z",
  "source": "OpenStreetMap (Overpass) - prazske urady (townhall + office=government)",
  "features": [
   {
@@ -901,6 +901,44 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.403615,
+     50.073367
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-14182422555",
+    "name": "Úřad Městské Části Praha 5",
+    "type": "úřad městské části",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.451294,
+     50.104928
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-14189705289",
+    "name": "Úřad městské části Praha 7",
+    "type": "úřad městské části",
+    "address": "Praha 7",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.471738,
      50.109625
     ]
@@ -1100,25 +1138,6 @@
     "name": "Uřad městské části praha 8 - 1",
     "type": "úřad městské části",
     "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.451296,
-     50.104867
-    ]
-   },
-   "properties": {
-    "id": "osm-urad-way-49338160",
-    "name": "Úřad městské části Praha 7",
-    "type": "úřad městské části",
-    "address": "Praha 7",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
