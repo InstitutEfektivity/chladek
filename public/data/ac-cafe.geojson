@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-09-14T13:22:47Z",
+ "generatedAt": "2026-09-21T13:18:16Z",
  "source": "OpenStreetMap (Overpass) - znackove fast-food + kavarny (brand:wikidata)",
  "features": [
   {
@@ -1194,7 +1194,7 @@
    },
    "properties": {
     "id": "osm-cafe-node-4822428490",
-    "name": "McDonald's Arkády Pankrác",
+    "name": "McDonald's",
     "brand": "McDonald's",
     "type": "kavárna / rychlé občerstvení",
     "address": null,
@@ -2276,6 +2276,26 @@
     "id": "osm-cafe-node-13566852746",
     "name": "Costa",
     "brand": "Costa",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.439286,
+     50.050761
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-13937903236",
+    "name": "Starbucks",
+    "brand": "Starbucks",
     "type": "kavárna / rychlé občerstvení",
     "address": null,
     "cooling": "ac",
