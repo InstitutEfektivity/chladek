@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-09-21T13:17:30Z",
+ "generatedAt": "2026-09-28T14:25:06Z",
  "source": "OpenStreetMap (Overpass) - prazske urady (townhall + office=government)",
  "features": [
   {
@@ -985,7 +985,7 @@
     "id": "osm-urad-way-27859095",
     "name": "Magistrát hlavního města Prahy",
     "type": "magistrát",
-    "address": "Mariánské náměstí",
+    "address": "Mariánské náměstí, Praha 1",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1611,6 +1611,25 @@
    "properties": {
     "id": "osm-urad-node-14029196871",
     "name": "Městská část Praha 2 - Informační kancelář",
+    "type": "úřad",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42948,
+     50.080558
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-node-14224803442",
+    "name": "Kancelář Úřadu Vysokého komisaře OSN pro uprchlíky (UNHCR) v České republice",
     "type": "úřad",
     "address": null,
     "cooling": "ac",
