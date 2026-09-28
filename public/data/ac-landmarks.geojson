@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - velke klimatizovane verejne budovy jako plochy (muzea, divadla, koncertni/kongresove/vystavni haly, knihovny)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-09-21T13:28:24Z",
-  "count": 74
+  "generated": "2026-09-28T14:34:48Z",
+  "count": 75
  },
  "features": [
   {
@@ -46,6 +46,60 @@
     "kind": "theatre",
     "cooling": "ac",
     "area_m2": 3093,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.428652,
+       50.062657
+      ],
+      [
+       14.427448,
+       50.062297
+      ],
+      [
+       14.427284,
+       50.06188
+      ],
+      [
+       14.428,
+       50.06144
+      ],
+      [
+       14.428565,
+       50.061499
+      ],
+      [
+       14.429766,
+       50.062026
+      ],
+      [
+       14.429678,
+       50.062638
+      ],
+      [
+       14.429497,
+       50.062732
+      ],
+      [
+       14.428652,
+       50.062657
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-8102317",
+    "name": "Kongresové centrum Praha",
+    "kind": "congress",
+    "cooling": "ac",
+    "area_m2": 16862,
     "source": "OSM"
    }
   },
