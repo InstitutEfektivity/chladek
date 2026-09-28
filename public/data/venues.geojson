@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-09-21T09:56:49Z",
-  "count": 1656
+  "generated": "2026-09-28T10:43:55Z",
+  "count": 1665
  },
  "features": [
   {
@@ -22463,7 +22463,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Po-Ne 7:00-21:00",
+    "opening_hours": "Mo-Su 07:00-21:00",
     "address": "Brandlova 1640, Praha 4",
     "source": "osm",
     "note": null
@@ -22590,7 +22590,7 @@
    },
    "properties": {
     "id": "osm-node-3459226917",
-    "name": "GECO",
+    "name": "Geco",
     "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
@@ -22991,7 +22991,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Mo-Sa 11:30-16:00,17:00-22:00",
+    "opening_hours": "Mo-Sa 11:30-15:30,17:00-22:00",
     "address": "Anny Letenské 16, Praha",
     "source": "osm",
     "note": null
@@ -23932,7 +23932,7 @@
    },
    "properties": {
     "id": "osm-node-7133164770",
-    "name": "GECO",
+    "name": "Geco",
     "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
@@ -23961,28 +23961,6 @@
     "free_entry": null,
     "opening_hours": "Mo-Sa 07:00-22:00; Su 08:00-22:00",
     "address": "Opatovská 1753/12",
-    "source": "osm",
-    "note": null
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.40952,
-     50.070061
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7544880106",
-    "name": "U Kristiána",
-    "category": "cafe_food",
-    "cooling": "ac",
-    "typical_c": 23,
-    "free_entry": null,
-    "opening_hours": "Mo-Su 11:00-23:00",
-    "address": "Vltavská 8, Praha 5",
     "source": "osm",
     "note": null
    }
@@ -24922,7 +24900,7 @@
    },
    "properties": {
     "id": "osm-node-10697430905",
-    "name": "GECO",
+    "name": "Geco",
     "category": "shop_ac",
     "cooling": "ac",
     "typical_c": 23,
@@ -25400,6 +25378,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.416156,
+     50.088912
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11921665203",
+    "name": "Knihovna Jana Palacha",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo-Th 09:00-20:00; Fr 09:00-18:00",
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415903,
+     50.088745
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11921665204",
+    "name": "Knihovna Ústavu filosofie a religionistiky",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo-Th 10:00-19:00; Fr 10:00-16:00",
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.404111,
      50.072471
     ]
@@ -25675,7 +25697,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Po-Ne 09:00-19:00",
+    "opening_hours": "Mo-Su 09:00-19:00",
     "address": "Brandlova 1640/2, Praha 4",
     "source": "osm",
     "note": null
@@ -25697,7 +25719,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Po, St 9:00 - 16:00, Út, Čt 9:00 - 12:00 a 13:00 - 17:00, Pá 9:00 - 12:00",
+    "opening_hours": "Mo,We 09:00-16:00; Th,Th 09:00-12:00,13:00-17:00; Fr 09:00-12:00; PH off",
     "address": "Římská 2135/45, Praha 2",
     "source": "osm",
     "note": null
@@ -26073,6 +26095,28 @@
     "free_entry": null,
     "opening_hours": null,
     "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.433147,
+     50.092286
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14221967156",
+    "name": "1St Prague Capsule Hostel Old Town",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": "Samcova 5, Praha",
     "source": "osm",
     "note": null
    }
@@ -30824,7 +30868,7 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
+    "address": "Praha",
     "source": "osm",
     "note": null
    }
@@ -33596,6 +33640,28 @@
     "typical_c": 23,
     "free_entry": null,
     "opening_hours": "Mo-Fr 10:30-18:30; Sa 10:00-13:00",
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.466737,
+     50.123976
+    ]
+   },
+   "properties": {
+    "id": "osm-way-754276097",
+    "name": "Park Václava Dolejška",
+    "category": "park",
+    "cooling": "shade",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
     "address": null,
     "source": "osm",
     "note": null
@@ -36432,6 +36498,138 @@
     "category": "park",
     "cooling": "shade",
     "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.649894,
+     49.804841
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-20949381",
+    "name": "EC 114 Cracovia: Przemyśl Gł. => Praha hl.n.",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.649687,
+     49.8048
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-20950594",
+    "name": "EC 115 Cracovia: Praha hl.n. => Przemyśl Gł.",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.006283,
+     52.24656
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-20955279",
+    "name": "EC 460 Baltic Express: Praha hl.n. => Gdynia Gł.",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.615594,
+     52.24656
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-20955280",
+    "name": "EC 260 Baltic Express: Praha hl.n. => Gdynia Gł.",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.006455,
+     52.246469
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-20956295",
+    "name": "EC 461 Baltic Express: Gdynia Gł. => Praha hl.n.",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.615673,
+     52.246469
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-20956298",
+    "name": "EC 261 Baltic Express: Gdynia Gł. => Praha hl.n.",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
     "free_entry": null,
     "opening_hours": null,
     "address": null,
