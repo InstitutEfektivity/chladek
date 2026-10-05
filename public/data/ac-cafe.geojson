@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-09-28T14:26:11Z",
+ "generatedAt": "2026-10-05T15:14:12Z",
  "source": "OpenStreetMap (Overpass) - znackove fast-food + kavarny (brand:wikidata)",
  "features": [
   {
@@ -2216,6 +2216,26 @@
     "id": "osm-cafe-node-13057801756",
     "name": "KFC",
     "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.26516,
+     50.106122
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-13089422184",
+    "name": "Costa",
+    "brand": "Costa",
     "type": "kavárna / rychlé občerstvení",
     "address": null,
     "cooling": "ac",
