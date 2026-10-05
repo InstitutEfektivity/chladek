@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-09-28T10:43:55Z",
+  "generated": "2026-10-05T11:18:30Z",
   "count": 1665
  },
  "features": [
@@ -24025,7 +24025,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Mo-Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+    "opening_hours": "Mo-Fr 11:00-23:00; Sa,Su 12:00-22:00",
     "address": "Stroupežnického 14, Praha 5",
     "source": "osm",
     "note": null
@@ -24465,7 +24465,7 @@
     "cooling": "ac",
     "typical_c": 26,
     "free_entry": false,
-    "opening_hours": "Mo-Fr 6:30-22:00; Sa-Su 07:00-22:00",
+    "opening_hours": "Mo-Fr 06:30-22:00; Sa-Su 07:00-22:00",
     "address": null,
     "source": "osm",
     "note": "krytý bazén (klimatizovaná hala)"
@@ -27204,8 +27204,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.475575,
-     50.081519
+     14.475574,
+     50.081524
     ]
    },
    "properties": {
@@ -29492,8 +29492,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.481936,
-     50.076754
+     14.481924,
+     50.076755
     ]
    },
    "properties": {
