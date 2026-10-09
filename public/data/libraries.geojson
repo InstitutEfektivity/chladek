@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-10-08T12:15:33Z",
+ "generatedAt": "2026-10-09T12:07:05Z",
  "source": "Golemio / Mestska knihovna v Praze (Prazska datova platforma)",
  "features": [
   {
@@ -7729,7 +7729,17 @@
      },
      {
       "day_of_week": "Tuesday",
-      "opens": "09:00",
+      "opens": "08:00",
+      "closes": "10:00",
+      "description": "Běžná otevírací doba",
+      "is_default": true,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "10:00",
       "closes": "19:00",
       "description": "Běžná otevírací doba",
       "is_default": true,
@@ -7739,7 +7749,17 @@
      },
      {
       "day_of_week": "Wednesday",
-      "opens": "09:00",
+      "opens": "08:00",
+      "closes": "10:00",
+      "description": "Běžná otevírací doba",
+      "is_default": true,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "10:00",
       "closes": "19:00",
       "description": "Běžná otevírací doba",
       "is_default": true,
@@ -7749,7 +7769,17 @@
      },
      {
       "day_of_week": "Thursday",
-      "opens": "09:00",
+      "opens": "08:00",
+      "closes": "10:00",
+      "description": "Běžná otevírací doba",
+      "is_default": true,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "10:00",
       "closes": "19:00",
       "description": "Běžná otevírací doba",
       "is_default": true,
@@ -7759,7 +7789,17 @@
      },
      {
       "day_of_week": "Friday",
-      "opens": "09:00",
+      "opens": "08:00",
+      "closes": "10:00",
+      "description": "Běžná otevírací doba",
+      "is_default": true,
+      "valid_from": null,
+      "valid_through": null,
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "10:00",
       "closes": "19:00",
       "description": "Běžná otevírací doba",
       "is_default": true,
@@ -7775,116 +7815,16 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Monday",
-      "opens": "13:00",
-      "closes": "19:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "08:00",
-      "closes": "10:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Tuesday",
-      "opens": "10:00",
-      "closes": "19:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "08:00",
-      "closes": "10:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Wednesday",
-      "opens": "10:00",
-      "closes": "19:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "08:00",
-      "closes": "10:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Thursday",
-      "opens": "10:00",
-      "closes": "19:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "08:00",
-      "closes": "10:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "self_service"
-     },
-     {
-      "day_of_week": "Friday",
-      "opens": "10:00",
-      "closes": "19:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
-      "type": "standard"
-     },
-     {
-      "day_of_week": "Saturday",
-      "opens": "10:00",
-      "closes": "17:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
       "type": "standard"
      },
      {
       "day_of_week": "Sunday",
       "opens": "10:00",
       "closes": "17:00",
-      "description": "Rozšířená otevírací doba od 5. 10. 2026",
-      "is_default": false,
-      "valid_from": "2026-10-04T22:00:00.000Z",
-      "valid_through": "2026-12-30T23:00:00.000Z",
+      "description": "Běžná otevírací doba",
+      "is_default": true,
+      "valid_from": null,
+      "valid_through": null,
       "type": "self_service"
      },
      {
@@ -7899,7 +7839,17 @@
      },
      {
       "day_of_week": "Tuesday",
-      "opens": "09:00",
+      "opens": "08:00",
+      "closes": "10:00",
+      "description": "Zavřeno ve středu 28. 10. 2026",
+      "is_default": false,
+      "valid_from": "2026-10-27T23:00:00.000Z",
+      "valid_through": "2026-10-27T23:00:00.000Z",
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "10:00",
       "closes": "19:00",
       "description": "Zavřeno ve středu 28. 10. 2026",
       "is_default": false,
@@ -7909,7 +7859,17 @@
      },
      {
       "day_of_week": "Thursday",
-      "opens": "09:00",
+      "opens": "08:00",
+      "closes": "10:00",
+      "description": "Zavřeno ve středu 28. 10. 2026",
+      "is_default": false,
+      "valid_from": "2026-10-27T23:00:00.000Z",
+      "valid_through": "2026-10-27T23:00:00.000Z",
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Thursday",
+      "opens": "10:00",
       "closes": "19:00",
       "description": "Zavřeno ve středu 28. 10. 2026",
       "is_default": false,
@@ -7919,7 +7879,17 @@
      },
      {
       "day_of_week": "Friday",
-      "opens": "09:00",
+      "opens": "08:00",
+      "closes": "10:00",
+      "description": "Zavřeno ve středu 28. 10. 2026",
+      "is_default": false,
+      "valid_from": "2026-10-27T23:00:00.000Z",
+      "valid_through": "2026-10-27T23:00:00.000Z",
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Friday",
+      "opens": "10:00",
       "closes": "19:00",
       "description": "Zavřeno ve středu 28. 10. 2026",
       "is_default": false,
@@ -7936,6 +7906,16 @@
       "valid_from": "2026-10-27T23:00:00.000Z",
       "valid_through": "2026-10-27T23:00:00.000Z",
       "type": "standard"
+     },
+     {
+      "day_of_week": "Sunday",
+      "opens": "10:00",
+      "closes": "17:00",
+      "description": "Zavřeno ve středu 28. 10. 2026",
+      "is_default": false,
+      "valid_from": "2026-10-27T23:00:00.000Z",
+      "valid_through": "2026-10-27T23:00:00.000Z",
+      "type": "self_service"
      }
     ],
     "cooling": "ac",
