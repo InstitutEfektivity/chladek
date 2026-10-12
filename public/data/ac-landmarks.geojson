@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - velke klimatizovane verejne budovy jako plochy (muzea, divadla, koncertni/kongresove/vystavni haly, knihovny)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-10-05T15:28:59Z",
-  "count": 75
+  "generated": "2026-10-12T16:16:29Z",
+  "count": 76
  },
  "features": [
   {
@@ -3114,6 +3114,48 @@
     "kind": "museum",
     "cooling": "ac",
     "area_m2": 1947,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.407421,
+       50.068024
+      ],
+      [
+       14.406876,
+       50.067967
+      ],
+      [
+       14.406446,
+       50.068656
+      ],
+      [
+       14.409154,
+       50.068896
+      ],
+      [
+       14.409326,
+       50.068223
+      ],
+      [
+       14.407421,
+       50.068024
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-relation-6826330",
+    "name": "Staropramen: Návštěvnické centrum",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 14423,
     "source": "OSM"
    }
   },
