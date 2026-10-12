@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-10-11T22:43:10.727502+00:00",
+ "generatedAt": "2026-10-12T02:09:20.635772+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -22,15 +22,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 13
+      "value": 5
      },
      {
       "type": "NO2",
-      "value": 10.7
+      "value": 4
      },
      {
       "type": "PM10",
-      "value": 3.9
+      "value": 5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -92,11 +92,11 @@
      },
      {
       "type": "NO2",
-      "value": 5.5
+      "value": 5.4
      },
      {
       "type": "PM10",
-      "value": 2.9
+      "value": 13.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -121,52 +121,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 41.7
+      "value": 13.2
      },
      {
       "type": "NO2",
-      "value": 24.3
+      "value": 9.9
      },
      {
       "type": "PM10",
-      "value": 7.6
-     }
-    ],
-    "updatedAt": "2026-08-12T06:45:00.621Z"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.467578,
-     50.122189
-    ]
-   },
-   "properties": {
-    "id": "AKOBA",
-    "name": "Praha 8-Kobylisy",
-    "district": "praha-8",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
-    "components": [
-     {
-      "type": "NOx",
-      "value": 11.7
-     },
-     {
-      "type": "NO2",
-      "value": 10.7
-     },
-     {
-      "type": "O3",
-      "value": 41.5
-     },
-     {
-      "type": "PM10",
-      "value": 2.9
+      "value": 6.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -228,31 +191,31 @@
     "components": [
      {
       "type": "CO",
-      "value": 277
+      "value": 271
      },
      {
       "type": "NOx",
-      "value": 5
+      "value": 5.4
      },
      {
       "type": "NO2",
-      "value": 4.4
+      "value": 4.2
      },
      {
       "type": "O3",
-      "value": 46.5
+      "value": 42.3
      },
      {
       "type": "PM10",
-      "value": 11.8
+      "value": 10.5
      },
      {
       "type": "PM2_5",
-      "value": 6.5
+      "value": 2.2
      },
      {
       "type": "SO2",
-      "value": 5.6
+      "value": 5.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -277,15 +240,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 12.2
+      "value": 5.9
      },
      {
       "type": "NO2",
-      "value": 10.3
+      "value": 4.6
      },
      {
       "type": "PM10",
-      "value": 5
+      "value": 1
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -310,15 +273,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 22.4
+      "value": 11.3
      },
      {
       "type": "NO2",
-      "value": 18.4
+      "value": 7.3
      },
      {
       "type": "PM10",
-      "value": 8.1
+      "value": 8.2
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -376,23 +339,19 @@
     "components": [
      {
       "type": "NOx",
-      "value": 12.2
+      "value": 7.1
      },
      {
       "type": "NO2",
-      "value": 11.1
-     },
-     {
-      "type": "O3",
-      "value": 40.5
+      "value": 6.5
      },
      {
       "type": "PM10",
-      "value": 7.7
+      "value": 9
      },
      {
       "type": "PM2_5",
-      "value": 4.9
+      "value": 7.4
      },
      {
       "type": "SO2",
@@ -454,15 +413,15 @@
     "components": [
      {
       "type": "O3",
-      "value": 36.5
+      "value": 35.9
      },
      {
       "type": "PM10",
-      "value": 6.1
+      "value": 6.7
      },
      {
       "type": "PM2_5",
-      "value": 1
+      "value": 9.9
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -487,7 +446,7 @@
     "components": [
      {
       "type": "O3",
-      "value": 53.9
+      "value": 49.5
      },
      {
       "type": "PM10",
@@ -515,12 +474,20 @@
     "aqColor": "#19B8CE",
     "components": [
      {
+      "type": "NOx",
+      "value": 6.5
+     },
+     {
+      "type": "NO2",
+      "value": 6.1
+     },
+     {
       "type": "O3",
-      "value": 38.7
+      "value": 44.1
      },
      {
       "type": "PM10",
-      "value": 4.1
+      "value": 8.6
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
