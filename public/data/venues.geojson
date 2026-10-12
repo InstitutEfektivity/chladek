@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-10-05T11:18:30Z",
-  "count": 1665
+  "generated": "2026-10-12T11:54:17Z",
+  "count": 1669
  },
  "features": [
   {
@@ -22815,7 +22815,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Mo-Su 08:00-19:00",
+    "opening_hours": "Mo-Su 08:00-18:00",
     "address": "Myslíkova 22, Praha",
     "source": "osm",
     "note": null
@@ -25356,6 +25356,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.436227,
+     50.087116
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11870118631",
+    "name": "The Cloud One",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "24/7",
+    "address": "Hybernská 2140/17, Praha",
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.457843,
      50.1042
     ]
@@ -25852,7 +25874,7 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": null,
+    "address": "Milady Horákové 85/95",
     "source": "osm",
     "note": null
    }
@@ -26117,6 +26139,28 @@
     "free_entry": null,
     "opening_hours": null,
     "address": "Samcova 5, Praha",
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.506828,
+     50.134886
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14255774823",
+    "name": "SAMUI SPA",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo-Su 09:00-23:00",
+    "address": "Tupolevova 747, Praha",
     "source": "osm",
     "note": null
    }
@@ -28854,7 +28898,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.418012,
+     14.418011,
      50.080164
     ]
    },
@@ -32308,6 +32352,28 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.423539,
+     50.063718
+    ]
+   },
+   "properties": {
+    "id": "osm-way-332088853",
+    "name": "Lumírovy sady",
+    "category": "park",
+    "cooling": "shade",
+    "typical_c": null,
+    "free_entry": null,
+    "opening_hours": null,
+    "address": null,
+    "source": "osm",
+    "note": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.387275,
      50.025268
     ]
@@ -33995,6 +34061,28 @@
     "address": null,
     "source": "osm",
     "note": "krytý bazén (klimatizovaná hala)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.390611,
+     50.103658
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1115304603",
+    "name": "Městská knihovna v Praze - pobočka Dejvice",
+    "category": "shop_ac",
+    "cooling": "ac",
+    "typical_c": 23,
+    "free_entry": null,
+    "opening_hours": "Mo 13:00-19:00; Tu-Fr 09:00-19:00; Sa 09:00-13:00",
+    "address": "Technická 2710/6, Praha 6",
+    "source": "osm",
+    "note": null
    }
   },
   {
