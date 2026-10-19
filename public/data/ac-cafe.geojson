@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-10-12T16:08:03Z",
+ "generatedAt": "2026-10-19T13:54:54Z",
  "source": "OpenStreetMap (Overpass) - znackove fast-food + kavarny (brand:wikidata)",
  "features": [
   {
@@ -1194,7 +1194,7 @@
    },
    "properties": {
     "id": "osm-cafe-node-4822428490",
-    "name": "McDonald's Arkády Pankrác",
+    "name": "McDonald's",
     "brand": "McDonald's",
     "type": "kavárna / rychlé občerstvení",
     "address": null,
@@ -2228,6 +2228,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.26516,
+     50.106122
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-13089422184",
+    "name": "Costa",
+    "brand": "Costa",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.425472,
      50.08193
     ]
@@ -2276,6 +2296,26 @@
     "id": "osm-cafe-node-13566852746",
     "name": "Costa",
     "brand": "Costa",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.439286,
+     50.050761
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-13937903236",
+    "name": "Starbucks",
+    "brand": "Starbucks",
     "type": "kavárna / rychlé občerstvení",
     "address": null,
     "cooling": "ac",
@@ -2716,6 +2756,46 @@
     "id": "osm-cafe-node-13970697431",
     "name": "KFC",
     "brand": "KFC",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.266505,
+     50.104764
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-14084859757",
+    "name": "Costa",
+    "brand": "Costa",
+    "type": "kavárna / rychlé občerstvení",
+    "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.425115,
+     50.085044
+    ]
+   },
+   "properties": {
+    "id": "osm-cafe-node-14101355867",
+    "name": "Starbucks",
+    "brand": "Starbucks",
     "type": "kavárna / rychlé občerstvení",
     "address": null,
     "cooling": "ac",
