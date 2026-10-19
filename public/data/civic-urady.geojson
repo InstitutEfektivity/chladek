@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-10-05T15:13:35Z",
+ "generatedAt": "2026-10-19T13:54:53Z",
  "source": "OpenStreetMap (Overpass) - prazske urady (townhall + office=government)",
  "features": [
   {
@@ -928,7 +928,7 @@
     "id": "osm-urad-node-14189705289",
     "name": "Úřad městské části Praha 7",
     "type": "úřad městské části",
-    "address": "Praha 7",
+    "address": "U Průhonu 1338/38, Praha 7",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
