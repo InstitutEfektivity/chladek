@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-10-19T13:54:53Z",
+ "generatedAt": "2026-10-26T13:34:08Z",
  "source": "OpenStreetMap (Overpass) - prazske urady (townhall + office=government)",
  "features": [
   {
@@ -559,8 +559,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.612556,
-     50.114736
+     14.612695,
+     50.11483
     ]
    },
    "properties": {
@@ -578,8 +578,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.52517,
-     50.151502
+     14.524876,
+     50.151208
     ]
    },
    "properties": {
@@ -901,44 +901,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.403615,
-     50.073367
-    ]
-   },
-   "properties": {
-    "id": "osm-urad-node-14182422555",
-    "name": "Úřad Městské Části Praha 5",
-    "type": "úřad městské části",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.451294,
-     50.104928
-    ]
-   },
-   "properties": {
-    "id": "osm-urad-node-14189705289",
-    "name": "Úřad městské části Praha 7",
-    "type": "úřad městské části",
-    "address": "U Průhonu 1338/38, Praha 7",
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.471738,
      50.109625
     ]
@@ -985,7 +947,7 @@
     "id": "osm-urad-way-27859095",
     "name": "Magistrát hlavního města Prahy",
     "type": "magistrát",
-    "address": "Mariánské náměstí, Praha 1",
+    "address": "Mariánské náměstí",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1135,9 +1097,28 @@
    },
    "properties": {
     "id": "osm-urad-way-34881825",
-    "name": "Uřad městské části praha 8 - 1",
+    "name": "Uřad městský části praha 8 - 1",
     "type": "úřad městské části",
     "address": null,
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.451296,
+     50.104867
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-49338160",
+    "name": "Úřad městské části Praha 7",
+    "type": "úřad městské části",
+    "address": "Praha 7",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1214,6 +1195,25 @@
     "name": "Úřad Městské části Praha-Klánovice",
     "type": "úřad městské části",
     "address": "U Besedy 300/8, Praha-Klánovice",
+    "cooling": "ac",
+    "tier": "B",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.470837,
+     50.110565
+    ]
+   },
+   "properties": {
+    "id": "osm-urad-way-337172295",
+    "name": "Uřad městský části praha 8",
+    "type": "úřad městské části",
+    "address": null,
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1498,7 +1498,7 @@
     "id": "osm-urad-node-6027206824",
     "name": "Finanční úřad pro Středočeský kraj, Územní pracoviště Praha-východ",
     "type": "úřad",
-    "address": "Thámova 291/27, Praha 8",
+    "address": "Thámova 291/27, Praha",
     "cooling": "ac",
     "tier": "B",
     "source": "OSM"
@@ -1592,44 +1592,6 @@
    "properties": {
     "id": "osm-urad-node-13480007671",
     "name": "Podatelna úřadu pro zastupování státu ve věcech majetkových",
-    "type": "úřad",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.427692,
-     50.065143
-    ]
-   },
-   "properties": {
-    "id": "osm-urad-node-14029196871",
-    "name": "Městská část Praha 2 - Informační kancelář",
-    "type": "úřad",
-    "address": null,
-    "cooling": "ac",
-    "tier": "B",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.42948,
-     50.080558
-    ]
-   },
-   "properties": {
-    "id": "osm-urad-node-14224803442",
-    "name": "Kancelář Úřadu Vysokého komisaře OSN pro uprchlíky (UNHCR) v České republice",
     "type": "úřad",
     "address": null,
     "cooling": "ac",
