@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - klimatizovane sluzby/provozovny jako body (supermarket, banka, fitness, hotel 4*/5*)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-08-24T07:49:36Z",
-  "count": 795
+  "generated": "2026-10-26T13:51:29Z",
+  "count": 796
  },
  "features": [
   {
@@ -363,7 +363,7 @@
     "kind": "supermarket",
     "cooling": "ac",
     "tier": "A",
-    "address": "Střelničná 1660/1",
+    "address": "Burešova 1660/1",
     "source": "OSM"
    }
   },
@@ -439,7 +439,7 @@
    "properties": {
     "id": "osm-node-288056924",
     "name": "Raiffeisen stavební spořitelna",
-    "brand": null,
+    "brand": "Raiffeisen stavební spořitelna",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -472,26 +472,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.543958,
-     50.050364
-    ]
-   },
-   "properties": {
-    "id": "osm-node-288077250",
-    "name": "Albert",
-    "brand": "Albert",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "Plukovníka Mráze 24",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.419021,
      50.076801
     ]
@@ -504,26 +484,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Karlovo náměstí 15",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.490903,
-     50.073946
-    ]
-   },
-   "properties": {
-    "id": "osm-node-291610674",
-    "name": "Komerční banka",
-    "brand": "Komerční banka",
-    "kind": "bank",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "Starostrašnická 151/36",
     "source": "OSM"
    }
   },
@@ -1272,7 +1232,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.50913,
+     14.509087,
      50.08285
     ]
    },
@@ -1952,6 +1912,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.426476,
+     50.08106
+    ]
+   },
+   "properties": {
+    "id": "osm-node-344545235",
+    "name": "Pinoys",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": "Štěpánská 63",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.448303,
      50.084758
     ]
@@ -2572,26 +2552,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.431826,
-     50.135825
-    ]
-   },
-   "properties": {
-    "id": "osm-node-391019307",
-    "name": "Albert",
-    "brand": "Albert",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "K Ládví 344/4",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.47576,
      50.046515
     ]
@@ -2764,26 +2724,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Karlovo náměstí 4",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.421408,
-     50.078972
-    ]
-   },
-   "properties": {
-    "id": "osm-node-457719601",
-    "name": "Sberbank",
-    "brand": "Sberbank",
-    "kind": "bank",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "Lazarská 8",
     "source": "OSM"
    }
   },
@@ -3104,46 +3044,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Jungmannova 31",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.433021,
-     50.099508
-    ]
-   },
-   "properties": {
-    "id": "osm-node-693944441",
-    "name": "Komerční banka",
-    "brand": "Komerční banka",
-    "kind": "bank",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.433573,
-     50.1009
-    ]
-   },
-   "properties": {
-    "id": "osm-node-714161959",
-    "name": "Oberbank",
-    "brand": "Oberbank",
-    "kind": "bank",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
     "source": "OSM"
    }
   },
@@ -3772,6 +3672,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.468745,
+     50.098503
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1261055242",
+    "name": "Slugger Fight Club",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": "Sokolovská 615/138",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.420306,
      50.079293
     ]
@@ -3784,26 +3704,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Lazarská 1718/3",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.482101,
-     50.081348
-    ]
-   },
-   "properties": {
-    "id": "osm-node-1272075071",
-    "name": "Villa",
-    "brand": null,
-    "kind": "hotel",
-    "cooling": "ac",
-    "tier": "B",
-    "address": null,
     "source": "OSM"
    }
   },
@@ -4118,8 +4018,8 @@
    },
    "properties": {
     "id": "osm-node-1408727054",
-    "name": "UniCredit Bank",
-    "brand": "UniCredit Bank",
+    "name": "UniCredit",
+    "brand": "UniCredit",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -5412,8 +5312,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.44087,
-     50.073172
+     14.440919,
+     50.073191
     ]
    },
    "properties": {
@@ -5652,8 +5552,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.306344,
-     50.047899
+     14.306389,
+     50.047895
     ]
    },
    "properties": {
@@ -5778,7 +5678,7 @@
    },
    "properties": {
     "id": "osm-node-2807612785",
-    "name": "Univerzální China shop",
+    "name": "Rose",
     "brand": null,
     "kind": "supermarket",
     "cooling": "ac",
@@ -6444,26 +6344,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Roztylská 2321/19",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.488992,
-     50.076617
-    ]
-   },
-   "properties": {
-    "id": "osm-node-3417082874",
-    "name": "Raiffeisenbank",
-    "brand": "Raiffeisenbank",
-    "kind": "bank",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
     "source": "OSM"
    }
   },
@@ -7932,26 +7812,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.429924,
-     50.082264
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4513920692",
-    "name": "Grandium Prague",
-    "brand": null,
-    "kind": "hotel",
-    "cooling": "ac",
-    "tier": "B",
-    "address": "Politických vězňů 913/12",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.455249,
      50.086561
     ]
@@ -8172,8 +8032,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.43223,
-     50.088232
+     14.43224,
+     50.088253
     ]
    },
    "properties": {
@@ -9018,8 +8878,8 @@
    },
    "properties": {
     "id": "osm-node-5747912166",
-    "name": "UniCredit Bank",
-    "brand": "UniCredit Bank",
+    "name": "UniCredit",
+    "brand": "UniCredit",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -9272,6 +9132,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.490287,
+     50.076566
+    ]
+   },
+   "properties": {
+    "id": "osm-node-6265530730",
+    "name": "Mňam BIO",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": "Černokostelecká 8",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.549029,
      50.067133
     ]
@@ -9512,26 +9392,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.470224,
-     50.06033
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7092849966",
-    "name": "Billa",
-    "brand": "Billa",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.48387,
      50.123942
     ]
@@ -9604,26 +9464,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Václavské náměstí 21/831",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.423619,
-     50.084163
-    ]
-   },
-   "properties": {
-    "id": "osm-node-7164413317",
-    "name": "Albert",
-    "brand": "Albert",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "Na Můstku 16",
     "source": "OSM"
    }
   },
@@ -10272,6 +10112,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.43196,
+     50.088222
+    ]
+   },
+   "properties": {
+    "id": "osm-node-8848252217",
+    "name": "Delmart",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.415489,
      50.133437
     ]
@@ -10319,7 +10179,7 @@
    "properties": {
     "id": "osm-node-9144810908",
     "name": "Form factory",
-    "brand": null,
+    "brand": "Form Factory",
     "kind": "fitness",
     "cooling": "ac",
     "tier": "B",
@@ -10859,7 +10719,7 @@
    "properties": {
     "id": "osm-node-9906553409",
     "name": "Form Factory Fitness Pankrác",
-    "brand": null,
+    "brand": "Form Factory",
     "kind": "fitness",
     "cooling": "ac",
     "tier": "B",
@@ -11332,6 +11192,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.490166,
+     50.075099
+    ]
+   },
+   "properties": {
+    "id": "osm-node-10733536406",
+    "name": "Tom Supermarket",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.503081,
      50.135437
     ]
@@ -11472,8 +11352,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.433543,
-     50.09863
+     14.433488,
+     50.098678
     ]
    },
    "properties": {
@@ -11544,6 +11424,26 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Kubánské náměstí 1284/1",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.499351,
+     50.081404
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11091171877",
+    "name": "Česká pojištovna",
+    "brand": null,
+    "kind": "bank",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
     "source": "OSM"
    }
   },
@@ -11832,26 +11732,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.489384,
-     50.075653
-    ]
-   },
-   "properties": {
-    "id": "osm-node-11654799244",
-    "name": "Bonveno",
-    "brand": "Bonveno",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "Starostrašnická 53",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.428769,
      50.053088
     ]
@@ -11938,8 +11818,8 @@
    },
    "properties": {
     "id": "osm-node-11758306918",
-    "name": "Partners banka",
-    "brand": null,
+    "name": "Partners Banka",
+    "brand": "Partners Banka",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -12812,6 +12692,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.37711,
+     50.03467
+    ]
+   },
+   "properties": {
+    "id": "osm-node-13295338111",
+    "name": "Nejlevnější potraviny",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.413267,
      50.00175
     ]
@@ -12979,7 +12879,7 @@
    "properties": {
     "id": "osm-node-13481593997",
     "name": "Form factory fitness Barrandov",
-    "brand": null,
+    "brand": "Form Factory",
     "kind": "fitness",
     "cooling": "ac",
     "tier": "B",
@@ -12999,7 +12899,7 @@
    "properties": {
     "id": "osm-node-13529992951",
     "name": "Partners Banka",
-    "brand": null,
+    "brand": "Partners Banka",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -13058,8 +12958,8 @@
    },
    "properties": {
     "id": "osm-node-13556797701",
-    "name": "PartnersBanka",
-    "brand": null,
+    "name": "Partners Banka",
+    "brand": "Partners Banka",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -13178,8 +13078,8 @@
    },
    "properties": {
     "id": "osm-node-13652467889",
-    "name": "Form Factory - Posilka Hurka",
-    "brand": null,
+    "name": "Form Factory",
+    "brand": "Form Factory",
     "kind": "fitness",
     "cooling": "ac",
     "tier": "B",
@@ -13284,26 +13184,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.481179,
-     50.070895
-    ]
-   },
-   "properties": {
-    "id": "osm-node-13865637701",
-    "name": "Alvico, s.r.o.",
-    "brand": null,
-    "kind": "bank",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "V Olšinách 906/12",
     "source": "OSM"
    }
   },
@@ -13459,7 +13339,7 @@
    "properties": {
     "id": "osm-node-14002871928",
     "name": "Moneta Bank",
-    "brand": null,
+    "brand": "Moneta Bank",
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
@@ -13532,112 +13412,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.404613,
-     50.067851
+     14.404628,
+     50.067815
     ]
    },
    "properties": {
     "id": "osm-node-14064610074",
-    "name": "Pilates Studio",
-    "brand": null,
-    "kind": "fitness",
-    "cooling": "ac",
-    "tier": "B",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.404613,
-     50.067851
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14066635756",
-    "name": "Pilates Studio",
-    "brand": null,
-    "kind": "fitness",
-    "cooling": "ac",
-    "tier": "B",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.404613,
-     50.067851
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14072473033",
-    "name": "Pilates Studio",
-    "brand": null,
-    "kind": "fitness",
-    "cooling": "ac",
-    "tier": "B",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.435567,
-     50.078189
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14074249715",
-    "name": "Bon Asia",
-    "brand": null,
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.435441,
-     50.078243
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14074249716",
-    "name": "Bon Veno",
-    "brand": null,
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.404613,
-     50.067851
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14074268440",
     "name": "Pilates Studio",
     "brand": null,
     "kind": "fitness",
@@ -13661,6 +13441,246 @@
     "name": "Aelia Duty Free",
     "brand": null,
     "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.48627,
+     50.106519
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14132867901",
+    "name": "Dookan Indian Supermarket",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": "Podvinný mlýn 1418/2",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.401229,
+     50.071688
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14148671795",
+    "name": "mBank",
+    "brand": "mBank",
+    "kind": "bank",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403747,
+     50.072594
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14148671797",
+    "name": "Green Asia",
+    "brand": null,
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.367335,
+     50.098467
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14165427412",
+    "name": "Lidl",
+    "brand": "Lidl",
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.388992,
+     50.09915
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14180320511",
+    "name": "Max Fitness",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.406519,
+     50.055889
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14252225834",
+    "name": "Oktagon Gym",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.579761,
+     50.084989
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14255581194",
+    "name": "Billa",
+    "brand": "Billa",
+    "kind": "supermarket",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.415374,
+     50.06659
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14257498623",
+    "name": "Diva Pilates",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": "Rašínovo nábřeží",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.484865,
+     50.071526
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14267558049",
+    "name": "private gym",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": "Pod Rapidem 1017/1",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.490388,
+     50.074091
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14277029675",
+    "name": "Komerční banka",
+    "brand": "Komerční banka",
+    "kind": "bank",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.490675,
+     50.074303
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14277071353",
+    "name": "ČSOB",
+    "brand": "ČSOB",
+    "kind": "bank",
+    "cooling": "ac",
+    "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.489851,
+     50.076594
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14277635724",
+    "name": "Raiffeisen stavební spořitelna",
+    "brand": "Raiffeisen stavební spořitelna",
+    "kind": "bank",
     "cooling": "ac",
     "tier": "A",
     "address": null,
@@ -15032,26 +15052,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.579388,
-     50.085137
-    ]
-   },
-   "properties": {
-    "id": "osm-way-199558367",
-    "name": "Billa",
-    "brand": "Billa",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.628295,
      50.11721
     ]
@@ -15133,7 +15133,7 @@
     "type": "Point",
     "coordinates": [
      14.475518,
-     50.078687
+     50.078686
     ]
    },
    "properties": {
@@ -15392,8 +15392,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.411626,
-     49.991051
+     14.411613,
+     49.991041
     ]
    },
    "properties": {
@@ -15592,6 +15592,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.460759,
+     50.108809
+    ]
+   },
+   "properties": {
+    "id": "osm-way-913819676",
+    "name": "Alpha gym Prague",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": "Libeňský ostrov 272",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.492454,
      50.021173
     ]
@@ -15732,26 +15752,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.5073,
-     50.056909
-    ]
-   },
-   "properties": {
-    "id": "osm-way-1320455065",
-    "name": "Česká spořitelna",
-    "brand": "Česká spořitelna",
-    "kind": "bank",
-    "cooling": "ac",
-    "tier": "A",
-    "address": null,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.507307,
      50.056979
     ]
@@ -15852,6 +15852,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.482223,
+     50.081409
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1564671258",
+    "name": "Villa",
+    "brand": null,
+    "kind": "hotel",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.435777,
      50.048173
     ]
@@ -15892,8 +15912,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.5073,
-     50.056909
+     14.507297,
+     50.056862
     ]
    },
    "properties": {

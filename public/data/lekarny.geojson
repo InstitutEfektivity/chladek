@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - lekarny (SUKL, autoritativni; AC z titulu uchovavani leciv)",
   "attribution": "Zdroj: SUKL (Seznam lekaren); souradnice (c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-08-24T07:49:39Z",
-  "count": 170
+  "generated": "2026-10-26T13:52:10Z",
+  "count": 174
  },
  "features": [
   {
@@ -1252,6 +1252,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.507342,
+     50.039583
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996200",
+    "name": "EUC Lékárna",
+    "address": "Majerského 2038/21, 14900 Praha",
+    "web": "https://www.euc.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.51803,
      50.025999
     ]
@@ -1421,6 +1441,26 @@
     "name": "Lékárna Blatov",
     "address": "Oplanská 2614, 19016 Praha",
     "web": "http://www.lekarna-blatov.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.42768,
+     50.024921
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995370",
+    "name": "Lékárna BONATE",
+    "address": "Údolní 1147/106, 14200 Praha",
+    "web": null,
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1812,8 +1852,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.374681,
-     50.033277
+     14.374721,
+     50.033303
     ]
    },
    "properties": {
@@ -1832,8 +1872,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.374681,
-     50.033277
+     14.374721,
+     50.033303
     ]
    },
    "properties": {
@@ -1872,8 +1912,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.374681,
-     50.033277
+     14.374721,
+     50.033303
     ]
    },
    "properties": {
@@ -1892,8 +1932,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.374681,
-     50.033277
+     14.374721,
+     50.033303
     ]
    },
    "properties": {
@@ -1932,8 +1972,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.374681,
-     50.033277
+     14.374721,
+     50.033303
     ]
    },
    "properties": {
@@ -1952,8 +1992,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.374681,
-     50.033277
+     14.374721,
+     50.033303
     ]
    },
    "properties": {
@@ -1972,8 +2012,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.374681,
-     50.033277
+     14.374721,
+     50.033303
     ]
    },
    "properties": {
@@ -2292,6 +2332,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.430199,
+     50.021794
+    ]
+   },
+   "properties": {
+    "id": "sukl-04996180",
+    "name": "Lékárna Pronatal Pharma",
+    "address": "Na dlouhé mezi 12/4, 14300 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.500625,
      50.118966
     ]
@@ -2300,6 +2360,26 @@
     "id": "sukl-09995750",
     "name": "Lékárna Prosek Point",
     "address": "Prosecká 855/68, 19000 Praha",
+    "web": null,
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.450946,
+     50.127011
+    ]
+   },
+   "properties": {
+    "id": "sukl-08995460",
+    "name": "Lékárna Radost",
+    "address": "Trousilova 1031/2, 18200 Praha",
     "web": null,
     "pohotovost": false,
     "cooling": "ac",
@@ -2432,8 +2512,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.388879,
-     50.105873
+     14.388844,
+     50.105606
     ]
    },
    "properties": {
