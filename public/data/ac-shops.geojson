@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - znackove klimatizovane prodejny jako body (drogerie, elektro)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-10-26T13:48:55Z",
-  "count": 176
+  "generated": "2026-11-02T16:45:54Z",
+  "count": 179
  },
  "features": [
   {
@@ -246,8 +246,8 @@
    },
    "properties": {
     "id": "osm-node-354984788",
-    "name": "Drogerie Petr Hradecký",
-    "brand": null,
+    "name": "Top Drogerie",
+    "brand": "Top drogerie",
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",
@@ -704,6 +704,25 @@
     "id": "osm-node-1542359330",
     "name": "Rossmann",
     "brand": "Rossmann",
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.403618,
+     50.071815
+    ]
+   },
+   "properties": {
+    "id": "osm-node-1719868325",
+    "name": "Teta",
+    "brand": "Teta",
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",
@@ -1418,6 +1437,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.415791,
+     50.086012
+    ]
+   },
+   "properties": {
+    "id": "osm-node-4117465089",
+    "name": "Thai paradise",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.436518,
      50.040194
     ]
@@ -1494,25 +1532,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.429038,
-     50.080725
-    ]
-   },
-   "properties": {
-    "id": "osm-node-4393965090",
-    "name": "Rossmann",
-    "brand": "Rossmann",
-    "kind": "drogerie",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.441702,
      50.072948
     ]
@@ -1576,8 +1595,8 @@
    },
    "properties": {
     "id": "osm-node-4666185419",
-    "name": "Top Drogerie",
-    "brand": "Top drogerie",
+    "name": "TOP Drogerie",
+    "brand": "TOP Drogerie",
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",
@@ -1722,6 +1741,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.432581,
+     50.075139
+    ]
+   },
+   "properties": {
+    "id": "osm-node-5290596945",
+    "name": "ékarna",
+    "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.449808,
      50.043815
     ]
@@ -1823,8 +1861,8 @@
    },
    "properties": {
     "id": "osm-node-6178497186",
-    "name": "dm",
-    "brand": "dm",
+    "name": "Drogerie",
+    "brand": null,
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",
@@ -2463,8 +2501,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.433481,
-     50.099289
+     14.433462,
+     50.099212
     ]
    },
    "properties": {
@@ -2509,6 +2547,25 @@
     "id": "osm-node-11110475573",
     "name": "Alza",
     "brand": "Alza",
+    "kind": "electronics",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.296343,
+     50.049368
+    ]
+   },
+   "properties": {
+    "id": "osm-node-11248393781",
+    "name": "Datart",
+    "brand": "Datart",
     "kind": "electronics",
     "cooling": "ac",
     "tier": "A",
@@ -2754,8 +2811,8 @@
    },
    "properties": {
     "id": "osm-node-12444173166",
-    "name": "Top Drogerie",
-    "brand": "Top drogerie",
+    "name": "TOP Drogerie",
+    "brand": "TOP Drogerie",
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",
@@ -3147,25 +3204,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.429816,
-     50.101725
-    ]
-   },
-   "properties": {
-    "id": "osm-node-14069843601",
-    "name": "dm",
-    "brand": "dm",
-    "kind": "drogerie",
-    "cooling": "ac",
-    "tier": "A",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      14.448375,
      50.100121
     ]
@@ -3345,6 +3383,25 @@
     "id": "osm-way-1385381697",
     "name": "ROSSMAN",
     "brand": null,
+    "kind": "drogerie",
+    "cooling": "ac",
+    "tier": "A",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.507726,
+     50.056775
+    ]
+   },
+   "properties": {
+    "id": "osm-way-1434149135",
+    "name": "Rossmann",
+    "brand": "Rossmann",
     "kind": "drogerie",
     "cooling": "ac",
     "tier": "A",

@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - klimatizovane sluzby/provozovny jako body (supermarket, banka, fitness, hotel 4*/5*)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-10-26T13:51:29Z",
-  "count": 796
+  "generated": "2026-11-02T16:57:14Z",
+  "count": 797
  },
  "features": [
   {
@@ -3232,8 +3232,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.661194,
-     50.075861
+     14.661233,
+     50.075789
     ]
    },
    "properties": {
@@ -13683,6 +13683,26 @@
     "kind": "bank",
     "cooling": "ac",
     "tier": "A",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.343756,
+     50.088905
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14341932860",
+    "name": "Studio Hvezda",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
     "address": null,
     "source": "OSM"
    }

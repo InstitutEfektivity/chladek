@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - lekarny (SUKL, autoritativni; AC z titulu uchovavani leciv)",
   "attribution": "Zdroj: SUKL (Seznam lekaren); souradnice (c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-10-26T13:52:10Z",
-  "count": 174
+  "generated": "2026-11-02T16:57:45Z",
+  "count": 175
  },
  "features": [
   {
@@ -632,6 +632,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.450209,
+     50.102468
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995501",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Komunardů 442/16, 17000 Praha",
+    "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.434173,
      50.024059
     ]
@@ -972,6 +992,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.44665,
+     50.104486
+    ]
+   },
+   "properties": {
+    "id": "sukl-07995120",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "Osadní 774/35, 17000 Praha",
+    "web": "http://www.lekarny-ipc.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.434551,
      50.083099
     ]
@@ -981,6 +1021,26 @@
     "name": "Dr.Max LÉKÁRNA",
     "address": "Wilsonova 300/8, 12000 Praha",
     "web": "http://www.drmax.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.429618,
+     50.089742
+    ]
+   },
+   "properties": {
+    "id": "sukl-01995560",
+    "name": "Dr.Max LÉKÁRNA",
+    "address": "náměstí Republiky 1078/1, 11000 Praha",
+    "web": "http://www.lekarnapalladium.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1497,10 +1557,10 @@
     ]
    },
    "properties": {
-    "id": "sukl-07995530",
+    "id": "sukl-09995620",
     "name": "Lékárna Cithara",
-    "address": "Veletržní 1623/24, 17000 Praha",
-    "web": "www.cithara.cz",
+    "address": "Českomoravská 2420/15a, 19000 Praha",
+    "web": "http://www.cithara.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1517,10 +1577,10 @@
     ]
    },
    "properties": {
-    "id": "sukl-09995620",
+    "id": "sukl-07995530",
     "name": "Lékárna Cithara",
-    "address": "Českomoravská 2420/15a, 19000 Praha",
-    "web": "http://www.cithara.cz",
+    "address": "Veletržní 1623/24, 17000 Praha",
+    "web": "www.cithara.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1892,6 +1952,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.374721,
+     50.033303
+    ]
+   },
+   "properties": {
+    "id": "sukl-10995330",
+    "name": "Lékárna LEMON",
+    "address": "Žitomírská 397/16, 10100 Praha",
+    "web": "http://www.lekarnalemon.cz",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.424105,
      50.08081
     ]
@@ -1901,6 +1981,26 @@
     "name": "Lékárna LEMON",
     "address": "Vodičkova 715/23, 11000 Praha",
     "web": "https://www.lekarnalemon.cz/",
+    "pohotovost": false,
+    "cooling": "ac",
+    "tier": "A",
+    "source": "SÚKL"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.374721,
+     50.033303
+    ]
+   },
+   "properties": {
+    "id": "sukl-04995008",
+    "name": "Lékárna LEMON",
+    "address": "K Libuši 57/30, 14800 Praha",
+    "web": "http://www.lekarnalemon.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
@@ -1977,49 +2077,9 @@
     ]
    },
    "properties": {
-    "id": "sukl-04995008",
-    "name": "Lékárna LEMON",
-    "address": "K Libuši 57/30, 14800 Praha",
-    "web": "http://www.lekarnalemon.cz",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.374721,
-     50.033303
-    ]
-   },
-   "properties": {
     "id": "sukl-04995012",
     "name": "Lékárna LEMON",
     "address": "Sofijské náměstí 3405/2, 14300 Praha",
-    "web": "http://www.lekarnalemon.cz",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.374721,
-     50.033303
-    ]
-   },
-   "properties": {
-    "id": "sukl-10995330",
-    "name": "Lékárna LEMON",
-    "address": "Žitomírská 397/16, 10100 Praha",
     "web": "http://www.lekarnalemon.cz",
     "pohotovost": false,
     "cooling": "ac",
@@ -2241,46 +2301,6 @@
     "name": "Lékárna Opletalova",
     "address": "Opletalova 1535/4, 11000 Praha",
     "web": "http://www.lekarnaopletalova.cz",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.44665,
-     50.104486
-    ]
-   },
-   "properties": {
-    "id": "sukl-07995120",
-    "name": "Lékárna Osadní",
-    "address": "Osadní 774/35, 17000 Praha",
-    "web": "http://www.lekarny-ipc.cz/",
-    "pohotovost": false,
-    "cooling": "ac",
-    "tier": "A",
-    "source": "SÚKL"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.429618,
-     50.089742
-    ]
-   },
-   "properties": {
-    "id": "sukl-01995560",
-    "name": "Lékárna Palladium",
-    "address": "náměstí Republiky 1078/1, 11000 Praha",
-    "web": "http://www.lekarnapalladium.cz",
     "pohotovost": false,
     "cooling": "ac",
     "tier": "A",
