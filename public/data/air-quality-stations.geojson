@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-11-07T19:58:43.706101+00:00",
+ "generatedAt": "2026-11-07T23:29:38.823583+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -22,15 +22,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 42.1
+      "value": 39.8
      },
      {
       "type": "NO2",
-      "value": 35.8
+      "value": 32.5
      },
      {
       "type": "PM10",
-      "value": 46.7
+      "value": 42
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -82,21 +82,21 @@
     "id": "ACHOA",
     "name": "Praha 4-Chodov",
     "district": "praha-11",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NOx",
-      "value": 71.5
+      "value": 57.6
      },
      {
       "type": "NO2",
-      "value": 47.2
+      "value": 36.3
      },
      {
       "type": "PM10",
-      "value": 30.1
+      "value": 43.2
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -115,21 +115,21 @@
     "id": "AKALA",
     "name": "Praha 8-Karlín",
     "district": "praha-8",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NOx",
-      "value": 50.1
+      "value": 113.6
      },
      {
       "type": "NO2",
-      "value": 43.2
+      "value": 46.9
      },
      {
       "type": "PM10",
-      "value": 43.8
+      "value": 55.3
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -154,19 +154,19 @@
     "components": [
      {
       "type": "NOx",
-      "value": 31.9
+      "value": 20.1
      },
      {
       "type": "NO2",
-      "value": 26.2
+      "value": 18.7
      },
      {
       "type": "O3",
-      "value": 21.5
+      "value": 20.1
      },
      {
       "type": "PM10",
-      "value": 54.3
+      "value": 33.9
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -191,23 +191,23 @@
     "components": [
      {
       "type": "CO",
-      "value": 765
+      "value": 988
      },
      {
       "type": "NOx",
-      "value": 160.3
+      "value": 150.5
      },
      {
       "type": "NO2",
-      "value": 59.7
+      "value": 41.1
      },
      {
       "type": "PM10",
-      "value": 51.5
+      "value": 65.3
      },
      {
       "type": "PM2_5",
-      "value": 42.7
+      "value": 57.9
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -268,16 +268,28 @@
     "aqColor": "#19B8CE",
     "components": [
      {
+      "type": "CO",
+      "value": 715
+     },
+     {
+      "type": "NOx",
+      "value": 34.2
+     },
+     {
+      "type": "NO2",
+      "value": 28.1
+     },
+     {
       "type": "O3",
-      "value": 15
+      "value": 2.8
      },
      {
       "type": "PM10",
-      "value": 33.9
+      "value": 46.7
      },
      {
       "type": "PM2_5",
-      "value": 23.1
+      "value": 48.9
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -302,15 +314,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 158.6
+      "value": 167.6
      },
      {
       "type": "NO2",
-      "value": 53.9
+      "value": 41.7
      },
      {
       "type": "PM10",
-      "value": 54
+      "value": 67.7
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -335,15 +347,15 @@
     "components": [
      {
       "type": "NOx",
-      "value": 58.5
+      "value": 141.7
      },
      {
       "type": "NO2",
-      "value": 40.6
+      "value": 41.5
      },
      {
       "type": "PM10",
-      "value": 42.5
+      "value": 70.7
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -395,21 +407,33 @@
     "id": "ARIEA",
     "name": "Praha 2-Riegrovy sady",
     "district": "praha-2",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
+      "type": "NOx",
+      "value": 93.2
+     },
+     {
+      "type": "NO2",
+      "value": 43.6
+     },
+     {
       "type": "O3",
-      "value": 5.8
+      "value": 2.6
      },
      {
       "type": "PM10",
-      "value": 37.2
+      "value": 50.6
      },
      {
       "type": "PM2_5",
-      "value": 20.1
+      "value": 37.5
+     },
+     {
+      "type": "SO2",
+      "value": 4.8
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -467,15 +491,15 @@
     "components": [
      {
       "type": "O3",
-      "value": 3.4
+      "value": 2.4
      },
      {
       "type": "PM10",
-      "value": 44.5
+      "value": 49.8
      },
      {
       "type": "PM2_5",
-      "value": 18.4
+      "value": 45.2
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -499,12 +523,8 @@
     "aqColor": "#19B8CE",
     "components": [
      {
-      "type": "O3",
-      "value": 13.6
-     },
-     {
       "type": "PM10",
-      "value": 47
+      "value": 51.5
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -523,21 +543,21 @@
     "id": "AVRSA",
     "name": "Praha 10-Vršovice",
     "district": "praha-10",
-    "aqIndex": 1,
-    "aqLabel": "velmi dobrá",
-    "aqColor": "#19B8CE",
+    "aqIndex": 2,
+    "aqLabel": "dobrá",
+    "aqColor": "#5FE0CF",
     "components": [
      {
       "type": "NOx",
-      "value": 111.1
+      "value": 168.7
      },
      {
       "type": "NO2",
-      "value": 46.5
+      "value": 35.8
      },
      {
       "type": "PM10",
-      "value": 47.6
+      "value": 66.8
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
@@ -562,19 +582,19 @@
     "components": [
      {
       "type": "NOx",
-      "value": 178.1
+      "value": 187.8
      },
      {
       "type": "NO2",
-      "value": 53.6
+      "value": 35.8
      },
      {
       "type": "O3",
-      "value": 1
+      "value": 2.6
      },
      {
       "type": "PM10",
-      "value": 53
+      "value": 69.7
      }
     ],
     "updatedAt": "2026-08-12T06:45:00.621Z"
