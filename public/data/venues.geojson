@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chládek – chladná veřejná místa v Praze",
   "attribution": "© OpenStreetMap přispěvatelé (ODbL) + ruční kurace IE",
-  "generated": "2026-11-02T17:00:08Z",
+  "generated": "2026-11-09T12:49:57Z",
   "count": 1674
  },
  "features": [
@@ -22155,7 +22155,7 @@
     "cooling": "ac",
     "typical_c": 23,
     "free_entry": null,
-    "opening_hours": "Su 09:00-18:00; Mo-Fr 08:00-20:00; Sa 08:00-19:00",
+    "opening_hours": "Su 09:30-18:00; Mo-Fr 08:00-20:00; Sa 08:30-19:00",
     "address": "Střelničná 1660/31, Praha 8",
     "source": "osm",
     "note": null
@@ -32494,7 +32494,7 @@
     "category": "pool",
     "cooling": "ac",
     "typical_c": 26,
-    "free_entry": null,
+    "free_entry": false,
     "opening_hours": null,
     "address": null,
     "source": "osm",
@@ -34508,7 +34508,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.387597,
+     14.387502,
      50.057421
     ]
    },
@@ -34520,7 +34520,7 @@
     "typical_c": null,
     "free_entry": null,
     "opening_hours": null,
-    "address": "Radlická, Praha",
+    "address": null,
     "source": "osm",
     "note": null
    }
@@ -35191,7 +35191,7 @@
     "type": "Point",
     "coordinates": [
      14.375765,
-     50.05757
+     50.057565
     ]
    },
    "properties": {
