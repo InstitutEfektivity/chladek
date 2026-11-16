@@ -3,8 +3,8 @@
  "metadata": {
   "title": "Chladek - klimatizovane sluzby/provozovny jako body (supermarket, banka, fitness, hotel 4*/5*)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-11-02T16:57:14Z",
-  "count": 797
+  "generated": "2026-11-16T16:42:28Z",
+  "count": 799
  },
  "features": [
   {
@@ -5599,7 +5599,7 @@
    "properties": {
     "id": "osm-node-2757557336",
     "name": "Lidl",
-    "brand": null,
+    "brand": "Lidl",
     "kind": "supermarket",
     "cooling": "ac",
     "tier": "A",
@@ -13712,6 +13712,66 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     14.449467,
+     50.062723
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14376452443",
+    "name": "BodyON",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.446714,
+     50.061287
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14380672440",
+    "name": "Metagym Fitness",
+    "brand": null,
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": "Nuselská 210/50",
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.449293,
+     50.043782
+    ]
+   },
+   "properties": {
+    "id": "osm-node-14381182747",
+    "name": "FITINN",
+    "brand": "FITINN",
+    "kind": "fitness",
+    "cooling": "ac",
+    "tier": "B",
+    "address": null,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      14.432048,
      50.062773
     ]
@@ -14404,26 +14464,6 @@
     "cooling": "ac",
     "tier": "A",
     "address": "Bělehradská 50",
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.444137,
-     50.103541
-    ]
-   },
-   "properties": {
-    "id": "osm-way-49338031",
-    "name": "Billa",
-    "brand": "Billa",
-    "kind": "supermarket",
-    "cooling": "ac",
-    "tier": "A",
-    "address": "Dělnická 217/3",
     "source": "OSM"
    }
   },
