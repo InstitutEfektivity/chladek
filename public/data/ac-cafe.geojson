@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-11-16T16:23:04Z",
+ "generatedAt": "2026-11-23T18:52:08Z",
  "source": "OpenStreetMap (Overpass) - znackove fast-food + kavarny (brand:wikidata)",
  "features": [
   {
@@ -928,8 +928,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     14.449395,
-     50.043776
+     14.44951,
+     50.043748
     ]
    },
    "properties": {
