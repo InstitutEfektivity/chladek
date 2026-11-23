@@ -3,7 +3,7 @@
  "metadata": {
   "title": "Chladek - velke klimatizovane verejne budovy jako plochy (muzea, divadla, koncertni/kongresove/vystavni haly, knihovny)",
   "attribution": "(c) OpenStreetMap prispevatele (ODbL)",
-  "generated": "2026-11-16T16:35:39Z",
+  "generated": "2026-11-23T18:53:16Z",
   "count": 76
  },
  "features": [
@@ -2364,8 +2364,12 @@
     "coordinates": [
      [
       [
-       14.402636,
-       50.090703
+       14.401543,
+       50.090203
+      ],
+      [
+       14.402681,
+       50.09065
       ],
       [
        14.402227,
@@ -2456,20 +2460,12 @@
        50.089709
       ],
       [
-       14.401471,
-       50.090382
+       14.401496,
+       50.090283
       ],
       [
-       14.401565,
-       50.090208
-      ],
-      [
-       14.402677,
-       50.090656
-      ],
-      [
-       14.402636,
-       50.090703
+       14.401543,
+       50.090203
       ]
      ]
     ]
@@ -3128,48 +3124,6 @@
     "coordinates": [
      [
       [
-       14.407421,
-       50.068024
-      ],
-      [
-       14.406876,
-       50.067967
-      ],
-      [
-       14.406446,
-       50.068656
-      ],
-      [
-       14.409154,
-       50.068896
-      ],
-      [
-       14.409326,
-       50.068223
-      ],
-      [
-       14.407421,
-       50.068024
-      ]
-     ]
-    ]
-   },
-   "properties": {
-    "id": "osm-relation-6826330",
-    "name": "Staropramen: Návštěvnické centrum",
-    "kind": "museum",
-    "cooling": "ac",
-    "area_m2": 14423,
-    "source": "OSM"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
        14.429383,
        50.083912
       ],
@@ -3424,6 +3378,48 @@
     "kind": "museum",
     "cooling": "ac",
     "area_m2": 1608,
+    "source": "OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       14.431145,
+       50.081534
+      ],
+      [
+       14.431555,
+       50.081282
+      ],
+      [
+       14.431382,
+       50.081075
+      ],
+      [
+       14.430641,
+       50.081456
+      ],
+      [
+       14.430953,
+       50.081653
+      ],
+      [
+       14.431145,
+       50.081534
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "osm-way-31777200",
+    "name": "Muzeum studené války",
+    "kind": "museum",
+    "cooling": "ac",
+    "area_m2": 1833,
     "source": "OSM"
    }
   },
