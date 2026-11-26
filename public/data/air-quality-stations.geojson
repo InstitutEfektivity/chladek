@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-11-26T14:47:22.327039+00:00",
+ "generatedAt": "2026-11-26T23:32:28.841395+00:00",
  "source": "Golemio / Operátor ICT (Pražská datová platforma)",
  "features": [
   {
@@ -22,18 +22,18 @@
     "components": [
      {
       "type": "NOx",
-      "value": 23.7
+      "value": 30.6
      },
      {
       "type": "NO2",
-      "value": 18.2
+      "value": 25.8
      },
      {
       "type": "PM10",
-      "value": 22.1
+      "value": 26.9
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -66,7 +66,7 @@
       "value": 9.8
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -88,18 +88,18 @@
     "components": [
      {
       "type": "NOx",
-      "value": 11.3
+      "value": 14.9
      },
      {
       "type": "NO2",
-      "value": 9.8
+      "value": 14.5
      },
      {
       "type": "PM10",
-      "value": 10.1
+      "value": 17
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -125,14 +125,14 @@
      },
      {
       "type": "NO2",
-      "value": 14.5
+      "value": 17
      },
      {
       "type": "PM10",
-      "value": 11.3
+      "value": 15.7
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -154,22 +154,63 @@
     "components": [
      {
       "type": "NOx",
-      "value": 16.1
+      "value": 13.6
      },
      {
       "type": "NO2",
-      "value": 13.4
+      "value": 12.6
      },
      {
       "type": "O3",
-      "value": 48.3
+      "value": 39.3
      },
      {
       "type": "PM10",
-      "value": 18.5
+      "value": 14.2
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.430673,
+     50.072388
+    ]
+   },
+   "properties": {
+    "id": "ALEGA",
+    "name": "Praha 2-Legerova (hot spot)",
+    "district": "praha-2",
+    "aqIndex": 1,
+    "aqLabel": "velmi dobrá",
+    "aqColor": "#19B8CE",
+    "components": [
+     {
+      "type": "CO",
+      "value": 615
+     },
+     {
+      "type": "NOx",
+      "value": 37.7
+     },
+     {
+      "type": "NO2",
+      "value": 26.2
+     },
+     {
+      "type": "PM10",
+      "value": 23.8
+     },
+     {
+      "type": "PM2_5",
+      "value": 21.1
+     }
+    ],
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -227,35 +268,19 @@
     "aqColor": "#19B8CE",
     "components": [
      {
-      "type": "CO",
-      "value": 401
-     },
-     {
-      "type": "NOx",
-      "value": 14.9
-     },
-     {
-      "type": "NO2",
-      "value": 12.1
-     },
-     {
       "type": "O3",
-      "value": 45.5
+      "value": 28.7
      },
      {
       "type": "PM10",
-      "value": 28.2
+      "value": 17.4
      },
      {
       "type": "PM2_5",
-      "value": 17.6
-     },
-     {
-      "type": "SO2",
-      "value": 9.1
+      "value": 16.6
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -277,18 +302,18 @@
     "components": [
      {
       "type": "NOx",
-      "value": 20.3
+      "value": 29.5
      },
      {
       "type": "NO2",
-      "value": 15.7
+      "value": 23.5
      },
      {
       "type": "PM10",
-      "value": 22
+      "value": 11.8
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -310,18 +335,18 @@
     "components": [
      {
       "type": "NOx",
-      "value": 32.1
+      "value": 25.4
      },
      {
       "type": "NO2",
-      "value": 23.7
+      "value": 20.9
      },
      {
       "type": "PM10",
-      "value": 17.1
+      "value": 13.4
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -375,31 +400,19 @@
     "aqColor": "#19B8CE",
     "components": [
      {
-      "type": "NOx",
-      "value": 22
-     },
-     {
-      "type": "NO2",
-      "value": 17.4
-     },
-     {
       "type": "O3",
-      "value": 45.7
+      "value": 33.3
      },
      {
       "type": "PM10",
-      "value": 18.3
+      "value": 16.4
      },
      {
       "type": "PM2_5",
-      "value": 18.6
-     },
-     {
-      "type": "SO2",
-      "value": 6.1
+      "value": 14.8
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -454,43 +467,18 @@
     "components": [
      {
       "type": "O3",
-      "value": 49.7
+      "value": 37.7
      },
      {
       "type": "PM10",
-      "value": 16.8
+      "value": 16.7
      },
      {
       "type": "PM2_5",
-      "value": 21.4
+      "value": 8.5
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     14.384639,
-     50.12653
-    ]
-   },
-   "properties": {
-    "id": "ASUCA",
-    "name": "Praha 6-Suchdol",
-    "district": "praha-lysolaje",
-    "aqIndex": 0,
-    "aqLabel": "neznámá",
-    "aqColor": "#9AA7AE",
-    "components": [
-     {
-      "type": "O3",
-      "value": 54.3
-     }
-    ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -512,18 +500,18 @@
     "components": [
      {
       "type": "NOx",
-      "value": 18.4
+      "value": 25.3
      },
      {
       "type": "NO2",
-      "value": 15.1
+      "value": 22
      },
      {
       "type": "PM10",
-      "value": 13.5
+      "value": 15.4
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   },
   {
@@ -545,22 +533,22 @@
     "components": [
      {
       "type": "NOx",
-      "value": 45.1
+      "value": 37.1
      },
      {
       "type": "NO2",
-      "value": 23.5
+      "value": 25.1
      },
      {
       "type": "O3",
-      "value": 39.3
+      "value": 28.9
      },
      {
       "type": "PM10",
-      "value": 30.4
+      "value": 1
      }
     ],
-    "updatedAt": "2026-11-26T13:50:03.744Z"
+    "updatedAt": "2026-11-26T22:50:03.186Z"
    }
   }
  ]
