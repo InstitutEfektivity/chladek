@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generatedAt": "2026-11-26T15:49:57Z",
+ "generatedAt": "2026-11-27T15:38:49Z",
  "source": "Golemio / Mestska knihovna v Praze (Prazska datova platforma)",
  "features": [
   {
@@ -4156,6 +4156,86 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "17:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "self_service"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "17:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "19:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "self_service"
      }
     ],
     "cooling": "ac",
@@ -4235,6 +4315,76 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
       "type": "standard"
      }
     ],
@@ -4346,6 +4496,66 @@
       "valid_from": null,
       "valid_through": null,
       "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Monday",
+      "opens": "13:00",
+      "closes": "19:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "16:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "19:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "standard"
      }
     ],
     "cooling": "ac",
@@ -4395,6 +4605,46 @@
       "is_default": true,
       "valid_from": null,
       "valid_through": null,
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "18:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "18:00",
+      "description": "Vánoce od 21. 12. 2026 do 27. 12. 2026",
+      "is_default": false,
+      "valid_from": "2026-12-20T23:00:00.000Z",
+      "valid_through": "2026-12-26T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Tuesday",
+      "opens": "09:00",
+      "closes": "18:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
+      "type": "standard"
+     },
+     {
+      "day_of_week": "Wednesday",
+      "opens": "12:00",
+      "closes": "18:00",
+      "description": "Vánoce od 28. 12. 2026 do 3. 1. 2027",
+      "is_default": false,
+      "valid_from": "2026-12-27T23:00:00.000Z",
+      "valid_through": "2027-01-02T23:00:00.000Z",
       "type": "standard"
      }
     ],
